@@ -1,6 +1,6 @@
 # Транзакция выпуска
 
-**Транзакция выпуска** — [транзакция](/blockchain/transaction.md), которая выпускает новый [токен](/blockchain/token.md).
+**Транзакция выпуска** — [транзакция](/blockchain/transaction.md), которая [выпускает токен](/blockchain/token.md).
 
 ## Выпуск NFT <a id="nft"></a>
 

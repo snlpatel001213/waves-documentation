@@ -1,6 +1,6 @@
 # Issue transaction
 
-An **issue transaction** is a [transaction](/blockchain/transaction.md) that issues a new [token](/blockchain/token.md).
+An **issue transaction** is a [transaction](/blockchain/transaction.md) that [issues token](/blockchain/token.md).
 
 ## Issue of NFT <a id="nft"></a>
 
