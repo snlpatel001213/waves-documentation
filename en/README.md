@@ -44,7 +44,7 @@
   * [Verifier function](ride/functions/verifier-function.md)
 * Structures
   * [Common structures](ride/structures/common-structures.md)
-    * [Asset structure](ride/structures/common-structures/asset.md) 
+    * [Asset](ride/structures/common-structures/asset.md) 
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)

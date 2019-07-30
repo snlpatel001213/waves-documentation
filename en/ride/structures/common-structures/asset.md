@@ -1,4 +1,4 @@
-# Asset structures
+# Asset
 
 Structure of a [token](/blockchain/token.md).
 
