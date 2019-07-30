@@ -42,6 +42,7 @@
 * [Аннотации](ride/annotations.md)
 * Структуры
   * [Общие структуры](ride/structures/common-structures.md)
+    * [Адреса структура](ride/structures/common-structures/address-structure.md)
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)

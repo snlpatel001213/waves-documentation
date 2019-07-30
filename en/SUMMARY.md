@@ -235,6 +235,7 @@
 * [Structures](ride/structures.md)
   * [Built-in structures](ride/structures/built-in-structures.md)
   * [Common structures](ride/structures/common-structures.md)
+    * [Address structure](ride/structures/common-structures/address-structure.md) 
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
