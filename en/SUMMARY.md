@@ -64,6 +64,7 @@
   * [Genesis block](blockchain/block/genesis-block.md)
 * [Blockchain](blockchain/blockchain.md)
   * [Blockchain height](blockchain/blockchain-height.md)
+* [Blockchain network](blockchain/blockchain-network.md)
 * [dApp](blockchain/dapp.md)
 * [Leasing](blockchain/leasing.md)
 * [Mainnet](blockchain/mainnet.md)

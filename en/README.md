@@ -12,6 +12,7 @@
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
   * [Block signature](blockchain/block/block-signature.md)
+* [Blockchain network](blockchain/blockchain-network.md)
 * [Leasing](blockchain/leasing.md)
 * [Matcher fee](blockchain/matcher-fee.md)
 * [Mining](blockchain/mining.md)

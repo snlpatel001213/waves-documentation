@@ -19,6 +19,7 @@
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
   * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
+* [Сеть блокчейна](blockchain/blockchain-network.md)
 * Тип транзакции
   * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
   * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
