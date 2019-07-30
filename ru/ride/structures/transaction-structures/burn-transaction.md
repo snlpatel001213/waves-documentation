@@ -16,7 +16,7 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | 2 | assetId | ByteVector | [ID сжигаемого токена](/blockchain/token.md#token-id) |
 | 3 | id | ByteVector | [ID транзакции](/blockchain/transaction.md#transaction-id) |
 | 4 | fee | Int | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
-| 5 | timestamp | Int | [Unix-время](https://ru.wikipedia.org/wiki/Unix-время) отправки транзакции в блокчейн |
+| 5 | timestamp | Int | [Временная метка транзакции](/blockchain/transaction.md#transaction-timestamp) |
 | 6 | version | Int | Версия [транзакции сжигания токена](/blockchain/transaction-type/burn-transaction.md) |
 | 7 | sender | Address | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 8 | senderPublicKey | ByteVector | Публичный ключ отправителя транзакции |
