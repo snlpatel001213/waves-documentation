@@ -15,7 +15,7 @@ CreateAliasTransaction(alias: String, id: ByteVector, fee: Int, timestamp: Int, 
 | 1 | alias | String | [Alias](/blockchain/alias.md) |
 | 3 | id | ByteVector | [Transaction ID](/blockchain/transaction.md#transaction-id) |
 | 4 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
-| 5 | timestamp | Int | [Unix-time](https://ru.wikipedia.org/wiki/Unix-время) when the transaction was sent to the blockchain |
+| 5 | timestamp | Int | [Transaction timestamp](/blockchain/transaction.md#transaction-timestamp) |
 | 6 | version | Int | [Alias transaction](/blockchain/transaction-type/alias-transaction.md) version |
 | 7 | sender | Address | [Address](/blockchain/address.md) of the transaction sender |
 | 8 | senderPublicKey | ByteVector | Public key of the transaction sender  |
