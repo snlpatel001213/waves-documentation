@@ -19,6 +19,7 @@
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
   * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
+* [Сеть блокчейна](blockchain/blockchain-network.md)
 * Тип транзакции
   * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
   * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
@@ -29,8 +30,6 @@
   * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
-* Токен
-  * [Выпуск токена](blockchain/token/token-issue.md)
 
 ### Waves Node
 
@@ -44,6 +43,10 @@
 * [Аннотации](ride/annotations.md)
 * Структуры
   * [Общие структуры](ride/structures/common-structures.md)
+    * [Address](ride/structures/common-structures/address.md)
+    * [Asset](ride/structures/common-structures/asset.md)
+    * [AssetPair](ride/structures/common-structures/asset-pair.md)
+    * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)

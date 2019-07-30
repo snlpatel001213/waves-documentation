@@ -12,6 +12,7 @@
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
   * [Block signature](blockchain/block/block-signature.md)
+* [Blockchain network](blockchain/blockchain-network.md)
 * [Leasing](blockchain/leasing.md)
 * [Matcher fee](blockchain/matcher-fee.md)
 * [Mining](blockchain/mining.md)
@@ -20,8 +21,6 @@
   * [Mining node](blockchain/mining/mining-node.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
-* Token
-  * [Token issue](blockchain/token/token-issue.md)
 * Transaction type
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
   * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
@@ -46,6 +45,10 @@
   * [Verifier function](ride/functions/verifier-function.md)
 * Structures
   * [Common structures](ride/structures/common-structures.md)
+    * [Address](ride/structures/common-structures/address.md)
+    * [Asset](ride/structures/common-structures/asset.md)
+    * [AssetPair](ride/structures/common-structures/asset-pair.md)
+    * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
