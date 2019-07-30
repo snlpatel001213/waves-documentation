@@ -208,7 +208,7 @@
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
-    * [Адреса структура](ride/structures/common-structures/address-structure.md) 
+    * [Адреса структура](ride/structures/common-structures/address.md) 
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
