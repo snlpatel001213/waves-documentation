@@ -92,7 +92,7 @@
 
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 
-### Ноды Waves
+### Waves Node
 
 * [Расширения](waves-node/extensions.md)
   * [gRPC Server](waves-node/extensions/grpc-server.md)
