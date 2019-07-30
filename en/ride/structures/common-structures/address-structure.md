@@ -2,13 +2,13 @@
 
 The structure of an [address](/blockchain/address.md).
 
-### Constructor
+## Constructor
 
 ``` ride
 Address(bytes: ByteVector)
 ```
 
-### Fields
+## Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
