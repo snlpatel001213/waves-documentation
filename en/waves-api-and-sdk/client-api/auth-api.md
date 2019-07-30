@@ -214,3 +214,76 @@ fake_signature = '29qWReHU9RXrQdQyXVXVciZarWXu7DXwekyV1zPivkrAzf4VSHb2Aq2FCKgRkK
 print('Fake signature:', fake_signature)
 print('Fake signature verification:', verify(pub_key, fake_signature, message_bytes))
 ```
+
+#### Php example code
+```php
+<?php
+
+/*
+ * Requires WavesKit by deemru
+ * https://github.com/deemru/WavesKit
+ */
+
+namespace deemru;
+include "vendor\autoload.php";
+
+function signed_data( $host, $data )
+{
+    $prefix = 'WavesWalletAuthentication';
+    return str_with_length($prefix) . str_with_length($host) . str_with_length($data);    
+}
+
+function str_with_length( $data )
+{
+    return pack('n', strlen($data)).$data;
+}
+
+$wk = new WavesKit("W");
+$redirected_url = "https://example.com/?s=2w7QKSkxKEUwCVhx2VGrt5YiYVtAdoBZ8KQcxuNjGfN6n4fi1bn7PfPTnmdygZ6d87WhSXF1B9hW2pSmP7HucVbh&p=2M25DqL2W4rGFLCFadgATboS8EPqyWAN3DjH12AH5Kdr&a=3PCAB4sHXgvtu5NPoen6EXR5yaNbvsEA8Fj";
+$parsed_url = parse_url($redirected_url);
+parse_str($parsed_url['query'], $parsed_query);
+$address = $parsed_query['a'];
+$pub_key = $parsed_query['p'];
+$signature = $parsed_query['s'];
+$data_string = '0123456789abc';
+$host_string = $parsed_url['host'];
+$message_bytes = signed_data($host_string, $data_string);
+
+print('Address: '. $address . "\r\n");
+print('Public key:' . $pub_key. "\r\n");
+print('Data to sign: ' . $data_string. "\r\n");
+print('Real signature: '. $signature. "\r\n");
+
+$is_address_verified = $wk->isAddressValid($address);
+
+if ( $is_address_verified === true) 
+    print("Address: Verified: TRUE\r\n"); 
+else 
+    print("Address: Verified: FALSE\r\n");
+
+$signature_verified = $wk->verify( 
+    $wk->base58Decode( $signature ),
+    $message_bytes,
+    $wk->base58Decode( $pub_key )
+);
+
+if ( $signature_verified === true) 
+    print("Signature Verified: TRUE\r\n"); 
+else 
+    print("Signature Verified: FALSE\r\n");
+
+$fake_signature = '29qWReHU9RXrQdQyXVXVciZarWXu7DXwekyV1zPivkrAzf4VSHb2Aq2FCKgRkKSozHFknKeq99dQaSmkhUDtZWsw';
+print('Fake Signature:' . $fake_signature. "\r\n");
+
+$signature_verified = $wk->verify( 
+    $wk->base58Decode( $fake_signature ),
+    $message_bytes,
+    $wk->base58Decode( $pub_key )
+);
+
+if ( $signature_verified === true) 
+    print("Signature Verified: TRUE\r\n"); 
+else 
+    print("Signature Verified: FALSE\r\n");
+?>
+```
