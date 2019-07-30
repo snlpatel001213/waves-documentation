@@ -1,4 +1,4 @@
-# Адреса структура 
+# Address
 
 Структура [адреса](/blockchain/address.md).
 
