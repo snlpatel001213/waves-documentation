@@ -1,10 +1,8 @@
 # Transaction type
 
-Each [transaction](/blockchain/transaction.md) on the [blockchain](/blockchain/blockchain.md) refers to a certain **transaction type**.
+Each [transaction](/blockchain/transaction.md) on the blockchain is of a specific type.
 
-Transactions of different types have different [data structure](/blockchain/transaction-data-structure.md).
-
-## Transaction types
+## List of transaction types
 
 | # | Transaction type | Transaction type ID |
 | :--- | :--- | :--- |

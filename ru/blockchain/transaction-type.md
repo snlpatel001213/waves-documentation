@@ -1,10 +1,8 @@
 # Тип транзакции
 
-Каждая [транзакция](/blockchain/transaction.md) в [блокчейне](/blockchain/blockchain.md) относится к определенному **типу транзакции**.
+Каждая [транзакция](/blockchain/transaction.md) на блокчейне имеет определенный тип.
 
-Транзакции разных типов имеют разные [структуры данных](/blockchain/transaction-data-structure.md).
-
-## Типы транзакций
+## Список типов транзакций
 
 | # | Тип транзакции| ID типа транзакции |
 | :--- | :--- | :--- |
@@ -18,7 +16,7 @@
 | 8 | [Транзакция массовой отправки](/blockchain/transaction-type/mass-transfer-transaction.md) | 11 |
 | 9 | [Транзакция обмена](/blockchain/transaction-type/exchange-transaction.md)  | 7 |
 | 10 | [Транзакция перевода](/blockchain/transaction-type/transfer-transaction.md) | 4 |
-| 11 | [Транзакция сжигания токенов](/blockchain/transaction-type/burn-transaction.md) | 6 |
+| 11 | [Транзакция сжигания токена](/blockchain/transaction-type/burn-transaction.md) | 6 |
 | 12 | [Транзакция создания псевдонима](/blockchain/transaction-type/alias-transaction.md) | 10|
 | 13 | Транзакция спонсирования | 14 |
 | 14 | [Транзакция установки скрипта](/blockchain/transaction-type/set-script-transaction.md) | 13 |
