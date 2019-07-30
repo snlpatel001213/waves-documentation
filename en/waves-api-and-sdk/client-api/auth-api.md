@@ -224,8 +224,8 @@ print('Fake signature verification:', verify(pub_key, fake_signature, message_by
  * https://github.com/deemru/WavesKit
  */
 
-namespace deemru;
-include "vendor\autoload.php";
+require_once __DIR__ . '/vendor/autoload.php';
+use deemru\WavesKit;
 
 function signed_data( $host, $data )
 {
@@ -249,41 +249,34 @@ $data_string = '0123456789abc';
 $host_string = $parsed_url['host'];
 $message_bytes = signed_data($host_string, $data_string);
 
-print('Address: '. $address . "\r\n");
-print('Public key:' . $pub_key. "\r\n");
-print('Data to sign: ' . $data_string. "\r\n");
-print('Real signature: '. $signature. "\r\n");
+$wk->log('i', 'Address: '. $address);
+$wk->log('i', 'Public key:' . $pub_key);
+$wk->log('i', 'Signed Data: ' . $message_bytes);
+$wk->log('i', 'Real signature: '. $signature);
 
-$is_address_verified = $wk->isAddressValid($address);
+$wk->setPublicKey( $pub_key );
+$is_address_verified = $address === $wk->getAddress();
 
 if ( $is_address_verified === true) 
-    print("Address: Verified: TRUE\r\n"); 
+    $wk->log('s', "Address: Verified: TRUE"); 
 else 
-    print("Address: Verified: FALSE\r\n");
+    $wk->log('e', "Address: Verified: FALSE");
 
-$signature_verified = $wk->verify( 
-    $wk->base58Decode( $signature ),
-    $message_bytes,
-    $wk->base58Decode( $pub_key )
-);
+$signature_verified = $wk->verify($wk->base58Decode($signature), $message_bytes);
 
 if ( $signature_verified === true) 
-    print("Signature Verified: TRUE\r\n"); 
+    $wk->log('s', "Signature Verified: TRUE"); 
 else 
-    print("Signature Verified: FALSE\r\n");
+    $wk->log('e', "Signature Verified: FALSE");
 
 $fake_signature = '29qWReHU9RXrQdQyXVXVciZarWXu7DXwekyV1zPivkrAzf4VSHb2Aq2FCKgRkKSozHFknKeq99dQaSmkhUDtZWsw';
-print('Fake Signature:' . $fake_signature. "\r\n");
+$wk->log('i', 'Fake Signature: '. $fake_signature);
 
-$signature_verified = $wk->verify( 
-    $wk->base58Decode( $fake_signature ),
-    $message_bytes,
-    $wk->base58Decode( $pub_key )
-);
+$signature_verified = $wk->verify($wk->base58Decode($fake_signature), $message_bytes);
 
 if ( $signature_verified === true) 
-    print("Signature Verified: TRUE\r\n"); 
+    $wk->log('e', "Fake Signature Verified: TRUE"); 
 else 
-    print("Signature Verified: FALSE\r\n");
+    $wk->log('s', "Fake Signature Verified: FALSE");
 ?>
 ```
