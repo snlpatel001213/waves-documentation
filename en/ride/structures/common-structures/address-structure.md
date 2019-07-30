@@ -1,6 +1,6 @@
 # Address structure
 
-The structure of an [address](/blockchain/address.md).
+Structure of an [address](/blockchain/address.md).
 
 ## Constructor
 
@@ -12,4 +12,4 @@ Address(bytes: ByteVector)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | bytes | ByteVector | The array of bytes of an address |
+| 1 | bytes | ByteVector | Array of bytes of an address |
