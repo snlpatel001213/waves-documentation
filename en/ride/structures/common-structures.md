@@ -1,6 +1,6 @@
 # Common structures
 
-|   #   | Name | Description |
+| # | Name | Description |
 | :--- | :--- | :--- |
 | 1 | [Address](/ride/structures/common-structures/address.md) | The structure of an [address](/blockchain/address.md) |
 | 2 | [Asset](/ride/structures/common-structures/asset.md) | The structure of a [token](/blockchain/token.md) |
