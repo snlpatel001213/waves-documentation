@@ -242,6 +242,7 @@
     * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
     * [BlockInfo](ride/structures/common-structures/block-info.md)
     * [DataEntry](ride/structures/common-structures/data-entry.md)
+    * [Invocation](ride/structures/common-structures/invocation.md)
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
