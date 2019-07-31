@@ -11,7 +11,7 @@
       <tr>
          <td>fraction</td>
          <td>1</td>
-         <td>Multiply and dividion with big integer intermediate representation</td>
+         <td>Multiplies and divides using big integer intermediate representation</td>
          <td>
             <table>
                <tr>
@@ -176,7 +176,7 @@
       <tr>
          <td>size</td>
          <td>1</td>
-         <td>Scting size in characters</td>
+         <td>String size in characters</td>
          <td>
             <table>
                <tr>
@@ -241,7 +241,7 @@
       <tr>
          <td>drop</td>
          <td>1</td>
-         <td>Remmove sring prefix</td>
+         <td>Remove sring prefix</td>
          <td>
             <table>
                <tr>
