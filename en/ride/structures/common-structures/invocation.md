@@ -1,6 +1,6 @@
 # Invocation
 
-Structure of the abbreviated representation of an [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction).
+Structure of the abbreviated representation of an [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md).
 
 ## Constructor
 
