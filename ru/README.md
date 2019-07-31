@@ -48,6 +48,7 @@
     * [AssetPair](ride/structures/common-structures/asset-pair.md)
     * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
     * [BlockInfo](ride/structures/common-structures/block-info.md)
+    * [DataEntry](ride/structures/common-structures/data-entry.md)
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
