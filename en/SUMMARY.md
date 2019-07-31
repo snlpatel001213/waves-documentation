@@ -247,6 +247,8 @@
     * [ScriptResult](ride/structures/common-structures/script-result.md)
     * [ScriptTransfer](ride/structures/common-structures/script-transfer.md)
     * [Transfer](ride/structures/common-structures/transfer.md)
+    * [TransferSet](ride/structures/common-structures/transfer-set.md)
+    * [WriteSet](ride/structures/common-structures/write-set.md)
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
