@@ -1,6 +1,6 @@
 # ScriptTransfer
 
-Структура перевода [токенов]((/blockchain/token.md)).
+Структура перевода [токенов](/blockchain/token.md).
 
 ### Конструктор
 
