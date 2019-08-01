@@ -105,6 +105,7 @@
   * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
+  * [Validating node](blockchain/transaction-validation/validating-node.md)
 
 ## Waves Client
 
