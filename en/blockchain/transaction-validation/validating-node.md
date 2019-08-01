@@ -1,3 +1,3 @@
 # Validating node
 
-**Validating node** — [node](/blockchain/node.md) that [validates transactions](/blockchain/transaction-validation.md).
+A **validating node** is a [node](/blockchain/node.md) that [validates transactions](/blockchain/transaction-validation.md).
