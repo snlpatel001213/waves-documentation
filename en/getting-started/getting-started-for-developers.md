@@ -1,4 +1,4 @@
-# Getting started for developers
+# Developer guide
 
 This page introduces you to the things you'll need to get started on your journey.
 

@@ -1,4 +1,4 @@
-# Начало работы для пользователя
+# Руководство пользователя
 
 Пожалуйста, перейдите на [сайт](https://dex.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
 
