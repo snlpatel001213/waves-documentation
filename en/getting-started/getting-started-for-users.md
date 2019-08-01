@@ -2,7 +2,7 @@
 
 Please, visit the Waves Dex [website](https://client.wavesplatform.com) and [create](/waves-client/account-management/creating-an-account.md) an account for yourself.
 
-With the account you will be able to:
+Having the account you will be able to:
 
 - [Transfer tokens](/waves-client/transfers-and-gateways/asset-transfers.md)
 - [Issue tokens](/waves-client/assets-management/issue-an-asset.md)
