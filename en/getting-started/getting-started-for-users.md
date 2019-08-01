@@ -1,6 +1,6 @@
 # Getting started for user
 
-Please, visit the Waves Dex [website](https://client.wavesplatform.com) and [create](/waves-client/account-management/creating-an-account.md) an account for yourself.
+Please, visit the Waves Dex [website](https://dex.wavesplatform.com) and [create](/waves-client/account-management/creating-an-account.md) an account for yourself.
 
 Having the account you will be able to:
 
