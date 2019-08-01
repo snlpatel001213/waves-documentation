@@ -22,4 +22,4 @@ See the page [Security notes](/waves-client/security-notes.md).
 
 ## Support
 
-Please, contact us via [support](https://support.wavesplatform.com/?lang=ru) or [forum](https://forum.wavesplatform.com).
+Please, contact us via [support](https://support.wavesplatform.com/?lang=en) or [forum](https://forum.wavesplatform.com).
