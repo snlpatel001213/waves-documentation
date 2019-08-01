@@ -3,6 +3,7 @@
 ## Начало работы
 
 * [Новости](README.md)
+* [Начало работы для пользователя](getting-started/getting-started-for-users.md)
 * [Руководство пользователя](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
@@ -14,10 +15,6 @@
 * [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
-
-## С чего начать
-
-* [Пользователю](getting-started/as-a-user.md)
 
 ## Блокчейн
 
