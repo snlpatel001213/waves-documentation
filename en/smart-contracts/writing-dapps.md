@@ -138,7 +138,7 @@ func verify() = {
   "dappAddress": "3FYR1f5YydHXF8dtfRJRyX3PoDCoT7a36Kq",
   "call": {
     "function": "deposit",
-    "args": [{type:"integer", value: 600000000}]
+    "args": []
   },
   "payment": [
     {
