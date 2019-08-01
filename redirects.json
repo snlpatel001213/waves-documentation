@@ -6,10 +6,6 @@
       "from": "/en/getting-started/as-a-developer.html"
     },
     {
-      "to": "/ru/getting-started/as-a-user.html",
-      "from": "/ru/getting-started/getting-started-for-users.html"
-    },
-    {
       "===============================  Blockchain  =====================================": null,
       "to": "/en/blockchain/transaction-type/data-transaction.html",
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
