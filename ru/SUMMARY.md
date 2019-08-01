@@ -4,7 +4,6 @@
 
 * [Новости](README.md)
 * [Начало работы для пользователя](getting-started/getting-started-for-users.md)
-* [Руководство пользователя](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
