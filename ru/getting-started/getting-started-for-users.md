@@ -1,6 +1,6 @@
 # Начало работы для пользователя
 
-Пожалуйста, перейдите на [сайт](https://client.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
+Пожалуйста, перейдите на [сайт](https://dex.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
 
 С помощью аккаунта вы сможете:
 
