@@ -1,6 +1,6 @@
 # Начало работы для пользователя
 
-Пожалуйста, перейдите на [сайт](https://client.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
+Пожалуйста, перейдите на [сайт](https://dex.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
 
 С помощью аккаунта вы сможете:
 
@@ -12,7 +12,7 @@
 
 ## Приложение DEX
 
-[Скачайте](https://client.wavesplatform.com) и установите Waves DEX на Windows, Mac или Linux.
+[Скачайте](https://dex.wavesplatform.com) и установите Waves DEX на Windows, Mac или Linux.
 
 Waves DEX также доступен на [iOS](https://apps.apple.com/us/app/waves-wallet/id1233158971) и [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
