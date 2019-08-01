@@ -1,5 +1,13 @@
 # News
 
+## August articles
+
+## Blockchain
+
+* Transaction validation
+  * [Validating node](blockchain/transaction-validation/validating-node.md)
+
+
 ## July articles
 
 ### Blockchain
