@@ -12,7 +12,7 @@
 
 ## Приложение DEX
 
-[Скачайте](https://client.wavesplatform.com) и установите Waves DEX на Windows, Mac или Linux.
+[Скачайте](https://dex.wavesplatform.com) и установите Waves DEX на Windows, Mac или Linux.
 
 Waves DEX также доступен на [iOS](https://apps.apple.com/us/app/waves-wallet/id1233158971) и [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
