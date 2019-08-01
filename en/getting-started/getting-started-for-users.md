@@ -12,7 +12,7 @@ To get more information, please get familiar with the sections [Account Manageme
 
 ## DEX application
 
-[Download](https://client.wavesplatform.com) and install Waves DEX on Windows, Mac or Linux.
+[Download](https://dex.wavesplatform.com) and install Waves DEX on Windows, Mac or Linux.
 
 Waves DEX is also available on [iOS](https://apps.apple.com/us/app/waves-wallet/id1233158971) and [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet) devices.
 
