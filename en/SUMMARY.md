@@ -3,9 +3,9 @@
 ## Getting started
 
 * [News](README.md)
-* [Getting started for users](getting-started/getting-started-for-users.md)
-* [Getting started for developers](getting-started/getting-started-for-developers.md)
-* [Getting started for node owners](getting-started/getting-started-for-node-owners.md)
+* [User guide](getting-started/getting-started-for-users.md)
+* [Developer guide](getting-started/getting-started-for-developers.md)
+* [Node owner guide](getting-started/getting-started-for-node-owners.md)
 
 ## Blockchain
 
