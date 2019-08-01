@@ -6,7 +6,7 @@ Having the account you will be able to:
 
 - [Transfer tokens](/waves-client/transfers-and-gateways/asset-transfers.md)
 - [Issue tokens](/waves-client/assets-management/issue-an-asset.md)
-- [Exchange tokens](/waves-dex/about-waves-dex.md)
+- [Exchange tokens](/waves-dex/start-trading-on-the-waves-dex.md)
 
 To get more information, please get familiar with the sections [Account Management](/waves-client/account-management.md) and [Assets Management](/waves-client/assets-management.md).
 

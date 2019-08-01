@@ -6,7 +6,7 @@
 
 - [Переводить токены](/waves-client/transfers-and-gateways/asset-transfers.md)
 - [Выпускать токены](/waves-client/assets-management/issue-an-asset.md)
-- [Обменивать токены](/waves-dex/about-waves-dex.md)
+- [Обменивать токены](/waves-dex/start-trading-on-the-waves-dex.md)
 
 Для получения более подробной информации, пожалуйста, ознакомьтесь с разделами [Управление аккаунтом](/waves-client/account-management.md) и [Управление ассетами](/waves-client/assets-management.md).
 
