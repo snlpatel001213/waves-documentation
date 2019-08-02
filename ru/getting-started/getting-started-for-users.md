@@ -1,20 +1,18 @@
 # Руководство пользователя
 
-Пожалуйста, перейдите на [сайт](https://dex.wavesplatform.com) Waves DEX и [создайте](/waves-client/account-management/creating-an-account.md) себе аккаунт.
+Пожалуйста, [создайте](/waves-client/account-management/creating-an-account.md) аккаунт сайте [Waves DEX](https://dex.wavesplatform.com). С помощью аккаунта вы сможете переводить, выпускать и обменивать токены.
 
-С помощью аккаунта вы сможете:
+Более подробная информация содержится в разделах:
 
-- [Переводить токены](/waves-client/transfers-and-gateways/asset-transfers.md)
-- [Выпускать токены](/waves-client/assets-management/issue-an-asset.md)
-- [Обменивать токены](/waves-dex/start-trading-on-the-waves-dex.md)
-
-Для получения более подробной информации, пожалуйста, ознакомьтесь с разделами [Управление аккаунтом](/waves-client/account-management.md) и [Управление ассетами](/waves-client/assets-management.md).
+* [Управление аккаунтом](/waves-client/account-management.md)
+* [Переводы и шлюзы](/waves-client/wallet-management.md)
+* [Управление ассетами](/waves-client/assets-management.md)
 
 ## Приложение DEX
 
-[Скачайте](https://dex.wavesplatform.com) и установите Waves DEX на Windows, Mac или Linux.
+Приложение Waves DEX доступно в [App Store](https://apps.apple.com/us/app/waves-wallet/id1233158971) и [Google Play](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
-Waves DEX также доступен на [iOS](https://apps.apple.com/us/app/waves-wallet/id1233158971) и [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
+Скачайте файл установки для Windows, Mac и Linux с [сайта биржи](https://dex.wavesplatform.com).
 
 ## Заметки о безопасности
 
