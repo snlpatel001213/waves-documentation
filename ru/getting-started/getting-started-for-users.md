@@ -7,6 +7,7 @@
 * [Управление аккаунтом](/waves-client/account-management.md)
 * [Переводы и шлюзы](/waves-client/wallet-management.md)
 * [Управление ассетами](/waves-client/assets-management.md)
+* [Мобильные приложения](/waves-client/mobile-apps.md)
 
 ## Приложение DEX
 

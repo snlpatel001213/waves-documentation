@@ -4,9 +4,10 @@ Please, [create](/waves-client/account-management/creating-an-account.md) an acc
 
 For more information, see the sections:
 
-* [Account Management](/waves-client/account-management.md)
-* [Transfers and Gateways](/waves-client/wallet-management.md)
-* [Assets Management](/waves-client/assets-management.md)
+* [Account management](/waves-client/account-management.md)
+* [Transfers and gateways](/waves-client/wallet-management.md)
+* [Assets management](/waves-client/assets-management.md)
+* [Mobile apps](/waves-client/mobile-apps.md)
 
 ## DEX application
 
