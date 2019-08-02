@@ -11,6 +11,7 @@ Transfers and gateways chapter includes all details about transfer operations fo
 * [iOS: Bitcoin Cash transfers](transfers-and-gateways/bitcoin-cash-transfers.md)
 * [iOS: Dash transfers](transfers-and-gateways/dash-transfers.md)
 * [iOS: Monero transfers](transfers-and-gateways/monero-transfers.md)
+* [iOS: Bitcoin SV transfers](transfers-and-gateways/bitcoin-sv-transfers.md)
 
 The Waves wallet also supports purchases of Waves in Euro and US Dollar (minimum 30 EUR/USD, maximum 3000 EUR/USD) using plastic card.
 

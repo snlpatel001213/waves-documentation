@@ -30,7 +30,7 @@ Denominator of the fraction.
 
 ### Conversion formula
 
-Conversion is done by the formula:
+Conversion is performed according to the following formula:
 
 ```ride
 fraction = value × numerator / denominator
