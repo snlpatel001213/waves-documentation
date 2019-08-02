@@ -2,12 +2,43 @@
 
 | # | Name | Description | Complexity |
 |:---| :--- | :--- | :--- |
-| 1 |[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
-| 2 |[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
+| 1 | [fraction(Int, Int, Int): Int](#fraction) | Converts arbitrarily large signed integer to integer | 1 |
+| 2 |[log(Int, Int, Int, Int, Int, Union): Int](#log)| Calculates logarithm of the number | 100 |
+| 3 |[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Raises the number to a power| 100 |
+
+## fraction(Int, Int, Int): Int<a id="fraction"></a>
+
+Converts arbitrarily large signed integer to integer.
+
+```ride
+fraction(value: Int, numerator: Int, denominator: Int): Int
+```
+
+### Parameters
+
+#### `value`: Int
+
+Arbitrarily large signed integer.
+
+#### `numerator`: Int
+
+Numerator of the fraction.
+
+#### `denominator`: Int
+
+Denominator of the fraction.
+
+### Conversion formula
+
+Conversion is done by the formula:
+
+```ride
+fraction = value × numerator / denominator
+```
 
 ## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
-Returns the logarithm of a number.
+Calculates logarithm of the number.
 
 ``` ride
 log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
@@ -17,33 +48,33 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 
 #### `value`: Int
 
-The number which logarithm should be calculated.
+Given number.
 
 #### `ep`: Int
 
-The number of decimals of the number.
+Number of decimals of the given number.
 
 #### `base`: Int
 
-The base of the logarithm.
+Base of the logarithm.
 
 #### `bp`: Int
 
-The number of decimals of the base.
+Number of decimals of the base.
 
 #### `rp`: Int
 
-The number of decimals of the resulting value.
+Number of decimals of the resulting value.
 
 #### `round`: Union
 
-The [rounding function](#rounding-functions).
+One of the [rounding function](#rounding-functions).
 
 The `HalfUp()` function may be used as the default value.
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
-Returns a number raised to a power.
+Raises the number to a power.
 
 ``` ride
 pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
@@ -53,23 +84,23 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 
 #### `base`: Int
 
-The base.
+Given number.
 
 #### `bp`: Int
 
-The number of decimals of the base.
+Number of decimals of the given number.
 
 #### `exponent`: Int
 
-The exponent.
+Power.
 
 #### `ep`: Int
 
-The number of decimals of the exponent.
+Number of decimals of power.
 
 #### `rp`: Int
 
-The number of decimals of the resulting value.
+Number of decimals of the resulting value.
 
 #### `round`: Union
 
