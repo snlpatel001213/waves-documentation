@@ -12,7 +12,7 @@ For more information, see the sections:
 
 Waves DEX application is available in the [App Store](https://apps.apple.com/us/app/waves-wallet/id1233158971) and [Google Play](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
-Download installation file for Windows, Mac and Linux from the [exchange website](https://dex.wavesplatform.com).
+Download the installation file for Windows, Mac and Linux from the [exchange website](https://dex.wavesplatform.com).
 
 ## Security notes
 
