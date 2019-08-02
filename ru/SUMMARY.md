@@ -161,7 +161,7 @@
       * [Android: Переводы Bitcoin Cash](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-cash-transfers.md)
       * [Android: Переводы Dash](waves-client/mobile-apps/android/transfers-and-gateways/dash-transfers.md)
       * [Android: Переводы Monero](waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.md)
-      * [Android: Переводы Bitcoin SV](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.md)
+      * [Android: Переводы Bitcoin SV](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.md)
       * [Android: Покупка Waves с банковской карты](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
