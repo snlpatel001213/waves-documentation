@@ -140,7 +140,7 @@
       * [iOS: Переводы Monero](waves-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.md)
       * [iOS: Переводы Bitcoin SV](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.md)
       * [iOS: Покупка Waves с банковской карты](waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.md)
-    * [iOS: Waves DEX](waves-client/mobile-apps/iOS/waves-dex.md)
+    * [iOS: Waves DEX](waves-client/mobile-apps/iOS/waves-dex/about-waves-dex.md)
       * [iOS: Использование биржи DEX](waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
   * [Мобильное приложение для Android устройств](waves-client/mobile-apps/android.md)
     * [Android: Управление аккаунтом](waves-client/mobile-apps/android/account-management.md)
@@ -165,7 +165,7 @@
       * [Android: Переводы Monero](waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.md)
       * [Android: Переводы Bitcoin SV](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.md)
       * [Android: Покупка Waves с банковской карты](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
-    * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
+    * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex/about-waves-dex.md)
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
 * [Часто задаваемые вопросы](waves-client/faq.md)
