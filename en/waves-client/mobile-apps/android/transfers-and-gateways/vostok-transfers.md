@@ -54,11 +54,16 @@ Re-check entered data and click on the **Confirm** to complete the process.
 You can send Vostok directly to another Waves account. Just use the recipient **Waves** address.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Send**.
 
-The following window will appear.
+The following window will appear. Choose Votok from the drop-down menu.
+
+Fill in the sending form.
+
+**Recipient**: Put the recipient Waves address or scan QR-code or choose from Address book.
+**Amount**: Define a number of Assets you want to send or choose **Use total balance 50% 10% 5%**
 
 ![](/waves-client/mobile-apps/_assets/vostok_transfers_05.png)
 
-After you have completed the form, click on the **Continue** button.
+After you have completed the form, click on the **Confirm** button.
 
 ![](/waves-client/mobile-apps/_assets/vostok_transfers_06.png)
 

@@ -11,9 +11,9 @@ In the Vostok section click on the **Receive** button.
 
 The following window will appear. Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.000001 VST**
+**The minimum amount of deposit is 0.1 VST**
 ```
-If you will send less than 0.000001 VST, you will lose that money.
+If you will send less than 0.1 VST, you will lose that money.
 ```
 **Send only Vostok to this deposit address**
 ```
@@ -34,6 +34,7 @@ In the Vostok section, click on the **Send** button.
 The following pop-up will appear.  
 Paste the Vostok address you want to send to as well as the amount of Vostok.  
 Please note that the Vostok gateway charges **0.001 Waves** for the network fee.
+
 **Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue** button.
