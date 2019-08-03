@@ -54,7 +54,7 @@ Re-check entered data and click on the **Confirm** to complete the process.
 You can send Vostok directly to another Waves account. Just use the recipient **Waves** address.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Send**.
 
-The following window will appear. Choose Votok from the drop-down menu.
+The following window will appear. Choose Vostok from the drop-down menu.
 
 Fill in the sending form.
 
@@ -69,7 +69,7 @@ After you have completed the form, click on the **Confirm** button.
 
 ## How to use sponsored fee
 
-Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
 
 So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
 Choose an available sponsored token and click on the **Continue** button.

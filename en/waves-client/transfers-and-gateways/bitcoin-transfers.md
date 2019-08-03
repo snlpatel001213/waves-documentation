@@ -70,7 +70,7 @@ To complete the operation, click on the **Send** or **Back** to repeat the proce
 
 ## How to use sponsored fee
 
-Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
 
 So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
 Choose an available sponsored token and click on the **Continue** button.
