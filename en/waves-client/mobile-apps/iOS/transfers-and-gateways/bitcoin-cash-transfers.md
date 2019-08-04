@@ -1,6 +1,6 @@
 ## Introduction
 
-Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works through a so-called Multigateway approach: Bitcoin Cash sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin Cash token \(wMONERO\) issued in the Waves blockchain. Every single Bitcoin Cash token is backed 1:1 with the real Bitcoin Cash.
+Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works through a so-called Multigateway approach: Bitcoin Cash sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin Cash token \(wBCH\) issued in the Waves blockchain. Every single Bitcoin Cash token is backed 1:1 with the real Bitcoin Cash.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
@@ -50,7 +50,7 @@ Fill in the sending form.
 * **Bitcoin Cash Payment ID**: Use the Payment ID received on the receipt side.
 * **Amount**: Define a number of Bitcoin Cash you want to send or choose **Use total balance** **50%** **10%** **5%**
 
-Please note that the gateway charges **0.01 MONERO** for the gateway fee as well as **0.001 Waves** for the network fee.
+Please note that the gateway charges **0.01 BCH** for the gateway fee as well as **0.001 Waves** for the network fee.
 **Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue**.
@@ -59,7 +59,7 @@ The following window will appear.
 
 ![](/waves-client/mobile-apps/_assets/bitcoin-cash_04.png)
 
-To complete the proccess, click on the **Confirm**.
+To complete the process, click on the **Confirm**.
 
 **Note**: Processing may take up to 120 minutes.
 
@@ -89,7 +89,7 @@ Re-check entered data and click on the **Confirm** to complete the process.
 
 ## How to use sponsored fee
 
-Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
 
 So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
 Choose an available sponsored token and click on the **Continue** button.

@@ -2,12 +2,43 @@
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [log(Int, Int, Int, Int, Int, Union): Int](#log)  | Возвращает логарифм числа | 100 |
-| 2 | [pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Возвращает число, возведённое в степень | 100 |
+| 1 | [fraction(Int, Int, Int): Int](#fraction) | Конвертирует произвольно большое знаковое целое число в целое число | 1 |
+| 2 | [log(Int, Int, Int, Int, Int, Union): Int](#log)  | Находит логарифм числа | 100 |
+| 3 | [pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Возводит число в степень | 100 |
+
+## fraction(Int, Int, Int): Int<a id="fraction"></a>
+
+Конвертирует произвольно большое знаковое целое число в целое число.
+
+```ride
+fraction(value: Int, numerator: Int, denominator: Int): Int
+```
+
+### Параметры
+
+#### `value`: Int
+
+Произвольно большое знаковое целое число.
+
+#### `numerator`: Int
+
+Числитель дроби.
+
+#### `denominator`: Int
+
+Знаменатель дроби.
+
+### Формула конвертации
+
+Конвертация производится по следущей формуле:
+
+```ride
+fraction = value × numerator / denominator
+```
 
 ## log(Int, Int, Int, Int, Int, Union)<a id="log"></a>
 
-Возвращает логарифм числа.
+Находит логарифм числа.
 
 ``` ride
 log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
@@ -17,11 +48,11 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 
 #### `value`: Int
 
-Число, логарифм которого должен быть вычислен.
+Заданное число.
 
 #### `ep`: Int
 
-Количество знаков после запятой в числе.
+Количество знаков после запятой у заданного числа.
 
 #### `base`: Int
 
@@ -29,11 +60,11 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 
 #### `bp`: Int
 
-Количество знаков после запятой в основании.
+Количество знаков после запятой у основания логарифма.
 
 #### `rp`: Int
 
-Количество знаков после запятой в результате.
+Количество знаков после запятой результата.
 
 #### `round`: Union
 
@@ -43,7 +74,7 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
-Возвращает число, возведенное в степень.
+Возводит число в степень.
 
 ``` ride
 pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
@@ -57,7 +88,7 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 
 #### `bp`: Int
 
-Количество знаков после запятой в основании.
+Количество знаков после запятой у основания.
 
 #### `exponent`: Int
 
@@ -65,11 +96,11 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 
 #### `ep`: Int
 
-Количество знаков после запятой в показателе степени.
+Количество знаков после запятой у показателя степени.
 
 #### `rp`: Int
 
-Количество знаков после запятой в результате.
+Количество знаков после запятой у результата.
 
 #### `round`: Union
 

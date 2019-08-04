@@ -3,6 +3,7 @@
 В данном разделе содержатся все необходимые сведения о транзакциях ввода и вывода криптовалют, которые поддерживает платформа Waves. Все транзакции с внешними криптовалютами обрабатываются [платежными шлюзами](/waves-client/frequently-asked-questions-faq/mobile-apps/iOS/payment-gateway.md).
 
 * [iOS: Переводы Waves](transfers-and-gateways/waves-transfers.md)
+* [iOS: Переводы Vostok](transfers-and-gateways/vostok-transfers.md)
 * [iOS: Переводы Ассетов](transfers-and-gateways/asset-transfers.md)
 * [iOS: Переводы Bitcoin](transfers-and-gateways/bitcoin-transfers.md)
 * [iOS: Переводы Ethereum](transfers-and-gateways/ethereum-transfers.md)
@@ -11,6 +12,7 @@
 * [iOS: Переводы Bitcoin Cash](transfers-and-gateways/bitcoin-cash-transfers.md)
 * [iOS: Переводы Dash](transfers-and-gateways/dash-transfers.md)
 * [iOS: Переводы Monero](transfers-and-gateways/monero-transfers.md)
+* [iOS: Переводы Bitcoin SV](transfers-and-gateways/bitcoin-sv-transfers.md)
 
 Waves приложение также поддерживает покупку Waves за Евро и Доллары США (минимум 30 EUR/USD, максимум 3000 EUR/USD) с использованием банковской карты.
 

@@ -3,7 +3,7 @@
 ## Начало работы
 
 * [Новости](README.md)
-* [Руководство пользователя](overview/how-to-use-this-guide.md)
+* [Руководство пользователя](getting-started/getting-started-for-users.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
@@ -14,10 +14,6 @@
 * [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
-
-## С чего начать
-
-* [Пользователю](getting-started/as-a-user.md)
 
 ## Блокчейн
 
@@ -133,6 +129,7 @@
       * [iOS: Сжигание токена](waves-client/mobile-apps/iOS/assets-management/burn-an-asset.md)
     * [iOS: Переводы и шлюзы](waves-client/mobile-apps/iOS/wallet-management.md)
       * [iOS: Переводы Waves](waves-client/mobile-apps/iOS/transfers-and-gateways/waves-transfers.md)
+      * [iOS: Перевода Vostok](waves-client/mobile-apps/iOS/transfers-and-gateways/vostok-transfers.md)
       * [iOS: Переводы Ассетов](waves-client/mobile-apps/iOS/transfers-and-gateways/asset-transfers.md)
       * [iOS: Переводы Bitcoin](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-transfers.md)
       * [iOS: Переводы Ethereum](waves-client/mobile-apps/iOS/transfers-and-gateways/ethereum-transfers.md)
@@ -141,8 +138,9 @@
       * [iOS: Переводы Bitcoin Cash](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.md)
       * [iOS: Переводы Dash](waves-client/mobile-apps/iOS/transfers-and-gateways/dash-transfers.md)
       * [iOS: Переводы Monero](waves-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.md)
+      * [iOS: Переводы Bitcoin SV](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.md)
       * [iOS: Покупка Waves с банковской карты](waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.md)
-    * [iOS: Waves DEX](waves-client/mobile-apps/iOS/waves-dex.md)
+    * [iOS: Waves DEX](waves-client/mobile-apps/iOS/waves-dex/about-waves-dex.md)
       * [iOS: Использование биржи DEX](waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
   * [Мобильное приложение для Android устройств](waves-client/mobile-apps/android.md)
     * [Android: Управление аккаунтом](waves-client/mobile-apps/android/account-management.md)
@@ -156,6 +154,7 @@
       * [Android: Сжигание токена](waves-client/mobile-apps/android/assets-management/burn-an-asset.md)
     * [Android: Переводы и шлюзы](waves-client/mobile-apps/android/wallet-management.md)
       * [Android: Переводы Waves](waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.md)
+      * [Android: Перевода Vostok](waves-client/mobile-apps/android/transfers-and-gateways/vostok-transfers.md)
       * [Android: Переводы Ассетов](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
       * [Android: Переводы Bitcoin](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.md)
       * [Android: Переводы Ethereum](waves-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.md)
@@ -164,8 +163,9 @@
       * [Android: Переводы Bitcoin Cash](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-cash-transfers.md)
       * [Android: Переводы Dash](waves-client/mobile-apps/android/transfers-and-gateways/dash-transfers.md)
       * [Android: Переводы Monero](waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.md)
+      * [Android: Переводы Bitcoin SV](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.md)
       * [Android: Покупка Waves с банковской карты](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
-    * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
+    * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex/about-waves-dex.md)
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
 * [Часто задаваемые вопросы](waves-client/faq.md)
@@ -207,6 +207,13 @@
 * [Комментарии](ride/comments.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Типы данных](ride/data-types.md)
+  * [Логический](ride/data-types/boolean.md)
+  * [Тип данных массива байтов](ride/data-types/byte-vector.md)
+  * [Целочисленный](ride/data-types/int.md)
+  * [Тип данных списка](ride/data-types/list.md)
+  * [Строковый](ride/data-types/string.md)
+  * [Тип данных пустого значения](ride/data-types/unit.md)
+  * [Тип данных объединения](ride/data-types/union.md)
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
     * [Address](ride/structures/common-structures/address.md)
@@ -214,6 +221,14 @@
     * [AssetPair](ride/structures/common-structures/asset-pair.md)
     * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
     * [BlockInfo](ride/structures/common-structures/block-info.md)
+    * [DataEntry](ride/structures/common-structures/data-entry.md)
+    * [Invocation](ride/structures/common-structures/invocation.md)
+    * [Order](ride/structures/common-structures/order.md)
+    * [ScriptResult](ride/structures/common-structures/script-result.md)
+    * [ScriptTransfer](ride/structures/common-structures/script-transfer.md)
+    * [Transfer](ride/structures/common-structures/transfer.md)
+    * [TransferSet](ride/structures/common-structures/transfer-set.md)
+    * [WriteSet](ride/structures/common-structures/write-set.md)
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)

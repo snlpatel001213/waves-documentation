@@ -5,4 +5,4 @@
 * [iOS: Управление аккаунтом](iOS/account-management.md)
 * [iOS: Управление ассетами](iOS/assets-management.md)
 * [iOS: Переводы и шлюзы](iOS/wallet-management.md)
-* [iOS: Waves DEX](iOS/waves-dex.md)
+* [iOS: Waves DEX](iOS/waves-dex/about-waves-dex.md)
