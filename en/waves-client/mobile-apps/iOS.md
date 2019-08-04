@@ -5,4 +5,4 @@ In this chapter, you will find detailed instructions for iOS app. With mobile ap
 * [iOS: Account Management](iOS/account-management.md)
 * [iOS: Assets Management](iOS/assets-management.md)
 * [iOS: Transfers and gateways](iOS/wallet-management.md)
-* [iOS: Waves DEX](iOS/waves-dex.md)
+* [iOS: Waves DEX](iOS/waves-dex/about-waves-dex.md)

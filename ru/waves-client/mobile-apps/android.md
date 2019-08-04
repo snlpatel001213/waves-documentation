@@ -5,4 +5,4 @@
 * [Управление аккаунтом](android/account-management.md)
 * [Управление ассетами](android/assets-management.md)
 * [Переводы и шлюзы](android/wallet-management.md)
-* [Waves DEX](android/waves-dex.md)
+* [Waves DEX](android/waves-dex/about-waves-dex.md)

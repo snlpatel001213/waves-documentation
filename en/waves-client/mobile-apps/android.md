@@ -5,4 +5,4 @@ In this chapter, you will find detailed instructions for Android app. With mobil
 * [Android: Account Management](android/account-management.md)
 * [Android: Assets Management](android/assets-management.md)
 * [Android: Transfers and gateways](android/wallet-management.md)
-* [Android: Waves DEX](android/waves-dex.md)
+* [Android: Waves DEX](android/waves-dex/about-waves-dex.md)
