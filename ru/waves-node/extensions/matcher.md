@@ -1,3 +1,3 @@
 # Матчер
 
-**Матчер** — [расширение ноды](/waves-node/extensions/matcher.md), которое размещает и закрывает ордеры на [Waves DEX](/waves-dex/about-waves-dex).
+**Матчер** — [расширение узла](/waves-node/extensions/matcher.md), которое размещает и закрывает [ордеры](/blockchain/order.md) на [DEX](/waves-dex/about-waves-dex).
