@@ -4,6 +4,7 @@
 
 ### Ride
 
+* [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 
 ### Блокчейн
