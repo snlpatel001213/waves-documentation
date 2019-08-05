@@ -58,4 +58,4 @@
 | # | Symbol | Operator |
 | :--- | :---: | :--- |
 | 1 | && | Logical AND |
-| 2 | \|\| | Logical OR |
+| 2 | &#124;&#124; | Logical OR |
