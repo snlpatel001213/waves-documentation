@@ -4,9 +4,8 @@
 
 ## Blockchain
 
-* Transaction validation
-  * [Validating node](blockchain/transaction-validation/validating-node.md)
-
+* Node
+  * [Validating node](blockchain/node/validating-node.md)
 
 ## July articles
 
@@ -26,7 +25,8 @@
 * [Mining](blockchain/mining.md)
   * [Miner](blockchain/mining/miner.md)
   * [Mining account](blockchain/mining/mining-account.md)
-  * [Mining node](blockchain/mining/mining-node.md)
+* Node
+  * [Mining node](blockchain/node/mining-node.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
 * Transaction type
