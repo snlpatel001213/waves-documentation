@@ -4,9 +4,8 @@
 
 ## Blockchain
 
-* Transaction validation
-  * [Validating node](blockchain/transaction-validation/validating-node.md)
-
+* Node
+  * [Validating node](blockchain/node/validating-node.md)
 
 ## July articles
 

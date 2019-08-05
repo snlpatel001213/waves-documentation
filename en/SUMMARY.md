@@ -74,6 +74,7 @@
   * [Mining node](blockchain/mining/mining-node.md)
 * [Matcher fee](blockchain/matcher-fee.md)
 * [Node](blockchain/node.md)
+  * [Validating node](blockchain/node/validating-node.md)
 * [Order](blockchain/order.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
