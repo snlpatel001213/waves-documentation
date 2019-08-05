@@ -206,6 +206,7 @@
   * [Скрипт ассета](ride/ride-script/asset-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Комментарии](ride/comments.md)
+* [Константы](ride/constants.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Операторы](ride/operators.md)
 * [Типы данных](ride/data-types.md)

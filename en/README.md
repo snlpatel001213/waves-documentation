@@ -7,6 +7,10 @@
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 
+## Ride
+
+* [Constants](ride/constants.md)
+
 ## July articles
 
 ### Blockchain
