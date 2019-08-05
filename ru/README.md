@@ -2,10 +2,12 @@
 
 ## Августовские статьи
 
+### Ride
+
+* [Операторы](ride/operators.md)
+
 ### Блокчейн
 
-* Ride
-  * [Операторы](ride/operators.md)
 * Узел
   * [Валидирующий узел](blockchain/node/validating-node.md)
 
