@@ -8,7 +8,7 @@
 | 2 | - | Subtraction |
 | 3 | \* | Multiplication |
 | 4 | / | Division |
-| 5 | % | Modulo |
+| 5 | % | Remainder |
 
 ## Comparison operators
 
