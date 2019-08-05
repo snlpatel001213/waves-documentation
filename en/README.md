@@ -10,6 +10,7 @@
 ## Ride
 
 * [Constants](ride/constants.md)
+* [Definition](ride/definition.md)
 * [Operators](ride/operators.md)
 
 ## July articles

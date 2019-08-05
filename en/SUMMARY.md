@@ -246,6 +246,7 @@
   * [String](ride/data-types/string.md)
   * [Unit](ride/data-types/unit.md)
   * [Union](ride/data-types/union.md)
+* [Definition](ride/definition.md)
 * [Operators](ride/operators.md)
 * [Structures](ride/structures.md)
   * [Built-in structures](ride/structures/built-in-structures.md)
