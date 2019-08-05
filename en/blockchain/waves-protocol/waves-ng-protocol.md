@@ -128,4 +128,4 @@ In practice, the remuneration is implemented by having each key block contain a 
 
 As in Bitcoin, this transaction can only be spent after a maturity period of 100 key blocks, to avoid non-mergeable transactions following a fork.
 
-{% prettyhint type="info" %} Find more technical details about Waves-NG <a href="/waves-prtocol/waves-ng-solution.md"> &nbsp;In This Section. </a> {% endprettyhint %}
+{% prettyhint type="info" %} Find more technical details about Waves-NG <a href="/blockchain/waves-prtocol/waves-ng-solution.md"> &nbsp;In This Section. </a> {% endprettyhint %}
