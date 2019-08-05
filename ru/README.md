@@ -24,7 +24,6 @@
 * [Майнинг](blockchain/mining.md)
   * [Майнер](blockchain/mining/miner.md)
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
-  * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
 * [Сеть блокчейна](blockchain/blockchain-network.md)
 * Тип транзакции
@@ -37,6 +36,8 @@
   * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
+* Узел
+  * [Майнящий узел](blockchain/node/mining-node.md)
 
 ### Waves Node
 
