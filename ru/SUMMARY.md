@@ -207,6 +207,7 @@
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Комментарии](ride/comments.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
+* [Операторы](ride/operators.md)
 * [Типы данных](ride/data-types.md)
   * [Логический](ride/data-types/boolean.md)
   * [Тип данных массива байтов](ride/data-types/byte-vector.md)
