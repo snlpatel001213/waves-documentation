@@ -2,9 +2,9 @@
 
 В этом разделе описаны пошаговые инструкции для создания и восстановления Waves аккаунта. Waves аккаунт необходим для покупки и хранения криптографических токенов, а также для передачи Waves токенов в лизинг.
 
-* [iOS: Создание аккаунта](account-management/creating-an-account.md)
-* [iOS: Восстановление аккаунта](account-management/restore-an-account.md)
-* [iOS: Вход в аккаунт](account-management/signing-in-to-your-account.md)
-* [iOS: Ваш Waves адрес](account-management/waves-address.md)
-* [iOS: Создание персонального Псевдонима](account-management/creating-an-alias.md)
-* [iOS: Лизинг Waves токенов](account-management/waves-leasing.md)
+* [Создание аккаунта (iOS)](account-management/creating-an-account.md)
+* [Восстановление аккаунта (iOS)](account-management/restore-an-account.md)
+* [Вход в аккаунт (iOS)](account-management/signing-in-to-your-account.md)
+* [Ваш Waves адрес (iOS)](account-management/waves-address.md)
+* [Создание персонального Псевдонима (iOS)](account-management/creating-an-alias.md)
+* [Лизинг Waves токенов (iOS)](account-management/waves-leasing.md)
