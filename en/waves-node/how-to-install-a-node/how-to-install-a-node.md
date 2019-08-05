@@ -20,7 +20,7 @@ Here you can find a tutorial about [Installing Waves Node](https://www.youtube.c
 |  | vCPU | RAM | SSD | Command as Jar |
 | :--- | :--- | :--- | :--- | :--- |
 | Minimal requirements for [validating node](/blockchain/transaction-validation/validating-node.md) | 1 | 3Gb | 30Gb | `Xmx` flag Specifies the maximum size of the memory allocation pool for a Java virtual machine (JVM), Add `-Xmx` option before `-jar` parameter, choose size depending on your host RAM. The command should be as following <br/>`java -Xmx3072M -jar`|
-| Minimal requirements for [mining node](/blockchain/mining/mining-node.md) | 2+ | 4+ Gb | 30+ Gb | `java -Xmx4096M -jar` |
+| Minimal requirements for [mining node](/blockchain/node/mining-node.md) | 2+ | 4+ Gb | 30+ Gb | `java -Xmx4096M -jar` |
 
 >A common use for `Xmx` flag is when you encounter a `java.lang.OutOfMemoryError`.
 
