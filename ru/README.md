@@ -4,7 +4,8 @@
 
 ### Блокчейн
 
-* [Валидирующий узел](blockchain/node/validating-node.md)
+* [Узел](blockchain/node.md)
+  * [Валидирующий узел](blockchain/node/validating-node.md)
 
 ## Июльские статьи
 
