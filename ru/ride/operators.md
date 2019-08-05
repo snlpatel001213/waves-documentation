@@ -37,7 +37,7 @@
 
 | # | Ключевое слово | Оператор |
 | :--- | :---: | :--- |
-| 1 | if-else-then | if-else-then |
+| 1 | if-then-else | if-then-else |
 | 2 | match-case | match-case |
 
 ## Оператор конструктора списка
