@@ -44,7 +44,6 @@
 * [Майнинг](blockchain/mining.md)
   * [Майнер](blockchain/mining/miner.md)
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
-  * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
@@ -77,6 +76,7 @@
 * [Транзакция](blockchain/transaction.md)
 * [Узел](blockchain/node.md)
   * [Валидирующий узел](blockchain/node/validating-node.md)
+  * [Майнящий узел](blockchain/node/mining-node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Waves приложение
