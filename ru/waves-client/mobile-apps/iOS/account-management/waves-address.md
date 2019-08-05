@@ -11,7 +11,7 @@
 
 ![](/waves-client/mobile-apps/_assets/waves_address_02.png)
 
-Также в данном разделе вы можете создать Алиас. Подробнее: [Как создать Алиас](/waves-client/mobile-apps/iOS/account-managment/creating-an-alias.md)
+Также в данном разделе вы можете создать Псевдоним. Подробнее: [Как создать Псевдоним](/waves-client/mobile-apps/iOS/account-managment/creating-an-alias.md)
 
 ___
 
