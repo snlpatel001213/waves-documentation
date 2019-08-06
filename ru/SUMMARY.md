@@ -207,7 +207,6 @@
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Комментарии](ride/comments.md)
 * [Константы](ride/constants.md)
-* [Неизменяемые переменные](ride/immutable-variables.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
 * [Переменные](ride/variables.md)

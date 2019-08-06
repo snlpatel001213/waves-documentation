@@ -8,7 +8,6 @@ The language:
 
 * has a [strong](https://en.wikipedia.org/wiki/Strong_and_weak_typing) [static typing](https://en.wikipedia.org/wiki/Type_system#Static_type_checking)
 * has no loops, recursions and goto-like expressions, and therefore is not [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness)
-* is [lazy](/ride/immutable-variables.md) by design
 
 ## IDE
 

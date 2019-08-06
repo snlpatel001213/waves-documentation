@@ -223,6 +223,14 @@
       "from": "/ru/ride/functions/math-functions.html"
     },
     {
+      "to": "/ru/ride/variables.html",
+      "from": "/ru/ride/immutable-variables.html"
+    },
+    {
+      "to": "/en/ride/variables.html",
+      "from": "/en/ride/immutable-variables.html"
+    },
+    {
       "to":"/en/ride/built-in-functions/math-functions.html",
       "from": "/en/ride/math-functions.html"
     },
