@@ -39,39 +39,39 @@
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
 | 1 | addressFromPublicKey(ByteVector): Address | Converts account public key to [address](/blockchain/address.md) | 82 |
-| 2 | parseInt(String): Int&#124;Unit | Converts the string representation of a number to its integer equivalent | 20 |
-| 3 | parseIntValue(String): Int | Converts the string representation of a number to its integer equivalent.Raises an exception if the string cannot be parsed | 20 |
-| 4 | toBytes(Boolean): ByteVector | Converts a boolean to an array of bytes | 1 |
-| 5 | toBytes(Int): ByteVector | Converts an integer to an array of bytes | 1 |
-| 6 | toBytes(String): ByteVector | Converts a string to an array of bytes | 1 |
-| 7 | toInt(ByteVector): Int | Converts an array of bytes to an integer | 10 |
-| 8 | toInt(ByteVector, Int): Int | Converts an array of bytes to an integer starting from a certain index | 10 |
-| 9 | toString(Address): String | Converts an [address](/blockchain/address.md) to a string | 10 |
-| 10 | toString(Boolean): String | Converts a boolean to a string | 1 |
-| 11 | toString(Int): String | Converts an integer to a string | 1 |
-| 12 | toUtf8String(ByteVector): String | Converts an array of bytes to a UTF-8 string | 20 |
+| 2 | addressFromRecipient(Address&#124;Alias): Address | Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md) | 100 |
+| 3 | parseInt(String): Int&#124;Unit | Converts the string representation of a number to its integer equivalent | 20 |
+| 4 | parseIntValue(String): Int | Converts the string representation of a number to its integer equivalent.Raises an exception if the string cannot be parsed | 20 |
+| 5 | toBytes(Boolean): ByteVector | Converts a boolean to an array of bytes | 1 |
+| 6 | toBytes(Int): ByteVector | Converts an integer to an array of bytes | 1 |
+| 7 | toBytes(String): ByteVector | Converts a string to an array of bytes | 1 |
+| 8 | toInt(ByteVector): Int | Converts an array of bytes to an integer | 10 |
+| 9 | toInt(ByteVector, Int): Int | Converts an array of bytes to an integer starting from a certain index | 10 |
+| 10 | toString(Address): String | Converts an [address](/blockchain/address.md) to a string | 10 |
+| 11 | toString(Boolean): String | Converts a boolean to a string | 1 |
+| 12 | toString(Int): String | Converts an integer to a string | 1 |
+| 13 | toUtf8String(ByteVector): String | Converts an array of bytes to a UTF-8 string | 20 |
 
 ## Data transaction functions
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | addressFromRecipient(Address&#124;Alias): Address | Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md) | 100 |
-| 2 | getInteger(List[DataEntry], String): Int&#124;Unit | Gets an integer value from a list of data entires by key | 10 |
-| 3 | getInteger(List[DataEntry], Int): Int&#124;Unit | Gets an integer value from a list of data entires by index | 30 |
-| 4 | getIntegerValue(List[DataEntry], String): Int | Gets an integer value from a list of data entires by key. Throws an exception if there is no data | 10 |
-| 5 | getIntegerValue(List[DataEntry], Int): Int | Gets an integer value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 6 | getBoolean(List[DataEntry], String): Boolean&#124;Unit | Gets a boolean value from a list of data entires by key | 10 |
-| 7 | getBoolean(List[DataEntry], Int): Boolean&#124;Unit | Gets a boolean value from a list of data entires by index | 30 |
-| 8 | getBooleanValue(List[DataEntry], String): Boolean | Gets a boolean value from a list of data entires by key. Throws an exception if there is no data | 10 |
-| 9 | getBooleanValue(List[DataEntry], Int): Boolean | Gets a boolean value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 10 | getBinary(List[DataEntry], String): ByteVector&#124;Unit | Gets a binary value from a list of data entires by key | 10 |
-| 11 | getBinary(List[DataEntry], Int): ByteVector&#124;Unit | Gets a binary value from a list of data entires by index | 30 |
-| 12 | getBinaryValue(ListDataEntry, String): ByteVector | Gets a binary value from a list of data entires by key. Throws an exception if there is no data | 10 |
-| 13 | getBinaryValue(List[DataEntry], Int): ByteVector | Gets a binary value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 14 | getString(List[DataEntry] String): String&#124;Unit | Gets a string value from a list of data entires by key | 10 |
-| 15 | getString(List[DataEntry], Int): String&#124;Unit | Gets a string value from a list of data entires by index | 30 |
-| 16 | getStringValue(List[DataEntry], String): String | Gets a string value from a list of data entires by key. Throws an exception if there is no data | 10 |
-| 17 | getStringValue(List[DataEntry], Int): String | Gets a string value from a list of data entires by index. Throws an exception if there is no data | 30 |
+| 1 | getInteger(List[DataEntry], String): Int&#124;Unit | Gets an integer value from a list of data entires by key | 10 |
+| 2 | getInteger(List[DataEntry], Int): Int&#124;Unit | Gets an integer value from a list of data entires by index | 30 |
+| 3 | getIntegerValue(List[DataEntry], String): Int | Gets an integer value from a list of data entires by key. Throws an exception if there is no data | 10 |
+| 4 | getIntegerValue(List[DataEntry], Int): Int | Gets an integer value from a list of data entires by index. Throws an exception if there is no data | 30 |
+| 5 | getBoolean(List[DataEntry], String): Boolean&#124;Unit | Gets a boolean value from a list of data entires by key | 10 |
+| 6 | getBoolean(List[DataEntry], Int): Boolean&#124;Unit | Gets a boolean value from a list of data entires by index | 30 |
+| 7 | getBooleanValue(List[DataEntry], String): Boolean | Gets a boolean value from a list of data entires by key. Throws an exception if there is no data | 10 |
+| 8 | getBooleanValue(List[DataEntry], Int): Boolean | Gets a boolean value from a list of data entires by index. Throws an exception if there is no data | 30 |
+| 9 | getBinary(List[DataEntry], String): ByteVector&#124;Unit | Gets a binary value from a list of data entires by key | 10 |
+| 10 | getBinary(List[DataEntry], Int): ByteVector&#124;Unit | Gets a binary value from a list of data entires by index | 30 |
+| 11 | getBinaryValue(ListDataEntry, String): ByteVector | Gets a binary value from a list of data entires by key. Throws an exception if there is no data | 10 |
+| 12 | getBinaryValue(List[DataEntry], Int): ByteVector | Gets a binary value from a list of data entires by index. Throws an exception if there is no data | 30 |
+| 13 | getString(List[DataEntry] String): String&#124;Unit | Gets a string value from a list of data entires by key | 10 |
+| 14 | getString(List[DataEntry], Int): String&#124;Unit | Gets a string value from a list of data entires by index | 30 |
+| 15 | getStringValue(List[DataEntry], String): String | Gets a string value from a list of data entires by key. Throws an exception if there is no data | 10 |
+| 16 | getStringValue(List[DataEntry], Int): String | Gets a string value from a list of data entires by index. Throws an exception if there is no data | 30 |
 
 ## Decoding functions
 
