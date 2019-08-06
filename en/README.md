@@ -12,6 +12,7 @@
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * [Operators](ride/operators.md)
+* [Variables](ride/variables.md)
 
 ## July articles
 
