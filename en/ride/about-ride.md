@@ -1,6 +1,6 @@
 # About RIDE
 
-**RIDE** is a functional programming language based on expressions.
+**RIDE** is a functional programming language based on [expressions](/ride/expression.md).
 
 RIDE is used for writing [scripts](/ride/ride-script.md).
 
