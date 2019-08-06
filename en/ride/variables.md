@@ -2,7 +2,7 @@
 
 All variables in RIDE are _immutable_. After definition, the value of the variable does not change.
 
-Definition and simultaneous initialization of the variable are performed with the help of the `let` [operator](/ride/operator.md).
+Definition and simultaneous initialization of the variable are performed with the help of the `let` [operator](/ride/operators.md).
 
 You cannot declare a variable without initialisation.
 
