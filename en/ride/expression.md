@@ -8,7 +8,7 @@ RIDE interprets the expression and calculates its _result_.
 The **expression result** is the value, which is obtained by the [fold](https://en.wikipedia.org/wiki/Fold_%28higher-order_function%29) of the [syntactic tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) of the expression.
 
 <a id="expression-type"></a>
-The expression type is the [data type](/ride/data-types.md) of the expression result.
+The **expression type** is the [data type](/ride/data-types.md) of the expression result.
 
 ## Examples
 
