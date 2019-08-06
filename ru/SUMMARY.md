@@ -205,6 +205,7 @@
   * [Скрипт аккаунта](ride/ride-script/account-script.md)
   * [Скрипт ассета](ride/ride-script/asset-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
+* [Выражение](ride/expression.md)
 * [Комментарии](ride/comments.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
