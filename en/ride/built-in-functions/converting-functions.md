@@ -3,16 +3,17 @@
 | # | Name | Description | Complexity |
 |:--- | :--- | :--- | :--- |
 | 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)| Converts account public key to [address](blockhain/address.md) | 82 |
-| 2 | [parseInt(String): Int&#124;Unit](#parse-int) | Converts the string representation of a number to its integer equivalent | 20 |
-| 3 | [parseIntValue(String): Int](#parse-int-value) | Converts the string representation of a number to its integer equivalent.<br>Raises an exception if the string cannot be parsed | 20 |
-| 4 | [toBytes(Boolean): ByteVector](#tobytes-bool) | Converts a boolean to an array of bytes | 1 |
-| 5 | [toBytes(Int): ByteVector](#tobytes-int) | Converts an integer to an array of bytes | 1 |
-| 6 | [toBytes(String): ByteVector](#tobytes-string) | Converts a string to an array of bytes | 1 |
-| 7 | [toInt(ByteVector): Int](#toint-bytes) | Converts an array of bytes to an integer | 10 |
-| 8 | [toInt(ByteVector, Int): Int](#toint-bytes-int) | Converts an array of bytes to an integer starting from a certain index | 10 |
-| 9 | [toString(Boolean): String](#tostring-bool) | Converts a boolean to a string | 1 |
-| 10 | [toString(Int): String](#tostring-int) | Converts an integer to a string | 1 |
-| 11 | [toUtf8String(ByteVector): String](#to-utf8-string) | Converts an array of bytes to a UTF-8 string | 20 |
+| 2 | [addressFromRecipient(Address&#124;Alias): Address](#address-from-recipient) | Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md) | 100 |
+| 3 | [parseInt(String): Int&#124;Unit](#parse-int) | Converts the string representation of a number to its integer equivalent | 20 |
+| 4 | [parseIntValue(String): Int](#parse-int-value) | Converts the string representation of a number to its integer equivalent.<br>Raises an exception if the string cannot be parsed | 20 |
+| 5 | [toBytes(Boolean): ByteVector](#tobytes-bool) | Converts a boolean to an array of bytes | 1 |
+| 6 | [toBytes(Int): ByteVector](#tobytes-int) | Converts an integer to an array of bytes | 1 |
+| 7 | [toBytes(String): ByteVector](#tobytes-string) | Converts a string to an array of bytes | 1 |
+| 8 | [toInt(ByteVector): Int](#toint-bytes) | Converts an array of bytes to an integer | 10 |
+| 9 | [toInt(ByteVector, Int): Int](#toint-bytes-int) | Converts an array of bytes to an integer starting from a certain index | 10 |
+| 10 | [toString(Boolean): String](#tostring-bool) | Converts a boolean to a string | 1 |
+| 11 | [toString(Int): String](#tostring-int) | Converts an integer to a string | 1 |
+| 12 | [toUtf8String(ByteVector): String](#to-utf8-string) | Converts an array of bytes to a UTF-8 string | 20 |
 
 
 ## addressFromPublicKey(ByteVector): Address<a id="address-from-public-key"></a>
@@ -28,6 +29,21 @@ addressFromPublicKey(publicKey: ByteVector): Int
 #### `publicKey`: ByteVector
 
 The public key to convert.
+
+## addressFromRecipient(Address|Alias): Address<a id="address-from-recipient"></a>
+
+Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md).
+
+``` ride
+addressFromRecipient(AddressOrAlias: Address|Alias): Address
+```
+
+### Parameters
+
+#### AddressOrAlias: Address|Alias
+
+Address or alias, usually tx.recipient.
+
 
 ### parseInt(String): Int|Unit<a id="parse-int"></a>
 
