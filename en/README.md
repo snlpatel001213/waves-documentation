@@ -11,6 +11,7 @@
 
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
+* [Expression](ride/expression.md)
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
 
