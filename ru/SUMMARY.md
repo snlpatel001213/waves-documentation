@@ -210,6 +210,7 @@
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
+* [Переменные](ride/variables.md)
 * [Типы данных](ride/data-types.md)
   * [Логический](ride/data-types/boolean.md)
   * [Тип данных массива байтов](ride/data-types/byte-vector.md)

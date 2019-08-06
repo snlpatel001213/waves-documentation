@@ -7,6 +7,7 @@
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
+* [Переменные](ride/variables.md)
 
 ### Блокчейн
 
