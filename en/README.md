@@ -15,6 +15,9 @@
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
 
+* Built-in functions
+  * [Data transaction functions](ride/built-in-functions/data-transaction-functions.md)
+
 ## July articles
 
 ### Blockchain
