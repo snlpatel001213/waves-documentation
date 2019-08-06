@@ -15,9 +15,9 @@ The following window will appear. Tap on the **Asset** and choose **Bitcoin Cash
 
 Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.01 BCH**
+**The minimum amount of deposit is 0.1 BCH**
 ```
-If you will send less than 0.01 BCH, you will lose that money.
+If you will send less than 0.1 BCH, you will lose that money.
 ```
 **Send only BCH to this deposit address**
 ```

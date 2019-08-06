@@ -13,9 +13,9 @@ In the Bitcoin Cash section, click on the **Receive** button.
 
 The following window will appear. Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.001 BCH**
+**The minimum amount of deposit is 0.1 BCH**
 ```
-If you will send less than 0.001 BCH, you will lose that money.
+If you will send less than 0.1 BCH, you will lose that money.
 ```
 **Send only BCH to this deposit address**
 ```
