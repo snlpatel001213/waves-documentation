@@ -237,7 +237,6 @@
 * [RIDE script complexity](ride/ride-script-complexity.md)
 * [Comments](ride/comments.md)
 * [Constants](ride/constants.md)
-* [Immutable variables](ride/immutable-variables.md)
 * [Data types](ride/data-types.md)
   * [Boolean](ride/data-types/boolean.md)
   * [ByteVector](ride/data-types/byte-vector.md)
