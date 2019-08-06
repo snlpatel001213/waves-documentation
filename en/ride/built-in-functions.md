@@ -4,25 +4,25 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | assetBalancе(Address|Alias, ByteVector): Int | Gets account balance by token ID | 100 |
-| 2 | getBinary(Address|Alias, String): ByteVector|Unit | Gets an array of bytes by key | 100 |
-| 3 | getBinaryValue(Address|Alias, String): ByteVector | Gets an array of bytes by key. Throws an exception if there is no data | 100 |
-| 4 | getBoolean(Address|Alias, String): Boolean|Unit | Gets a boolean value by key | 100 |
-| 5 | getBooleanValue(Address|Alias, String): Boolean | Gets a boolean value by key. Throws an exception if there is no data | 100 |
-| 6 | getInteger(Address|Alias, String): Int|Unit | Gets an integer by key | 100 |
-| 7 | getIntegerValue(Address|Alias, String): Int | Gets an integer by key. Throws an exception if there is no data | 100 |
-| 8 | getString(Address|Alias, String): String|Unit | Gets a string by key | 100 |
-| 9 | getStringValue(Address|Alias, String): String | Gets a string by key. Throws an exception if there is no data | 100 |
-| 10 | wavesBalance(Address|Alias): Int | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
+| 1 | assetBalancе(Address&#124;Alias, ByteVector): Int | Gets account balance by token ID | 100 |
+| 2 | getBinary(Address&#124;Alias, String): ByteVector&#124;Unit | Gets an array of bytes by key | 100 |
+| 3 | getBinaryValue(Address&#124;Alias, String): ByteVector | Gets an array of bytes by key. Throws an exception if there is no data | 100 |
+| 4 | getBoolean(Address&#124;Alias, String): Boolean&#124;Unit | Gets a boolean value by key | 100 |
+| 5 | getBooleanValue(Address&#124;Alias, String): Boolean | Gets a boolean value by key. Throws an exception if there is no data | 100 |
+| 6 | getInteger(Address&#124;Alias, String): Int&#124;Unit | Gets an integer by key | 100 |
+| 7 | getIntegerValue(Address&#124;Alias, String): Int | Gets an integer by key. Throws an exception if there is no data | 100 |
+| 8 | getString(Address&#124;Alias, String): String&#124;Unit | Gets a string by key | 100 |
+| 9 | getStringValue(Address&#124;Alias, String): String | Gets a string by key. Throws an exception if there is no data | 100 |
+| 10 | wavesBalance(Address&#124;Alias): Int | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
 
 ## [Blockchain functions](/ride/built-in-functions/blockchain-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | assetInfo(ByteVector): АssetUnit | Gets the information about a [token](/blockchain/token.md) | 100 |
-| 2 | blockInfoByHeight(Int): BlockInfo |Unit | Gets the information about a [block](/blockchain/block.md) by the [block height](/blockchain/block/block-height.md) | 100 |
-| 3 | transactionHeightById(ByteVector):  Int |Unit | Gets the [block height](/blockchain/block/block-height.md) of a transaction | 100 |
-| 4 | transferTransactionById(ByteVector): TransferTransaction |Unit | Gets the data of a [transfer transaction](/blockchain/transaction-type/transfer-transaction.md) | 100 |
+| 1 | assetInfo(ByteVector): Аsset&#124;Unit | Gets the information about a [token](/blockchain/token.md) | 100 |
+| 2 | blockInfoByHeight(Int): BlockInfo &#124;Unit | Gets the information about a [block](/blockchain/block.md) by the [block height](/blockchain/block/block-height.md) | 100 |
+| 3 | transactionHeightById(ByteVector):  Int&#124;Unit | Gets the [block height](/blockchain/block/block-height.md) of a transaction | 100 |
+| 4 | transferTransactionById(ByteVector): TransferTransaction&#124;Unit | Gets the data of a [transfer transaction](/blockchain/transaction-type/transfer-transaction.md) | 100 |
 
 ## [Byte array functions](/ride/built-in-functions/byte-array-functions.md)
 
@@ -39,7 +39,7 @@
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
 | 1 | addressFromPublicKey(ByteVector): Address | Converts account public key to [address](/blockchain/address.md) | 82 |
-| 2 | parseInt(String): Int|Unit | Converts the string representation of a number to its integer equivalent | 20 |
+| 2 | parseInt(String): Int&#124;Unit | Converts the string representation of a number to its integer equivalent | 20 |
 | 3 | parseIntValue(String): Int | Converts the string representation of a number to its integer equivalent.Raises an exception if the string cannot be parsed | 20 |
 | 4 | toBytes(Boolean): ByteVector | Converts a boolean to an array of bytes | 1 |
 | 5 | toBytes(Int): ByteVector | Converts an integer to an array of bytes | 1 |
@@ -55,21 +55,21 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | addressFromRecipient(Address|Alias): Address | Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md) | 100 |
-| 2 | getInteger(List[DataEntry], String): Int|Unit | Gets an integer value from a list of data entires by key | 10 |
-| 3 | getInteger(List[DataEntry], Int): Int|Unit | Gets an integer value from a list of data entires by index | 30 |
+| 1 | addressFromRecipient(Address&#124;Alias): Address | Gets the corresponding [address](/blockchain/address.md) of the [alias](/blockchain/alias.md) | 100 |
+| 2 | getInteger(List[DataEntry], String): Int&#124;Unit | Gets an integer value from a list of data entires by key | 10 |
+| 3 | getInteger(List[DataEntry], Int): Int&#124;Unit | Gets an integer value from a list of data entires by index | 30 |
 | 4 | getIntegerValue(List[DataEntry], String): Int | Gets an integer value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 5 | getIntegerValue(List[DataEntry], Int): Int | Gets an integer value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 6 | getBoolean(List[DataEntry], String): Boolean|Unit | Gets a boolean value from a list of data entires by key | 10 |
-| 7 | getBoolean(List[DataEntry], Int): Boolean|Unit | Gets a boolean value from a list of data entires by index | 30 |
+| 6 | getBoolean(List[DataEntry], String): Boolean&#124;Unit | Gets a boolean value from a list of data entires by key | 10 |
+| 7 | getBoolean(List[DataEntry], Int): Boolean&#124;Unit | Gets a boolean value from a list of data entires by index | 30 |
 | 8 | getBooleanValue(List[DataEntry], String): Boolean | Gets a boolean value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 9 | getBooleanValue(List[DataEntry], Int): Boolean | Gets a boolean value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 10 | getBinary(List[DataEntry], String): ByteVector|Unit | Gets a binary value from a list of data entires by key | 10 |
-| 11 | getBinary(List[DataEntry], Int): ByteVector|Unit | Gets a binary value from a list of data entires by index | 30 |
+| 10 | getBinary(List[DataEntry], String): ByteVector&#124;Unit | Gets a binary value from a list of data entires by key | 10 |
+| 11 | getBinary(List[DataEntry], Int): ByteVector&#124;Unit | Gets a binary value from a list of data entires by index | 30 |
 | 12 | getBinaryValue(ListDataEntry, String): ByteVector | Gets a binary value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 13 | getBinaryValue(List[DataEntry], Int): ByteVector | Gets a binary value from a list of data entires by index. Throws an exception if there is no data | 30 |
-| 14 | getString(List[DataEntry] String): String|Unit | Gets a string value from a list of data entires by key | 10 |
-| 15 | getString(List[DataEntry], Int): String|Unit | Gets a string value from a list of data entires by index | 30 |
+| 14 | getString(List[DataEntry] String): String&#124;Unit | Gets a string value from a list of data entires by key | 10 |
+| 15 | getString(List[DataEntry], Int): String&#124;Unit | Gets a string value from a list of data entires by index | 30 |
 | 16 | getStringValue(List[DataEntry], String): String | Gets a string value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 17 | getStringValue(List[DataEntry], Int): String | Gets a string value from a list of data entires by index. Throws an exception if there is no data | 30 |
 
@@ -77,7 +77,7 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | addressFromString(String): Address|Unit | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
+| 1 | addressFromString(String): Address&#124;Unit | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
 | 2 | addressFromStringValue(String): Address | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.Raises an exception if the address cannot be decoded | 124 |
 | 3 | fromBase16String(String): ByteVector | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
 | 4 | fromBase58String(String): ByteVector | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
@@ -126,10 +126,10 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | extract(T|Unit): T | Gets a data type from an union | 13 |
-| 2 | isDefined(List[T]|Unit): Boolean | Checks if a value is not an union | 1 |
-| 3 | value(T|Unit): T | Gets a data type from an union | 13 |
-| 4 | valueOrErrorMessage(T|Unit, String): T | Gets a data type from an union. Throws an exception if there is no data | 13 |
+| 1 | extract(T&#124;Unit): T | Gets a data type from an union | 13 |
+| 2 | isDefined(List[T]&#124;Unit): Boolean | Checks if a value is not an union | 1 |
+| 3 | value(T&#124;Unit): T | Gets a data type from an union | 13 |
+| 4 | valueOrErrorMessage(T&#124;Unit, String): T | Gets a data type from an union. Throws an exception if there is no data | 13 |
 
 ## [String functions](/ride/built-in-functions/string-functions.md)
 
@@ -137,8 +137,8 @@
 | :--- | :--- | :--- | :--- |
 | 1 | drop(String, Int): String | Drops the first `n` characters of a string | 1 |
 | 2 | dropRight(String, Int): String | Drops the last `n` characters of a string | 19 |
-| 3 | indexOf(String, String): Int|Unit | Returns the index of the first occurrence of a substring | 20 |
-| 4 | indexOf(String, String, Int): Int|Unit | Returns the index of the first occurrence of a substring after a certain index | 20 |
+| 3 | indexOf(String, String): Int&#124;Unit | Returns the index of the first occurrence of a substring | 20 |
+| 4 | indexOf(String, String, Int): Int&#124;Unit | Returns the index of the first occurrence of a substring after a certain index | 20 |
 | 5 | size(String): Int | Returns the size of a string | 1 |
 | 6 | split(String, String): List[String] | Splits a string delimited by a separator into a list of substrings. | 100 |
 | 7 | take(String, Int): String | Takes the first `n` characters from a string | 1 |
