@@ -235,6 +235,7 @@
   * [Account script](ride/ride-script/account-script.md)
   * [Asset script](ride/ride-script/asset-script.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
+* [Variables](ride/variables.md)
 * [Comments](ride/comments.md)
 * [Constants](ride/constants.md)
 * [Immutable variables](ride/immutable-variables.md)
