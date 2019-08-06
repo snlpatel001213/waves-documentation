@@ -7,7 +7,7 @@
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 
-## Ride
+## RIDE
 
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
