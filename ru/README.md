@@ -4,6 +4,7 @@
 
 ### Ride
 
+* [Выражение](ride/expression.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
