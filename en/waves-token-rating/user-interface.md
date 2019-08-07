@@ -27,9 +27,8 @@ The table displays only tokens that were ever rated. Tokens without ratings can 
 | Column | Description |
 | :--- | :--- |
 | Name | Name of the token.<br>If the token is suspicious, then next to its name there will be special mark |
-| Rating | Rating of the token.<br> If you have already rated the token, then next to its rating there will be a mark with your score
-WCT weight	 |
-| WCT weight	| Sum of all weights W<sub>n</sub> in WCT |
+| Rating | Rating of the token.<br> If you have already rated the token, then next to its rating there will be a mark with your score |
+| WCT weight	| Sum of all weights W<sub>n</sub> of all scores |
 | Vote sum | Number of users' rates |
 | Total amount | Amount of issued tokens |
 | Price on DEX | The current price of a single token from [DEX](/waves-dex/about-waves-dex.md) (updates every three hours) |
