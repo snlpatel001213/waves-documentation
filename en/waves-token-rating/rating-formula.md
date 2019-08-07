@@ -89,8 +89,8 @@ Summary: token received from the user 2 the rate 4 with the weight 70.
 
 The rating R of the token will be calculated as weighted arithmetic mean of the rates of both users:
 
-R = (5 × 4,157 + 4 × 70) / (4,157 + 70) = 4.983 (rounded to 5.0)
+R = (5 × 4,157 + 4 × 70) / (4,157 + 70) = 4,983 (rounded to 5.0)
 
 4.157 WCT rated token with 5 stars, 70 — with 4, and total WCT weight is 4,227:
 
-<img src="img/rating.png" alt="faucet" width="350"/>
+<img src="img/rating.png" alt="faucet" width="550"/>
