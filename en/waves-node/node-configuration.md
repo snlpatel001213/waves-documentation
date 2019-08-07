@@ -1,4 +1,6 @@
-# Waves Node Configuration Parameters
+# Node Configuration
+
+> After upgrading to version 1.0.2 please note if your `/etc/waves/waves.conf` was originally copied from a template, you may need to assure that waves.directory points to the correct directory. If this option doesn't exist in the config, default directory `/var/lib/waves` and `/var/lib/waves-testnet` will be used for mainnet and testnet, respectively
 
 ## Configuration Format
 
