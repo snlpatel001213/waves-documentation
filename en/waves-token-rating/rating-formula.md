@@ -77,7 +77,7 @@ Summary: token received from the user 1 the rate 5 with the weight 4,157.
 
 There were no outgoing operations during the next 24 hours, therefore the effective balance B<sub>2</sub> is 70 WCT.
 
-B<sub>2</sub> is in the range of 1 — 10, therefore:
+B<sub>2</sub> is in the range of 1 — 100, therefore:
 
 k<sub>2</sub> = 1
 
