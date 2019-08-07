@@ -48,10 +48,12 @@ The value of the coefficient k<sub>n</sub> depends on the value of the effective
 
 | The value of the effective balance B<sub>n</sub> of a user | The value of the weight coefficient k<sub>n</sub> |
 | --- | --- |
-| 1 — 10 | B<sub>n</sub> |
-| 11 — 150,000 | – 0.091 × ln(B<sub>n</sub>) + 1.20958 |
-| 150,001 — 540,000 | (– 0,00019 × B<sub>n</sub> + 153) / 1000 |
-| 540,001 — ∞ | 0,05 |
+| [1 — 100] | 1 |
+| (100 — 35,000] | – 0.086 × ln(B<sub>n</sub> × 2 ) + 1.66|
+| (35,000 - 150,000] | – 0.0705 × ln(B<sub>n</sub>) + 1.34 |
+| (150,000 — 420,000] | – 0,00019 × B<sub>n</sub> + 162.77 |
+| (420,000 - 580,000] | – 0,00011 × B<sub>n</sub> + 128.56 |
+| (580,000 — ∞) | 0,0621 |
 
 The calculated value of k<sub>n</sub> is rounded to hundredths of a number.
 
@@ -61,34 +63,34 @@ The calculated value of k<sub>n</sub> is rounded to hundredths of a number.
 
 In 24 hours, there were 3 operations: spending 300 WTC, spending 200 WTC and income of 500 WTC. It turns out that expenditure operations amount to 300 + 200 = 500 WTC. Thus, 9,500 WCT is the effective balance B<sub>1</sub> (despite the fact that the same 10,000 WCT were on the balance after 24 hours, like they were at the time of the rate).
 
-B<sub>1</sub> is in the range of 11 — 150,000, which means we calculate k<sub>1</sub> by the formula:
+B<sub>1</sub> is in the range of 100 — 35,000, which means we calculate k<sub>1</sub> by the formula:
 
-k<sub>1</sub> = -0.091 × ln(9,500) + 1.20958 = 0.38
+k<sub>1</sub> = -0.086 × ln(9,500 × 2) + 1.66 = -0.086 × 14.2137118 + 1.66 = 0.43762
 
 The rate's weight:
 
-W<sub>1</sub> = B<sub>1</sub> × k<sub>1</sub> = 9,500 × 0.38 = 3,610
+W<sub>1</sub> = B<sub>1</sub> × k<sub>1</sub> = 9,500 × 0.43762 = 4,157
 
-Summary: token received from the user 1 the rate 5 with the weight 3,610.
+Summary: token received from the user 1 the rate 5 with the weight 4,157.
 
-**User 2** rated the same token with 4 stars. At the time of the rate, there were 7 WCT on the user's balance.
+**User 2** rated the same token with 4 stars. At the time of the rate, there were 70 WCT on the user's balance.
 
-There were no outgoing operations during the next 24 hours, therefore the effective balance B<sub>2</sub> is 7 WCT.
+There were no outgoing operations during the next 24 hours, therefore the effective balance B<sub>2</sub> is 70 WCT.
 
 B<sub>2</sub> is in the range of 1 — 10, therefore:
 
-k<sub>2</sub> = 7
+k<sub>2</sub> = 1
 
 The rate's weight:
 
-W<sub>2</sub> = B<sub>2</sub> × k<sub>2</sub> = 7 × 7 = 49
+W<sub>2</sub> = B<sub>2</sub> × k<sub>2</sub> = 70 × 1 = 70
 
-Summary: token received from the user 2 the rate 4 with the weight 49.
+Summary: token received from the user 2 the rate 4 with the weight 70.
 
 The rating R of the token will be calculated as weighted arithmetic mean of the rates of both users:
 
-R = (5 × 3,610 + 4 × 49) / (3,610 + 49) = 4.987 (rounded to 5.0)
+R = (5 × 4,157 + 4 × 70) / (4,157 + 70) = 4.983 (rounded to 5.0)
 
-3,610 WCT rated token with 5 stars, 7 — with 4:
+4.157 WCT rated token with 5 stars, 70 — with 4, and total WCT weight is 4,227:
 
 <img src="img/rating.png" alt="faucet" width="350"/>
