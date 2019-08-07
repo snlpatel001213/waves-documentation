@@ -325,6 +325,10 @@
       "from": "/en/waves-full-node/private-waves-network.html"
     },
     {
+      "to": "/en/waves-node/node-configuration.html",
+      "from": "/en/waves-node/configuration-parameters.html"
+    },
+    {
       "=============================== Developer tools  =====================================": null,
       "to": "/en/developer-tools/repl.html",
       "from": "/en/developer-tools/waves-console/waves-console-examples.html"
