@@ -1,10 +1,10 @@
 # Установка gRPC Server
 
-Расширение [gRPC Server](/waves-node/extensions/grpc-server.md) можно установить на [ноду](/blockchain/node.md) двумя способами: с помощью deb-пакета и с помощью zip-файла.
+Расширение [gRPC Server](/waves-node/extensions/grpc-server.md) можно установить на [узел](/blockchain/node.md) двумя способами: с помощью deb-пакета и с помощью ZIP-файла.
 
 ## Установка с помощью deb-пакета
 
-1.&nbsp;Скачайте deb-пакет со страницы Releases (секция Assets) [на Github](https://github.com/wavesplatform/Waves/releases). Для мейннета это файл grpc-server\_{номер версии}\_all.deb, для тестнета — grpc-server-testnet\_{номер версии}\_all.deb.
+1.&nbsp;Скачайте deb-пакет со страницы Releases (секция Assets) [на Github](https://github.com/wavesplatform/Waves/releases). Для основной сети это файл grpc-server\_{номер версии}\_all.deb, для [тестовой](/blockchain/test-network.md) — grpc-server-testnet\_{номер версии}\_all.deb.
 
 2.&nbsp;Установите пакет с помощью команды:
 
@@ -18,27 +18,27 @@ sudo dpkg -i grpc-server_{номер версии}_all.deb
 waves.extensions += com.wavesplatform.api.grpc.GRPCServerExtension
 ```
 
-Для мейннета файл конфигурации находится по адресу /etc/waves/waves.conf, для тестнета — /etc/waves-testnet/waves.conf.
+Для основной сети файл конфигурации находится по адресу /etc/waves/waves.conf, для тестовой — /etc/waves-testnet/waves.conf.
 
-4.&nbsp;Перезапустите ноду.
+4.&nbsp;Перезапустите узел.
 
-Если нода запущена в мейннете, выполните команду:
+Если узел запущен в основной сети, выполните команду:
 
 ``` console
 sudo systemctl restart waves
 ```
 
-Если нода запущена в тестнете, выполните команду:
+Если узел запущен в тестовой сети, выполните команду:
 
 ``` console
 sudo systemctl restart waves-testnet
 ```
 
-## Установка с помощью zip-файла
+## Установка с помощью ZIP-файла
 
-1.&nbsp;Скачайте zip-файл grpc-server-{номер версии}.zip со страницы Releases (секция Assets) [на Github](https://github.com/wavesplatform/Waves/releases).
+1.&nbsp;Скачайте ZIP-файл grpc-server-{номер версии}.zip со страницы Releases (секция Assets) [на Github](https://github.com/wavesplatform/Waves/releases).
 
-2.&nbsp;Распакуйте архив в директорию с JAR-файлом ноды.
+2.&nbsp;Распакуйте архив в директорию с JAR-файлом узла.
 
 3.&nbsp;Создайте новый файл конфигурации или откройте существующий и добавьте в него строчку:
 

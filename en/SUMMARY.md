@@ -329,7 +329,7 @@
   * [Feature](waves-node/features/feature.md)
   * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
 * [Node configuration file](waves-node/node-configuration-file.md)
-* [Node configuration](waves-node/configuration-parameters.md)
+* [Node configuration](waves-node/node-configuration.md)
 * [Logging configuration](waves-node/logging-configuration.md)
 * [Node API](waves-node/node-api.md)
   * [Address](waves-node/node-api/address.md)
