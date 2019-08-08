@@ -1,8 +1,8 @@
 # API limitations of the pool of public nodes
 
-**Pool of public nodes** is a set of public [nodes](/blockchain/node.md) which provide data for our products \(Waves Wallet, DEX and others\) via REST API
+**Pool of public nodes** is a set of public [nodes](/blockchain/node.md) which provide data for our products (Waves Wallet, DEX and others) via REST API [https://nodes.wavesnodes.com](https://nodes.wavesnodes.com/).
 
-[https://nodes.wavesnodes.com](https://nodes.wavesnodes.com/). You can use our public nodes to retreive the information from Waves' blockchain, but we recommend you to use your own nodes, because our pool has some limitations listed in the table below.
+You can use our public nodes to retreive the information from Waves' blockchain, but we recommend you to use your own nodes, because our pool has some limitations listed in the table below.
 
 > [!NOTE]
 > * There is a [Nginx-server](https://www.nginx.com) in front of each node in the pool, which limits the amount of connections and the number of requests per second a client is allowed to send to a node.
@@ -14,8 +14,7 @@
 |  | 15 | 20 (burst 50) |
 | /blocks/seq/\d+/\d+ | 1 | 1 |
 | /blocks/at/.+ | 1 | 1 |
-|/blocks/last<br/>/scorex/version<br/>/scorex/status<br/>/consensus/algo<br/>/consensus/basetarget<br/>/waves/address<br/>/transactions/address/.+/limit/.+<br/>/addresses/validate/.+<br/>/blocks/signature/.+<br/>/blocks/delay/.+/.+<br/>/consensus/generatingbalance/.+<br/>/waves/external-payment<br/>/peers/connected<br/>/peers/all<br/>/node/version<br/>/node/status<br/>/addresses/effectiveBalance/.+<br/>/assets/broadcast/issue<br/>/assets/broadcast/reissue<br/>/assets/broadcast/transfer<br/>/waves/broadcast-signed-payment.+<br/>/waves/external-payment<br/>/waves/broadcast-signed-payment<br/>/leasing/broadcast/lease<br/>/leasing/broadcast/cancel<br/>/alias/.+<br/>/assets/broadcast/burn |  100|  20 (burst 50)
+|/blocks/last<br/>/scorex/version<br/>/scorex/status<br/>/consensus/algo<br/>/consensus/basetarget<br/>/waves/address<br/>/transactions/address/.+/limit/.+<br/>/addresses/validate/.+<br/>/blocks/signature/.+<br/>/blocks/delay/.+/.+<br/>/consensus/generatingbalance/.+<br/>/waves/external-payment<br/>/peers/connected<br/>/peers/all<br/>/node/version<br/>/node/status<br/>/addresses/effectiveBalance/.+<br/>/assets/broadcast/issue<br/>/assets/broadcast/reissue<br/>/assets/broadcast/transfer<br/>/waves/broadcast-signed-payment.+<br/>/waves/external-payment<br/>/waves/broadcast-signed-payment<br/>/leasing/broadcast/lease<br/>/leasing/broadcast/cancel<br/>/alias/.+<br/>/assets/broadcast/burn |  100|  20 (burst 50) |
 | /transactions/info/.+ | 15 | 20 (burst 50) |
-| ![](../_assets/3.png)| 15 | 20 (burst 50)
-| ![](../_assets/4.png)| 15 | 20 (burst 50)
-| /utils/script/decompile  | <span style="color:red">The path is temporarily unavailable</span>| <span style="color:red">The path is temporarily unavailable</span>|
+| /blocks/height/transactions/unconfirmed | 15 | 20 (burst 50) |
+| /blocks/height/transactions/unconfirmed| 15 | 20 (burst 50) |
