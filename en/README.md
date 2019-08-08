@@ -18,6 +18,10 @@
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
 
+## Waves Node
+
+* [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
+
 ## July articles
 
 ### Blockchain
