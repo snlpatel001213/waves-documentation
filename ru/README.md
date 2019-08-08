@@ -12,6 +12,8 @@
 
 ### Блокчейн
 
+* Тип транзакции
+  * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)
 * Узел
   * [Валидирующий узел](blockchain/node/validating-node.md)
 
