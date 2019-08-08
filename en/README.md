@@ -6,9 +6,12 @@
 
 * Node
   * [Validating node](blockchain/node/validating-node.md)
+* Transaction type
+  * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1457/files)
 
 ## RIDE
 
+* [Built-in function](https://docs.wavesplatform.com/en/ride/built-in-functions.html)
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * [Expression](ride/expression.md)
