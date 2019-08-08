@@ -4,11 +4,14 @@
 
 ### Ride
 
+* Встроенные функции
+  * [Функции декодирования](ride/built-in-functions/decoding-functions.md)
 * [Выражение](ride/expression.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
 * [Переменные](ride/variables.md)
+
 
 ### Блокчейн
 

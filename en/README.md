@@ -11,7 +11,8 @@
 
 ## RIDE
 
-* [Built-in function](https://docs.wavesplatform.com/en/ride/built-in-functions.html)
+* [Built-in function](ride/built-in-functions.md)
+  * [Decoding functions](ride/built-in-functions/decoding-functions.md)
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * [Expression](ride/expression.md)
