@@ -11,7 +11,9 @@
 
 ## RIDE
 
-* [Built-in function](https://docs.wavesplatform.com/en/ride/built-in-functions.html)
+* [Built-in function](ride/built-in-functions.md)
+  * [Decoding functions](ride/built-in-functions/decoding-functions.md)
+  * [Encoding functions](ride/built-in-functions/encoding-functions.md)
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * [Expression](ride/expression.md)
@@ -120,7 +122,6 @@
   * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
   * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
   * [Converting functions](ride/built-in-functions/converting-functions.md)
-  * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
   * [Exception functions](ride/built-in-functions/exception-functions.md)
   * [List functions](ride/built-in-functions/list-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)

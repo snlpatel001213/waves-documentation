@@ -73,7 +73,7 @@
 | 15 | getStringValue(List[DataEntry], String): String | Gets a string value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 16 | getStringValue(List[DataEntry], Int): String | Gets a string value from a list of data entires by index. Throws an exception if there is no data | 30 |
 
-## Decoding functions
+## [Decoding functions](/ride/built-in-functions/decoding-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -83,7 +83,7 @@
 | 4 | fromBase58String(String): ByteVector | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
 | 5 | fromBase64String(String): ByteVector | Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
-## [Encoding functions](/ride/built-in-functions/encoding-and-decoding-functions.md)
+## [Encoding functions](/ride/built-in-functions/encoding-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
