@@ -251,6 +251,30 @@
       "from": "/en/ride/ride-script.html"
     },
     {
+      "to": "/en/ride/script/dapp-script.md",
+      "from": "/en/ride/ride-script/dapp-script.md"
+    },
+    {
+      "to": "/ru/ride/script/dapp-script.md",
+      "from": "/ru/ride/ride-script/dapp-script.md"
+    },
+    {
+      "to": "/en/ride/script/account-script.md",
+      "from": "/en/ride/ride-script/account-script.md"
+    },
+    {
+      "to": "/ru/ride/script/account-script.md",
+      "from": "/ru/ride/ride-script/account-script.md"
+    },
+    {
+      "to": "/ru/ride/script/asset-script.md",
+      "from": "/ru/ride/ride-script/asset-script.md"
+    },
+    {
+      "to": "/en/ride/script/asset-script.md",
+      "from": "/en/ride/ride-script/asset-script.md"
+    },
+    {
       "===============================  Smart contracts  =====================================": null,
       "to":"/en/smart-contracts/what-is-a-dapp.html",
       "from": "/en/smart-contracts/ride4dapps/overview.html"
