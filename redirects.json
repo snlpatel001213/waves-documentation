@@ -243,6 +243,14 @@
       "from": "/ru/ride/built-in-functions/encoding-and-decoding-functions.html"
     },
     {
+      "to": "/ru/ride/script.html",
+      "from": "/ru/ride/ride-script.html"
+    },
+    {
+      "to": "/en/ride/script.html",
+      "from": "/en/ride/ride-script.html"
+    },
+    {
       "===============================  Smart contracts  =====================================": null,
       "to":"/en/smart-contracts/what-is-a-dapp.html",
       "from": "/en/smart-contracts/ride4dapps/overview.html"
