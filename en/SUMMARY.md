@@ -66,7 +66,7 @@
   * [Blockchain height](blockchain/blockchain-height.md)
 * [Blockchain network](blockchain/blockchain-network.md)
   * [Main network](blockchain/blockchain-network/main-network.md)
-  * [Test network](blockchain/blockchain-network/main-network.md)
+  * [Test network](blockchain/blockchain-network/test-network.md)
 * [dApp](blockchain/dapp.md)
 * [Leasing](blockchain/leasing.md)
 * [Mining](blockchain/mining.md)
