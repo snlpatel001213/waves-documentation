@@ -12,7 +12,7 @@
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)
 * [Переменные](ride/variables.md)
-
+* [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 
 ### Блокчейн
 
