@@ -6,9 +6,9 @@
 
 Существует три типа скриптов:
 
-* [dApp-скрипты](/ride/ride-script/dapp-script.md)
-* [скрипты аккаунтов](/ride/ride-script/account-script.md)
-* [скрипты ассетов](/ride/ride-script/asset-script.md)
+* [dApp-скрипты](/ride/script/dapp-script.md)
+* [скрипты аккаунтов](/ride/script/account-script.md)
+* [скрипты ассетов](/ride/script/asset-script.md)
 
 ## IDE
 
