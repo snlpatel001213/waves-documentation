@@ -200,7 +200,7 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
-* [Скрипт на RIDE](ride/ride-script.md)
+* [Скрипт](ride/script.md)
   * [dApp-скрипт](ride/ride-script/dapp-script.md)
   * [Скрипт аккаунта](ride/ride-script/account-script.md)
   * [Скрипт ассета](ride/ride-script/asset-script.md)
