@@ -4,6 +4,7 @@
 - [Функции блокчейна](/ride/built-in-functions/blockchain-functions.md)
 - [Функции декодирования](/ride/built-in-functions/decoding-functions.md)
 - [Функции кодирования](/ride/built-in-functions/encoding-functions.md)
+- [Функции объединения](ride/built-in-functions/union-functions.md)
 - [Функции списка](/ride/built-in-functions/list-functions.md)
 - [Функции строки](/ride/built-in-functions/string-functions.md)
 - [Функции хеширования](/ride/built-in-functions/hashing-functions.md)
