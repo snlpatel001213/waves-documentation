@@ -8,6 +8,8 @@ A function can be [annotated](/ride/annotations.md).
 
 There are multiple [built-in functions](/ride/built-in-functions/built-in-functions.md) in RIDE.
 
+When declaring a function to the right of the "=" sign must be an [expression](/ride/expression.md). The value of the function is the expression result.
+
 ## Examples
 
 Definition of the function with no parameters that returns an integer:
