@@ -23,7 +23,19 @@
       "from": "/ru/blockchain/block-height.html"
     },
     {
-      "to": "/en/blockchain/mainnet.html",
+      "to": "/en/blockchain/blockchain-network/main-network.html",
+      "from": "/en/blockchain/mainnet.html"
+    },
+    {
+      "to": "/en/blockchain/blockchain-network/test-network.html",
+      "from": "/en/blockchain/test-network.html"
+    },
+    {
+      "to": "/ru/blockchain/blockchain-network/test-network.html",
+      "from": "/ru/blockchain/test-network.html"
+    },
+    {
+      "to": "/en/blockchain/blockchain-network/main-network.html",
       "from": "/en/waves-environment/waves-mainnet.html"
     },
     {
