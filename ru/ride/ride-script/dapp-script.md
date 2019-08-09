@@ -1,6 +1,6 @@
 # dApp-скрипт
 
-**dApp-скрипт** — [скрипт на RIDE](/ride/ride-script.md), который имеет следующую директиву:
+**dApp-скрипт** — [скрипт на RIDE](/ride/script.md), который имеет следующую директиву:
 
 ```ride
 {-# CONTENT_TYPE DAPP #-}
