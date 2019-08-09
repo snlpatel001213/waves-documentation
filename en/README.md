@@ -14,6 +14,7 @@
 * [Built-in function](ride/built-in-functions.md)
   * [Decoding functions](ride/built-in-functions/decoding-functions.md)
   * [Encoding functions](ride/built-in-functions/encoding-functions.md)
+  * [Hashing functions](ride/built-in-functions/hashing-functions.md)
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * [Expression](ride/expression.md)

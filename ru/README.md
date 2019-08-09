@@ -7,6 +7,7 @@
 * Встроенные функции
   * [Функции декодирования](ride/built-in-functions/decoding-functions.md)
   * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
+  * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
 * [Выражение](ride/expression.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
