@@ -1,4 +1,4 @@
-# Mainnet
+# Main network
 
 The **mainnet** (short for main network) is the original and functional blockchain where actual transactions take place in the distributed ledger and the native cryptocurrencies possess real economic value. In other words, the mainnet refers to the actual open-sourced blockchain itself that is publicly verifiable.
 
