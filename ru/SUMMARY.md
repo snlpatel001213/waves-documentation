@@ -202,9 +202,9 @@
 
 * [О RIDE](ride/about-ride.md)
 * [Скрипт](ride/script.md)
-  * [dApp-скрипт](ride/ride-script/dapp-script.md)
-  * [Скрипт аккаунта](ride/ride-script/account-script.md)
-  * [Скрипт ассета](ride/ride-script/asset-script.md)
+  * [dApp-скрипт](ride/script/dapp-script.md)
+  * [Скрипт аккаунта](ride/script/account-script.md)
+  * [Скрипт ассета](ride/script/asset-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Выражение](ride/expression.md)
 * [Комментарии](ride/comments.md)

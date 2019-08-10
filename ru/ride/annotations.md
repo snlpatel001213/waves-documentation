@@ -1,6 +1,6 @@
 # Аннотации
 
-**Аннотация** — форма метаданных, которая добавляется к [функции](/ride/functions.md) [dApp-скрипта](/ride/ride-script/dapp-script.md).
+**Аннотация** — форма метаданных, которая добавляется к [функции](/ride/functions.md) [dApp-скрипта](/ride/script/dapp-script.md).
 
 В настоящее время существуют две аннотации: `@Callable` и `@Verifier`.
 
