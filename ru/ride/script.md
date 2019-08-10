@@ -10,8 +10,10 @@
 * [скрипты аккаунтов](/ride/script/account-script.md)
 * [скрипты ассетов](/ride/script/asset-script.md)
 
+## Сложность
+
+Смотрите страницу [Сложность скрипта на RIDE](/ride/ride-script-complexity.md).
+
 ## IDE
 
-В качестве среды разработки скриптов на RIDE можно использовать [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
-
-У скрипта на RIDE есть [сложность](/ride/ride-script-complexity.md).
+Для написания скриптов используйте [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
