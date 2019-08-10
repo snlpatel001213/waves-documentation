@@ -1,6 +1,6 @@
 # gRPC Server installation
 
-The [gRPC Server](/waves-node/extensions/grpc-server.md) extension can be installed on the [node](/blockchain/node.md) by two methods: using deb package or using ZIP file.
+The [gRPC Server](/waves-node/extensions/grpc-server.md) extension can be installed on the [node](/blockchain/node.md) by two methods: using [deb package](https://en.wikipedia.org/wiki/Deb_%28file_format%29) or using ZIP file.
 
 ## Installation via deb package
 
@@ -14,7 +14,7 @@ sudo dpkg -i grpc-server_{version number}_all.deb
 
 3. Add the following string to the configuration file:
 
-```
+``` console
 waves.extensions += com.wavesplatform.api.grpc.GRPCServerExtension
 ```
 
@@ -40,7 +40,7 @@ sudo systemctl restart waves-testnet
 2. Unpack the archive to the directory containing node's JAR-file.
 3. Create a new configuration file or open the existing one and add to it the following string:
 
-```
+``` console
 waves.extensions += com.wavesplatform.api.grpc.GRPCServerExtension
 ```
 
