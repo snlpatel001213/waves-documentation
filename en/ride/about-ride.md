@@ -8,10 +8,11 @@ The language:
 
 * has a [strong](https://en.wikipedia.org/wiki/Strong_and_weak_typing) [static typing](https://en.wikipedia.org/wiki/Type_system#Static_type_checking)
 * has no loops, recursions and goto-like expressions, and therefore is not [Turing complete](https://en.wikipedia.org/wiki/Turing_completeness)
+* [case-sensitive](https://en.wikipedia.org/wiki/Case_sensitivity)
 
 ## IDE
 
-As an IDE for writing RIDE scripts, you can use the [Waves IDE](/developer-tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+For writing scripts, you can use the [Waves IDE](/developer-tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
 
 ## The history of creation
 
