@@ -230,7 +230,7 @@
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
-* [RIDE script](ride/ride-script.md)
+* [Script](ride/script.md)
   * [dApp script](ride/ride-script/dapp-script.md)
   * [Account script](ride/ride-script/account-script.md)
   * [Asset script](ride/ride-script/asset-script.md)

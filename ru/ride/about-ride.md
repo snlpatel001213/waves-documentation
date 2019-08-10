@@ -2,7 +2,7 @@
 
 **RIDE** — функциональный язык программирования, основанный на [выражениях](/ride/expression.md).
 
-RIDE используется для написания [скриптов](/ride/ride-script.md).
+RIDE используется для написания [скриптов](/ride/script.md).
 
 Язык:
 
@@ -11,7 +11,7 @@ RIDE используется для написания [скриптов](/ride
 
 ## IDE
 
-В качестве среды разработки [скриптов на RIDE](/ride/ride-script.md) можно использовать [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+В качестве среды разработки [скриптов на RIDE](/ride/script.md) можно использовать [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
 
 ## История создания
 

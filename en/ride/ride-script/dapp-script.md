@@ -1,6 +1,6 @@
 # dApp script
 
-A **dApp script** — [RIDE script](/ride/ride-script.md), that has the following directive:
+A **dApp script** — [RIDE script](/ride/script.md), that has the following directive:
 
 ```ride
 {-# CONTENT_TYPE DAPP #-}
