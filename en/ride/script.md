@@ -1,4 +1,4 @@
-# Scirpt
+# Script
 
 A **script** is a computer code written in [RIDE](/ride/about-ride.md) language.
 
