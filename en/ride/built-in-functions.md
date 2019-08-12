@@ -52,7 +52,7 @@
 | 12 | toString(Int): String | Converts an integer to a string | 1 |
 | 13 | toUtf8String(ByteVector): String | Converts an array of bytes to a UTF-8 string | 20 |
 
-## Data transaction functions
+## [Data transaction functions](/ride/built-in-functions/data-transaction-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -98,7 +98,7 @@
 | 1 | throw() | Raises an exception | 1 |
 | 2 | throw(String) | Raises an exception with a message | 1 |
 
-## Hashing functions
+## [Hashing functions](/ride/built-in-functions/hashing-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -122,15 +122,6 @@
 | 2 | log(Int, Int, Int, Int, Int, Union): Int | Calculates logarithm of the number | 100 |
 | 3 | pow(Int, Int, Int, Int, Int, Union): Int | Raises the number to a power | 100 |
 
-## Optional value functions
-
-| # | Name | Description | Complexity |
-| :--- | :--- | :--- | :--- |
-| 1 | extract(T&#124;Unit): T | Gets a data type from an union | 13 |
-| 2 | isDefined(List[T]&#124;Unit): Boolean | Checks if a value is not an union | 1 |
-| 3 | value(T&#124;Unit): T | Gets a data type from an union | 13 |
-| 4 | valueOrErrorMessage(T&#124;Unit, String): T | Gets a data type from an union. Throws an exception if there is no data | 13 |
-
 ## [String functions](/ride/built-in-functions/string-functions.md)
 
 | # | Name | Description | Complexity |
@@ -143,6 +134,15 @@
 | 6 | split(String, String): List[String] | Splits a string delimited by a separator into a list of substrings. | 100 |
 | 7 | take(String, Int): String | Takes the first `n` characters from a string | 1 |
 | 8 | takeRight(String, Int): String | Takes the last `n` characters from a string | 19 |
+
+## [Union functions](/ride/built-in-functions/union-functions.md)
+
+| # | Name | Description | Complexity |
+| :--- | :--- | :--- | :--- |
+| 1 | extract(T&#124;Unit): T | Gets a data type from an union | 13 |
+| 2 | isDefined(List[T]&#124;Unit): Boolean | Checks if a value is not an union | 1 |
+| 3 | value(T&#124;Unit): T | Gets a data type from an union | 13 |
+| 4 | valueOrErrorMessage(T&#124;Unit, String): T | Gets a data type from an union. Throws an exception if there is no data | 13 |
 
 ## [Verification functions](/ride/built-in-functions/verification-functions.md)
 
