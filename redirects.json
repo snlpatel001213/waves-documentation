@@ -402,6 +402,14 @@
       "from": "/en/developer-tools/repl.html"
     },
     {
+      "to": "/ru/smart-contracts/tools/waves-ide.html",
+      "from": "/ru/developer-tools/waves-ide.html"
+    },
+    {
+      "to": "/ru/smart-contracts/tools/waves-ide.html",
+      "from": "/ru/developer-tools/repl.html"
+    },
+    {
       "===============================  API & SDK  =====================================": null,
       "to": "/en/waves-api-and-sdk/dex-api/matcher.html",
       "from": "/en/blockchain/node/matcher.html"
