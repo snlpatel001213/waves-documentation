@@ -157,7 +157,7 @@
     * [Переводы и шлюзы (Android)](waves-client/mobile-apps/android/wallet-management.md)
       * [Waves переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.md)
       * [Vostok переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/vostok-transfers.md)
-      * [Ассетов переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
+      * [Переводы Ассетов (Android)](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
       * [Bitcoin переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.md)
       * [Ethereum переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.md)
       * [Litecoin переводы (Android)](waves-client/mobile-apps/android/transfers-and-gateways/litecoin-transfers.md)

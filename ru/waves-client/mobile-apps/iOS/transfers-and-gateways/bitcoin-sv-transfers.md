@@ -61,7 +61,7 @@ Waves client позволяет хранить и переводить Bitcoin S
 
 ## Как перевести Bitcoin SV в другой Waves аккаунт
 
-You can send Bitcoin SVs directly to another Waves account.
+Вы можете отправить Bitcoin SV напрямую в Waves аккаунт получателя, используя его Waves адрес.
 
 Откройте Waves приложение и войдите в свой Waves аккаунт.
 Нажмите на иконку ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) внизу вкладки и затем нажмите на кнопку **Отправить**.
