@@ -271,27 +271,27 @@
       "from": "/en/ride/ride-script.html"
     },
     {
-      "to": "/en/ride/script/dapp-script.md",
-      "from": "/en/ride/ride-script/dapp-script.md"
+      "to": "/en/ride/script/script-types/dapp-script.md",
+      "from": "/en/ride/dapp-script.md"
     },
     {
-      "to": "/ru/ride/script/dapp-script.md",
+      "to": "/ru/ride/script/script-types/dapp-script.md",
       "from": "/ru/ride/ride-script/dapp-script.md"
     },
     {
-      "to": "/en/ride/script/account-script.md",
+      "to": "/en/ride/script/script-types/account-script.md",
       "from": "/en/ride/ride-script/account-script.md"
     },
     {
-      "to": "/ru/ride/script/account-script.md",
+      "to": "/ru/ride/script/script-types/account-script.md",
       "from": "/ru/ride/ride-script/account-script.md"
     },
     {
-      "to": "/ru/ride/script/asset-script.md",
+      "to": "/ru/ride/script/script-types/asset-script.md",
       "from": "/ru/ride/ride-script/asset-script.md"
     },
     {
-      "to": "/en/ride/script/asset-script.md",
+      "to": "/en/ride/script/script-types/asset-script.md",
       "from": "/en/ride/ride-script/asset-script.md"
     },
     {
