@@ -6,9 +6,9 @@ A **script** is a computer code written in [RIDE](/ride/about-ride.md) language.
 
 There are three types of scripts:
 
-* [dApp scripts](/ride/script/dapp-script.md)
-* [account scripts](/ride/script/account-script.md)
-* [asset scripts](/ride/script/asset-script.md)
+* [dApp scripts](/ride/script/script-types/dapp-script.md)
+* [account scripts](/ride/script/script-types/account-script.md)
+* [asset scripts](/ride/script/script-types/asset-script.md)
 
 ## Complexity
 
