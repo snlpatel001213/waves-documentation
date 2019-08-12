@@ -80,7 +80,7 @@
   * [Майнящий узел](blockchain/node/mining-node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
-## Waves приложение
+## Client
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
 * [Заметки о безопасности](waves-client/security-notes.md)
@@ -183,17 +183,17 @@
   * [Что такое эйрдроп \(Airdrop\)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [Активация Ночного режима?](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
-## Waves DEX
+## DEX
 
 * [О Waves DEX](waves-dex/about-waves-dex.md)
 * [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
 
-## Waves Explorer
+## Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-the-test-network.md)
 
-## Waves Keeper
+## Keeper
 
 * [О Waves Keeper](waves-keeper/about-waves-keeper.md)
 * [Начало работы с Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
@@ -254,13 +254,13 @@
 * [Аннотации](ride/annotations.md)
 * [Исключения](ride/exceptions.md)
 
-## Смарт-контракты (Waves dApps)
+## Программирование
 
 * [Написание dApps](smart-contracts/writing-dapps.md)
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
-## Waves Node
+## Node
 
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Расширения](waves-node/extensions.md)
@@ -273,11 +273,11 @@
 * [REPL](developer-tools/repl.md)
 * [Waves IDE](developer-tools/waves-ide.md)
 
-## Waves Oracles
+## Oracles
 
 * [Оракул](waves-oracles/oracle.md)
 
-## Waves Token Rating
+## Token Rating
 
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [Интерфейс пользователя](waves-token-rating/user-interface.md)
