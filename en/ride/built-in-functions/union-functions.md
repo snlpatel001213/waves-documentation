@@ -2,9 +2,9 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | [extract(T|Unit): T](#extract) | Gets a data type from an [union](/ride/data-types/union.md). | 13 |
-| 2 | [value(T|Unit): T](#value) | Gets a data type from an [union](/ride/data-types/union.md). | 13 |
-| 3 | [valueOrErrorMessage(T|Unit, String): T](#value-error) | Gets a data type from an [union](/ride/data-types/union.md). Throws an exception if there is no data | 13 |
+| 1 | [extract(T&#124;Unit): T](#extract) | Gets a data type from an [union](/ride/data-types/union.md). | 13 |
+| 2 | [value(T&#124;Unit): T](#value) | Gets a data type from an [union](/ride/data-types/union.md). | 13 |
+| 3 | [valueOrErrorMessage(T&#124;Unit, String): T](#value-error) | Gets a data type from an [union](/ride/data-types/union.md). Throws an exception if there is no data | 13 |
 
 ## extract(T|Unit): T<a id="extract"></a>
 
