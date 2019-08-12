@@ -2,9 +2,9 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | [extract(T&#124;Unit): T](#extract) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Выбрасывает исключение, если параметром является [пустое значение](/ride/data-types/unit.md) | 13 |
-| 2 | [value(T&#124;Unit): T](#value) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Выбрасывает исключение, если параметром является [пустое значение](/ride/data-types/unit.md) | 13 |
-| 3 | [valueOrErrorMessage(T&#124;Unit, String): T](#value-error) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Если параметром является [пустое значение](/ride/data-types/unit.md), возвращает сообщение об ошибке, заданное во втором параметре | 13 |
+| 1 | [extract(T&#124;Unit): T](#extract) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Выбрасывает исключение, если параметром является [пустое значение.](/ride/data-types/unit.md) | 13 |
+| 2 | [value(T&#124;Unit): T](#value) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Выбрасывает исключение, если параметром является [пустое значение.](/ride/data-types/unit.md) | 13 |
+| 3 | [valueOrErrorMessage(T&#124;Unit, String): T](#value-error) | Возвращает значение из параметра типа данных [объединения](/ride/data-types/union.md).<br>Если параметром является [пустое значение](/ride/data-types/unit.md), возвращает сообщение об ошибке, заданное во втором параметре. | 13 |
 
 
 ## extract(T|Unit): T<a id="extract"></a>
