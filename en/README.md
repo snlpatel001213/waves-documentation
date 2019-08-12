@@ -18,7 +18,7 @@
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * Script
-  * [Directives](ride/script/directives.md)
+  * [Directives](ride/script/script-types/directives.md)
 * [Expression](ride/expression.md)
 * [Functions](ride/functions.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 * [Operators](ride/operators.md)
