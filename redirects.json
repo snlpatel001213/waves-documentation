@@ -195,6 +195,30 @@
       "from": "/en/smart-contracts/ride-language/ride-language.html"
     },
     {
+      "to": "ru/ride/base-concepts/expression.html",
+      "from": "ru/ride/expression.html"
+    },
+    {
+      "to": "ru/ride/base-concepts/definition.html",
+      "from": "ru/ride/definition.html"
+    },
+    {
+      "to": "ru/ride/base-concepts/complexity.html",
+      "from": "ru/ride/ride-script-complexity.html"
+    },
+    {
+      "to": "en/ride/base-concepts/expression.html",
+      "from": "en/ride/expression.html"
+    },
+    {
+      "to": "en/ride/base-concepts/definition.html",
+      "from": "en/ride/definition.html"
+    },
+    {
+      "to": "en/ride/base-concepts/complexity.html",
+      "from": "en/ride/ride-script-complexity.html"
+    },
+    {
       "to": "/en/ride/about-ride.html",
       "from": "/en/technical-details/ride-language.html"
     },

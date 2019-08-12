@@ -12,7 +12,7 @@ There are three types of scripts:
 
 ## Complexity
 
-See the page [RIDE script complexity](/ride/ride-script-complexity.md).
+See the page [Complexity](/ride/base-concepts/complexity.md).
 
 ## IDE
 

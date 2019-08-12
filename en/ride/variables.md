@@ -6,7 +6,7 @@ Definition and simultaneous initialisation of the variable are performed with th
 
 You cannot declare a variable without initialisation.
 
-During the variable assignment at the right side of the "=" sign must be an [expression](/ride/expression.md). The value of the variable is the [expression result](/ride/expression.md#expression-result).
+During the variable assignment at the right side of the "=" sign must be an [expression](/ride/base-concepts/expression.md). The value of the variable is the [expression result](/ride/base-concepts/expression.md#expression-result).
 
 ## Examples
 
@@ -22,7 +22,7 @@ Definition of the string variable.
 let season = "Spring"
 ```
 
-Since a [function](/ride/functions.md) is a [definition](/ride/definition.md) and not an [expression](/ride/expression.md), you can assign a function value to a variable but not the function itself.
+Since a [function](/ride/functions.md) is a [definition](/ride/base-concepts/definition.md) and not an [expression](/ride/base-concepts/expression.md), you can assign a function value to a variable but not the function itself.
 
 ``` ride
 func f() = {

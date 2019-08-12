@@ -20,10 +20,10 @@
   * [Encoding functions](ride/functions/built-in-functions/encoding-functions.md)
   * [Hashing functions](ride/functions/built-in-functions/hashing-functions.md)
 * [Constants](ride/constants.md)
-* [Definition](ride/definition.md)
+* [Definition](ride/base-concepts/definition.md)
 * Script
   * [Directives](ride/script/directives.md)
-* [Expression](ride/expression.md)
+* [Expression](ride/base-concepts/expression.md)
 * [Functions](ride/functions.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
@@ -126,6 +126,8 @@
 
 ### RIDE
 
+* Base concepts
+  * [Complexity](ride/base-concepts/complexity.md)
 * Built-in functions
   * [Blockchain functions](ride/functions/built-in-functions/blockchain-functions.md)
   * [Byte array functions](ride/functions/built-in-functions/byte-array-functions.md)
@@ -135,7 +137,6 @@
   * [Math functions](ride/functions/built-in-functions/math-functions.md)
   * [String functions](ride/functions/built-in-functions/string-functions.md)
   * [Verification functions](ride/functions/built-in-functions/verification-functions.md)
-* [RIDE script complexity](ride/ride-script-complexity.md)
 
 ### Smart contracts (Waves dApps)
 

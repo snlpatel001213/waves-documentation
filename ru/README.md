@@ -13,11 +13,11 @@
   * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
   * [Функции массива байтов](ride/built-in-functions/byte-array-functions.md)
   * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
-* [Выражение](ride/expression.md)
+* [Выражение](ride/base-concepts/expression.md)
 * [Директивы](ride/script/directives.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
-* [Определение](ride/definition.md)
+* [Определение](ride/base-concepts/definition.md)
 * [Переменные](ride/variables.md)
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 
@@ -120,13 +120,15 @@
 
 ### RIDE
 
+* Базовые понятия
+  * [Сложность](ride/base-concepts/complexity.md)
 * Встроенные функции
   * [Математические функции](ride/functions/built-in-functions/math-functions.md)
   * [Функции блокчейна](ride/functions/built-in-functions/blockchain-functions.md)
   * [Функции списка](ride/functions/built-in-functions/list-functions.md)
   * [Функции строки](ride/functions/built-in-functions/string-functions.md)
   * [Функции хранилища данных аккаунта](ride/functions/built-in-functions/account-data-storage-functions.md)
-* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
+
 
 ### Смарт-контракты (Waves dApps)
 

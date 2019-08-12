@@ -117,7 +117,7 @@ The `getInteger` function gets values of the account data storage by key:
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-The size and the [complexity](/ride/ride-script-complexity.md) of the script is displayed in the panel underneath the script editor.
+The size and the [complexity](/ride/base-concepts/complexity.md) of the script is displayed in the panel underneath the script editor.
 
 <img src="img/voting/script-complexity.png" width="450"/>
 

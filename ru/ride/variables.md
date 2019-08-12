@@ -6,7 +6,7 @@
 
 Нельзя объявить переменную без инициализации.
 
-Во время присваивания значения переменной справа от знака "=" должно находиться [выражение](/ride/expression.md). Значение переменной — [результат выражения](/ride/expression.md#expression-result).
+Во время присваивания значения переменной справа от знака "=" должно находиться [выражение](/ride/base-concepts/expression.md). Значение переменной — [результат выражения](/ride/base-concepts/expression.md#expression-result).
 
 ## Примеры
 
@@ -22,7 +22,7 @@ let size = 5
 let season = "Spring"
 ```
 
-Так как [функция](/ride/functions.md) является [определением](/ride/definition.md), а не [выражением](/ride/expression.md), то переменной можно присвоить значение функции, но не саму функцию.
+Так как [функция](/ride/functions.md) является [определением](/ride/base-concepts/definition.md), а не [выражением](/ride/base-concepts/expression.md), то переменной можно присвоить значение функции, но не саму функцию.
 
 ``` ride
 func f() = {

@@ -12,7 +12,7 @@
 
 ## Сложность
 
-Смотрите страницу [Сложность скрипта на RIDE](/ride/ride-script-complexity.md).
+Смотрите страницу [Сложность](/ride/base-concepts/complexity.md).
 
 ## IDE
 
