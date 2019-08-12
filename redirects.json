@@ -390,8 +390,16 @@
     },
     {
       "=============================== Developer tools  =====================================": null,
-      "to": "/en/developer-tools/repl.html",
+      "to": "/en/smart-contracts/tools/repl.html",
       "from": "/en/developer-tools/waves-console/waves-console-examples.html"
+    },
+    {
+      "to": "/en/smart-contracts/tools/waves-ide.html",
+      "from": "/en/developer-tools/waves-ide.html"
+    },
+    {
+      "to": "/en/smart-contracts/tools/repl.html",
+      "from": "/en/developer-tools/repl.html"
     },
     {
       "===============================  API & SDK  =====================================": null,
