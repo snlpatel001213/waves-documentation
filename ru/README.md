@@ -5,9 +5,10 @@
 ### RIDE
 
 * Встроенные функции
-  * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
-  * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
-  * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md)
+  * [Функции декодирования](ride/built-in-functions/decoding-functions.md)
+  * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
+  * [Функции массива байтов](ride/built-in-functions/byte-array-functions.md)
+  * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
 * [Выражение](ride/expression.md)
 * [Директивы](ride/script/directives.md)
 * [Константы](ride/constants.md)
