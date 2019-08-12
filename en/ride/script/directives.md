@@ -2,6 +2,10 @@
 
 A **directive** is an instruction that sets the compilation mode of a [script](/ride/script.md).
 
+``` ride
+{-# DIRECTIVE_NAME VALUE #-}
+```
+
 ## Directives list
 
 | # | Directive | Directive function | Possible values |
