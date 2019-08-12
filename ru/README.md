@@ -9,6 +9,7 @@
   * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
   * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
 * [Выражение](ride/expression.md)
+* [Директивы](ride/script/directives.md)
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 * [Определение](ride/definition.md)

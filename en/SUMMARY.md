@@ -232,6 +232,7 @@
 * [About RIDE](ride/about-ride.md)
 * [Script](ride/script.md)
   * [dApp script](ride/script/dapp-script.md)
+  * [Directives](ride/script/directives.md)
   * [Account script](ride/script/account-script.md)
   * [Asset script](ride/script/asset-script.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)

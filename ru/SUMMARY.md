@@ -203,6 +203,7 @@
 * [О RIDE](ride/about-ride.md)
 * [Скрипт](ride/script.md)
   * [dApp-скрипт](ride/script/dapp-script.md)
+  * [Директивы](ride/script/directives.md)
   * [Скрипт аккаунта](ride/script/account-script.md)
   * [Скрипт ассета](ride/script/asset-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
