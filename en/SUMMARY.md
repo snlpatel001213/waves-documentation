@@ -108,7 +108,7 @@
 * [Transaction validation](blockchain/transaction-validation.md)
   * [Validating node](blockchain/transaction-validation/validating-node.md)
 
-## Waves Client
+## Client
 
 * [Installation](waves-client/install-waves-client.md)
 * [Security notes](waves-client/security-notes.md)
@@ -211,18 +211,18 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode?](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
-## Waves DEX
+## DEX
 
 * [About Waves DEX](waves-dex/about-waves-dex.md)
 * [Start trading](waves-dex/start-trading-on-the-waves-dex.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
 
-## Waves Explorer
+## Explorer
 
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
 
-## Waves Keeper
+## Keeper
 
 * [About Waves Keeper](waves-keeper/about-waves-keeper.md)
 * [Getting started with Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
@@ -289,7 +289,7 @@
 * [Annotations](ride/annotations.md)
 * [Exceptions](ride/exceptions.md)
 
-## Smart contracts (Waves dApps)
+## Programming
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
@@ -308,7 +308,7 @@
   * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
 * [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
-## Waves Node
+## Node
 
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
 * [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)
@@ -355,7 +355,7 @@
 * [Waves IDE](developer-tools/waves-ide.md)
 * [REPL](developer-tools/repl.md)
 
-## Waves API and SDK
+## API and SDK
 
 * [DEX API: Waves node rest API](waves-api-and-sdk/dex-api.md)
   * [Matcher](waves-api-and-sdk/dex-api/matcher.md)
@@ -380,12 +380,12 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 
-## Waves Oracles
+## Oracles
 
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
 * [Oracle](waves-oracles/oracle.md)
 
-## Waves Token Rating
+## Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [User interface](waves-token-rating/user-interface.md)
@@ -393,7 +393,7 @@
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
 
-## Resources
+## Miscellaneous
 
 * [Contributing](resources/contributing.md)
 * [Proposals](resources/proposals.md)
