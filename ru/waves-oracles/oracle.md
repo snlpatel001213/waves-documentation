@@ -4,4 +4,4 @@
 
 **Оракул** — агент, который отправляет данные из внешнего мира в блокчейн (**входящий оракул**), или из блокчейна — во внешний мир (**исходящий оракул**).
 
-Оракулы могут быть использованы в [dApp-скриптах](/ride/script/dapp-script.md), [скриптах аккаунтов](/ride/script/account-script.md) и [скриптах ассетов](/ride/script/asset-script.md).
+Оракулы могут быть использованы в [dApp-скриптах](/ride/script/script-types/dapp-script.md), [скриптах аккаунтов](/ride/script/script-types/account-script.md) и [скриптах ассетов](/ride/script/script-types/asset-script.md).
