@@ -2,14 +2,18 @@
 
 ## August articles
 
-## Blockchain
+### Getting started
+
+* [User guide](getting-started/getting-started-for-users.md)
+
+### Blockchain
 
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 * Transaction type
   * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1457/files)
 
-## RIDE
+### RIDE
 
 * [Built-in function](ride/functions/built-in-functions.md)
   * [Decoding functions](ride/functions/built-in-functions/decoding-functions.md)
@@ -24,11 +28,11 @@
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
 
-## Waves Node
+### Waves Node
 
 * [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
 
-## July articles
+### July articles
 
 ### Blockchain
 
