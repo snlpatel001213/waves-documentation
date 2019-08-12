@@ -231,12 +231,11 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Script](ride/script.md)
+  * [Directives](ride/script/directives.md)
   * [Script types](ride/script/script-types.md)
     * [Account script](ride/script/script-types/account-script.md)
     * [Asset script](ride/script/script-types/asset-script.md)
     * [dApp script](ride/script/script-types/dapp-script.md)
-  * [Directives](ride/script/directives.md)
-
 * [RIDE script complexity](ride/ride-script-complexity.md)
 * [Variables](ride/variables.md)
 * [Expression](ride/expression.md)
