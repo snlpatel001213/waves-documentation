@@ -6,7 +6,7 @@
 
 Функция может быть [аннотирована](/ride/annotations.md).
 
-В RIDE есть множество [встроенных функций](/ride/built-in-functions.md).
+В RIDE есть множество [встроенных функций](/ride/functions/built-in-functions.md).
 
 При объявлении функции справа от знака "=" должно находиться [выражение](/ride/expression.md). Значение функции — [результат выражения](/ride/expression.md#expression-result).
 

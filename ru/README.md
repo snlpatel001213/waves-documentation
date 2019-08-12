@@ -5,9 +5,9 @@
 ### RIDE
 
 * Встроенные функции
-  * [Функции декодирования](ride/built-in-functions/decoding-functions.md)
-  * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
-  * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
+  * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
+  * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
+  * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md)
 * [Выражение](ride/expression.md)
 * [Директивы](ride/script/directives.md)
 * [Константы](ride/constants.md)
@@ -116,11 +116,11 @@
 ### RIDE
 
 * Встроенные функции
-  * [Математические функции](ride/built-in-functions/math-functions.md)
-  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
-  * [Функции списка](ride/built-in-functions/list-functions.md)
-  * [Функции строки](ride/built-in-functions/string-functions.md)
-  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
+  * [Математические функции](ride/functions/built-in-functions/math-functions.md)
+  * [Функции блокчейна](ride/functions/built-in-functions/blockchain-functions.md)
+  * [Функции списка](ride/functions/built-in-functions/list-functions.md)
+  * [Функции строки](ride/functions/built-in-functions/string-functions.md)
+  * [Функции хранилища данных аккаунта](ride/functions/built-in-functions/account-data-storage-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ### Смарт-контракты (Waves dApps)
