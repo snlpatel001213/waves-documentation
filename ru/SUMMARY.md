@@ -7,14 +7,6 @@
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
-## Возможности платформы
-
-* [Протокол активации](platform-features/activation-protocol.md)
-* [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
-* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
-* [Fair Pos](platform-features/fair-pos.md)
-* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
-
 ## Блокчейн
 
 * [dApp](blockchain/dapp.md)
@@ -286,3 +278,11 @@
 * [Формула рейтинга](waves-token-rating/rating-formula.md)
 * [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+
+## Разное
+
+* [Протокол активации](platform-features/activation-protocol.md)
+* [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
+* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
+* [Fair Pos](platform-features/fair-pos.md)
+* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
