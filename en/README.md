@@ -11,10 +11,10 @@
 
 ## RIDE
 
-* [Built-in function](ride/built-in-functions.md)
-  * [Decoding functions](ride/built-in-functions/decoding-functions.md)
-  * [Encoding functions](ride/built-in-functions/encoding-functions.md)
-  * [Hashing functions](ride/built-in-functions/hashing-functions.md)
+* [Built-in function](ride/functions/built-in-functions.md)
+  * [Decoding functions](ride/functions/built-in-functions/decoding-functions.md)
+  * [Encoding functions](ride/functions/built-in-functions/encoding-functions.md)
+  * [Hashing functions](ride/functions/built-in-functions/hashing-functions.md)
 * [Constants](ride/constants.md)
 * [Definition](ride/definition.md)
 * Script
@@ -67,7 +67,7 @@
 
 * [Annotations](ride/annotations.md)
 * Built-in functions
-  * [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
+  * [Account data storage functions](ride/functions/built-in-functions/account-data-storage-functions.md)
 * [Data types](/ride/data-types.md)
 * Functions
   * [Callable function](ride/functions/callable-function.md)
@@ -123,14 +123,14 @@
 ### RIDE
 
 * Built-in functions
-  * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
-  * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
-  * [Converting functions](ride/built-in-functions/converting-functions.md)
-  * [Exception functions](ride/built-in-functions/exception-functions.md)
-  * [List functions](ride/built-in-functions/list-functions.md)
-  * [Math functions](ride/built-in-functions/math-functions.md)
-  * [String functions](ride/built-in-functions/string-functions.md)
-  * [Verification functions](ride/built-in-functions/verification-functions.md)
+  * [Blockchain functions](ride/functions/built-in-functions/blockchain-functions.md)
+  * [Byte array functions](ride/functions/built-in-functions/byte-array-functions.md)
+  * [Converting functions](ride/functions/built-in-functions/converting-functions.md)
+  * [Exception functions](ride/functions/built-in-functions/exception-functions.md)
+  * [List functions](ride/functions/built-in-functions/list-functions.md)
+  * [Math functions](ride/functions/built-in-functions/math-functions.md)
+  * [String functions](ride/functions/built-in-functions/string-functions.md)
+  * [Verification functions](ride/functions/built-in-functions/verification-functions.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
 
 ### Smart contracts (Waves dApps)
