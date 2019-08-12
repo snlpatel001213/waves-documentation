@@ -299,6 +299,9 @@
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
 * [Smart Accounts](smart-contracts/smart-accounts.md)
 * [Smart Assets](smart-contracts/smart-assets.md)
+* [Tools](smart-contracts/tools.md)
+  * [REPL](smart-contracts/tools/repl.md)
+  * [Waves IDE](smart-contracts/tools/waves-ide.md)
 * [Script performance tests](smart-contracts/script-performance-tests.md)
 * [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
 * [Video tutorials](smart-contracts/video-tutorials.md)
@@ -351,11 +354,6 @@
   * [Utils](waves-node/node-api/utils.md)
   * [Examples of transactions](waves-node/node-api/example-transactions.md)
 * [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
-
-## Developer tools
-
-* [Waves IDE](developer-tools/waves-ide.md)
-* [REPL](developer-tools/repl.md)
 
 ## API and SDK
 

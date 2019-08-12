@@ -12,7 +12,7 @@ The language:
 
 ## IDE
 
-Use [Waves IDE](/developer-tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) for writing scripts.
+Use [Waves IDE](/smart-contracts/tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) for writing scripts.
 
 ## The history of creation
 
