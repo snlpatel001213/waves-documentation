@@ -9,15 +9,6 @@
 
 ## Blockchain
 
-* [Waves protocol](blockchain/waves-protocol.md)
-  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
-  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
-  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
-  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
-  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
-  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
 * [Account](blockchain/account.md)
 * [Account data storage](blockchain/account-data-storage.md)
 * [Address](blockchain/address.md)
@@ -396,6 +387,15 @@
 ## Miscellaneous
 
 * [Contributing](resources/contributing.md)
+* [Waves protocol](blockchain/waves-protocol.md)
+  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
+  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
+  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
+  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
+  * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
+  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
+  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
 * [Proposals](resources/proposals.md)
   * [Asset verification protocol](resources/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](resources/trezor-hardware-wallet-integration-specification.md)
