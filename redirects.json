@@ -227,11 +227,11 @@
       "from": "/en/blockchain-functions.html"
     },
     {
-      "to": "/en/ride/built-in-functions/converting-functions.html",
+      "to": "/en/ride/functions/built-in-functions/converting-functions.html",
       "from":"/en/converting-functions.html"
     },
     {
-      "to": "/ru/ride/built-in-functions/math-functions.html",
+      "to": "/ru/ride/functions/built-in-functions/math-functions.html",
       "from": "/ru/ride/functions/math-functions.html"
     },
     {
@@ -243,16 +243,24 @@
       "from": "/en/ride/immutable-variables.html"
     },
     {
-      "to":"/en/ride/built-in-functions/math-functions.html",
+      "to":"/en/ride/functions/built-in-functions/math-functions.html",
       "from": "/en/ride/math-functions.html"
     },
     {
-      "to": "/en/ride/built-in-functions/encoding-functions.html",
+      "to": "/en/ride/functions/built-in-functions/encoding-functions.html",
       "from": "/en/ride/built-in-functions/encoding-and-decoding-functions.html"
     },
     {
-      "to": "/ru/ride/built-in-functions/encoding-functions.html",
+      "to": "/ru/ride/functions/built-in-functions/encoding-functions.html",
       "from": "/ru/ride/built-in-functions/encoding-and-decoding-functions.html"
+    },
+    {
+      "to": "/ru/ride/functions/built-in-functions.html",
+      "from": "/ru/ride/built-in-functions.html"
+    },
+    {
+      "to": "/en/ride/functions/built-in-functions.html",
+      "from": "/en/ride/built-in-functions.html"
     },
     {
       "to": "/ru/ride/script.html",
