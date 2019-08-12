@@ -250,6 +250,9 @@
 
 ## Программирование
 
+* [Инструменты](smart-contracts/tools.md)
+  * [REPL](smart-contracts/tools/repl.md)
+  * [Waves IDE](smart-contracts/tools/waves-ide.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
@@ -261,11 +264,6 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
-
-## Инструменты разработчика
-
-* [REPL](developer-tools/repl.md)
-* [Waves IDE](developer-tools/waves-ide.md)
 
 ## Oracles
 
