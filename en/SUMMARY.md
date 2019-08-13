@@ -388,6 +388,7 @@
 ## Miscellaneous
 
 * [Contributing](resources/contributing.md)
+* [News archive](resources/news-archive.md)
 * [Waves protocol](blockchain/waves-protocol.md)
   * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
   * [Validation rules](blockchain/waves-protocol/validation-rules.md)
