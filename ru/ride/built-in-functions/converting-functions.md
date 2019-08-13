@@ -11,7 +11,7 @@
 | 7 | [toBytes(String): ByteVector](#to-bytes-string) | Конвертирует строку в массив байтов | 1 |
 | 8 | [toInt(ByteVector): Int](#to-int-bytevector) | Конвертирует массив байтов в целое число | 10 |
 | 9 | [toInt(ByteVector, Int): Int](#to-int-bytevector-int) | Конвертирует массив байтов начиная с указанного индекса в целое число | 10 |
-| 10 | [toString(Address): String](#to-string-address) | Конвертирует [адрес](/blockchain/address.md) в строку. | 10 |
+| 10 | [toString(Address): String](#to-string-address) | Конвертирует массив байтов [адреса](/blockchain/address.md) в строку | 10 |
 | 11 | [toString(Boolean): String](#to-string-boolean) | Конвертирует логическое значение в строку | 1 |
 | 12 | [toString(Int): String](#to-string-int) | Конвертирует целое число в строку | 1 |
 | 13 | [toUtf8String(ByteVector): String](#to-utf8-string-bytevector) | Конвертирует массив байтов в строку в [UTF-8](https://ru.wikipedia.org/wiki/UTF-8) | 20 |
@@ -206,7 +206,7 @@ let result = toInt(bin,2)
 
 ## toString(Address): String<a id="to-string-address"></a>
 
-Конвертирует [адрес](/blockchain/address.md) в строку.
+Конвертирует массив байтов [адреса](/blockchain/address.md) в строку.
 
 ``` ride
 toString(Address: Address): String
