@@ -13,7 +13,7 @@
 | 9 | [toInt(ByteVector, Int): Int](#toint-bytes-int) | Converts an array of bytes to an integer starting from a certain index | 10 |
 | 10 | [toString(Boolean): String](#tostring-bool) | Converts a boolean to a string | 1 |
 | 11 | [toString(Int): String](#tostring-int) | Converts an integer to a string | 1 |
-| 12 | [toUtf8String(ByteVector): String](#to-utf8-string) | Converts an array of bytes to a UTF-8 string | 20 |
+| 12 | [toUtf8String(ByteVector): String](#to-utf8-string) | Converts an array of bytes to a [UTF-8](https://en.wikipedia.org/wiki/UTF-8) string | 20 |
 
 
 ## addressFromPublicKey(ByteVector): Address<a id="address-from-public-key"></a>
@@ -21,7 +21,7 @@
 Converts account public key to [address](blockhain/address.md).
 
 ```
-addressFromPublicKey(publicKey: ByteVector): Int
+addressFromPublicKey(publicKey: ByteVector): Address
 ```
 
 ### Parameters
@@ -179,7 +179,7 @@ The integer to convert.
 
 ### toUtf8String(ByteVector): String<a id="to-utf8-string"></a>
 
-Converts an array of bytes to a UTF-8 string.
+Converts an array of bytes to a [UTF-8](https://en.wikipedia.org/wiki/UTF-8) string.
 
 ```
 toUtf8String(u: ByteVector): String
