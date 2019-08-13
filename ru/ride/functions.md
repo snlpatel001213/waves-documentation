@@ -8,7 +8,7 @@
 
 В RIDE есть множество [встроенных функций](/ride/functions/built-in-functions.md).
 
-При объявлении функции справа от знака "=" должно находиться [выражение](/ride/expression.md). Значение функции — [результат выражения](/ride/expression.md#expression-result).
+При объявлении функции справа от знака "=" должно находиться [выражение](/ride/base-concepts/expression.md). Значение функции — [результат выражения](/ride/base-concepts/expression.md#expression-result).
 
 ## Примеры
 

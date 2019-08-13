@@ -12,8 +12,8 @@
 
 ## Сложность
 
-Смотрите страницу [Сложность скрипта на RIDE](/ride/ride-script-complexity.md).
+Смотрите страницу [Сложность](/ride/base-concepts/complexity.md).
 
 ## IDE
 
-Для написания скриптов используйте [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+Для написания скриптов используйте [Waves IDE](/smart-contracts/tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).

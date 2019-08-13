@@ -117,7 +117,7 @@ The `getInteger` function gets values of the account data storage by key:
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-The size and the [complexity](/ride/ride-script-complexity.md) of the script is displayed in the panel underneath the script editor.
+The size and the [complexity](/ride/base-concepts/complexity.md) of the script is displayed in the panel underneath the script editor.
 
 <img src="img/voting/script-complexity.png" width="450"/>
 
@@ -150,7 +150,7 @@ There are two transactions on the head of the HOA's address: the [transfer trans
 ## 5. Voting
 
 In order to vote a resident must send an invoke script transaction from his account. In the transaction he must specify the address of the dApp, the name of the method to call, and the passed parameters.
-Send an invoke script transaction from Aleksei's account using [REPL](/developer-tools/repl.md). First, _select Aleksei's account_ in the Waves IDE.
+Send an invoke script transaction from Aleksei's account using [REPL](/smart-contracts/tools/repl.md). First, _select Aleksei's account_ in the Waves IDE.
 
 <img src="img/voting/account-aleksei.png" width="320"/>
 

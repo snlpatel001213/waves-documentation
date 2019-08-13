@@ -117,7 +117,7 @@ func vote(theVote: Int) = {
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-Размер и [сложность](/ride/ride-script-complexity.md) скрипта отображаются в панели под редактором скрипта.
+Размер и [сложность](/ride/base-concepts/complexity.md) скрипта отображаются в панели под редактором скрипта.
 
 <img src="img/voting/script-complexity.png" width="450"/>
 
@@ -153,7 +153,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 Для того, чтобы проголосовать, жильцу необходимо отправить транзакцию вызова скрипта со своего аккаунта. В транзакции необходимо указать адрес dApp, имя вызываемого метода dApp, а также передаваемые в метод параметры.
 
-Отправьте транзакцию вызова скрипта с аккаунта Алексея с помощью [REPL](/developer-tools/repl.md). Для этого в Waves IDE _выберите аккаунт Алексея_.
+Отправьте транзакцию вызова скрипта с аккаунта Алексея с помощью [REPL](/smart-contracts/tools/repl.md). Для этого в Waves IDE _выберите аккаунт Алексея_.
 
 <img src="img/voting/account-aleksei.png" width="320"/>
 

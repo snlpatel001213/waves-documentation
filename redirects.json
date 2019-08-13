@@ -195,6 +195,30 @@
       "from": "/en/smart-contracts/ride-language/ride-language.html"
     },
     {
+      "to": "ru/ride/base-concepts/expression.html",
+      "from": "ru/ride/expression.html"
+    },
+    {
+      "to": "ru/ride/base-concepts/definition.html",
+      "from": "ru/ride/definition.html"
+    },
+    {
+      "to": "ru/ride/base-concepts/complexity.html",
+      "from": "ru/ride/ride-script-complexity.html"
+    },
+    {
+      "to": "en/ride/base-concepts/expression.html",
+      "from": "en/ride/expression.html"
+    },
+    {
+      "to": "en/ride/base-concepts/definition.html",
+      "from": "en/ride/definition.html"
+    },
+    {
+      "to": "en/ride/base-concepts/complexity.html",
+      "from": "en/ride/ride-script-complexity.html"
+    },
+    {
       "to": "/en/ride/about-ride.html",
       "from": "/en/technical-details/ride-language.html"
     },
@@ -390,8 +414,24 @@
     },
     {
       "=============================== Developer tools  =====================================": null,
-      "to": "/en/developer-tools/repl.html",
+      "to": "/en/smart-contracts/tools/repl.html",
       "from": "/en/developer-tools/waves-console/waves-console-examples.html"
+    },
+    {
+      "to": "/en/smart-contracts/tools/waves-ide.html",
+      "from": "/en/developer-tools/waves-ide.html"
+    },
+    {
+      "to": "/en/smart-contracts/tools/repl.html",
+      "from": "/en/developer-tools/repl.html"
+    },
+    {
+      "to": "/ru/smart-contracts/tools/waves-ide.html",
+      "from": "/ru/developer-tools/waves-ide.html"
+    },
+    {
+      "to": "/ru/smart-contracts/tools/waves-ide.html",
+      "from": "/ru/developer-tools/repl.html"
     },
     {
       "===============================  API & SDK  =====================================": null,

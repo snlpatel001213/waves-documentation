@@ -4,16 +4,6 @@
 
 * [Новости](README.md)
 * [Руководство пользователя](getting-started/getting-started-for-users.md)
-* [Компоненты платформы](overview/platform-components.md)
-* [Официальные ресурсы](overview/waves-official-resources.md)
-
-## Возможности платформы
-
-* [Протокол активации](platform-features/activation-protocol.md)
-* [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
-* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
-* [Fair Pos](platform-features/fair-pos.md)
-* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
 
 ## Блокчейн
 
@@ -201,27 +191,22 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
+* [Аннотации](ride/annotations.md)
+* [Базовые понятия](ride/base-concepts.md)
+  * [Выражение](ride/base-concepts/expression.md)
+  * [Определение](ride/base-concepts/definition.md)
+  * [Сложность](ride/base-concepts/complexity.md)
+* [Исключения](ride/exceptions.md)
+* [Комментарии](ride/comments.md)
+* [Константы](ride/constants.md)
+* [Операторы](ride/operators.md)
+* [Переменные](ride/variables.md)
 * [Скрипт](ride/script.md)
   * [Директивы](ride/script/directives.md)
   * [Типы скриптов](ride/script/script-types.md)
     * [dApp-скрипт](ride/script/script-types/dapp-script.md)
     * [Скрипт аккаунта](ride/script/script-types/account-script.md)
     * [Скрипт ассета](ride/script/script-types/asset-script.md)
-* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
-* [Выражение](ride/expression.md)
-* [Комментарии](ride/comments.md)
-* [Константы](ride/constants.md)
-* [Операторы](ride/operators.md)
-* [Определение](ride/definition.md)
-* [Переменные](ride/variables.md)
-* [Типы данных](ride/data-types.md)
-  * [Логический](ride/data-types/boolean.md)
-  * [Тип данных массива байтов](ride/data-types/byte-vector.md)
-  * [Целочисленный](ride/data-types/int.md)
-  * [Тип данных списка](ride/data-types/list.md)
-  * [Строковый](ride/data-types/string.md)
-  * [Тип данных пустого значения](ride/data-types/unit.md)
-  * [Тип данных объединения](ride/data-types/union.md)
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
     * [Address](ride/structures/common-structures/address.md)
@@ -240,6 +225,14 @@
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
+* [Типы данных](ride/data-types.md)
+  * [Логический](ride/data-types/boolean.md)
+  * [Тип данных массива байтов](ride/data-types/byte-vector.md)
+  * [Целочисленный](ride/data-types/int.md)
+  * [Тип данных списка](ride/data-types/list.md)
+  * [Строковый](ride/data-types/string.md)
+  * [Тип данных пустого значения](ride/data-types/unit.md)
+  * [Тип данных объединения](ride/data-types/union.md)
 * [Функции](ride/functions.md)
   * [Встроенные функции](ride/functions/built-in-functions.md)
     * [Математические функции](ride/functions/built-in-functions/math-functions.md)
@@ -247,6 +240,7 @@
     * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
     * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
     * [Функции конвертации](ride/built-in-functions/converting-functions.md)
+    * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md)
     * [Функции объединения](ride/functions/built-in-functions/union-functions.md)
     * [Функции списка](ride/functions/built-in-functions/list-functions.md)
     * [Функции строки](ride/functions/built-in-functions/string-functions.md)
@@ -254,11 +248,12 @@
     * [Функции хранилища данных аккаунта](ride/functions/built-in-functions/account-data-storage-functions.md)
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
-* [Аннотации](ride/annotations.md)
-* [Исключения](ride/exceptions.md)
 
 ## Программирование
 
+* [Инструменты](smart-contracts/tools.md)
+  * [REPL](smart-contracts/tools/repl.md)
+  * [Waves IDE](smart-contracts/tools/waves-ide.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
@@ -271,11 +266,6 @@
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
 
-## Инструменты разработчика
-
-* [REPL](developer-tools/repl.md)
-* [Waves IDE](developer-tools/waves-ide.md)
-
 ## Oracles
 
 * [Оракул](waves-oracles/oracle.md)
@@ -287,3 +277,13 @@
 * [Формула рейтинга](waves-token-rating/rating-formula.md)
 * [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+
+## Разное
+
+* [Компоненты платформы](overview/platform-components.md)
+* [Протокол активации](platform-features/activation-protocol.md)
+* [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
+* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
+* [Fair Pos](platform-features/fair-pos.md)
+* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
+* [Официальные ресурсы](overview/waves-official-resources.md)

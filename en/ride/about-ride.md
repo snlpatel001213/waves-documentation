@@ -1,6 +1,6 @@
 # About RIDE
 
-**RIDE** is a functional programming language based on [expressions](/ride/expression.md).
+**RIDE** is a functional programming language based on [expressions](/ride/base-concepts/expression.md).
 
 RIDE is used for writing [scripts](/ride/script.md).
 
@@ -12,7 +12,7 @@ The language:
 
 ## IDE
 
-Use [Waves IDE](/developer-tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) for writing scripts.
+Use [Waves IDE](/smart-contracts/tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) for writing scripts.
 
 ## The history of creation
 

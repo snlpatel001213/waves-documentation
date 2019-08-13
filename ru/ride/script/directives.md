@@ -10,6 +10,6 @@
 
 | # | Директива | Функция директивы | Возможные значения |
 | :--- | :--- | :--- | :--- |
-| 1 | CONTENT_TYPE | Определяет, чем является тело скрипта — [выражением](/ride/expression.md) или _набором_ [определений](/ride/definition.md) | `EXPRESSION` — выражение<br>`DAPP` — набор определений |
+| 1 | CONTENT_TYPE | Определяет, чем является тело скрипта — [выражением](/ride/base-concepts/expression.md) или _набором_ [определений](/ride/base-concepts/definition.md) | `EXPRESSION` — выражение<br>`DAPP` — набор определений |
 | 2 | SCRIPT_TYPE | Определяет контекст скрипта | `ACCOUNT`<br>`ASSET` |
 | 3 | STDLIB_VERSION | Задает версию Стандартной библиотеки | `3`<br>`2`<br>`1` |
