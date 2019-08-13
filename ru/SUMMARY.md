@@ -245,7 +245,7 @@
     * [Функции объединения](ride/functions/built-in-functions/union-functions.md)
     * [Функции списка](ride/functions/built-in-functions/list-functions.md)
     * [Функции строки](ride/functions/built-in-functions/string-functions.md)
-    * [Функции транзакции данных](ride/built-in-functions/data-transaction-functions.md)
+    * [Функции транзакции данных](ride/functions/built-in-functions/data-transaction-functions.md)
     * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md)
     * [Функции хранилища данных аккаунта](ride/functions/built-in-functions/account-data-storage-functions.md)
   * [Вызываемая функция](ride/functions/callable-function.md)
