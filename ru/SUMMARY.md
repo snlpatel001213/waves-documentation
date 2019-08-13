@@ -238,6 +238,7 @@
     * [Математические функции](ride/functions/built-in-functions/math-functions.md)
     * [Функции блокчейна](ride/functions/built-in-functions/blockchain-functions.md)
     * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
+    * [Функции исключения](ride/functions/built-in-functions/exception-functions.md)
     * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
     * [Функции конвертации](ride/functions/built-in-functions/converting-functions.md)
     * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md)
