@@ -11,7 +11,7 @@ The Waves full node serves **two critical roles**:
 
 ## Running a Node
 
-There're different options when you want to deal with Waves full node and you will need to [check the node configuration](/waves-node/configuration-parameters.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES**\(the minimum balance\)** and create together a pool.
+There're different options when you want to deal with Waves full node and you will need to [check the node configuration](/waves-node/configuration-parameters.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES** (the minimum balance) and create together a pool.
 
 ### Installing a node
 
@@ -39,8 +39,8 @@ You can check the blockchain height or the last 100 signatures of blocks to unde
 
 
 Your node can be in one of two possibilities:
-* your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
-In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** through _[rollback instructions](/waves-node/how-to-rollback-a-node.md). 
+* your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks.
+In case that your node is on fork with a height less than 2000 blocks, here you can implement rollback through [rollback instructions](/waves-node/how-to-rollback-a-node.md). 
 
 * Otherwise, you need to choose an [option for Getting Actual Blockchain](/waves-node/options-for-getting-actual-blockchain.md).
 
