@@ -42,7 +42,7 @@ let add = addressFromPublicKey(publicKey)# The result will be the address for th
 Получает [адрес](/blockchain/address.md), соответствующий [псевдониму](/blockchain/alias.md).
 
 ``` ride
-addressFromRecipient(AddressOrAlias: Address&#124;Alias): Address
+addressFromRecipient(AddressOrAlias: Address|Alias): Address
 ```
 
 ### Параметры
@@ -56,7 +56,7 @@ addressFromRecipient(AddressOrAlias: Address&#124;Alias): Address
 Конвертирует строковое представление числа в эквивалентное целое число.
 
 ``` ride
-parseInt(str: String): Int&#124;Unit
+parseInt(str: String): Int|Unit
 ```
 
 ### Параметры
