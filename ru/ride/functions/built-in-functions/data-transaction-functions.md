@@ -2,8 +2,8 @@
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [getInteger(List[DataEntry], String): Int&#124;Unit](#get-integer-key) | Возращает целое число из списка записей данных по ключу | 10 |
-| 2 | [getInteger(List[DataEntry], Int): Int&#124;Unit](#get-integer-index) | Возращает целое число из списка записей данных по индексу | 30 |
+| 1 | [getInteger(List[DataEntry], String): Int&#124;Unit](#get-integer-key) | Возвращает целое число из списка записей данных по ключу | 10 |
+| 2 | [getInteger(List[DataEntry], Int): Int&#124;Unit](#get-integer-index) | Возвращает целое число из списка записей данных по индексу | 30 |
 | 3 | [getIntegerValuе(List[DataEntry], String): Int](#get-integer-value-key) | Возвращает целое число из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
 | 4 | [getIntegerValue(List[DataEntry], Int): Int](#get-integer-value-index) | Возвращает целое число из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
 | 5 | [getBoolean(List[DataEntry], String): Boolean&#124;Unit](#get-boolean-key) | Возвращает логическое значение из списка записей данных по ключу | 10 |
@@ -21,7 +21,7 @@
 
 ## getInteger(List[DataEntry], String): Int|Unit <a id="get-integer-key"></a>
 
-Возращает целое число из списка записей данных по ключу.
+Возвращает целое число из списка записей данных по ключу.
 
 ``` ride
 getInteger(data: List[DataEntry], key: String): Int|Unit
@@ -39,7 +39,7 @@ getInteger(data: List[DataEntry], key: String): Int|Unit
 
 ## getInteger(List[DataEntry], Int): Unit|Int <a id="get-integer-index"></a>
 
-Возращает целое число из списка записей данных по индексу.
+Возвращает целое число из списка записей данных по индексу.
 
 ``` ride
 getInteger(data: List[DataEntry], index: Int): Unit|Int
