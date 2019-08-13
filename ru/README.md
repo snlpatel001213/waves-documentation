@@ -74,7 +74,7 @@
 
 ### RIDE
 
-* [Аннотации](ride/annotations.md)
+* [Аннотации](ride/functions/annotations.md)
 * Структуры
   * [Общие структуры](ride/structures/common-structures.md)
     * [Address](ride/structures/common-structures/address.md)

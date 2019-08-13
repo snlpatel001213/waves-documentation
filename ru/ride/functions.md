@@ -4,7 +4,7 @@
 
 Функция должна быть объявлена выше места ее использования.
 
-Функция может быть [аннотирована](/ride/annotations.md).
+Функция может быть [аннотирована](/ride/functions/annotations.md).
 
 В RIDE есть множество [встроенных функций](/ride/functions/built-in-functions.md).
 

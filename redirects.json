@@ -195,6 +195,14 @@
       "from": "/en/smart-contracts/ride-language/ride-language.html"
     },
     {
+      "to": "en/ride/functions/annotations.html",
+      "from": "en/ride/annotations.html"
+    },
+    {
+      "to": "ru/ride/functions/annotations.html",
+      "from": "ru/ride/annotations.html"
+    },
+    {
       "to": "ru/ride/base-concepts/expression.html",
       "from": "ru/ride/expression.html"
     },
