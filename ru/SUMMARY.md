@@ -191,7 +191,6 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
-* [Аннотации](ride/annotations.md)
 * [Базовые понятия](ride/base-concepts.md)
   * [Выражение](ride/base-concepts/expression.md)
   * [Определение](ride/base-concepts/definition.md)
@@ -234,15 +233,19 @@
   * [Тип данных пустого значения](ride/data-types/unit.md)
   * [Тип данных объединения](ride/data-types/union.md)
 * [Функции](ride/functions.md)
+  * [Аннотации](ride/functions/annotations.md)
   * [Встроенные функции](ride/functions/built-in-functions.md)
     * [Математические функции](ride/functions/built-in-functions/math-functions.md)
     * [Функции блокчейна](ride/functions/built-in-functions/blockchain-functions.md)
     * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
+    * [Функции исключения](ride/functions/built-in-functions/exception-functions.md)
     * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
+    * [Функции конвертации](ride/functions/built-in-functions/converting-functions.md)
     * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md)
     * [Функции объединения](ride/functions/built-in-functions/union-functions.md)
     * [Функции списка](ride/functions/built-in-functions/list-functions.md)
     * [Функции строки](ride/functions/built-in-functions/string-functions.md)
+    * [Функции транзакции данных](ride/functions/built-in-functions/data-transaction-functions.md)
     * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md)
     * [Функции хранилища данных аккаунта](ride/functions/built-in-functions/account-data-storage-functions.md)
   * [Вызываемая функция](ride/functions/callable-function.md)
@@ -279,10 +282,11 @@
 
 ## Разное
 
+* [Архив новостей](miscellaneous/news-archive.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Протокол активации](platform-features/activation-protocol.md)
 * [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
-* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
+* [Децентрализованная биржа (DEX)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
-* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
+* [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)

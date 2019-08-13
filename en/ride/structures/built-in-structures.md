@@ -50,7 +50,7 @@
 </td></tr>
 <tr><td><a id="Transaction">Transaction</a></td><td>
 
-<a href="#ReissueTransaction">ReissueTransaction</a> <a href="#BurnTransaction">BurnTransaction</a> <a href="#MassTransferTransaction">MassTransferTransaction</a> <a href="#ExchangeTransaction">ExchangeTransaction</a> <a href="#TransferTransaction">TransferTransaction</a> <a href="#SetAssetScriptTransaction">SetAssetScriptTransaction</a> <a href="#InvokeScriptTransaction">InvokeScriptTransaction</a> <a href="#IssueTransaction">IssueTransaction</a> <a href="#LeaseTransaction">LeaseTransaction</a> <a href="#LeaseCancelTransaction">LeaseCancelTransaction</a> <a href="#CreateAliasTransaction">CreateAliasTransaction</a> <a href="#SetScriptTransaction">SetScriptTransaction</a> <a href="#SponsorFeeTransaction">SponsorFeeTransaction</a> <a href="#DataTransaction">DataTransaction</a> 
+<a href="#ReissueTransaction">ReissueTransaction</a> <a href="#BurnTransaction">BurnTransaction</a> <a href="#MassTransferTransaction">MassTransferTransaction</a> <a href="#ExchangeTransaction">ExchangeTransaction</a> <a href="#TransferTransaction">TransferTransaction</a> <a href="#SetAssetScriptTransaction">SetAssetScriptTransaction</a> <a href="#InvokeScriptTransaction">InvokeScriptTransaction</a> <a href="#IssueTransaction">IssueTransaction</a> <a href="#LeaseTransaction">LeaseTransaction</a> <a href="#LeaseCancelTransaction">LeaseCancelTransaction</a> <a href="#CreateAliasTransaction">CreateAliasTransaction</a> <a href="#SetScriptTransaction">SetScriptTransaction</a> <a href="#SponsorFeeTransaction">SponsorFeeTransaction</a> <a href="#DataTransaction">DataTransaction</a>
 </td></tr>
 <tr><td><a id="GenesisTransaction">GenesisTransaction</a></td><td>
 
@@ -151,9 +151,7 @@
 <tr><td><a id="MassTransferTransaction">MassTransferTransaction</a></td><td>
 
 <table>
-<tr><td>feeAssetId</td><td>
-  OPTION[<a href="#ByteVector">ByteVector</a>]
-</td></tr><tr><td>assetId</td><td>
+<tr><td>assetId</td><td>
   OPTION[<a href="#ByteVector">ByteVector</a>]
 </td></tr><tr><td>totalAmount</td><td>
   <a href="#Int">Int</a>

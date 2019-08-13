@@ -1,6 +1,6 @@
 # Вызываемая функция
 
-**Вызываемая функция** — [функция](/ride/functions.md) [dApp-скрипта](/ride/script/script-types/dapp-script.md) с [аннотацией](/ride/annotations.md) `@Callable`.
+**Вызываемая функция** — [функция](/ride/functions.md) [dApp-скрипта](/ride/script/script-types/dapp-script.md) с [аннотацией](/ride/functions/annotations.md) `@Callable`.
 
 У dApp-скрипта может быть несколько вызываемых функций.
 

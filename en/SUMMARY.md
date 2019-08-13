@@ -221,7 +221,6 @@
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
-* [Annotations](ride/annotations.md)
 * [Base concepts](ride/base-concepts.md)
   * [Complexity](ride/base-concepts/complexity.md)
   * [Definition](ride/base-concepts/definition.md)
@@ -238,6 +237,7 @@
   * [Union](ride/data-types/union.md)
 * [Exceptions](ride/exceptions.md)
 * [Functions](ride/functions.md)
+  * [Annotations](ride/functions/annotations.md)
   * [Built-in functions](ride/functions/built-in-functions.md)
     * [Account data storage functions](ride/functions/built-in-functions/account-data-storage-functions.md)
     * [Blockchain functions](ride/functions/built-in-functions/blockchain-functions.md)
@@ -388,6 +388,7 @@
 ## Miscellaneous
 
 * [Contributing](resources/contributing.md)
+* [News archive](miscellaneous/news-archive.md)
 * [Waves protocol](blockchain/waves-protocol.md)
   * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
   * [Validation rules](blockchain/waves-protocol/validation-rules.md)
