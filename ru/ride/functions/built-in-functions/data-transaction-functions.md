@@ -4,20 +4,20 @@
 | :--- | :--- | :--- | :--- |
 | 1 | [getInteger(List[DataEntry], String): Int&#124;Unit](#get-integer-key) | Возращает целое число из списка записей данных по ключу | 10 |
 | 2 | [getInteger(List[DataEntry], Int): Int&#124;Unit](#get-integer-index) | Возращает целое число из списка записей данных по индексу | 30 |
-| 3 | [getIntegerValuе(List[DataEntry], String): Int](#get-integer-value-key) | Получает целое число из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
-| 4 | [getIntegerValue(List[DataEntry], Int): Int](#get-integer-value-index) | Получает целое число из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
-| 5 | [getBoolean(List[DataEntry], String): Boolean&#124;Unit](#get-boolean-key) | Получает логическое значение из списка записей данных по ключу | 10 |
-| 6 | [getBoolean(List[DataEntry], Int): Boolean&#124;Unit](#get-boolean-index) | Получает логическое значение из списка записей данных по индексу | 30 |
-| 7 | [getBooleanValue(List[DataEntry], String): Boolean](#get-boolean-value-key) | Получает логическое значение из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
-| 8 | [getBooleanValue(List[DataEntry], Int): Boolean](#get-boolean-value-index) | Получает логическое значение из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
-| 9 | [getBinary(List[DataEntry], String): ByteVector&#124;Unit](#get-binary-key) | Получает массив байтов из списка записей данных по ключу | 10 |
-| 10 | [getBinary(List[DataEntry], Int): ByteVector&#124;Unit](#get-binary-index) | Получает массив байтов из списка записей данных по индексу | 30 |
-| 11 | [getBinaryValue(List[DataEntry], String): ByteVector](#get-binary-value-key) | Получает массив байтов из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
-| 12 | [getBinaryValue(List[DataEntry], Int): ByteVector](#get-binary-value-index) | Получает массив байтов из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
-| 13 | [getString(List[DataEntry], String): String&#124;Unit](#get-string-key) | Получает строку из списка записей данных по ключу | 10 |
-| 14 | [getString(List[DataEntry], Int): String&#124;Unit](#get-string-index) | Получает строку из списка записей данных по индексу | 30 |
-| 15 | [getStringValue(List[DataEntry], String) : String](#get-string-value-key) | Получает строку из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
-| 16 | [getStringValue(List[DataEntry], Int): String](#get-string-value-index) | Получает строку из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
+| 3 | [getIntegerValuе(List[DataEntry], String): Int](#get-integer-value-key) | Возвращает целое число из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
+| 4 | [getIntegerValue(List[DataEntry], Int): Int](#get-integer-value-index) | Возвращает целое число из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
+| 5 | [getBoolean(List[DataEntry], String): Boolean&#124;Unit](#get-boolean-key) | Возвращает логическое значение из списка записей данных по ключу | 10 |
+| 6 | [getBoolean(List[DataEntry], Int): Boolean&#124;Unit](#get-boolean-index) | Возвращает логическое значение из списка записей данных по индексу | 30 |
+| 7 | [getBooleanValue(List[DataEntry], String): Boolean](#get-boolean-value-key) | Возвращает логическое значение из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
+| 8 | [getBooleanValue(List[DataEntry], Int): Boolean](#get-boolean-value-index) | Возвращает логическое значение из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
+| 9 | [getBinary(List[DataEntry], String): ByteVector&#124;Unit](#get-binary-key) | Возвращает массив байтов из списка записей данных по ключу | 10 |
+| 10 | [getBinary(List[DataEntry], Int): ByteVector&#124;Unit](#get-binary-index) | Возвращает массив байтов из списка записей данных по индексу | 30 |
+| 11 | [getBinaryValue(List[DataEntry], String): ByteVector](#get-binary-value-key) | Возвращает массив байтов из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
+| 12 | [getBinaryValue(List[DataEntry], Int): ByteVector](#get-binary-value-index) | Возвращает массив байтов из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
+| 13 | [getString(List[DataEntry], String): String&#124;Unit](#get-string-key) | Возвращает строку из списка записей данных по ключу | 10 |
+| 14 | [getString(List[DataEntry], Int): String&#124;Unit](#get-string-index) | Возвращает строку из списка записей данных по индексу | 30 |
+| 15 | [getStringValue(List[DataEntry], String) : String](#get-string-value-key) | Возвращает строку из списка записей данных по ключу. Выбрасывает исключение, если данных нет | 10 |
+| 16 | [getStringValue(List[DataEntry], Int): String](#get-string-value-index) | Возвращает строку из списка записей данных по индексу. Выбрасывает исключение, если данных нет | 30 |
 
 ## getInteger(List[DataEntry], String): Int|Unit <a id="get-integer-key"></a>
 
@@ -57,7 +57,7 @@ getInteger(data: List[DataEntry], index: Int): Unit|Int
 
 ## getIntegerValue(List[DataEntry], String): Int <a id="get-integer-value-key"></a>
 
-Получает целое число из списка записей данных по ключу.
+Возвращает целое число из списка записей данных по ключу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -77,7 +77,7 @@ getIntegerValue(data: List[DataEntry], key: String): Int
 
 ## getIntegerValue(List[DataEntry], Int): Int <a id="get-integer-value-index"></a>
 
-Получает целое число из списка записей данных по индексу.
+Возвращает целое число из списка записей данных по индексу.
 
 Выбрасывает исключение, если данных нет
 
@@ -97,7 +97,7 @@ getIntegerValue(data: List[DataEntry], index: Int): Int
 
 ## getBoolean(List[DataEntry], String): Boolean|Unit <a id="get-boolean-key"></a>
 
-Получает логическое значение из списка записей данных по ключу.
+Возвращает логическое значение из списка записей данных по ключу.
 
 ``` ride
 getBoolean(data: List[DataEntry], key: String): Boolean|Unit
@@ -115,7 +115,7 @@ getBoolean(data: List[DataEntry], key: String): Boolean|Unit
 
 ## getBoolean(data: List[DataEntry], index: Int): Boolean|Unit <a id="get-boolean-index"></a>
 
-Получает логическое значение из списка записей данных по индексу.
+Возвращает логическое значение из списка записей данных по индексу.
 
 ``` ride
 getBoolean(data: List[DataEntry], index: Int): Boolean|Unit
@@ -133,7 +133,7 @@ getBoolean(data: List[DataEntry], index: Int): Boolean|Unit
 
 ## getBooleanValue(List[DataEntry], String): Boolean <a id="get-boolean-value-key"></a>
 
-Получает логическое значение из списка записей данных по ключу.
+Возвращает логическое значение из списка записей данных по ключу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -153,7 +153,7 @@ getBooleanValue(data: List[DataEntry], key: String): Boolean
 
 ## getBooleanValue(List[DataEntry], Int): Boolean <a id="get-boolean-value-index"></a>
 
-Получает логическое значение из списка записей данных по индексу.
+Возвращает логическое значение из списка записей данных по индексу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -173,7 +173,7 @@ getBooleanValue(data: List[DataEntry], index: Int): Boolean
 
 ## getBinary(List[DataEntry], String): ByteVector|Unit <a id="get-binary-key"></a>
 
-Получает массив байтов из списка записей данных по ключу.
+Возвращает массив байтов из списка записей данных по ключу.
 
 ``` ride
 getBinary(data: List[DataEntry], key: String): ByteVector|Unit
@@ -191,7 +191,7 @@ getBinary(data: List[DataEntry], key: String): ByteVector|Unit
 
 ## getBinary(List[DataEntry], Int): ByteVector|Unit <a id="get-binary-index"></a>
 
-Получает массив байтов из списка записей данных по индексу.
+Возвращает массив байтов из списка записей данных по индексу.
 
 ``` ride
 getBinary(data: List[DataEntry], index: Int): ByteVector|Unit
@@ -209,7 +209,7 @@ getBinary(data: List[DataEntry], index: Int): ByteVector|Unit
 
 ## getBinaryValue(List[DataEntry], String): ByteVector <a id="get-binary-value-key"></a>
 
-Получает массив байтов из списка записей данных по ключу.
+Возвращает массив байтов из списка записей данных по ключу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -229,7 +229,7 @@ getBinaryValue(data: List[DataEntry], key: String): ByteVector
 
 ## getBinaryValue(List[DataEntry], Int): ByteVector <a id="get-binary-value-index"></a>
 
-Получает массив байтов из списка записей данных по индексу.
+Возвращает массив байтов из списка записей данных по индексу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -249,7 +249,7 @@ getBinaryValue(data: List[DataEntry], index: Int): ByteVector
 
 ## getString(List[DataEntry], String): String|Unit <a id="get-string-key"></a>
 
-Получает строку из списка записей данных по ключу.
+Возвращает строку из списка записей данных по ключу.
 
 ``` ride
 getString(data: List[DataEntry], key: String): String|Unit
@@ -267,7 +267,7 @@ getString(data: List[DataEntry], key: String): String|Unit
 
 ## getString(List[DataEntry], Int): String|Unit <a id="get-string-index"></a>
 
-Получает строку из списка записей данных по индексу.
+Возвращает строку из списка записей данных по индексу.
 
 ``` ride
 getString(data: List[DataEntry], index: Int): String|Unit
@@ -285,7 +285,7 @@ getString(data: List[DataEntry], index: Int): String|Unit
 
 ## getStringValue(List[DataEntry], String) : String <a id="get-string-value-key"></a>
 
-Получает строку из списка записей данных по ключу.
+Возвращает строку из списка записей данных по ключу.
 
 Выбрасывает исключение, если данных нет.
 
@@ -305,7 +305,7 @@ getStringValue(data: List[DataEntry], key: String) : String
 
 ## getStringValue(List[DataEntry], Int): String <a id="get-string-value-index"></a>
 
-Получает строку из списка записей данных по индексу.
+Возвращает строку из списка записей данных по индексу.
 
 Выбрасывает исключение, если данных нет.
 
