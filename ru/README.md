@@ -9,11 +9,12 @@
 ### RIDE
 
 * Встроенные функции
-  * [Функции декодирования](ride/built-in-functions/decoding-functions.md)
-  * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
-  * [Функции конвертации](ride/built-in-functions/converting-functions.md)
-  * [Функции массива байтов](ride/built-in-functions/byte-array-functions.md)
-  * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
+  * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
+  * [Функции исключения](ride/functions/built-in-functions/exception-functions.md)
+  * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
+  * [Функции конвертации](ride/functions/built-in-functions/converting-functions.md)
+  * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md)
+  * [Функции хеширования](ride/functions/built-in-functions/hashing-functions.md)
 * [Выражение](ride/base-concepts/expression.md)
 * [Директивы](ride/script/directives.md)
 * [Константы](ride/constants.md)
