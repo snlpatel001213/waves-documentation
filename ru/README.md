@@ -13,6 +13,7 @@
   * [Функции кодирования](ride/built-in-functions/encoding-functions.md)
   * [Функции конвертации](ride/built-in-functions/converting-functions.md)
   * [Функции массива байтов](ride/built-in-functions/byte-array-functions.md)
+  * [Функции транзакции данных](ride/built-in-functions/data-transaction-functions.md)
   * [Функции хеширования](ride/built-in-functions/hashing-functions.md)
 * [Выражение](ride/base-concepts/expression.md)
 * [Директивы](ride/script/directives.md)
