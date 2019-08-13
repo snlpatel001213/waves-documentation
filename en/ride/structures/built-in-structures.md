@@ -149,7 +149,6 @@
 </td></tr></table>
 </td></tr>
 <tr><td><a id="MassTransferTransaction">MassTransferTransaction</a></td><td>
-
 <table>
 </td></tr><tr><td>assetId</td><td>
   OPTION[<a href="#ByteVector">ByteVector</a>]
