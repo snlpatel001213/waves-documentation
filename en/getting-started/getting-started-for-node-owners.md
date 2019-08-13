@@ -11,7 +11,7 @@ The Waves full node serves **two critical roles**:
 
 ## Running a Node
 
-There're different options when you want to deal with Waves full node and you will need to [check the node configuration](/waves-node/configuration-parameters.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES** (the minimum balance) and create together a pool.
+There're different options when you want to deal with Waves full node and you will need to [check the node configuration](/waves-node/node-configuration.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES** (the minimum balance) and create together a pool.
 
 ### Installing a node
 
