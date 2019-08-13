@@ -191,7 +191,6 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
-* [Аннотации](ride/annotations.md)
 * [Базовые понятия](ride/base-concepts.md)
   * [Выражение](ride/base-concepts/expression.md)
   * [Определение](ride/base-concepts/definition.md)
@@ -234,12 +233,13 @@
   * [Тип данных пустого значения](ride/data-types/unit.md)
   * [Тип данных объединения](ride/data-types/union.md)
 * [Функции](ride/functions.md)
+  * [Аннотации](ride/functions/annotations.md)
   * [Встроенные функции](ride/functions/built-in-functions.md)
     * [Математические функции](ride/functions/built-in-functions/math-functions.md)
     * [Функции блокчейна](ride/functions/built-in-functions/blockchain-functions.md)
     * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
     * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
-    * [Функции конвертации](ride/built-in-functions/converting-functions.md)
+    * [Функции конвертации](ride/functions/built-in-functions/converting-functions.md)
     * [Функции массива байтов](ride/functions/built-in-functions/byte-array-functions.md)
     * [Функции объединения](ride/functions/built-in-functions/union-functions.md)
     * [Функции списка](ride/functions/built-in-functions/list-functions.md)

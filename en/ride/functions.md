@@ -4,7 +4,7 @@ A function must return a value. The return type is not specified in the signatur
 
 A function must be declared above the place of its usage.
 
-A function can be [annotated](/ride/annotations.md).
+A function can be [annotated](/ride/functions/annotations.md).
 
 There are multiple [built-in functions](/ride/functions/built-in-functions.md) in RIDE.
 

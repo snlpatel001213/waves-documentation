@@ -69,7 +69,7 @@
 
 ### RIDE
 
-* [Annotations](ride/annotations.md)
+* [Annotations](ride/functions/annotations.md)
 * Built-in functions
   * [Account data storage functions](ride/functions/built-in-functions/account-data-storage-functions.md)
 * [Data types](/ride/data-types.md)
