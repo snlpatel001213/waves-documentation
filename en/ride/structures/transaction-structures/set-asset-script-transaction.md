@@ -1,12 +1,14 @@
-# DataTransaction
+# SetAssetScriptTransaction
 
 <table>
 <tr>
   <th>Name</th>
   <th>Data type</th>
 </tr>
-<tr><td>data</td><td>
-  LIST[<a href="#DataEntry">DataEntry</a>]
+<tr><td>script</td><td>
+  OPTION[<a href="#ByteVector">ByteVector</a>]
+</td></tr><tr><td>assetId</td><td>
+  <a href="#ByteVector">ByteVector</a>
 </td></tr><tr><td>id</td><td>
   <a href="#ByteVector">ByteVector</a>
 </td></tr><tr><td>fee</td><td>

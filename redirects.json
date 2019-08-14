@@ -203,6 +203,10 @@
       "from": "ru/ride/annotations.html"
     },
     {
+      "to": "en/ride/structures.html",
+      "from": "en/ride/structures/built-in-structures.html"
+    },
+    {
       "to": "ru/ride/base-concepts/expression.html",
       "from": "ru/ride/expression.html"
     },

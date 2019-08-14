@@ -1,12 +1,21 @@
-# DataTransaction
+# TransferTransaction
 
 <table>
 <tr>
   <th>Name</th>
   <th>Data type</th>
 </tr>
-<tr><td>data</td><td>
-  LIST[<a href="#DataEntry">DataEntry</a>]
+<tr><td>feeAssetId</td><td>
+  OPTION[<a href="#ByteVector">ByteVector</a>]
+</td></tr><tr><td>amount</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>assetId</td><td>
+  OPTION[<a href="#ByteVector">ByteVector</a>]
+</td></tr><tr><td>recipient</td><td>
+   <a href="#Address">Address</a>
+   <a href="#Alias">Alias</a>
+</td></tr><tr><td>attachment</td><td>
+  <a href="#ByteVector">ByteVector</a>
 </td></tr><tr><td>id</td><td>
   <a href="#ByteVector">ByteVector</a>
 </td></tr><tr><td>fee</td><td>
