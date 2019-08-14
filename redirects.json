@@ -59,8 +59,16 @@
       "from": "/en/waves-environment/waves-protocol/leased-proof-of-stake-lpos.html"
     },
     {
-      "to": "/en/blockchain/transaction-body-bytes.html",
+      "to": "/en/blockchain/transaction/transaction-body-bytes.html",
       "from": "/en/blockchain/waves-protocol/versioned-transactions.html"
+    },
+    {
+      "to": "/en/blockchain/transaction/transaction-body-bytes.html",
+      "from": "/en/blockchain/transaction-body-bytes.html"
+    },
+    {
+      "to": "/ru/blockchain/transaction/transaction-body-bytes.html",
+      "from": "/ru/blockchain/transaction-body-bytes.html"
     },
     {
       "to" :"/en/blockchain/token.html",

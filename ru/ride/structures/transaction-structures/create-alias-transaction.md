@@ -19,5 +19,5 @@ CreateAliasTransaction(alias: String, id: ByteVector, fee: Int, timestamp: Int, 
 | 5 | version | Int | Версия [транзакции создания псевдонима](/blockchain/transaction-type/alias-transaction.md) |
 | 6 | sender | Address | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 7 | senderPublicKey | ByteVector | Публичный ключ отправителя транзакции |
-| 8 | bodyBytes | ByteVector | [Байты тела транзакции](/blockchain/transaction-body-bytes.md) |
+| 8 | bodyBytes | ByteVector | [Байты тела транзакции](/blockchain/transaction/transaction-body-bytes.md) |
 | 9 | proofs | List[ByteVector] | Список [подтверждений](/blockchain/transaction-proof.md) |
