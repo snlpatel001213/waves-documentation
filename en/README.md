@@ -53,7 +53,7 @@
 * Node
   * [Mining node](blockchain/node/mining-node.md)
 * [Order](blockchain/order.md)
-* [Transaction body bytes](blockchain/transaction-body-bytes.md)
+* [Transaction body bytes](blockchain/transaction/transaction-body-bytes.md)
 * Transaction type
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
   * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)

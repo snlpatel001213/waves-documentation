@@ -38,7 +38,7 @@
 
 ### Блокчейн
 
-* [Байты тела транзакции](blockchain/transaction-body-bytes.md)
+* [Байты тела транзакции](blockchain/transaction/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
 * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
 * Блок

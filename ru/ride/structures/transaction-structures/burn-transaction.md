@@ -20,5 +20,5 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | 6 | version | Int | Версия [транзакции сжигания токена](/blockchain/transaction-type/burn-transaction.md) |
 | 7 | sender | Address | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 8 | senderPublicKey | ByteVector | Публичный ключ отправителя транзакции |
-| 9 | bodyBytes | ByteVector | [Байты тела транзакции](/blockchain/transaction-body-bytes.md) |
+| 9 | bodyBytes | ByteVector | [Байты тела транзакции](/blockchain/transaction/transaction-body-bytes.md) |
 | 10 | proofs | List[ByteVector] | Список [подтверждений](/blockchain/transaction-proof.md) |
