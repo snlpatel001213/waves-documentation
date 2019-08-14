@@ -4,9 +4,9 @@
 | :--- | :--- | :--- |
 | 1 | [BurnTransaction](/ride/structures/transaction-structures/burn-transaction.md) | Structure of [burn transaction](/blockchain/transaction-type/burn-transaction.md) |
 | 2 | [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md) | Structure of [alias transaction](/blockchain/transaction-type/alias-transaction.md) |
-| 3 | DataTransaction | Structure of [data transaction](/blockchain/transaction-type/data-transaction.md) |
-| 4 | ExchangeTransaction | Structure of [exchange transaction](/blockchain/transaction-type/exchange-transaction.md) |
-| 5 | GenesisTransaction | Structure of [genesis transaction](/blockchain/transaction-type/genesis-transaction.md) |
+| 3 | [DataTransaction](/ride/structures/transaction-structures/data-transaction.md) | Structure of [data transaction](/blockchain/transaction-type/data-transaction.md) |
+| 4 | [ExchangeTransaction](/ride/structures/transaction-structures/exchange-transaction.md) | Structure of [exchange transaction](/blockchain/transaction-type/exchange-transaction.md) |
+| 5 | [GenesisTransaction](/ride/structures/transaction-structures/genesis-transaction.md) | Structure of [genesis transaction](/blockchain/transaction-type/genesis-transaction.md) |
 | 6 | InvokeScriptTransaction | Structure of [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md) |
 | 7 | IssueTransaction | Structure of [issue transaction](/blockchain/transaction-type/issue-transaction.md) |
 | 8 | LeaseCancelTransaction | Structure of [lease cancel transaction](/blockchain/transaction-type/lease-cancel-transaction.md) |

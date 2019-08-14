@@ -1,0 +1,33 @@
+# ExchangeTransaction
+
+<table>
+<tr><td>buyOrder</td><td>
+  <a href="#Order">Order</a>
+</td></tr><tr><td>sellOrder</td><td>
+  <a href="#Order">Order</a>
+</td></tr><tr><td>price</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>amount</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>buyMatcherFee</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>sellMatcherFee</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>id</td><td>
+  <a href="#ByteVector">ByteVector</a>
+</td></tr><tr><td>fee</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>timestamp</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>version</td><td>
+  <a href="#Int">Int</a>
+</td></tr><tr><td>sender</td><td>
+  <a href="#Address">Address</a>
+</td></tr><tr><td>senderPublicKey</td><td>
+  <a href="#ByteVector">ByteVector</a>
+</td></tr><tr><td>bodyBytes</td><td>
+  <a href="#ByteVector">ByteVector</a>
+</td></tr><tr><td>proofs</td><td>
+  LIST[<a href="#ByteVector">ByteVector</a>]
+</td></tr></table>
+</td></tr>
