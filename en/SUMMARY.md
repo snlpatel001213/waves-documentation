@@ -284,6 +284,9 @@
     * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
     * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
     * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
+    * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
+    * [IssueTransaction](ride/structures/transaction-structures/issue-transaction.md)
+    * [LeaseCancelTransaction](ride/structures/transaction-structures/lease-cancel-transaction.md)
 * [Variables](ride/variables.md)
 
 ## Programming
