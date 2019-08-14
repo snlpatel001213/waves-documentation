@@ -10,9 +10,9 @@
 | 6 | [InvokeScriptTransaction](/ride/structures/transaction-structures/invoke-script-transaction.md) | Structure of [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md) |
 | 7 | [IssueTransaction](/ride/structures/transaction-structures/issue-transaction.md) | Structure of [issue transaction](/blockchain/transaction-type/issue-transaction.md) |
 | 8 | [LeaseCancelTransaction](/ride/structures/transaction-structures/lease-cancel-transaction.md) | Structure of [lease cancel transaction](/blockchain/transaction-type/lease-cancel-transaction.md) |
-| 9 | LeaseTransaction | Structure of [lease transaction](/blockchain/transaction-type/lease-transaction.md) |
-| 10 | MassTransferTransaction | Structure of [mass transfer transaction](/blockchain/transaction-type/mass-transfer-transaction.md) |
-| 11 | ReissueTransaction | Structure of [reissue transaction](/blockchain/transaction-type/reissue-transaction.md) |
+| 9 | [LeaseTransaction](/ride/structures/transaction-structures/lease-transaction.md) | Structure of [lease transaction](/blockchain/transaction-type/lease-transaction.md) |
+| 10 | [MassTransferTransaction](/ride/structures/transaction-structures/mass-transfer-transaction.md) | Structure of [mass transfer transaction](/blockchain/transaction-type/mass-transfer-transaction.md) |
+| 11 | [ReissueTransaction](/ride/structures/transaction-structures/reissue-transaction.md) | Structure of [reissue transaction](/blockchain/transaction-type/reissue-transaction.md) |
 | 12 | SetAssetScriptTransaction | Structure of [set asset script transaction](/blockchain/transaction-type/set-asset-script-transaction.md) |
 | 13 | SetScriptTransaction | Structure of [set script transaction](/blockchain/transaction-type/set-script-transaction.md) |
 | 14 | SponsorshipTransaction | Structure of fee sponsoring transaction |
