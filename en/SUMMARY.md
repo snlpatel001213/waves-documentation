@@ -281,6 +281,9 @@
   * [Transaction structures](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
+    * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
+    * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
+    * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
 * [Variables](ride/variables.md)
 
 ## Programming
