@@ -1,6 +1,10 @@
 # ExchangeTransaction
 
 <table>
+<tr>
+  <th>Name</th>
+  <th>Data type</th>
+</tr>
 <tr><td>buyOrder</td><td>
   <a href="#Order">Order</a>
 </td></tr><tr><td>sellOrder</td><td>

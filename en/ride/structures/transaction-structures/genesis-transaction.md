@@ -1,6 +1,10 @@
 # GenesisTransaction
 
 <table>
+<tr>
+  <th>Name</th>
+  <th>Data type</th>
+</tr>
 <tr><td>amount</td><td>
   <a href="#Int">Int</a>
 </td></tr><tr><td>recipient</td><td>

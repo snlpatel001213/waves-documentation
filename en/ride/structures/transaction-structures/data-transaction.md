@@ -1,6 +1,10 @@
 # DataTransaction
 
 <table>
+<tr>
+  <th>Name</th>
+  <th>Data type</th>
+</tr>
 <tr><td>data</td><td>
   LIST[<a href="#DataEntry">DataEntry</a>]
 </td></tr><tr><td>id</td><td>
