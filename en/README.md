@@ -27,6 +27,8 @@
 * [Functions](ride/functions.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
+* Transaction structures
+  * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
 
 ### Waves Node
 
