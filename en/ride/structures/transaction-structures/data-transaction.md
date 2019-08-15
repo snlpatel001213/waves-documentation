@@ -16,7 +16,7 @@ DataTransaction(data: List[DataEntry], id: ByteVector, fee: Int, timestamp: Int,
 | 2 | id | ByteVector | Transaction ID |
 | 3 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
 | 4 | timestamp | Int | Transaction timestamp |
-| 5 | version | Int | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
+| 5 | version | Int | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
 | 6 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 7 | senderPublicKey | ByteVector | Account public key of a sender |
 | 8 | bodyBytes | ByteVector | Transaction's array of bytes |
