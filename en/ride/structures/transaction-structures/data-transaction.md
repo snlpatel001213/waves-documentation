@@ -1,28 +1,23 @@
 # DataTransaction
 
-<table>
-<tr>
-  <th>Name</th>
-  <th>Data type</th>
-</tr>
-<tr><td>data</td><td>
-  LIST[<a href="#DataEntry">DataEntry</a>]
-</td></tr><tr><td>id</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>fee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>timestamp</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>version</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>sender</td><td>
-  <a href="#Address">Address</a>
-</td></tr><tr><td>senderPublicKey</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>bodyBytes</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>proofs</td><td>
-  LIST[<a href="#ByteVector">ByteVector</a>]
-</td></tr></table>
-</td></tr>
-</table>
+Structure of a [data transaction](/blockchain/transaction-type/data-transaction.md).
+
+### Constructor
+
+``` ride
+DataTransaction(data: List[DataEntry], id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+```
+
+### Fields
+
+| # | Name | Data type | Description |
+| :--- | :--- | :--- | :--- |
+| 1 | data | List[[DataEntry](/ride/structures/common-structures/data-entry.md)] | [Transaction](/blockchain/transaction.md)'s data array |
+| 2 | id | [ByteVector](/ride/data-types/byte-vector.md) | Transaction ID |
+| 3 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
+| 4 | timestamp | [Int](/ride/data-types/int.md) | Transaction timestamp |
+| 5 | version | [Int](/ride/data-types/int.md) | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
+| 6 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of a transaction sender |
+| 7 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
+| 8 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Transaction's array of bytes |
+| 9 | proofs | List[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |
