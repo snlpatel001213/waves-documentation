@@ -6,7 +6,7 @@
 
 Cуществует несколько [типов транзакций](/blockchain/transaction-type.md).
 
-У каждой транзакции есть [уникальный ID](/blockchain/transaction/transaction-id.md) и [временная метка](/blockchain/transaction/transaction-timestamp.md).
+У каждой транзакции есть [уникальный ID](/blockchain/transaction/transaction-id.md) и [временна́я метка](/blockchain/transaction/transaction-timestamp.md).
 
 ## Бинарный формат
 
