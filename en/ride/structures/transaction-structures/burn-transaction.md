@@ -14,9 +14,9 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | :--- | :--- | :--- | :--- |
 | 1 | quantity | Int | Amount of the [token](/blockchain/token.md) to burn |
 | 2 | assetId | ByteVector | [ID of the token](/blockchain/token.md#token-id) to burn |
-| 3 | id | ByteVector | [Transaction ID](/blockchain/transaction.md#transaction-id) |
+| 3 | id | ByteVector | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
-| 5 | timestamp | Int | [Transaction timestamp](/blockchain/transaction.md#transaction-timestamp) |
+| 5 | timestamp | Int | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
 | 6 | version | Int | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) version |
 | 7 | sender | Address | [Address](/blockchain/address.md) of the transaction sender |
 | 8 | senderPublicKey | ByteVector | Public key of the transaction sender  |
