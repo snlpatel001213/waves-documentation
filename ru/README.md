@@ -23,6 +23,9 @@
 * [Переменные](ride/variables.md)
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 
+* Структуры транзакций
+  * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
+
 ### Блокчейн
 
 * Тип транзакции
