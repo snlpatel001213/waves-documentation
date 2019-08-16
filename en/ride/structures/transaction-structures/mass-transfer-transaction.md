@@ -1,6 +1,6 @@
 # MassTransferTransaction
 
-Structure of a [mass transfer transaction](/en/blockchain/transaction-type/mass-transfer-transaction.md).
+Structure of a [mass transfer transaction](/blockchain/transaction-type/mass-transfer-transaction.md).
 
 ## Constructor
 
