@@ -5,6 +5,7 @@
 ### Начало работы
 
 * [Руководство пользователя](getting-started/getting-started-for-users.md)
+* [Руководство разработчика](getting-started/getting-started-for-developers.md)
 
 ### RIDE
 

@@ -4,6 +4,7 @@
 
 * [Новости](README.md)
 * [Руководство пользователя](getting-started/getting-started-for-users.md)
+* [Руководство разработчика](getting-started/getting-started-for-developers.md)
 
 ## Блокчейн
 
@@ -270,6 +271,10 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
+
+## API and SDK
+
+* [Клиентские библиотеки](waves-api-and-sdk/client-libraries.md)
 
 ## Oracles
 
