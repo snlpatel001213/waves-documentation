@@ -1,26 +1,28 @@
 # MassTransferTransaction
 
-Structure of a [mass transfer transaction]().
-
-Structure of a [lease transaction](/en/blockchain/transaction-type/lease-transaction.md).
+Structure of a [mass transfer transaction](/en/blockchain/transaction-type/mass-transfer-transaction.md).
 
 ## Constructor
 
 ``` ride
-LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, totalAmount: Int, transfers: List[Transfer], transferCount: Int, attachment: ByteVector, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
 ## Fields
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | amount | Int | Amount of [tokens](/blockchain/token.md) to lease |
-| 2 | recipient | Address&#124;Alias | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the leasing recipient |
-| 3 | id | ByteVector | [Transaction ID](/blockchain/transaction/transaction-id.md) |
-| 4 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
-| 5 | timestamp | Int | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
-| 6 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
-| 7 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
-| 8 | senderPublicKey | ByteVector | Account public key of a sender |
-| 9 | bodyBytes | ByteVector | Transaction's array of bytes |
-| 10 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
+| 1 | feeAssetId | ByteVector&#124;Unit | [Token](/blockchain/token.md) to pay the commission. Currently it can be [WAVES](/blockchain/token/waves.md) only |
+| 2 | assetId | ByteVector&#124;Unit | ID of a token |
+| 3 | totalAmount | Int | Total amount of tokens for mass transfer |
+| 4 | transfers | List[Transfer] | Set of token transfers within current transaction |
+| 5 | transferCount | Int | Token transfers amount |
+| 6 | attachment | ByteVector | Arbitrary data attached to transfer |
+| 7 | id | ByteVector | [Transaction ID](/blockchain/transaction/transaction-id.md) |
+| 8 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
+| 9 | timestamp | Int | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
+| 10 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
+| 11 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
+| 12 | senderPublicKey | ByteVector | Account public key of a sender |
+| 13 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 14 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
