@@ -1,38 +1,28 @@
 # ExchangeTransaction
 
-<table>
-<tr>
-  <th>Name</th>
-  <th>Data type</th>
-</tr>
-<tr><td>buyOrder</td><td>
-  <a href="#Order">Order</a>
-</td></tr><tr><td>sellOrder</td><td>
-  <a href="#Order">Order</a>
-</td></tr><tr><td>price</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>amount</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>buyMatcherFee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>sellMatcherFee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>id</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>fee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>timestamp</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>version</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>sender</td><td>
-  <a href="#Address">Address</a>
-</td></tr><tr><td>senderPublicKey</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>bodyBytes</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>proofs</td><td>
-  LIST[<a href="#ByteVector">ByteVector</a>]
-</td></tr></table>
-</td></tr>
-</table>
+Structure of an [exchange transaction](/blockchain/transaction-type/exchange-transaction.md).
+
+### Constructor
+
+``` ride
+ExchangeTransaction(buyOrder: Order, sellOrder: Order, price: Int, amount: Int, buyMatcherFee: Int, sellMatcherFee: Int, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+```
+
+### Fields
+
+| # | Name | Data type | Description |
+| :--- | :--- | :--- | :--- |
+| 1 | buyOrder | [Order](/ride/structures/common-structures/order.md) | [Token](/blockchain/token.md) purchase [order](/blockchain/order.md) |
+| 2 | sellOrder | [Order](/ride/structures/common-structures/order.md) | Token sell order |
+| 3 | price | [Int](/ride/data-types/int.md) | Price of exchanging token |
+| 4 | amount | [Int](/ride/data-types/int.md) | Amount of exchanging tokens |
+| 5 | buyMatcherFee | [Int](/ride/data-types/int.md) | [Matcher](/waves-node/extensions/matcher.md)'s purchase fee |
+| 6 | sellMatcherFee | [Int](/ride/data-types/int.md) | Matcher's sell fee |
+| 7 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
+| 8 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
+| 9 | timestamp | [Int](/ride/data-types/int.md) | Transaction timestamp |
+| 10 | version | [Int](/ride/data-types/int.md) | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
+| 11 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of a transaction sender |
+| 12 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
+| 13 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Transaction's array of bytes |
+| 14 | proofs | List[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |

@@ -228,6 +228,7 @@
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
     * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
+    * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
 * [Типы данных](ride/data-types.md)
   * [Логический](ride/data-types/boolean.md)
   * [Тип данных массива байтов](ride/data-types/byte-vector.md)
