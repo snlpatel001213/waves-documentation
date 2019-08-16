@@ -4,12 +4,12 @@
 
 | # | Язык программирования | Библиотека |
 | :--- | :--- | :--- |
-| 1 | C | [WavesC](/en/waves-api-and-sdk/client-libraries/waves-c.md) |
-| 2 | C# | [WavesCS](/en/waves-api-and-sdk/client-libraries/wavescs.md) |
-| 3 | Go | [GoWaves](/en/waves-api-and-sdk/client-libraries/gowaves.md) |
-| 4 | Java | [WavesJ](/en/waves-api-and-sdk/client-libraries/wavesj.md) |
-| 5 | JavaScript | [Waves Signature Adapter](/en/waves-api-and-sdk/client-libraries/waves-signature-adapter.md), [waves-transactions](/en/waves-api-and-sdk/client-libraries/waves-transactions.md) |
+| 1 | C | [WavesC](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/waves-c.html) |
+| 2 | C# | [WavesCS](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/wavescs.html) |
+| 3 | Go | [GoWaves](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/gowaves.html) |
+| 4 | Java | [WavesJ](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/wavesj.html) |
+| 5 | JavaScript | [Waves Signature Adapter](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/waves-signature-adapter.html), [waves-transactions](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/waves-transactions.html) |
 | 6 | Kotlin | [Waves SDK for Android](https://github.com/wavesplatform/WavesSDK-android) |
-| 7 | Python | [PyWaves](/en/waves-api-and-sdk/client-libraries/pywaves.md) |
-| 8 | Rust | [WavesRS](/en/waves-api-and-sdk/client-libraries/wavesrs.md) |
+| 7 | Python | [PyWaves](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/pywaves.html) |
+| 8 | Rust | [WavesRS](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/wavesrs.html) |
 | 9 | Swift | [Waves SDK for iOS](https://github.com/wavesplatform/WavesSDK-iOS) |
