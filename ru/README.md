@@ -26,6 +26,7 @@
 * Структуры транзакций
   * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
   * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
+  * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
 
 ### Блокчейн
 
