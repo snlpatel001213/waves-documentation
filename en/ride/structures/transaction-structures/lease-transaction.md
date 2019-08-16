@@ -1,31 +1,12 @@
 # LeaseTransaction
 
-<table>
-<tr>
-  <th>Name</th>
-  <th>Data type</th>
-</tr>
-<tr><td>amount</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>recipient</td><td>
-   <a href="#Address">Address</a>
-   <a href="#Alias">Alias</a>
-</td></tr><tr><td>id</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>fee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>timestamp</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>version</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>sender</td><td>
-  <a href="#Address">Address</a>
-</td></tr><tr><td>senderPublicKey</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>bodyBytes</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>proofs</td><td>
-  LIST[<a href="#ByteVector">ByteVector</a>]
-</td></tr></table>
-</td></tr>
-</table>
+Structure of a [lease transaction](/blockchain/transaction-type/lease-transaction.md).
+
+## Constructor
+
+``` ride
+LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+```
+
+## Fields
+
