@@ -21,4 +21,4 @@ LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int
 | 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ отправителя транзакции |
 | 9 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Байты тела транзакции](/blockchain/transaction/transaction-body-bytes.md) |
-| 10 | proofs | List[[ByteVector](/ride/data-types/byte-vector.md)] | Список [подтверждений](/blockchain/transaction-proof.md) |
+| 10 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Список [подтверждений](/blockchain/transaction-proof.md) |
