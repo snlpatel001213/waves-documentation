@@ -14,9 +14,9 @@ MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, t
 | :--- | :--- | :--- | :--- |
 | 1 | feeAssetId | [ByteVector&#124;Unit](/ride/data-types/union.md) | [Токен](/blockchain/token.md) комиссии. В настоящее разрешен только [WAVES](/blockchain/token/waves.md) |
 | 2 | assetId | [ByteVector&#124;Unit](/ride/data-types/union.md) | ID токена |
-| 3 | totalAmount | [Int](/ride/data-types/int.md) | Общая сумма токенов для массового перевода |
-| 4 | transfers | [List](/ride/data-types/list.md)[Transfer] | Список переводов токенов в рамках текущей транзакции |
-| 5 | transferCount | [Int](/ride/data-types/int.md) | Количество переводов токенов |
+| 3 | totalAmount | [Int](/ride/data-types/int.md) | Общая сумма токена для массового перевода |
+| 4 | transfers | [List](/ride/data-types/list.md)[Transfer] | Список переводов токена в рамках текущей транзакции |
+| 5 | transferCount | [Int](/ride/data-types/int.md) | Количество переводов токена |
 | 6 | attachment | [ByteVector](/ride/data-types/byte-vector.md) | Произвольные данные, которые могут быть прикреплены к переводу |
 | 7 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 8 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
