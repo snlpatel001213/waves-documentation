@@ -6,7 +6,7 @@
   <th>Data type</th>
 </tr>
 <tr><td>dappAddress</td><td>
-  <a href="#Address">Address</a>
+  <a href="#Address">Address</a>|<a href="#Address">Alias</a>
 </td></tr><tr><td>payment</td><td>
   OPTION[<a href="#AttachedPayment">AttachedPayment</a>]
 </td></tr><tr><td>feeAssetId</td><td>
