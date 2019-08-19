@@ -1,36 +1,27 @@
 # InvokeScriptTransaction
 
-<table>
-<tr>
-  <th>Name</th>
-  <th>Data type</th>
-</tr>
-<tr><td>dappAddress</td><td>
-  <a href="#Address">Address</a>|<a href="#Address">Alias</a>
-</td></tr><tr><td>payment</td><td>
-  OPTION[<a href="#AttachedPayment">AttachedPayment</a>]
-</td></tr><tr><td>feeAssetId</td><td>
-  OPTION[<a href="#ByteVector">ByteVector</a>]
-</td></tr><tr><td>function</td><td>
-  <a href="#String">String</a>
-</td></tr><tr><td>args</td><td>
-  LIST[<a href="#UNION(Boolean|ByteVector|Int|String)">UNION(Boolean|ByteVector|Int|String)</a>]
-</td></tr><tr><td>id</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>fee</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>timestamp</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>version</td><td>
-  <a href="#Int">Int</a>
-</td></tr><tr><td>sender</td><td>
-  <a href="#Address">Address</a>
-</td></tr><tr><td>senderPublicKey</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>bodyBytes</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr><tr><td>proofs</td><td>
-  LIST[<a href="#ByteVector">ByteVector</a>]
-</td></tr></table>
-</td></tr>
-</table>
+Structure of an [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md).
+
+### Constructor
+
+``` ride
+InvokeScriptTransaction(dapp: Address|Alias, payment: AttachedPayment|Unit, feeAssetId: ByteVector|Unit, function: String, args: List[Boolean|ByteVector|Int|String], id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+```
+
+### Fields
+
+| # | Name | Data type | Description |
+| :--- | :--- | :--- | :--- |
+| 1 | dapp | [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md) | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the [account]((/blockchain/account.md)) which is calling a function |
+| 2 | payment | [AttachedPayment](/ride/structures/common-structures/attached-payment.md)&#124;[Unit](/ride/data-types/unit.md) | Payment attached to the [transaction](/blockchain/transaction.md) |
+| 3 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Token](/blockchain/token.md) to pay the commission. Currently, it can be only in [WAVES](/blockchain/token/waves.md) |
+| 4 | function | [String](/ride/data-types/string.md) | [Function](/ride/functions.md) name |
+| 5 | args | [List](/ride/data-types/list.md)[[Boolean](/ride/data-types/boolean.md)&#124;[ByteVector](/ride/data-types/byte-vector.md)&#124;[Int](/ride/data-types/int.md)&#124;[String](/ride/data-types/string.md)] | [Function](/ride/functions.md) parameters |
+| 6 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
+| 7 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
+| 8 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
+| 9 | version | [Int](/ride/data-types/int.md) | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
+| 10 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the transaction sender |
+| 11 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of the transaction sender |
+| 12 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Transaction's array of bytes |
+| 13 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |
