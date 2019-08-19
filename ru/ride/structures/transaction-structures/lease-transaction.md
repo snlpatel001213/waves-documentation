@@ -1,0 +1,24 @@
+# LeaseTransaction
+
+Структура [транзакции лизинга](/blockchain/transaction-type/lease-transaction.md).
+
+## Конструктор
+
+``` ride
+LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+```
+
+## Поля структуры
+
+| # | Название | Тип данных | Описание |
+| :--- | :--- | :--- | :--- |
+| 1 | amount | [Int](/ride/data-types/int.md) | Количество [токенов](/blockchain/token.md), отдаваемых в лизинг |
+| 2 | recipient | [Address&#124;Alias](/ride/data-types/union.md) | [Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) получателя лизинга |
+| 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
+| 4 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
+| 5 | timestamp | [Int](/ride/data-types/int.md) | Временна́я метка транзакции |
+| 6 | version | [Int](/ride/data-types/int.md) | Версия [структуры данных](/blockchain/transaction-data-structure.md) транзакции |
+| 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
+| 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ отправителя транзакции |
+| 9 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Байты тела транзакции](/blockchain/transaction/transaction-body-bytes.md) |
+| 10 | proofs | List[[ByteVector](/ride/data-types/byte-vector.md)] | Список [подтверждений](/blockchain/transaction-proof.md) |
