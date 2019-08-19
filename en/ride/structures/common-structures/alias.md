@@ -12,4 +12,4 @@ Alias(alias: String)
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | alias | String | Characters of an alias |
+| 1 | alias | [String](/ride/data-types/string.md) | Alias name |
