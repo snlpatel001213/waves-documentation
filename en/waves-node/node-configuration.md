@@ -42,7 +42,7 @@ Using parameter `directory` it is possible to set a path to the base application
 
 **Note:** For Windows users. Often on Windows, the HOME environment variable is not set. Please, replace `${HOME}` with `${HOMEPATH}` or `${APPDATA}` in your additional configuration file. Also, you should remember that Windows' environment variables names are case sensitive.
 
-**Note:** Make sure the defined directory has a correct owner set: waves for mainnet or waves-testnet for testnet.
+**Note:** Make sure the defined directory has a correct owner set: `waves` for mainnet or `waves-testnet` for testnet.
 
 Parameter `data-directory` sets the location of LevelDB database folder. In this database stored blockchain data and state.
 
