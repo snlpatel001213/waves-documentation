@@ -25,4 +25,4 @@ InvokeScriptTransaction(dapp: Address|Alias, payment: AttachedPayment|Unit, feeA
 | 10 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 11 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Открытый ключ отправителя транзакции |
 | 12 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Байты тела транзакции |
-| 13 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Список [подтверждений](/blockchain/transaction-proof.md)) |
+| 13 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Список [подтверждений](/blockchain/transaction-proof.md) |
