@@ -29,6 +29,7 @@
   * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
   * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
   * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
+  * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
 
 ### Блокчейн
 
