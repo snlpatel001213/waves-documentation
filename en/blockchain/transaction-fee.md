@@ -10,13 +10,13 @@ A sender can specify any amount of fee but not less than a certain amount. The l
 | :--- | :--- | :--- | :--- |
 | [Alias transaction](/blockchain/transaction-type/alias-transaction.md) | 10 | 0.001 | |
 | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) | 6 | 0.001 | |
-| Data transaction | 12 | 0.001 per kilobyte. <br>Values is rounded up to the thousandths | |
+| Data transaction | 12 | 0.001 per kilobyte. <br>The value is rounded up to the thousandths | |
 | Exchange transaction | 7 | 0.003 | |
 | Invoke script transaction | 16 | 0.005 + `B` + `C` + 0.004 × `D` | If transaction is sent from a [smart account](/blockchain/smart-account.md), then `B` = 0.004, otherwise `B` = 0. <br>If transaction has a payment attached, then `C` = 0.004, otherwise `C` = 0. <br>`D` is a number of transfers of smart assets |
 | Issue transaction | 3 | 1 for reqular token <br>0.001 for [non-fungible token](/blockchain/token/non-fungible-token.md) | |
 | Lease cancel transaction | 9 | 0.001 | |
 | Lease transaction | 8 | 0.001 | |
-| Mass transfer transaction | 11 | 0.001 + 0.0005 × N | `N` is the number of transfers inside of the transaction. The value of 0.0005 × N is rounded up to the thousandths. Therefore: <br>0.0005 × 1 = 0.001 <br>0.0005 × 2 = 0.001 <br>0.0005 × 3 = 0.002 |
+| Mass transfer transaction | 11 | 0.001 + 0.0005 × N | `N` is the number of transfers inside of the transaction. <br>The value of 0.0005 × N is rounded _up_ to the thousandths |
 | Reissue transaction | 5 | 1 | |
 | Set asset script transaction | 15 | 1 | |
 | Set script transaction | 13 | 0.01 | |
