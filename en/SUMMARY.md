@@ -268,6 +268,7 @@
   * [Common structures](ride/structures/common-structures.md)
     * [Address](ride/structures/common-structures/address.md)
     * [Asset](ride/structures/common-structures/asset.md)
+    * [Alias](ride/structures/common-structures/alias.md)
     * [AssetPair](ride/structures/common-structures/asset-pair.md)
     * [AttachedPayment](ride/structures/common-structures/attached-payment.md)
     * [BlockInfo](ride/structures/common-structures/block-info.md)
