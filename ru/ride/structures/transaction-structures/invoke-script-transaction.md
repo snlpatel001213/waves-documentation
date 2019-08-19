@@ -14,7 +14,7 @@ InvokeScriptTransaction(dapp: Address|Alias, payment: AttachedPayment|Unit, feeA
 | # | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
 | 1 | dapp | [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md) | [Адрес]((/blockchain/address.md)) или [псевдоним](/blockchain/alias.md)[аккаунта](/blockchain/account.md), который вызывает функцию |
-| 2 | payment | [[AttachedPayment](/ride/structures/common-structures/attached-payment.md)&#124;[Unit](/ride/data-types/unit.md) | Платёж, приложенный к [транзакции](/blockchain/transaction.md) |
+| 2 | payment | [AttachedPayment](/ride/structures/common-structures/attached-payment.md)&#124;[Unit](/ride/data-types/unit.md) | Платёж, приложенный к [транзакции](/blockchain/transaction.md) |
 | 3 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Токен](/blockchain/token.md) комиссии. В настоящее время им может быть только [WAVES](/blockchain/token/waves.md) |
 | 4 | function | [String](/ride/data-types/string.md) | Имя [функции](/ride/functions.md) |
 | 5 | args | [List](/ride/data-types/list.md)[[Boolean](/ride/data-types/boolean.md)&#124;[ByteVector](/ride/data-types/byte-vector.md)&#124;[Int](/ride/data-types/int.md)&#124;[String](/ride/data-types/string.md)] | Параметры[ функции](/ride/functions.md) |
