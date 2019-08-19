@@ -16,7 +16,7 @@ A sender can specify any amount of fee but not less than a certain amount. The l
 | Issue transaction | 3 | 1 for reqular token <br>0.001 for [non-fungible token](/blockchain/token/non-fungible-token.md) | |
 | Lease cancel transaction | 9 | 0.001 | |
 | Lease transaction | 8 | 0.001 | |
-| Mass transfer transaction | 11 | 0.001 + 0.001 × (N+1)/2 | `N` is the number of transfers inside of the transaction. The result of (N+1)/2 is rounded down to an integer  |
+| Mass transfer transaction | 11 | 0.001 + 0.001 × (N+1) / 2 | `N` is the number of transfers inside of the transaction. The result of (N+1)/2 is rounded down to an integer  |
 | Reissue transaction | 5 | 1 | |
 | Set asset script transaction | 15 | 1 | |
 | Set script transaction | 13 | 0.01 | |
