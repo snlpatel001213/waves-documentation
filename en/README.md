@@ -38,6 +38,7 @@
 ### Waves Node
 
 * [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
+* [Node configuration](waves-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1515)
 
 ### July articles
 
