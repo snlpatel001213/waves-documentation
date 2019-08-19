@@ -232,6 +232,7 @@
     * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
     * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
     * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
+    * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
 * [Типы данных](ride/data-types.md)
   * [Логический](ride/data-types/boolean.md)
   * [Тип данных массива байтов](ride/data-types/byte-vector.md)
