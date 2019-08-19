@@ -1,6 +1,6 @@
 # Developer guide
 
-Waves provides libraries to work with the platform from your applications.
+Waves provides client libraries to work with the platform from your applications.
 
 Also, you can create decentralized applications (dApps) on the blockchain using [RIDE](/ride/about-ride.md) language. The dApps functions can be called from applications using client libraries.
 
