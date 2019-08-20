@@ -1,6 +1,6 @@
 # IssueTransaction
 
-Structure of an [issue transaction](http://confluence.wavesplatform.com/display/WDOCS/Issue+transaction).
+Structure of an [issue transaction](/blockchain/transaction-type/issue-transaction.md).
 
 ### Constructor
 
@@ -24,5 +24,5 @@ IssueTransaction(quantity: Int, name: ByteVector, description: ByteVector, reiss
 | 10 | version | [Int](/ride/data-types/int.md) | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
 | 11 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the transaction sender |
 | 12 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of the transaction sender |
-| 13 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Transaction's array of bytes |
+| 13 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 14 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |
