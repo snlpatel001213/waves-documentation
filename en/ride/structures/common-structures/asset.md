@@ -12,7 +12,7 @@ Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPubli
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | id | ByteVector | Token ID[/blockchain/token.md] |
+| 1 | id | ByteVector | [Token](/blockchain/token.md) ID |
 | 2 | quantity | Int | Amount of issued token |
 | 3 | decimals | Int | Number of decimal places |
 | 4 | issuer | Address | [Address](/blockchain/address.md) of the [account](/blockchain/account.md) that issued a token |

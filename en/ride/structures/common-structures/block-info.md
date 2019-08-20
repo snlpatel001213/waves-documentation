@@ -16,5 +16,5 @@ BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: Byt
 | 2 | height | Int | The [block height](/blockchain/block/block-height.md) |
 | 3 | baseTarget | Int | The complexity of the block creation |
 | 4 | generationSignature | ByteVector | The signature of a key block |
-| 5 | generator | Address | The [address](/blockchain/address.md) of an [/blockchain/account.md) account that created a block |
+| 5 | generator | Address | The [address](/blockchain/address.md) of the [account](/blockchain/account.md) that created a block |
 | 6 | generatorPublicKey | ByteVector | The public key of the account that created a block |
