@@ -1,23 +1,23 @@
-# LeaseTransaction
+# SetAssetScriptTransaction
 
-Структура [транзакции лизинга](/blockchain/transaction-type/lease-transaction.md).
+Структура [транзакции установки скрипта ассета](/blockchain/transaction-type/set-asset-script-transaction.md).
 
 ## Конструктор
 
 ``` ride
-LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+SetAssetScriptTransaction(script: ByteVector|Unit, assetId: ByteVector, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
 ## Поля структуры
 
 | # | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | amount | [Int](/ride/data-types/int.md) | Количество [токена](/blockchain/token.md), отдаваемого в лизинг |
-| 2 | recipient | [Address&#124;Alias](/ride/data-types/union.md) | [Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) получателя лизинга |
+| 1 | script | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Скрипт ассета](/ride/script/script-types/asset-script.md) |
+| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | ID токена |
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
 | 5 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |
-| 6 | version | [Int](/ride/data-types/int.md) | Версия [бинарного формата транзакции](/blockchain/binary-format/transaction-binary-format.md) |
+| 6 | version | [Int](/ride/data-types/int.md) | Версия [структуры данных](/blockchain/transaction-data-structure.md) транзакции |
 | 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ отправителя транзакции |
 | 9 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Байты тела транзакции](/blockchain/transaction/transaction-body-bytes.md) |
