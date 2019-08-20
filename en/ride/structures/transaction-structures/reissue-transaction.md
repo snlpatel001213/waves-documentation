@@ -21,5 +21,5 @@ ReissueTransaction(quantity: Int, assetId: ByteVector, reissuable: Boolean, id: 
 | 7 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
 | 8 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 9 | senderPublicKey | ByteVector | Account public key of a sender |
-| 10 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 10 | bodyBytes | ByteVector | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 11 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |

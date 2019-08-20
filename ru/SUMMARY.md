@@ -234,6 +234,7 @@
     * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
     * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
     * [IssueTransaction](ride/structures/transaction-structures/issue-transaction.md)
+    * [LeaseCancelTransaction](ride/structures/transaction-structures/lease-cancel-transaction.md)
     * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
     * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
     * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)

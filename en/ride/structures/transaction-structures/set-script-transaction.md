@@ -19,5 +19,5 @@ SetScriptTransaction(script: ByteVector|Unit, id: ByteVector, fee: Int, timestam
 | 5 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
 | 6 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 7 | senderPublicKey | ByteVector | Account public key of a sender |
-| 8 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 8 | bodyBytes | ByteVector | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 9 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
