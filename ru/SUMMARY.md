@@ -21,6 +21,7 @@
     * [Бинарный формат транзакции сжигания токена](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
 * [Блок](blockchain/block.md)
   * [Блок генезиса](blockchain/block/genesis-block.md)
+  * [Временная метка блока](blockchain/block/block-timestamp.md)
   * [Высота блока](blockchain/block/block-height.md)
   * [Генерация блока](blockchain/block/block-generation.md)
     * [Базовая цель](blockchain/block/block-generation/base-target.md)

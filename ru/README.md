@@ -41,6 +41,8 @@
 
 ### Блокчейн
 
+* Блок
+  * [Временная метка блока](blockchain/block/block-timestamp.md)
 * Транзакция
   * [ID транзакции](blockchain/transaction/transaction-id.md)
   * [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md)
