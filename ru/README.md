@@ -23,16 +23,17 @@
 * [Определение](ride/base-concepts/definition.md)
 * [Переменные](ride/variables.md)
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
-* Структуры транзакций
-  * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
-  * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
-  * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
-  * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
-  * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
-  * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
-  * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
-  * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
-  * [SetScriptTransaction](ride/structures/transaction-structures/set-script-transaction.md)
+* Структуры
+  * Структуры транзакций
+    * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
+    * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
+    * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
+    * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
+    * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
+    * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
+    * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
+    * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
+    * [SetScriptTransaction](ride/structures/transaction-structures/set-script-transaction.md)
 
 ### Блокчейн
 
