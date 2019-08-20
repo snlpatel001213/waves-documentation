@@ -1,6 +1,6 @@
 # Блок генезиса
 
-**Блок генезиса** — первый [блок](/blockchain/block.md) [блокчейна](/blockchain/blockchain.md).
+**Блок генезиса** — первый [блок](/blockchain/block.md) блокчейна.
 
 В блоке генезиса содержится одна или несколько [транзакций генезиса](/blockchain/transaction-type/genesis-transaction.md).
 
