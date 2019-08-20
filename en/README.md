@@ -8,6 +8,8 @@
 
 ### Blockchain
 
+* Block
+  * [Block timestamp](blockchain/block/block-timestamp.md)
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 * Transaction

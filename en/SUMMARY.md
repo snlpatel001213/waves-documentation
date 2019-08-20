@@ -52,6 +52,7 @@
     * [Base target](blockchain/block/block-generation/base-target.md)
   * [Block height](blockchain/block/block-height.md)
   * [Block signature](blockchain/block/block-signature.md)
+  * [Block timestamp](blockchain/block/block-timestamp.md)
   * [Genesis block](blockchain/block/genesis-block.md)
 * [Blockchain](blockchain/blockchain.md)
   * [Blockchain height](blockchain/blockchain-height.md)
