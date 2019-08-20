@@ -24,5 +24,5 @@ MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, t
 | 10 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
 | 11 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 12 | senderPublicKey | ByteVector | Account public key of a sender |
-| 13 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 13 | bodyBytes | ByteVector | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 14 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |

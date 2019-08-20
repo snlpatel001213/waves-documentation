@@ -23,5 +23,5 @@ TransferTransaction(feeAssetId: ByteVector|Unit, amount: Int, assetId: ByteVecto
 | 9 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
 | 10 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 11 | senderPublicKey | ByteVector | Account public key of a sender |
-| 12 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 12 | bodyBytes | ByteVector | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 13 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |

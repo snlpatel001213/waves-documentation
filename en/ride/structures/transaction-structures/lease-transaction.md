@@ -20,5 +20,5 @@ LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int
 | 6 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
 | 7 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
 | 8 | senderPublicKey | ByteVector | Account public key of a sender |
-| 9 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 9 | bodyBytes | ByteVector | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 10 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
