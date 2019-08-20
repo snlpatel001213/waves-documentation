@@ -12,7 +12,7 @@ IssueTransaction(quantity: Int, name: ByteVector, description: ByteVector, reiss
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | quantity | [Int](/ride/data-types/int.md) | Amount of [tokens](/blockchain/token.md) |
+| 1 | quantity | [Int](/ride/data-types/int.md) | Amount of the [token](/blockchain/token.md) |
 | 2 | name | [ByteVector](/ride/data-types/byte-vector.md) | Token name |
 | 3 | description | [ByteVector](/ride/data-types/byte-vector.md) | Token description |
 | 4 | reissuable | [Boolean](/ride/data-types/boolean.md) | Reissue ability flag |
