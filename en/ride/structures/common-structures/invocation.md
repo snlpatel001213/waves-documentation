@@ -12,9 +12,9 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | caller | Address | The address of an [account](/blockchain/account.md) that sent a transaction |
-| 2 | callerPublicKey | ByteVector | The public key of an account that sent a transaction |
-| 3 | payment | AttachedPayment&#124;Unit | The attached payment |
-| 4 | transactionId | ByteVector | The ID of a transaction |
-| 5 | fee | Int | The transaction fee |
-| 6 | feeAssetId | ByteVector&#124;Unit | The [token](/blockchain/token.md) of a transaction fee |
+| 1 | caller | Address |  The [account](/blockchain/account.md) that sent a transaction |
+| 2 | callerPublicKey | ByteVector | Public key of an account that sent a transaction |
+| 3 | payment | AttachedPayment&#124;Unit | Attached payment |
+| 4 | transactionId | ByteVector | ID of a transaction |
+| 5 | fee | Int | Transaction fee |
+| 6 | feeAssetId | ByteVector&#124;Unit | [Token](/blockchain/token.md) of a transaction fee |

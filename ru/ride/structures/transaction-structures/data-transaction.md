@@ -15,7 +15,7 @@ DataTransaction(data: List[DataEntry], id: ByteVector, fee: Int, timestamp: Int,
 | 1 | data | [List](/ride/data-types/list.md)[[DataEntry](/ride/structures/common-structures/data-entry.md)] | [Массив данных транзакции](/blockchain/transaction-type/data-transaction.md) |
 | 2 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 3 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
-| 4 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md) |
+| 4 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |
 | 5 | version | [Int](/ride/data-types/int.md) | Версия [бинарного формата транзакции](/blockchain/binary-format/transaction-binary-format.md) |
 | 6 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 7 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ отправителя транзакции |

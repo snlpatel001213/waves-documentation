@@ -12,5 +12,5 @@ ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | writeSet | WriteSet | The list of records of an [account data storage](/blockchain/transaction-proof.md) |
-| 2 | transferSet | TransferSet | The list of [tokens](/blockchain/token.md) of a transfer |
+| 1 | writeSet | WriteSet | List of records of an [account data storage](/blockchain/account-data-storage.md) |
+| 2 | transferSet | TransferSet | List of [tokens](/blockchain/token.md) of a transfer |

@@ -12,5 +12,5 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | assetId | ByteVector&#124;Unit | The ID of a [token](/blockchain/token.md) |
-| 2 | amount | Int | The payment amount |
+| 1 | assetId | ByteVector&#124;Unit | ID of a [token](/blockchain/token.md) |
+| 2 | amount | Int | Payment amount |

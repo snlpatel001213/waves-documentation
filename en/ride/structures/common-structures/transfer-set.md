@@ -12,4 +12,4 @@ TransferSet(transfers: List[ScriptTransfer])
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | transfers | List[ScriptTransfer] | The list of token transfers |
+| 1 | transfers | List[ScriptTransfer] | List of token transfers |
