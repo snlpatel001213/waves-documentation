@@ -12,5 +12,5 @@ Transfer(recipient: Address|Alias, amount: Int)
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address&#124;Alias | The [address](/blockchain/address.md) of a recipient of tokens |
+| 1 | recipient | Address&#124;Alias | [Address](/blockchain/address.md) of a recipient of tokens |
 | 2 | amount | Int | Number of tokens |

@@ -12,4 +12,4 @@ WriteSet(data: List[DataEntry])
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | data | List[DataEntry] | The list of data records of an account data storage |
+| 1 | data | List[DataEntry] | List of data records of an account data storage |

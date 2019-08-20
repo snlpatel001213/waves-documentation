@@ -12,6 +12,6 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address&#124;Alias | The [address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
-| 2 | amount | Int | The number of tokens |
-| 3 | asset | ByteVector&#124;Unit | The ID of a token |
+| 1 | recipient | Address&#124;Alias | [Address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
+| 2 | amount | Int | Number of tokens |
+| 3 | asset | ByteVector&#124;Unit | ID of a token |
