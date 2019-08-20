@@ -12,7 +12,7 @@ IssueTransaction(quantity: Int, name: ByteVector, description: ByteVector, reiss
 
 | # | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | quantity | [Int](/ride/data-types/int.md) | Количество [токенов](/blockchain/token.md) |
+| 1 | quantity | [Int](/ride/data-types/int.md) | Количество [токена](/blockchain/token.md) |
 | 2 | name | [ByteVector](/ride/data-types/byte-vector.md) | Название токена |
 | 3 | description | [ByteVector](/ride/data-types/byte-vector.md) | Описание токена |
 | 4 | reissuable | [Boolean](/ride/data-types/boolean.md) | Флаг возможности довыпуска токена |
