@@ -36,6 +36,7 @@
     * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
     * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
     * [SetScriptTransaction](ride/structures/transaction-structures/set-script-transaction.md)
+    * [TransferTransaction](ride/structures/transaction-structures/transfer-transaction.md)
 
 ### Блокчейн
 
