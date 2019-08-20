@@ -49,4 +49,4 @@
 
 ## Update the Configuration
 
-Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/configuration-parameters.md)_**.**_
+Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/node-configuration.md)_**.**_

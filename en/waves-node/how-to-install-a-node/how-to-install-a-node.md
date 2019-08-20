@@ -5,7 +5,7 @@ To run the Waves node have to go through 2 steps:
 1. Install the JRE 1.8 (64-bit version).
 2. Download [Waves package](https://github.com/wavesplatform/Waves/releases) and configure the application.
 
-Prior to the launch of your nodes, make sure you read the [configuration specification](/waves-node/configuration-parameters.md)! The default configuration does not contain the safest solution!
+Prior to the launch of your nodes, make sure you read the [configuration specification](/waves-node/node-configuration.md)! The default configuration does not contain the safest solution!
 
 More specific steps depend on your operating system:
 
