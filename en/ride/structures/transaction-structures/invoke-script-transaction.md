@@ -5,14 +5,14 @@ Structure of an [invoke script transaction](/blockchain/transaction-type/invoke-
 ### Constructor
 
 ``` ride
-InvokeScriptTransaction(dapp: Address|Alias, payment: AttachedPayment|Unit, feeAssetId: ByteVector|Unit, function: String, args: List[Boolean|ByteVector|Int|String], id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
+InvokeScriptTransaction(dApp: Address|Alias, payment: AttachedPayment|Unit, feeAssetId: ByteVector|Unit, function: String, args: List[Boolean|ByteVector|Int|String], id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
 ### Fields
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | dapp | [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md) | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the [account]((/blockchain/account.md)) which is calling a function |
+| 1 | dApp | [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md) | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the [account]((/blockchain/account.md)) which is calling a function |
 | 2 | payment | [AttachedPayment](/ride/structures/common-structures/attached-payment.md)&#124;[Unit](/ride/data-types/unit.md) | Payment attached to the [transaction](/blockchain/transaction.md) |
 | 3 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Token](/blockchain/token.md) to pay the commission. Currently, it can be only in [WAVES](/blockchain/token/waves.md) |
 | 4 | function | [String](/ride/data-types/string.md) | [Function](/ride/functions.md) name |
