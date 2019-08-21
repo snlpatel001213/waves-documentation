@@ -30,7 +30,7 @@
 shh <имя_пользователя>@<ip_адрес_виртуальной_машины>
 ```
 
-8.&nbsp;В браузере перейдите на страницу http://<ip-адрес-виртуальной-машины>:8080 для запуска докер-контейнера [Waves Node](https://github.com/wavesplatform/Waves).
+8.&nbsp;В браузере перейдите на страницу http://<ip_адрес_виртуальной_машины>:8080 для запуска докер-контейнера [Waves Node](https://github.com/wavesplatform/Waves).
 
 <img src="img/docker-container.png" width="500"/> <br>
 
