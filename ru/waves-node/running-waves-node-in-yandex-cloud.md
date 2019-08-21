@@ -6,23 +6,23 @@
 
 2.&nbsp;В правом верхнем углу экрана нажмите **Создать ресурс**. Выберите **Виртуальная машина**.
 
-<img src="img/create-resource.png" width="200"/> <br>
+<img src="img/create-resource.png" width="250"/> <br>
 
 3.&nbsp;Зайдите в **Каталог образов**.
 
-<img src="img/catalog.png" width="375"/> <br>
+<img src="img/catalog.png" width="500"/> <br>
 
 4.&nbsp;Введите **Waves Node** в строке поиска. Выберите образ Waves Node.
 
-<img src="img/search-bar.png" width="375"/> <br>
+<img src="img/search-bar.png" width="500"/> <br>
 
 5.&nbsp;Задайте параметры виртуальной машины. Минимальные аппаратные требования для запуска узла смотрите на странице [Требования к аппаратному обеспечению](/waves-node/prerequisites/hardware-requirements.md).
 
-<img src="img/virtual-machine-parameters.png" width="375"/> <br>
+<img src="img/virtual-machine-parameters.png" width="500"/> <br>
 
 6.&nbsp;[Сгенерируйте](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh) пару SSH-ключей. Введите открытый ключ пары в поле **SSH-ключ**. Завершите создание виртуальной машины, нажав **Создать ВМ**.
 
-<img src="img/create-vm.png" width="375"/> <br>
+<img src="img/create-vm.png" width="500"/> <br>
 
 7.&nbsp;Убедитесь, что виртуальная машина запущена, [подключившись](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh#vm-connect) к ней по SSH. IP-адрес машины скопируйте из панели управления Яндекс.Облака.
 
@@ -32,7 +32,7 @@ shh <имя_пользователя>@<ip_адрес_виртуальной-ма
 
 8.&nbsp;В браузере перейдите на страницу http://<ip-адрес-виртуальной-машины>:8080 для запуска докер-контейнера [Waves Node](https://github.com/wavesplatform/Waves).
 
-<img src="img/docker-container.png" width="375"/> <br>
+<img src="img/docker-container.png" width="500"/> <br>
 
 9.&nbsp;Задайте необходимые настройки. По окончании нажмите **Run my node!** Запустится докер-контейнер Waves Node с параметрами, которые вы указали.
 
