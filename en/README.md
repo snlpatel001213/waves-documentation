@@ -12,6 +12,7 @@
   * [Block timestamp](blockchain/block/block-timestamp.md)
 * Node
   * [Validating node](blockchain/node/validating-node.md)
+* [Oracle](blockchain/oracle.md)
 * Transaction
   * [Transaction ID](blockchain/transaction/transaction-id.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
@@ -42,6 +43,10 @@
 
 * [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
 * [Node configuration](waves-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1515)
+
+### Waves Oracles
+
+* [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
 
 ### July articles
 
