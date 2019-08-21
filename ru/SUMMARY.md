@@ -280,13 +280,14 @@
 
 ## Node
 
+* [Предварительные требования](waves-node/prerequisites.md)
+    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
+* [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Расширения](waves-node/extensions.md)
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
-* [Предварительные требования](waves-node/prerequisites.md)
-    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 
 ## API and SDK
 
