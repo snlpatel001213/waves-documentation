@@ -15,6 +15,7 @@
 * Transaction
   * [Transaction ID](blockchain/transaction/transaction-id.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
+  * [Transaction version](blockchain/transaction/transaction-version.md)
 * Transaction type
   * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1457/files)
 
