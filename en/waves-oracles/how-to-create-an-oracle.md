@@ -10,7 +10,7 @@ This article based on a simple sample will shortly introduce you to full-cycle h
 
 As a small example, the following use case should be considered now: imagine you have dApp and you want in it to access data of exchange rates: [WAVES](/blockchain/token/waves.md) per USD and WAVES per BTC, e.g.
 
-If off-chain data is required for dApp to be executed, this data must be obtained and write on the [blockchain](/blockchain/blockchain.md), because dApp have access only to data stored on the blockchain. To retrieve data from the off-chain to blockchain, implementing small programs called oracles.
+If off-chain data is required for dApp to be executed, this data must be obtained and write on the [blockchain](/blockchain/blockchain.md), because dApp have access only to data stored on the blockchain. To retrieve data from the off-chain to blockchain, implementing small programs called [oracles](/blockchain/oracle.md).
 
 Our dApp requires quotation data on the blockchain. Therefore, we will create a new oracle, which will receive the relevant quotation data from the public Waves Data Service API once an hour and write it on the blockchain, and also create an oracle card so that other users in theirs decentralized applications can use this data if they have the same need.
 
@@ -153,26 +153,25 @@ Now let's launch our oracle:
 $ npm run start
 ```
 
-In Waves Explorer we can see data transaction with exchange rates in the format that we wanted (fig. 1):
+In [Waves Explorer](/waves-explorer/about-waves-explorer.md) we can see data transaction with exchange rates in the format that we wanted (fig. 1):
 
 <img src="img/5_transaction_in_explorer.png" width="700"/>
 
 Figure 1.
 
-Creation of the oracle card
+## Creation of the oracle card
+
 For other users to know about our oracle, we use Waves Oracles to create an oracle card.
 
-Waves Oracles is a service that utilizes Waves Keeper.
+Waves Oracles is a service that utilizes [Waves Keeper](/waves-keeper/about-waves-keeper.md).
 
 To create an oracle card, use the same account you used to sign transactions in the code.
 
 Open Waves Oracles, log in with Waves Keeper and hit the Create an oracle on sidebar menu (fig.2).
 
-
+<img src="img/1_create_an_oracle.png" width="700"/>
 
 Figure 2.
-
-
 
 On popup will be shown needs to fill certain information about the oracle.
 
@@ -180,35 +179,33 @@ Let's call our oracle "WAVES/USD and WAVES/BTC", select the category "Market dat
 
 The up part of the form is shown in fig. 3.
 
-
+<img src="img/2_create_an_oracle_popup_form_fill.png" width="700"/>
 
 Figure 3.
-
-
 
 Coming down below and fill in the Specification and Example.
 
 In our case, the oracle must write two quotation values: WAVES/USD and WAVES/BTC. Therefore, we define these two parameters, as shown in fig. 4.
 
-Here we need some explanations: dApp on RIDE cannot use float value, that's why we use an integer type with point shift by the necessary number of digits. Also in the key, we specify the number of digits by which the point shifts: for USD by two digits, for BTC by eight digits. It'll be easy to parse keys like this by RIDE and realize how many characters the point is shifted.
+Here we need some explanations: dApp on [RIDE](/ride/about-ride.md) cannot use float value, that's why we use an integer type with point shift by the necessary number of digits. Also in the key, we specify the number of digits by which the point shifts: for USD by two digits, for BTC by eight digits. It'll be easy to parse keys like this by RIDE and realize how many characters the point is shifted.
 
-The key like this is not unique and the account data storage will always retain the last value. You can add a timestamp to make the key unique and save historical values.
+The key like this is not unique and the [account data storage](/blockchain/account-data-storage.md) will always retain the last value. You can add a timestamp to make the key unique and save historical values.
 
-
+<img src="img/3_create_an_oracle_popup_form_fill_specification.png" width="700"/>
 
 Figure 4.
 
-
-
 After the form is filled, Approve the data transaction for the creation of the oracle card with Waves Keeper. Once we did so, the new oracle card is successfully registered in Waves Oracles. We can see oracle card protocol in Waves Explorer, as shown in fig. 5. After a while, the card will appear in the Waves Oracles interface.
 
-
+<img src="img/4_oracle_card_explorer.png" width="700"/>
 
 Figure 5.
 
 Usage of the oracle data
-Congratulations, now our oracle is completely ready. Once data is written in the blockchain, every RIDE based dApp's can access this data (via the getInteger(), getString(), getBinary() and getBoolean() methods) and use it for their calculations, e.g., decide on the amount of payouts, sending of transactions, winners of a contest, etc.
+Congratulations, now our oracle is completely ready. Once data is written in the blockchain, every RIDE based dApp's can access this data (via the _getInteger()_, _getString()_, _getBinary()_ and _getBoolean()_ methods) and use it for their calculations, e.g., decide on the amount of payouts, sending of transactions, winners of a contest, etc.
 
-In our case, for example, to get WAVES/BTC data from the oracle, you need to specify the oracle address and the corresponding key in getInteger() method:
+In our case, for example, to get WAVES/BTC data from the oracle, you need to specify the oracle address and the corresponding key in _getInteger()_ method:
 
+``` ride
 getInteger("3PPTrTo3AzR56N7ArzbU3Bpq9zYMgcf39Mk", "waves_btc_8")
+```
