@@ -285,6 +285,7 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
+* [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
 
 ## API and SDK
 
