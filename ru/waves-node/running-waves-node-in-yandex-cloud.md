@@ -26,7 +26,7 @@
 
 7. Убедитесь, что виртуальная машина запущена, [подключившись](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh#vm-connect) к ней по SSH. IP-адрес машины скопируйте из панели управления Яндекс.Облака.
 
-```
+``` console
 shh <имя_пользователя>@<ip_адрес_виртуальной-машины>
 ```
 
@@ -38,6 +38,6 @@ shh <имя_пользователя>@<ip_адрес_виртуальной-ма
 
 10. Убедитесь, что контейнер запущен, выполнив в консоли виртуальной машины команду [docker ps](https://docs.docker.com/engine/reference/commandline/ps/).
 
-```
+``` console
 sudo docker ps
 ```
