@@ -12,7 +12,7 @@ GenesisTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: I
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | amount | [Int](/ride/data-types/int.md) | Amount of [tokens](/blockchain/token.md) |
+| 1 | amount | [Int](/ride/data-types/int.md) | Amount of the [token](/blockchain/token.md) |
 | 2 | recipient | [Address](/ride/structures/common-structures/address.md)&#124;[Alias](/ride/structures/common-structures/alias.md) | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of a token recipient |
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
