@@ -35,6 +35,7 @@
 * [Майнинг](blockchain/mining.md)
   * [Майнер](blockchain/mining/miner.md)
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
+* [Оракул](blockchain/oracle.md)
 * [Ордер](blockchain/order.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
@@ -292,6 +293,8 @@
 
 ## Oracles
 
+* [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
+* [О Waves Oracles](waves-oracles/about-waves-oracles.md)
 * [Оракул](waves-oracles/oracle.md)
 
 ## Token Rating
