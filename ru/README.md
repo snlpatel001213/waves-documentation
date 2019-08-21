@@ -46,6 +46,7 @@
   * [Временная метка блока](blockchain/block/block-timestamp.md)
 * Транзакция
   * [ID транзакции](blockchain/transaction/transaction-id.md)
+  * [Версия транзакции](blockchain/transaction/transaction-version.md)
   * [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md)
 * Тип транзакции
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)

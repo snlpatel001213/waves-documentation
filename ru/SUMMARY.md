@@ -68,6 +68,7 @@
 * [Транзакция](blockchain/transaction.md)
   * [ID транзакции](blockchain/transaction/transaction-id.md)
   * [Байты тела транзакции](blockchain/transaction/transaction-body-bytes.md)
+  * [Версия транзакции](blockchain/transaction/transaction-version.md)
   * [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md)
 * [Узел](blockchain/node.md)
   * [Валидирующий узел](blockchain/node/validating-node.md)
