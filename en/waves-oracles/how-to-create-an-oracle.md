@@ -2,7 +2,7 @@
 
 The Waves Platform provides a catalogue for the search and creation of oracle cards — [https://oracles.wavesexplorer.com](https://oracles.wavesexplorer.com). Using the [Waves Oracles](/waves-oracles/about-waves-oracles.md) service, you can see which oracles have already been created by other developers and what data they write on the blockchain, or if you already have an oracle, you can publish your oracle card so that other users know it exists and can use it.
 
-But the creation of the oracle as microservice which takes data from an outside world source and writes it on the blockchain, remains outside the scope of the Waves Oracles service.
+But the creation of the [oracle](/blockchain/oracle.md) as microservice which takes data from an outside world source and writes it on the blockchain, remains outside the scope of the Waves Oracles service.
 
 This article based on a simple sample will shortly introduce you to full-cycle how and why to use Waves Oracles, how to implementation of the programme part of the oracle and launch your solution, and then use the oracle data in the [dApp](/blockchain/dapp.md).
 
@@ -54,7 +54,7 @@ Sign the [data transaction](/blockchain/transaction-type/data-transaction.md) by
 const signerDataTX = DataTX(params,'YOU ORACLE SEED HERE');
 ```
 
-Send the signed data transaction on the blockchain. [Test network — pool.testnet.wavesnodes.com](https://pool.testnet.wavesnodes.com/api-docs/index.html), [main network — https://nodes.wavesnodes.com](https://nodes.wavesnodes.com/api-docs/index.html).
+Send the signed data transaction on the blockchain. [Test network](/blockchain/blockchain-network/test-network.md) — [pool.testnet.wavesnodes.com](https://pool.testnet.wavesnodes.com/api-docs/index.html), [main network](/blockchain/blockchain-network/main-network.md) — [https://nodes.wavesnodes.com](https://nodes.wavesnodes.com/api-docs/index.html).
 
 ``` typescript
 const result = await broadcast(signerDataTX, 'https://nodes.wavesnodes.com');
@@ -157,7 +157,7 @@ In [Waves Explorer](/waves-explorer/about-waves-explorer.md) we can see data tra
 
 <img src="img/5_transaction_in_explorer.png" width="700"/>
 
-Figure 1.
+_Figure 1_.
 
 ## Creation of the oracle card
 
@@ -171,7 +171,7 @@ Open Waves Oracles, log in with Waves Keeper and hit the Create an oracle on sid
 
 <img src="img/1_create_an_oracle.png" width="700"/>
 
-Figure 2.
+_Figure 2_.
 
 On popup will be shown needs to fill certain information about the oracle.
 
@@ -181,7 +181,7 @@ The up part of the form is shown in fig. 3.
 
 <img src="img/2_create_an_oracle_popup_form_fill.png" width="700"/>
 
-Figure 3.
+_Figure 3_.
 
 Coming down below and fill in the Specification and Example.
 
@@ -193,15 +193,16 @@ The key like this is not unique and the [account data storage](/blockchain/accou
 
 <img src="img/3_create_an_oracle_popup_form_fill_specification.png" width="700"/>
 
-Figure 4.
+_Figure 4_.
 
 After the form is filled, Approve the data transaction for the creation of the oracle card with Waves Keeper. Once we did so, the new oracle card is successfully registered in Waves Oracles. We can see oracle card protocol in Waves Explorer, as shown in fig. 5. After a while, the card will appear in the Waves Oracles interface.
 
 <img src="img/4_oracle_card_explorer.png" width="700"/>
 
-Figure 5.
+_Figure 5_.
 
-Usage of the oracle data
+## Usage of the oracle data
+
 Congratulations, now our oracle is completely ready. Once data is written in the blockchain, every RIDE based dApp's can access this data (via the _getInteger()_, _getString()_, _getBinary()_ and _getBoolean()_ methods) and use it for their calculations, e.g., decide on the amount of payouts, sending of transactions, winners of a contest, etc.
 
 In our case, for example, to get WAVES/BTC data from the oracle, you need to specify the oracle address and the corresponding key in _getInteger()_ method:
