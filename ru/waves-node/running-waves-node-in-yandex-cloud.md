@@ -20,7 +20,7 @@
 
 <img src="img/virtual-machine-parameters.png" width="375"/> <br>
 
-6. [Сгенерируйте](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh) пару **SSH-ключей**. Введите открытый ключ пары в поле SSH-ключ. Завершите создание виртуальной машины, нажав **Создать ВМ**.
+6. [Сгенерируйте](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh) пару SSH-ключей. Введите открытый ключ пары в поле **SSH-ключ**. Завершите создание виртуальной машины, нажав **Создать ВМ**.
 
 <img src="img/create-vm.png" width="375"/> <br>
 
