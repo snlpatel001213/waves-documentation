@@ -57,6 +57,8 @@
 
 * [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
 * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
+* [Предварительные требования](waves-node/prerequisites.md)
+    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 
 ## Июльские статьи
 
