@@ -44,6 +44,7 @@
 
 * Блок
   * [Временная метка блока](blockchain/block/block-timestamp.md)
+* [Оракул](blockchain/oracle.md)
 * Транзакция
   * [ID транзакции](blockchain/transaction/transaction-id.md)
   * [Версия транзакции](blockchain/transaction/transaction-version.md)
@@ -52,6 +53,11 @@
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)
 * Узел
   * [Валидирующий узел](blockchain/node/validating-node.md)
+
+### Oracles
+
+* [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
+* [О Waves Oracles](waves-oracles/about-waves-oracles.md)
 
 ## Waves Node
 

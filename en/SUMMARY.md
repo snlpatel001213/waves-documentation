@@ -68,6 +68,7 @@
 * [Node](blockchain/node.md)
   * [Mining node](blockchain/node/mining-node.md)
   * [Validating node](blockchain/node/validating-node.md)
+* [Oracle](blockchain/oracle.md)
 * [Order](blockchain/order.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
@@ -395,6 +396,7 @@
 ## Oracles
 
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
 * [Oracle](waves-oracles/oracle.md)
 
 ## Token Rating
