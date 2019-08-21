@@ -326,6 +326,8 @@
 ## Node
 
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
+* [Prerequisites](waves-node/prerequisites.md)
+  * [Hardware requirements](waves-node/prerequisites/hardware-requirements.md)
 * [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)
   * [On Mac](waves-node/how-to-install-a-node/on-mac.md)
   * [On Windows](waves-node/how-to-install-a-node/on-windows.md)

@@ -285,6 +285,8 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
+* [Предварительные требования](waves-node/prerequisites.md)
+    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 
 ## API and SDK
 
