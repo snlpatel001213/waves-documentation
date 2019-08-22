@@ -1,6 +1,6 @@
 # О Waves Oracles
 
-**Waves Oracles** — онлайн сервис ([https://oracles.wavesexplorer.com/](https://oracles.wavesexplorer.com/)), предназначенный для работы с [оракулами](/blockchain/oracle.md).
+**Waves Oracles** — онлайн сервис ([https://oracles.wavesexplorer.com](https://oracles.wavesexplorer.com)), предназначенный для работы с [оракулами](/blockchain/oracle.md).
 
 В текущей реализации позволяет зарегистрировать [карточку оракула](/waves-oracles/oracle-card.md), создание самого микросервиса, осуществляющего получение данных от источника и запись их в блокчейн, находится за рамками данного сервиса.
 
