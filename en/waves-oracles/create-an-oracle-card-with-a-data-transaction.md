@@ -38,7 +38,7 @@ See information about the data transaction.
 | wpo_name | Oracle name | string | yes | Oracle name |
 | wpo_link | Link | string | no | Link to a data source |
 | wpo_protocol | Category | integer | yes | Protocol code |
-| wpo_status | Status | integer | yes | Current oracle status. Is integer:<br>“3” — archive<br>“2” — development<br>“1” —production<br>“0” — test |
+| wpo_status | Status | integer | yes | Current oracle status. Is integer:<br>3 — archive<br>2 — development<br>1 — production<br>0 — test |
 | wpo_description | About | string | no | Field About |
 | wpo_frequency | Update frequency | string | no | Field Update frequency |
 | wpo_revisions | Summary of Changes from Previous Version | string | no | Field Summary of Changes from Previous Version |
