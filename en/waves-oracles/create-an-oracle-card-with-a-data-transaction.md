@@ -30,9 +30,9 @@ See information about the data transaction.
 
 | Key | Field in Waves Oracles | Type | Required | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| wpo_oracle |  | string | yes | Must be "oracle".Allows to find the data transaction of oracle cards in the blockchain  |
-| wpo_testnet |  | boolean | yes (only in test network) | Must be true.The key is only used in the test network |
-| wpo_createdate |  | integer | yes | Timestamp for the first version of the oracle card.0 when the card is first created |
+| wpo_oracle |  | string | yes | Must be "oracle".<br>Allows to find the data transaction of oracle cards in the blockchain  |
+| wpo_testnet |  | boolean | yes (only in test network) | Must be true.<br>The key is only used in the test network |
+| wpo_createdate |  | integer | yes | Timestamp for the first version of the oracle card.<br>0 when the card is first created |
 | wpo_createid |  | string | yes | "origin" if it's the first time the card is created.<br>If the oracle card is being updated, the transaction ID used to create the first version of the oracle card is entered in the field |
 | wpo_addres | Address | string | yes | Account whose data storage the oracle card |
 | wpo_name | Oracle name | string | yes | Oracle name |
