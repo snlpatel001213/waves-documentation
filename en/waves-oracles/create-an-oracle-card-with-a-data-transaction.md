@@ -64,23 +64,25 @@ Here is an example of an oracle that passes the parameters `version`, `weather`,
 Parameters `version` and `weather` are mandatory. JSON describing the specification of this oracle will look as follows:
 
 ``` json
-[
-	{
-        "name": "version",
-        "type": 1,
-        "required": 1,
-        "description": "current version of protocol"
-    }, {
-        "name": "weather",
-        "type": 1,
-        "required": 1,
-        "description": "weather data"
-    }, {
-        "name": "temperature",
-        "type": 2,
-        "required": 0,
-        "description": "сelsius"
-    }
+[  
+   {  
+      "name":"version",
+      "type":1,
+      "required":1,
+      "description":"current version of protocol"
+   },
+   {  
+      "name":"weather",
+      "type":1,
+      "required":1,
+      "description":"weather data"
+   },
+   {  
+      "name":"temperature",
+      "type":2,
+      "required":0,
+      "description":"celsius"
+   }
 ]
 ```
 
