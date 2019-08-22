@@ -16,8 +16,8 @@ LeaseCancelTransaction(leaseId: ByteVector, id: ByteVector, fee: Int, timestamp:
 | 2 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 3 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
 | 4 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
-| 5 | version | [Int](/ride/data-types/int.md) | Version of the [transaction binary format](/blockchain/binary-format/transaction-binary-format.md) |
+| 5 | version | [Int](/ride/data-types/int.md) | [Transaction version](/blockchain/transaction/transaction-version.md) |
 | 6 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the transaction sender |
 | 7 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of the transaction sender |
 | 8 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
-| 9 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |
+| 9 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | [Proofs](/blockchain/transaction-proof.md) |
