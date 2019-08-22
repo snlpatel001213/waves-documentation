@@ -17,9 +17,9 @@ The following window will appear. Before proceeding please carefully read the co
 ```
 Check if your wallet or exchange uses smart-contracts to withdraw Bancor. We do not accept such transactions and can’t refund them. You will lose that money.
 ```
-**The minimum amount of deposit is 1 Bancor, the maximum amount of deposit is 100 000 Bancor**
+**The minimum amount of deposit is 2 Bancor, the maximum amount of deposit is 100 000 Bancor**
 ```
-If you will send less than 1 Bancor, you will lose that money.
+If you will send less than 2 Bancor, you will lose that money.
 ```
 
 Copy the shown Bancor address or Scan QR Code and send a payment.
