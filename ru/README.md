@@ -42,6 +42,8 @@
 
 ### Блокчейн
 
+* Бинарный формат
+  * [Бинарный формат адреса](blockchain/binary-format/address-binary-format.md)
 * Блок
   * [Временная метка блока](blockchain/block/block-timestamp.md)
 * [Оракул](blockchain/oracle.md)
