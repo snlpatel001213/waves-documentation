@@ -4,7 +4,7 @@
 
 ### Getting started
 
-* [User guide](getting-started/getting-started-for-users.md)
+* [User guide](getting-started/getting-started-for-users.md) — <span style="color:green">updated</span>
 * [Developer guide](getting-started/getting-started-for-developers.md) — <span style="color:green">updated</span>
 
 ### Blockchain
