@@ -6,7 +6,7 @@ An array of proofs can consist of several [transaction signatures](/blockchain/t
 
 One of the examples of proofs usage is multisignature which stores several transaction signatures from different accounts.
 
-Transactions with [data structures](/blockchain/transaction-data-structure.md) of version 2 and above are signed by proofs instead of signatures.
+Transactions with [data structures](/blockchain/binary-format/transaction-binary-format.md) of version 2 and above are signed by proofs instead of signatures.
 
 > The number of proofs in the array cannot exceed 8
 

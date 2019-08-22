@@ -11,6 +11,14 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/binary-format/transaction-binary-format.html",
+      "from": "/en/blockchain/transaction-data-structure.html"
+    },
+    {
+      "to": "/ru/blockchain/binary-format/transaction-binary-format.html",
+      "from": "/ru/blockchain/transaction-data-structure.html"
+    },
+    {
       "to": "/en/blockchain/binary-format.html",
       "from": "/en/blockchain/waves-protocol/data-structures.html"
     },
