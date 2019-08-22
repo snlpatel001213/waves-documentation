@@ -12,10 +12,10 @@ Waves платформа позволяет хранить и передават
 
 **Важно**: Внешние транзакции всегда отправляются только на Waves адреса шлюзов: для шлюза Coinomat -  **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**; для Wavesplatform шлюза адреса могут отличаться. При выводе криптовалют из Waves аккаунта проверяйте адрес в уведомлении (cм. **Адрес шлюза**):
 
-Coinomat:
+**Coinomat шлюз**:
 
 ![](/_assets/payment_gateway_01.png)
 
-Wavesplatform:
+**Wavesplatform шлюз**:
 
 ![](/_assets/payment_gateway_02.png)
