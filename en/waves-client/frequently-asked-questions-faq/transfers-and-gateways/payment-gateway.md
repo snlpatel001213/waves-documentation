@@ -10,7 +10,7 @@ After creating a new transfer, Bitcoins or any other supported external coins ar
 
 So, you will receive coins to specified address. Please keep in mind, transfers **may** takes up to 120 minutes.
 
-**Warning**: The gateway transactions are always processing only via the Waves addresses. For Coinomat gateway: **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**. Addresses for Wavesplatform gateways can be vary. Please check wallet notification during creating outgoing transfers.
+**Warning**: The gateway transactions are always processing only via the Waves addresses. For Coinomat gateway: **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**. Addresses for Wavesplatform gateways can be vary. Please check wallet notification during creating outgoing transfers (see **Gateway address**):
 
 Coinomat gateway:
 
