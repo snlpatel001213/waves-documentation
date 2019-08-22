@@ -19,7 +19,7 @@ Start creating decentralised applications following the steps:
 - The process of developing a decentralized application is explained in the article [How to Build, Deploy and Test a Waves RIDE dApp](https://blog.wavesplatform.com/how-to-build-deploy-and-test-a-waves-ride-dapp-785311f58c2) on Medium. A step-by-step example of creating a simple dApp is shown on the page [Simple voting of the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md).
 - To learn more about RIDE and the infrastructure for creating decentralised applications, take the [Mastering Web3 with Waves](https://stepik.org/course/54415/promo) course. After completing the course, you will receive a certificate of successful completion of the course.
 
-## Tools for programming on RIDE
+## Tools for programming in RIDE
 
 - [Visual Studio Code](https://code.visualstudio.com/) with [RIDE](https://github.com/wavesplatform/ride-vscode) plugin
 - [Waves IDE](https://ide.wavesplatform.com/) — online application for developing and deploying applications on the blockchain.
