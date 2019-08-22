@@ -6,7 +6,7 @@ In the current version it is possible to register an [oracle card](/waves-oracle
 
 Waves Oracles features:
 
-- Viewing public oracle cards.
-- Searching oracles by name or account.
+- Viewing public [oracle](/blockchain/oracle.md) cards.
+- Searching oracles by name or [account](/blockchain/account.md).
 - Filtering of oracles by category, status, network type.
 - [Create an oracle card](/waves-oracles/create-an-oracle-card-with-waves-oracle.md).
