@@ -12,7 +12,7 @@
 * Block
   * [Block timestamp](blockchain/block/block-timestamp.md)
 * Binary format
-  * [Address binary format](/blockchain/binary-format/address-binary-format.md)
+  * [Address binary format](/blockchain/binary-format/address-binary-format.md) — <span style="color:green">updated</span>
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 * [Oracle](blockchain/oracle.md)
