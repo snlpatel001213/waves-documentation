@@ -4,12 +4,11 @@ Open your Waves wallet. At the top right corner click on the **Account avatar**.
 
 ![](/_assets/waves_address_01.png)
 
-In the drop-down menu click on the **Aliases**.
-The following window will appear. Here you will find the Waves address of your account.
+In the drop-down menu click you will find the Waves address of your account
 
 ![](/_assets/waves_address_02.png)
 
-To copy address to clipboard, just click on the **сopy** button ![](/_assets/waves_address_03.png).
+To copy address to clipboard, just click on the address or **сopy** button ![](/_assets/waves_address_03.png).
 
 Also in this section you can create personal Alias, for more information please follow another article [How to create an Alias](/waves-client/account-management/creating-an-alias.md)
 

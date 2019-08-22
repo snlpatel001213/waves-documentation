@@ -101,6 +101,7 @@
   * [Dash переводы](waves-client/transfers-and-gateways/dash-transfers.md)
   * [Monero переводы](waves-client/transfers-and-gateways/monero-transfers.md)
   * [Bitcoin SV переводы](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
+  * [Bancor переводы](waves-client/transfers-and-gateways/bancor-transfers.md)
   * [Перевод EUR и USD](waves-client/transfers-and-gateways/eur-usd-transfers.md)
   * [Покупка Waves с банковской карты](waves-client/transfers-and-gateways/buying-waves-using-card.md)
 * [Управление ассетами](waves-client/assets-management.md)
