@@ -82,7 +82,6 @@
   * [Transaction body bytes](blockchain/transaction/transaction-body-bytes.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
   * [Transaction version](blockchain/transaction/transaction-version.md)
-* [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction proof](blockchain/transaction-proof.md)
 * [Transaction signature](blockchain/transaction-signature.md)
