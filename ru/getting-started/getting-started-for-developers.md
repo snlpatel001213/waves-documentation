@@ -41,7 +41,7 @@ Waves поддерживает разработчиков грантами.
 
 ## Сообщество
 
-Получайте ответы на свои вопросы в [группе разработчиков Waves](https://t.me/waves_ride_dapps_dev) в Telegram.
+Получайте ответы на свои вопросы в [группе разработчиков](https://t.me/waves_ride_dapps_dev) Waves в Telegram.
 
 ## Платформа Waves на GitHub
 
