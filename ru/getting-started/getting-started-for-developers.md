@@ -35,7 +35,7 @@ Waves поддерживает разработчиков грантами.
 
 Разместите свой проект на Waves и соберите на него средства на краудфандинг-платформе [Ventuary DAO](https://beta.ventuary.space/).
 
-Чтобы разместить проект, сначала станьте членом DAO (_Decentralised Autonomous Organization_). Попросите любого [действующего пользователя](https://beta.ventuary.space/community) зарегистрировать вас или обратитесь с запросом в группу [Ventuary DAO](https://t.me/ventuary_dao) в Telegram.
+Чтобы разместить проект, сначала станьте членом DAO (_Decentralised Autonomous Organization_). Попросите любого [действующего пользователя](https://beta.ventuary.space/community) зарегистрировать вас или обратитесь с запросом в [группу](https://t.me/ventuary_dao) [Ventuary DAO в Telegram.
 
 После того, как вы станете членом DAO, у вас появится возможность создавать проекты, голосовать и приглашать новых пользователей на платформу Ventuary DAO.
 
