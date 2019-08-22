@@ -2,7 +2,7 @@
 
 Waves allows you to hold and transfer external currencies on its blockchain. This works through an established centralised [Coinomat](https://coinomat.com/) and [Wavesplatform](https://wavesplatform.com) gateways: Bitcoins or any supported external coins are sent to a user's personal Waves address via standard transfer and after the deposit user receives Waves based tokens \(wBTC\) issued in the Waves blockchain. Every single gateway tokens are backed 1:1 with the real external coins.
 
-\*At the moment, there are gateways for Bitcoin, Ethereum, Litecoin, ZCash, Bitcoin Cash, Dash, Monero, Bitcoin SV which issued by the **Coinonmat** gateway and Vostok, Bancor issued by the **Wavesplatform** gateway.
+\*There are gateways for [Bitcoin](waves-client/transfers-and-gateways/bitcoin-transfers.md), [Ethereum](waves-client/transfers-and-gateways/ethereum-transfers.md), [Litecoin](waves-client/transfers-and-gateways/litecoin-transfers.md), [ZCash](waves-client/transfers-and-gateways/zcash-transfers.md), [Bitcoin Cash](waves-client/transfers-and-gateways/bitcoin-cash-transfers.md), [Dash](waves-client/transfers-and-gateways/dash-transfers.md), [Monero](waves-client/transfers-and-gateways/monero-transfers.md), [Bitcoin SV](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md) managed by the **Coinonmat** gateway and [Vostok](waves-client/transfers-and-gateways/vostok-transfers.md), [Ergo](), [Bancor](waves-client/transfers-and-gateways/bancor-transfers.md) managed by the **Wavesplatform** gateway.
 
 ## How does it work?
 
@@ -12,10 +12,10 @@ So, you will receive coins to specified address. Please keep in mind, transfers 
 
 **Warning**: The gateway transactions are always processing only via the Waves addresses. For Coinomat gateway: **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**. Addresses for Wavesplatform gateways can be vary. Please check wallet notification during creating outgoing transfers (see **Gateway address**):
 
-Coinomat gateway:
+**Coinomat gateway**:
 
 ![](/_assets/payment_gateway_01.png)
 
-Wavesplatform gateway:
+**Wavesplatform gateway**:
 
 ![](/_assets/payment_gateway_02.png)
