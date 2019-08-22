@@ -38,7 +38,7 @@
 | wpo_name | Oracle name | Строка | да | Название оракула |
 | wpo_link | Link | Строка | нет | Ссылка на источник данных |
 | wpo_protocol | Category | Целое число | да | [Код протокола](/waves-oracles/create-an-oracle-card-with-a-data-transaction.md#codes) |
-| wpo_status | Status | Целое число | да | Текущий статус оракула. Задается целым числом:<br>3 — archive<br>2 —development<br>1 —production<br>0 — test |
+| wpo_status | Status | Целое число | да | Текущий статус оракула. Задается целым числом:<br>3 — archive<br>2 — development<br>1 — production<br>0 — test |
 | wpo_description | About | Строка | нет | Данные поля About |
 | wpo_frequency | Update frequency | Строка | нет | Данные поля Update frequency |
 | wpo_revisions | Summary of Changes from Previous Version | Строка | нет | Данные поля Summary of Changes from Previous Version |
