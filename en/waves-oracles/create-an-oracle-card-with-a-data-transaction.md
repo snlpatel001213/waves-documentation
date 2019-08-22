@@ -33,7 +33,7 @@ See information about the data transaction.
 | wpo_oracle |  | string | yes | Must be "oracle".Allows to find the data transaction of oracle cards in the blockchain  |
 | wpo_testnet |  | boolean | yes (only in test network) | Must be true.The key is only used in the test network |
 | wpo_createdate |  | integer | yes | Timestamp for the first version of the oracle card.0 when the card is first created |
-| wpo_createid |  | string | yes | "origin" if it's the first time the card is created.If the oracle card is being updated, the transaction ID used to create the first version of the oracle card is entered in the field |
+| wpo_createid |  | string | yes | "origin" if it's the first time the card is created.<br>If the oracle card is being updated, the transaction ID used to create the first version of the oracle card is entered in the field |
 | wpo_addres | Address | string | yes | Account whose data storage the oracle card |
 | wpo_name | Oracle name | string | yes | Oracle name |
 | wpo_link | Link | string | no | Link to a data source |
@@ -44,7 +44,7 @@ See information about the data transaction.
 | wpo_revisions | Summary of Changes from Previous Version | string | no | Field Summary of Changes from Previous Version |
 | wpo_specifation | Specification | binary | no | Oracle Specification |
 | wpo_example | Example | binary | no | Example of the oracle transaction format |
-| wpo_updatedate |  | integer | yes | Oracle card update timestamp.0 if the card is created for the first time |
+| wpo_updatedate |  | integer | yes | Oracle card update timestamp.<br>0 if the card is created for the first time |
 
 ### A key whiсh describe an oracle specification
 
