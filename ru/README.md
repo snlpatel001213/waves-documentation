@@ -57,7 +57,11 @@
 ### Oracles
 
 * [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
+* [Карточка оракула](waves-oracles/oracle-card.md)
 * [О Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [Обновление карточки оракула](waves-oracles/updating-oracle-card.md)
+* [Создание карточки оракула при помощи Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
+* [Создание карточки оракула при помощи транзакции данных](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
 
 ## Waves Node
 
