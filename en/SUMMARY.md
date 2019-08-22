@@ -395,7 +395,7 @@
 
 ## Oracles
 
-* [About waves oracles](waves-oracles/about-waves-oracles.md)
+* [About Waves Oracles](waves-oracles/about-waves-oracles.md)
 * [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
 * [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
 * [Oracle card](waves-oracles/oracle-card.md)
