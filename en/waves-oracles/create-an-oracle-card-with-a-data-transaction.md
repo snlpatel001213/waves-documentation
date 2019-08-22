@@ -89,10 +89,10 @@ Parameters `version` and `weather` are mandatory. JSON describing the specifica
 The "wpo_specification" key is the parameters mentioned above (`version`, `weather`, `temperature` and their attributes) encoded in base64.
 
 ``` json
-{
-    "key": "wpo_specifation",
-    "type": "string",
-    "value": "base64:Clt7CiJuYW1lIjogInZlcnNpb24iLAoidHlwZSI6IDEsCiJyZXF1aXJlZCI6IDEsCiJkZXNjcmlwdGlvbiI6ICJjdXJyZW50IHZlcnNpb24gb2YgcHJvdG9jb2wiCn0sIHsKIm5hbWUiOiAid2VhdGhlciIsCiJ0eXBlIjogMSwKInJlcXVpcmVkIjogMSwKImRlc2NyaXB0aW9uIjogIndlYXRoZXIgZGF0YSIKfSwgewoibmFtZSI6ICJ0ZW1wZXJhdHVyZSIsCiJ0eXBlIjogMiwKInJlcXVpcmVkIjogMCwKImRlc2NyaXB0aW9uIjogItGBZWxzaXVzIgp9Cl0="
+{  
+   "type":"binary",
+   "value":"base64:W3sia2V5Ijoic3BlY18xNTY1MzQwOTc4MzI3IiwidHlwZSI6ImludGVnZXIiLCJuYW1lIjoid2F2ZXNfYnRjXzgiLCJkZXNjcmlwdGlvbiI6Ikxhc3QgcHJpY2UgV0FWRVMvQlRDLiA4IGlzIGRlY2ltYWxzLiBGb3IgZXhhbXBsZSwgMTkzMzAwMCBpdCdzIDAuMDE5MzMgV0FWRVMvQlRDIiwicmVxdWlyZWQiOjF9LHsia2V5Ijoic3BlY18xNTY1MzQxMTE2ODQyIiwidHlwZSI6ImludGVnZXIiLCJuYW1lIjoid2F2ZXNfdXNkXzIiLCJkZXNjcmlwdGlvbiI6Ikxhc3QgcHJpY2UgV0FWRVMvVVNELiAyIGlzIGRlY2ltYWxzLiBGb3IgZXhhbXBsZSwgMjk0IGl0J3MgMi45NCBXQVZFUy9VU0QiLCJyZXF1aXJlZCI6MX1d",
+   "key":"wpo_specification"
 }
 ```
 
@@ -102,7 +102,7 @@ The "wpo_example" key value is a base64 string containing an example of the orac
 
 JSON with an example of using an oracle:
 
-``` json
+```
 {
     "version": "1.00.95-release",
     "weather": "sun",
@@ -112,7 +112,7 @@ JSON with an example of using an oracle:
 
 The "wpo_example" key is an example encoded in base64 mentioned above.
 
-``` json
+```
 {
     "key": "wpo_example",
     "type": "string",
@@ -122,7 +122,7 @@ The "wpo_example" key is an example encoded in base64 mentioned above.
 
 ### Now an example of a data transaction used to create an oracle card
 
-``` json
+```
 {
     "type": 12,
     "version": 1,
@@ -213,4 +213,3 @@ The "wpo_example" key is an example encoded in base64 mentioned above.
 | 500 | 500 | dApps |
 |  | 501 | Identification |
 |  | 502 | Games |
-
