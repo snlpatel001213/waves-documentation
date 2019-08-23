@@ -9,7 +9,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 1. Create an [account](/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
 3. Create [dApp script](/ride/script/script-types/dapp-script.md) with the `vote` method.
-4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
+4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/account/dapp.md).
 5. Vote from the accounts of tenants by invoking the `vote` method of the dApp.
 6. View the results of the voting.
 
@@ -135,7 +135,7 @@ Note that you can also sign a transaction with a seed phrase or using the [Waves
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
-Send a [set script transaction](/blockchain/transaction-type/set-script-transaction.md) from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/dapp.md).
+Send a [set script transaction](/blockchain/transaction-type/set-script-transaction.md) from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/account/dapp.md).
 
 <img src="img/voting/publish.png" width="880"/>
 

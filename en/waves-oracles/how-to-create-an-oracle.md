@@ -4,7 +4,7 @@ The Waves Platform provides a catalogue for the search and creation of oracle ca
 
 But the creation of the [oracle](/blockchain/oracle.md) as microservice which takes data from an outside world source and writes it on the blockchain, remains outside the scope of the Waves Oracles service.
 
-This article based on a simple sample will shortly introduce you to full-cycle how and why to use Waves Oracles, how to implementation of the programme part of the oracle and launch your solution, and then use the oracle data in the [dApp](/blockchain/dapp.md).
+This article based on a simple sample will shortly introduce you to full-cycle how and why to use Waves Oracles, how to implementation of the programme part of the oracle and launch your solution, and then use the oracle data in the [dApp](/blockchain/account/dapp.md).
 
 ## Example of an oracle
 

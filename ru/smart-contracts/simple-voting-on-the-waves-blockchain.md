@@ -9,7 +9,7 @@
 1. Создадим [аккаунт](/blockchain/account.md) главы ТСЖ.
 2. Создадим аккаунты жильцов дома.
 3. Создадим [dApp-скрипт](/ride/script/script-types/dapp-script.md) с методом `vote`.
-4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/dapp.md).
+4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/account/dapp.md).
 5. Проголосуем с аккаунтов жильцов дома, вызвав метод `vote` dApp.
 6. Узнаем результаты голосования.
 
@@ -139,7 +139,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/publish.png" width="880"/>
 
-Таким образом, вы только что создали [dApp](/blockchain/dapp.md).
+Таким образом, вы только что создали [dApp](/blockchain/account/dapp.md).
 
 В [Waves Explorer](https://wavesexplorer.com/testnet), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 
