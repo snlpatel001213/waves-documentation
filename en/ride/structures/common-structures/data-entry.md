@@ -12,5 +12,5 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | key | String | Key of a record |
-| 2 | value|Int&#124;Boolean&#124;ByteVector&#124;String | Value of a record |
+| 1 | key | [String](/ride/data-types/string.md) | Key of a record |
+| 2 | value|[Int](/ride/data-types/int.md)&#124;[Boolean](/ride/data-types/boolean.md)&#124;[ByteVector](/ride/data-types/byte-vector.md)&#124;[String](/ride/data-types/string.md) | Value of a record |
