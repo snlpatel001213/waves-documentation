@@ -1,6 +1,6 @@
 # DataEntry
 
-Структура записи [хранилища данных аккаунта](/blockchain/account-data-storage.md).
+Структура записи [хранилища данных аккаунта](/blockchain/account/account-data-storage.md).
 
 ## Конструктор
 

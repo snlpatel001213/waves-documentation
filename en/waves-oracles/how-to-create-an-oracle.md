@@ -189,7 +189,7 @@ In our case, the oracle must write two quotation values: WAVES/USD and WAVES/BTC
 
 Here we need some explanations: dApp on [RIDE](/ride/about-ride.md) cannot use float value, that's why we use an integer type with point shift by the necessary number of digits. Also in the key, we specify the number of digits by which the point shifts: for USD by two digits, for BTC by eight digits. It'll be easy to parse keys like this by RIDE and realize how many characters the point is shifted.
 
-The key like this is not unique and the [account data storage](/blockchain/account-data-storage.md) will always retain the last value. You can add a timestamp to make the key unique and save historical values.
+The key like this is not unique and the [account data storage](/blockchain/account/account-data-storage.md) will always retain the last value. You can add a timestamp to make the key unique and save historical values.
 
 <img src="img/3_create_an_oracle_popup_form_fill_specification.png" width="700"/>
 

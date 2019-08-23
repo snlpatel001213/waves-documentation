@@ -1,6 +1,6 @@
 # WriteSet
 
-Структура списка записей [хранилища данных аккаунта](/blockchain/account-data-storage.md).
+Структура списка записей [хранилища данных аккаунта](/blockchain/account/account-data-storage.md).
 
 ## Конструктор
 

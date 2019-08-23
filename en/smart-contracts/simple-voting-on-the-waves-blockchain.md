@@ -93,7 +93,7 @@ func vote(theVote: Int) = {
 
 #### The `vote` function
 
-The `vote` function returns the `WriteSet` [structure](/ride/structures.md), inside of which takes place the recording of the vote to the [account data storage](/blockchain/account-data-storage.md) of the head of the HOA.
+The `vote` function returns the `WriteSet` [structure](/ride/structures.md), inside of which takes place the recording of the vote to the [account data storage](/blockchain/account/account-data-storage.md) of the head of the HOA.
 
 In front of the `vote` function, there is a `@Callable` annotation which makes the dApp function callable. The `i` is the variable that contains the information about transaction which invoked the `vote` function. In the code we use variable `i` to get public key of the account which sent the invoke script transaction.
 

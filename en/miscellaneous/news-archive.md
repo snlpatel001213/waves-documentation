@@ -5,7 +5,7 @@
 ### Blockchain
 
 * [Account](/blockchain/account.md)
-* [Account data storage](/blockchain/account-data-storage.md)
+* [Account data storage](/blockchain/account/account-data-storage.md)
 * [Block](/blockchain/block.md)
   * [Block height](/blockchain/block/block-height.md)
 * [Blockchain](/blockchain/blockchain.md)

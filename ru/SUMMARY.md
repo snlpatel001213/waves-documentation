@@ -12,6 +12,7 @@
 * [Акаунт](blockchain/account.md)
   * [dApp](blockchain/account/dapp.md)
   * [Смарт-аккаунт](blockchain/account/smart-account.md)
+  * [Хранилище данных аккаунта](blockchain/account/account-data-storage.md)
 * [Ассет](blockchain/asset.md)
 * [Бинарный формат](blockchain/binary-format.md)
   * [Бинарный формат адреса](blockchain/binary-format/address-binary-format.md)
@@ -74,7 +75,6 @@
 * [Узел](blockchain/node.md)
   * [Валидирующий узел](blockchain/node/validating-node.md)
   * [Майнящий узел](blockchain/node/mining-node.md)
-* [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Client
 

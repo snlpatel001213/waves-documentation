@@ -27,6 +27,14 @@
       "from": "/en/blockchain/blockchain-height.html"
     },
     {
+      "to": "/en/blockchain/account/account-data-storage.html",
+      "from": "/en/blockchain/account-data-storage.html"
+    },
+    {
+      "to": "/ru/blockchain/account/account-data-storage.html",
+      "from": "/ru/blockchain/account-data-storage.html"
+    },
+    {
       "to": "/en/blockchain/account/dapp.html",
       "from": "/en/blockchain/dapp.html"
     },
