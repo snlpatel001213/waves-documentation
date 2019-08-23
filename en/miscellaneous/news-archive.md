@@ -9,7 +9,7 @@
 * [Block](/blockchain/block.md)
   * [Block height](/blockchain/block/block-height.md)
 * [Blockchain](/blockchain/blockchain.md)
-* [Blockchain height](/blockchain/blockchain-height.md)
+* [Blockchain height](/blockchain/blockchain/blockchain-height.md)
 * [dApp](/blockchain/account/dapp.md)
 * Token
   * [Non-fungible token](/blockchain/token/non-fungible-token.md)

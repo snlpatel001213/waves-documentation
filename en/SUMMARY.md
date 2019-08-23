@@ -57,7 +57,7 @@
   * [Block timestamp](blockchain/block/block-timestamp.md)
   * [Genesis block](blockchain/block/genesis-block.md)
 * [Blockchain](blockchain/blockchain.md)
-  * [Blockchain height](blockchain/blockchain-height.md)
+  * [Blockchain height](blockchain/blockchain/blockchain-height.md)
 * [Blockchain network](blockchain/blockchain-network.md)
   * [Main network](blockchain/blockchain-network/main-network.md)
   * [Test network](blockchain/blockchain-network/test-network.md)

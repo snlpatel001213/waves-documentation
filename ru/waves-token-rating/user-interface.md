@@ -76,6 +76,6 @@
 | Знаков после запятой | Число знаков после запятой у токена |
 | Тип | Определяет возможность [транзакции довыпуска](/blockchain/transaction-type/reissue-transaction.md). <br>Принимает одно из двух значений: "перевыпускаемый" или "не перевыпускаемый" |
 | Эмитент | Адрес, с которого был выпущен токен |
-| Блок | [Высота блокчейна](/blockchain/blockchain-height.md), на которой [транзакция выпуска](/blockchain/transaction-type/issue-transaction.md) попала в [блок](/blockchain/block.md) |
+| Блок | [Высота блокчейна](/blockchain/blockchain/blockchain-height.md), на которой [транзакция выпуска](/blockchain/transaction-type/issue-transaction.md) попала в [блок](/blockchain/block.md) |
 | Дата выпуска | Дата выпуска токена |
 | Описание | Описание токена |
