@@ -1,6 +1,6 @@
 # DataEntry
 
-Structure of a data record of an [account data storage](/blockchain/account-data-storage.md).
+Structure of a data record of an [account data storage](/blockchain/account/account-data-storage.md).
 
 ## Constructor
 

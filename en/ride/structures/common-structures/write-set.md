@@ -1,6 +1,6 @@
 # WriteSet
 
-Structure of a list of data records of an [account data storage](/blockchain/account-data-storage.md).
+Structure of a list of data records of an [account data storage](/blockchain/account/account-data-storage.md).
 
 ## Constructor
 
