@@ -1,4 +1,4 @@
-# ScriptTrnasfer
+# ScriptTransfer
 
 Structure of a [token](/blockchain/token.md) transfer.
 
