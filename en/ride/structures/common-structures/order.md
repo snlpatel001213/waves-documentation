@@ -20,9 +20,9 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 | 6 | amount | Int | Number of tokens to exchange |
 | 7 | timestamp | Int | [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the validation of an order by a matcher  |
 | 8 | expiration | Int | Unix time when an uncompleted order will be cancelled |
-| 9 | matcherFee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
+| 9 | matcherFee | Int | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 10 | matcherFeeAssetId | ByteVector&#124;Unit | Token of a transaction fee.<br>It can only be [WAVES](/blockchain/token/waves.md) |
 | 11 | sender | Address | [Address](/blockchain/address.md) of the sender of an order |
 | 12 | senderPublicKey | ByteVector | Public key of the sender of an order |
 | 13 | bodyBytes | ByteVector | Array of bytes of an order |
-| 14 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
+| 14 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction/transaction-proof.md) |

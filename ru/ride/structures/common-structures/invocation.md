@@ -16,5 +16,5 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 | 2 | callerPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ аккаунта, который отправил транзакцию |
 | 3 | payment | [AttachedPayment](/ride/structures/common-structures/attached-payment.md)&#124;[Unit](/ride/data-types/unit.md) | Приложенный платеж |
 | 4 | transactionId | [ByteVector](/ride/data-types/byte-vector.md) | ID транзакции |
-| 5 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
+| 5 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) |
 | 6 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Токен](/blockchain/token.md) комиссии за отправку транзакции |

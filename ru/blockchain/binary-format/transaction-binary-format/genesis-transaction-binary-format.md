@@ -9,7 +9,7 @@
 | 3 | Адрес аккаунта | recipient | Массив байтов | 26 |  |
 | 4 | Количество | amount | Длинное целое | 8 | Количество [WAVES](/blockchain/token/waves.md), которое будет начислено аккаунту |
 | 5 | Комиссия|fee | Длинное целое | 8 | Комиссия за транзакцию в [WAVELET](/blockchain/token/wavelet.md) |
-| 6 | Подпись | signature | Массив байтов | 64 | [Подпись транзакции](/blockchain/transaction-signature.md) |
+| 6 | Подпись | signature | Массив байтов | 64 | [Подпись транзакции](/blockchain/transaction/transaction-signature.md) |
 
 ## JSON-представление транзакции бинарного формата версии 1 <a id="json"></a>
 
