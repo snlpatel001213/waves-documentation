@@ -18,7 +18,7 @@ An array cannot contain two elements with the same `key` field.
 
 The `key` field is a non-empty [UTF-8](https://en.wikipedia.org/wiki/UTF-8) string.
 
-At the stage of [transaction validation](/blockchain/transaction-validation.md), the `key` field is converted from UTF-8 to [UTF-16](https://en.wikipedia.org/wiki/UTF-16) encoding. The size of the resulting array of 16-bit words must not exceed 100 elements. Thus, the size of the `key` must be from 1 to 200 bytes inclusive.
+At the stage of [transaction validation](/blockchain/transaction/transaction-validation.md), the `key` field is converted from UTF-8 to [UTF-16](https://en.wikipedia.org/wiki/UTF-16) encoding. The size of the resulting array of 16-bit words must not exceed 100 elements. Thus, the size of the `key` must be from 1 to 200 bytes inclusive.
 
 ## The `type` field
 
