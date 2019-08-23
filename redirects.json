@@ -19,6 +19,30 @@
       "from": "/ru/blockchain/transaction-data-structure.html"
     },
     {
+      "to": "/en/blockchain/transaction/transaction-fee.html",
+      "from": "/en/blockchain/transaction-fee.html"
+    },
+    {
+      "to": "/ru/blockchain/transaction/transaction-fee.html",
+      "from": "/ru/blockchain/transaction-fee.html"
+    },
+    {
+      "to": "/en/blockchain/transaction/transaction-signature.html",
+      "from": "/en/blockchain/transaction-signature.html"
+    },
+    {
+      "to": "/ru/blockchain/transaction/transaction-signature.html",
+      "from": "/ru/blockchain/transaction-signature.html"
+    },
+    {
+      "to": "/en/blockchain/transaction/transaction-proof.html",
+      "from": "/en/blockchain/transaction-proof.html"
+    },
+    {
+      "to": "/ru/blockchain/transaction/transaction-proof.html",
+      "from": "/ru/blockchain/transaction-proof.html"
+    },
+    {
       "to": "/en/blockchain/binary-format.html",
       "from": "/en/blockchain/waves-protocol/data-structures.html"
     },

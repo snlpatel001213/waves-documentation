@@ -20,9 +20,9 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 | 6 | amount | [Int](/ride/data-types/int.md) | Number of tokens to exchange |
 | 7 | timestamp | [Int](/ride/data-types/int.md) | [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the validation of an order by a matcher  |
 | 8 | expiration | [Int](/ride/data-types/int.md) | Unix time when an uncompleted order will be cancelled |
-| 9 | matcherFee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction-fee.md) |
+| 9 | matcherFee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 10 | matcherFeeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | Token of a transaction fee.<br>It can only be [WAVES](/blockchain/token/waves.md) |
 | 11 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the sender of an order |
 | 12 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Public key of the sender of an order |
 | 13 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Array of bytes of an order |
-| 14 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction-proof.md) |
+| 14 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction/transaction-proof.md) |

@@ -30,8 +30,8 @@
 | 6.[5 × N - 1] | N-th value length   |   | Short  | 2  |  This field is present only if the value is of type of array of bytes or a string. <br>If the value is of type of integer or a boolean, this field should not be included in the data structure |
 | 6.[5 × N] | N-th value | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | |
 | 7 | Timestamp | timestamp | Long | 8 | Unix time of sending a transaction to the blockchain |
-| 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
-| 9 | Proofs | proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. If the array is not empty, then `S` = 3 + 2 × `N` + (`P1` + `P2` + ... + `P`<sub>`n`</sub>), where `N` is the number of proofs in the array, `P`<sub>`n`</sub> is the size of `N`-th proof in bytes. The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
+| 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
+| 9 | Proofs | proofs | Array of [proofs](/blockchain/transaction/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. If the array is not empty, then `S` = 3 + 2 × `N` + (`P1` + `P2` + ... + `P`<sub>`n`</sub>), where `N` is the number of proofs in the array, `P`<sub>`n`</sub> is the size of `N`-th proof in bytes. The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of a transaction with binary format version 1 <a id="#json-representation"></a>
 

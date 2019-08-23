@@ -8,8 +8,8 @@
 | 2 | Timestamp | timestamp | Long | 8 | Unix time of sending a transaction to the blockchain |
 | 3 | Account address | recipient | Array of bytes | 26 |  |
 | 4 | Amount | amount | Long | 8 | The number of [WAVES](/blockchain/token/waves.md) that will be credited to the [account](/blockchain/account.md) |
-| 5 | Fee |fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
-| 6 | Signature | signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction-signature.md) |
+| 5 | Fee |fee | Long | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
+| 6 | Signature | signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction/transaction-signature.md) |
 
 ## JSON representation of a transaction with binary format version 1 <a id="json"></a>
 

@@ -20,7 +20,7 @@ User can rate the same token many times — the latest rate will be taken into a
 
 User can rate any token from the web browser in which [Waves Keeper](/waves-keeper/about-waves-keeper.md) is installed if there is at least 1 [WCT](/blockchain/token/wct.md) on users' address balance. The amount of WCT on the balance affects the weight of the user's rate W<sub>n</sub>.
 
-At the time when user rates a token, he pays a [fee](/blockchain/transaction-fee.md) in [WAVES](/blockchain/token/waves.md) for the [data transaction](/blockchain/transaction-type/data-transaction.md).
+At the time when user rates a token, he pays a [fee](/blockchain/transaction/transaction-fee.md) in [WAVES](/blockchain/token/waves.md) for the [data transaction](/blockchain/transaction-type/data-transaction.md).
 
 ## Rate's weight W<sub>n</sub> of a user
 
