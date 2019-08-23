@@ -46,7 +46,7 @@ lastPrice = await this.getLastprice('https://api.wavesplatform.com/v0/pairs/WAVE
 dataParams.push({ key: 'waves_btc_8', value: lastPrice * Math.pow(10, 8) });
 ```
 
-Самый простой способ — создать новый аккаунт нового оракула. Как это сделать, читайте в разделе [создание аккаунта](/waves-client/account-management/creating-an-account.md).
+Самый простой способ создать новый оракул — зарегистрировать для него новый аккаунт. Как это сделать, читайте в разделе [создание аккаунта](/waves-client/account-management/creating-an-account.md).
 
 Подпишем [транзакцию данных](/blockchain/transaction-type/data-transaction.md) при помощи SEED от аккаунта оракула:
 
