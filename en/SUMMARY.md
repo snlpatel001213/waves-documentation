@@ -84,6 +84,7 @@
   * [Transaction proof](blockchain/transaction/transaction-proof.md)
   * [Transaction signature](blockchain/transaction/transaction-signature.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
+  * [Transaction validation](blockchain/transaction/transaction-validation.md)
   * [Transaction version](blockchain/transaction/transaction-version.md)
 * [Transaction type](blockchain/transaction-type.md)
   * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
@@ -100,8 +101,6 @@
   * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
   * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
-* [Transaction validation](blockchain/transaction-validation.md)
-  * [Validating node](blockchain/transaction-validation/validating-node.md)
 
 ## Client
 

@@ -15,8 +15,16 @@
       "from": "/en/blockchain/blockchain-height.html"
     },
     {
-      "to": "/ru/blockchain/blockchain/blockchain-height.html",
-      "from": "/ru/blockchain/blockchain-height.html"
+      "to": "/en/blockchain/transaction/transaction-validation.html",
+      "from": "/en/blockchain/transaction-validation.html"
+    },
+    {
+      "to": "/ru/blockchain/transaction/transaction-validation.html",
+      "from": "/ru/blockchain/transaction-validation.html"
+    },
+    {
+      "to": "/en/blockchain/blockchain/blockchain-height.html",
+      "from": "/en/blockchain/blockchain-height.html"
     },
     {
       "to": "/en/blockchain/account/dapp.html",
