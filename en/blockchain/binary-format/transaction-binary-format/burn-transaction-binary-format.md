@@ -4,7 +4,7 @@
 
 | Field order number | Field name | JSON field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | | Byte | 1 | Indicates that this is a transaction with a [data structure](/blockchain/transaction-data-structure.md) of version 2 or above. <br>The value has to be equal to 0 |
+| 1 | Version flag | | Byte | 1 | Indicates that this is a transaction with a [data structure](/blockchain/binary-format/transaction-binary-format.md) of version 2 or above. <br>The value has to be equal to 0 |
 | 2 | Transaction type | type | Byte | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br>The value has to be equal to 6 |
 | 3 | Version number | version | Byte | 1 | Version number of the data structure of the transaction.  <br>The value has to be equal to 2 |
 | 4 | Network ID | chainId|Byte | 1 | Determines the network where the transaction will be published to. <br>84 for [test network](/blockchain/blockchain-network/test-network.md), 87 for [mainnet](/blockchain/blockchain-network/main-network.md) |

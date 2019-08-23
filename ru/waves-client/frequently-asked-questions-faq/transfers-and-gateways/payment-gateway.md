@@ -1,21 +1,21 @@
-# Что такое платежный шлюз и как он работает
-
 ## **Что такое платежный шлюз?**
 
-Waves платформа позволяет хранить и передавать внешние валюты с использованием своей сети. Данная возможность реализована на основе централизованного шлюза [Coinomat](https://coinomat.com/): Биткоины или любые поддерживаемые внешние монеты передаются на личный адрес пользователя посредством стандартной транзакции. После обработки пользователь получает BTC/ETH* ассеты (wBTC /wETH*) . Каждый wBTC /wETH* ассет обеспечен 1:1 ценностью относительно реальной монеты.
+Waves платформа позволяет хранить и передавать внешние валюты с использованием своей сети. Данная возможность реализована на основе централизованного шлюза [Coinomat](https://coinomat.com/) и собственного шлюза [Wavesplatform](https://wavesplatform.com): Биткоины или любые поддерживаемые внешние монеты передаются на личный адрес пользователя посредством стандартной транзакции. После обработки пользователь получает, например Ишесщшт ассет (wBTC). Каждый wBTC ассет обеспечен 1:1 ценностью относительно реальной монеты.
 
-\*На данный момент уже доступны шлюзы для BTC, ETH, LTC, BCH, ZEC, DASH, XMR и BSV.
+\*В данный момен доступны шлюзы на основе **Coinomat** шлюза для: [Bitcoin](/waves-client/transfers-and-gateways/bitcoin-transfers.md), [Ethereum](/waves-client/transfers-and-gateways/ethereum-transfers.md), [Litecoin](/waves-client/transfers-and-gateways/litecoin-transfers.md), [ZCash](/waves-client/transfers-and-gateways/zcash-transfers.md), [Bitcoin Cash](/waves-client/transfers-and-gateways/bitcoin-cash-transfers.md), [Dash](/waves-client/transfers-and-gateways/dash-transfers.md), [Monero](/waves-client/transfers-and-gateways/monero-transfers.md), [Bitcoin SV](/waves-client/transfers-and-gateways/bitcoin-sv-transfers.md) и [Vostok](/waves-client/transfers-and-gateways/vostok-transfers.md), [Ergo](), [Bancor](/waves-client/transfers-and-gateways/bancor-transfers.md) на осонове **Wavesplatform** шлюза.
 
 ## **Как это работает?**
 
-После создания заявки на вывод средств, Bitcoin передаются в Waves сеть в виде wBTC (Waves BTC) ассета, затем Coinomat шлюз обрабатывает их и отправляет монеты на внешний Bitcoin адрес, то есть wBTC &gt; Waves сеть &gt; Coinomat &gt; BTC. При вводе средств, процесс обработки повторяется, но в обратном направлении BTC &gt; Coinomat &gt; Waves сеть &gt; wBTC ассет.
+После создания заявки на вывод, например Bitcoin, токены wBTC передаются в Waves сеть, затем Coinomat шлюз обрабатывает их и отправляет монеты на внешний Bitcoin адрес, то есть wBTC &gt; Waves сеть &gt; Coinomat &gt; BTC. При вводе средств, процесс обработки повторяется, но в обратном порядке BTC &gt; Coinomat &gt; Waves сеть &gt; wBTC ассет. Логика обработки платежей для Wavesplatform шлюза является такой же.
 
 Процесс ввода и вывода криптовалют может занимать до 120 минут. Средства будут направлены на указанный адрес.
 
-**Важно**: Внешние транзакции всегда обрабатываются только через один адрес шлюза - **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**
+**Важно**: Внешние транзакции всегда отправляются только на Waves адреса шлюзов: для шлюза Coinomat -  **3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr**; для Wavesplatform шлюза адреса могут отличаться. При выводе криптовалют из Waves аккаунта проверяйте адрес в уведомлении (cм. **Адрес шлюза**):
 
-При выводе криптовалют из Waves аккаунта проверяйте адрес в уведомлении:
+**Coinomat шлюз**:
 
 ![](/_assets/payment_gateway_01.png)
 
-Для получения более подробной информации о работе шлюза, пожалуйста, используйте контактные данные Coinomat ** support@coinomat.com **
+**Wavesplatform шлюз**:
+
+![](/_assets/payment_gateway_02.png)
