@@ -41,7 +41,6 @@
 * [Сеть блокчейна](blockchain/blockchain-network.md)
   * [Основная сеть](blockchain/blockchain-network/main-network.md)
   * [Тестовая сеть](blockchain/blockchain-network/test-network.md)
-* [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тип транзакции](blockchain/transaction-type.md)
   * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
   * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
