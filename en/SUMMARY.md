@@ -82,7 +82,6 @@
   * [Transaction body bytes](blockchain/transaction/transaction-body-bytes.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
   * [Transaction version](blockchain/transaction/transaction-version.md)
-* [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction proof](blockchain/transaction-proof.md)
 * [Transaction signature](blockchain/transaction-signature.md)
@@ -138,6 +137,7 @@
     * [Dash transfers](waves-client/transfers-and-gateways/dash-transfers.md)
     * [Monero transfers](waves-client/transfers-and-gateways/monero-transfers.md)
     * [Bitcoin SV transfers](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
+    * [Bancor transfers](waves-client/transfers-and-gateways/bancor-transfers.md)
     * [EURO and USD transfers](waves-client/transfers-and-gateways/eur-usd-transfers.md)
     * [Buying Waves using credit or debit card](waves-client/transfers-and-gateways/buying-waves-using-card.md)
   * [Advanced Features](waves-client/advanced_features.md)
@@ -396,8 +396,11 @@
 ## Oracles
 
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
+* [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
+* [Oracle card](waves-oracles/oracle-card.md)
+* [Updating oracle card](waves-oracles/updating-oracle-card.md)
 * [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
-* [Oracle](waves-oracles/oracle.md)
 
 ## Token Rating
 
