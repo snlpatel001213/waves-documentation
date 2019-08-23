@@ -8,7 +8,7 @@
 * [Блок](/blockchain/block.md)
   * [Высота блока](/blockchain/block/block-height.md)
 * [Блокчейн](/blockchain/blockchain.md)
-* [Высота блокчейна](/blockchain/blockchain-height.md)
+* [Высота блокчейна](/blockchain/blockchain/blockchain-height.md)
 * Тип транзакции
   * [Транзакция генезиса](/blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](/blockchain/transaction-type/data-transaction.md)

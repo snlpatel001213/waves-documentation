@@ -11,6 +11,14 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/blockchain/blockchain-height.html",
+      "from": "/en/blockchain/blockchain-height.html"
+    },
+    {
+      "to": "/ru/blockchain/blockchain/blockchain-height.html",
+      "from": "/ru/blockchain/blockchain-height.html"
+    },
+    {
       "to": "/en/blockchain/account/dapp.html",
       "from": "/en/blockchain/dapp.html"
     },
