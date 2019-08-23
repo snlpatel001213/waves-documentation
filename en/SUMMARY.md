@@ -10,6 +10,8 @@
 ## Blockchain
 
 * [Account](blockchain/account.md)
+  * [dApp](blockchain/account/dapp.md)
+  * [Smart account](blockchain/account/smart-account.md)
 * [Account data storage](blockchain/account-data-storage.md)
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
@@ -59,7 +61,6 @@
 * [Blockchain network](blockchain/blockchain-network.md)
   * [Main network](blockchain/blockchain-network/main-network.md)
   * [Test network](blockchain/blockchain-network/test-network.md)
-* [dApp](blockchain/dapp.md)
 * [Leasing](blockchain/leasing.md)
 * [Mining](blockchain/mining.md)
   * [Miner](blockchain/mining/miner.md)
@@ -70,10 +71,9 @@
   * [Validating node](blockchain/node/validating-node.md)
 * [Oracle](blockchain/oracle.md)
 * [Order](blockchain/order.md)
-* [Smart account](blockchain/smart-account.md)
-* [Smart asset](blockchain/smart-asset.md)
 * [Token](blockchain/token.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
+  * [Smart asset](blockchain/token/smart-asset.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)

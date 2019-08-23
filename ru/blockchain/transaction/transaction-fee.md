@@ -4,13 +4,13 @@
 
 Отправитель может указать любой размер комиссии, но не меньше определенного минимального значения. Чем больше размер комиссии, тем быстрее транзакция попадет в новый [блок](/blockchain/block.md).
 
-> Если [смарт-аккаунт](/blockchain/smart-account.md) отправляет [смарт-ассет](/blockchain/smart-asset.md), то комиссия удваивается.
+> Если [смарт-аккаунт](/blockchain/account/smart-account.md) отправляет [смарт-ассет](/blockchain/token/smart-asset.md), то комиссия удваивается.
 <br>Если транзакция валидируется [скриптом аккаунта](/ride/script/script-types/account-script.md) или [скриптом ассета](/ride/script/script-types/asset-script.md), то комиссия увеличивается на 0,004 WAVES
 
 
 | Тип транзакции | ID типа транзакции | Минимальный размер комиссии в WAVES | Комментарии |
 | :--- | :--- | :--- | :--- |
-| [Транзакция вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md) | 16 | 0,005 + `B` + `C` + 0,004 × `D` | Если транзакция отправляется со [смарт-аккаунта](/blockchain/smart-account.md), то `B` = 0,004 [WAVES](/blockchain/token/waves.md), иначе `B` = 0. <br>Если к транзакции прикреплены средства, то `С` = 0,004 WAVES, иначе `С` = 0. <br>`D` —  количество переводов смарт-ассетов |
+| [Транзакция вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md) | 16 | 0,005 + `B` + `C` + 0,004 × `D` | Если транзакция отправляется со [смарт-аккаунта](/blockchain/account/smart-account.md), то `B` = 0,004 [WAVES](/blockchain/token/waves.md), иначе `B` = 0. <br>Если к транзакции прикреплены средства, то `С` = 0,004 WAVES, иначе `С` = 0. <br>`D` —  количество переводов смарт-ассетов |
 | [Транзакция выпуска](/blockchain/transaction-type/issue-transaction.md) | 3 | 1 за обычный токен <br>0,001 за [не взаимозаменяемый токен](/blockchain/token/non-fungible-token.md) | |
 | [Транзакция данных](/blockchain/transaction-type/data-transaction.md) | 12 | 0,001 за килобайт | |
 | [Транзакция довыпуска](/blockchain/transaction-type/reissue-transaction.md) | 5 | 1 | |

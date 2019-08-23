@@ -11,6 +11,30 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/account/dapp.html",
+      "from": "/en/blockchain/dapp.html"
+    },
+    {
+      "to": "/ru/blockchain/account/dapp.html",
+      "from": "/ru/blockchain/dapp.html"
+    },
+    {
+      "to": "/en/blockchain/account/smart-account.html",
+      "from": "/en/blockchain/smart-account.html"
+    },
+    {
+      "to": "/ru/blockchain/account/smart-account.html",
+      "from": "/ru/blockchain/smart-account.html"
+    },
+    {
+      "to": "/en/blockchain/token/smart-asset.html",
+      "from": "/en/blockchain/smart-asset.html"
+    },
+    {
+      "to": "/ru/blockchain/token/smart-asset.html",
+      "from": "/ru/blockchain/smart-asset.html"
+    },
+    {
       "to": "/en/blockchain/binary-format/transaction-binary-format.html",
       "from": "/en/blockchain/transaction-data-structure.html"
     },

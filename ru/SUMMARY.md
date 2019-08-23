@@ -8,9 +8,10 @@
 
 ## Блокчейн
 
-* [dApp](blockchain/dapp.md)
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
+  * [dApp](blockchain/account/dapp.md)
+  * [Смарт-аккаунт](blockchain/account/smart-account.md)
 * [Ассет](blockchain/asset.md)
 * [Бинарный формат](blockchain/binary-format.md)
   * [Бинарный формат адреса](blockchain/binary-format/address-binary-format.md)
@@ -41,8 +42,6 @@
 * [Сеть блокчейна](blockchain/blockchain-network.md)
   * [Основная сеть](blockchain/blockchain-network/main-network.md)
   * [Тестовая сеть](blockchain/blockchain-network/test-network.md)
-* [Смарт-аккаунт](blockchain/smart-account.md)
-* [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тип транзакции](blockchain/transaction-type.md)
   * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
@@ -64,6 +63,7 @@
   * [WAVES](blockchain/token/waves.md)
   * [WCT](blockchain/token/wct.md)
   * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
+  * [Смарт-ассет](blockchain/token/smart-asset.md)
 * [Транзакция](blockchain/transaction.md)
   * [ID транзакции](blockchain/transaction/transaction-id.md)
   * [Байты тела транзакции](blockchain/transaction/transaction-body-bytes.md)

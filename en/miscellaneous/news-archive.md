@@ -10,7 +10,7 @@
   * [Block height](/blockchain/block/block-height.md)
 * [Blockchain](/blockchain/blockchain.md)
 * [Blockchain height](/blockchain/blockchain-height.md)
-* [dApp](/blockchain/dapp.md)
+* [dApp](/blockchain/account/dapp.md)
 * Token
   * [Non-fungible token](/blockchain/token/non-fungible-token.md)
 * Transaction type
