@@ -4,7 +4,7 @@ The **node configuration file** is a settings file of a [node](/blockchain/node.
 
 An example of the default node configuration file is available [on Github](https://github.com/wavesplatform/Waves/blob/master/node/src/main/resources/application.conf).
 
-## Sections of configuration file
+## Sections of the configuration file
 
 | # | Configuration section | Description |
 | :--- | :--- | :--- |
