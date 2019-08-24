@@ -6,7 +6,7 @@ An example of the default node configuration file is available [on Github](https
 
 ## Sections of configuration file
 
-| # | Name | Description |
+| # | Configuration section | Description |
 | :--- | :--- | :--- |
 | 1 | Blockchain | Settings of [blockchain](/blockchain/blockchain.md) |
 | 2 | Extensions | Settings of [extensions](/waves-node/extensions.md) |
