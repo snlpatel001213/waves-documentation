@@ -17,7 +17,7 @@ LeaseTransaction(amount: Int, recipient: Address|Alias, id: ByteVector, fee: Int
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 5 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
-| 6 | version | [Int](/ride/data-types/int.md) | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
+| 6 | version | [Int](/ride/data-types/int.md) | [Transaction version](/blockchain/transaction/transaction-version.md) |
 | 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of a transaction sender |
 | 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
 | 9 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
