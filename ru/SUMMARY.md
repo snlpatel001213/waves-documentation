@@ -59,6 +59,7 @@
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 * [Токен](blockchain/token.md)
+  * [ID токена](blockchain/token/token-id.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WAVES](blockchain/token/waves.md)
   * [WCT](blockchain/token/wct.md)

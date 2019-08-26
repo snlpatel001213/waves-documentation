@@ -74,6 +74,7 @@
 * [Token](blockchain/token.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
   * [Smart asset](blockchain/token/smart-asset.md)
+  * [Token ID](blockchain/token/token-id.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)
