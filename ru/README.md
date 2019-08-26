@@ -47,6 +47,8 @@
   * [Бинарный формат псевдонима](blockchain/binary-format/alias-binary-format.md)
 * Блок
   * [Временная метка блока](blockchain/block/block-timestamp.md)
+* Сеть блокчейна
+  * [Байт сети](blockchain/blockchain-network/chain-id.md)
 * [Оракул](blockchain/oracle.md)
 * Тип транзакции
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)

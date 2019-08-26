@@ -40,6 +40,7 @@
 * [Ордер](blockchain/order.md)
 * [Псевдоним](blockchain/alias.md)
 * [Сеть блокчейна](blockchain/blockchain-network.md)
+  * [Байт сети](blockchain/blockchain-network/chain-id.md)
   * [Основная сеть](blockchain/blockchain-network/main-network.md)
   * [Тестовая сеть](blockchain/blockchain-network/test-network.md)
 * [Тип транзакции](blockchain/transaction-type.md)
