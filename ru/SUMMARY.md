@@ -31,6 +31,7 @@
   * [Подпись блока](blockchain/block/block-signature.md)
 * [Блокчейн](blockchain/blockchain.md)
   * [Высота блокчейна](blockchain/blockchain/blockchain-height.md)
+  * [Типы данных блокчейна](blockchain/blockchain/blockchain-data-types.md)
 * [Комиссия матчера](blockchain/matcher-fee.md)
 * [Лизинг](blockchain/leasing.md)
 * [Майнинг](blockchain/mining.md)

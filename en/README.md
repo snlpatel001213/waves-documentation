@@ -11,6 +11,8 @@
 
 * Block
   * [Block timestamp](blockchain/block/block-timestamp.md)
+* Blockchain
+  * [Blockchain data types](blockchain/blockchain/blockchain-data-types.md)
 * Binary format
   * [Address binary format](/blockchain/binary-format/address-binary-format.md) — <span style="color:green">updated</span>
 * Blockchain network
