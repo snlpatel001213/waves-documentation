@@ -547,6 +547,10 @@
       "from": "/en/development-and-api/examples/trading-bot.html"
     },
     {
+      "to": "/en/waves-node/node-configuration.html",
+      "from": "/en/waves-node/how-to-configure-a-node.html"
+    },
+    {
       "===============================  Oracles  =====================================": null,
       "to": "/en/waves-oracles/about-waves-oracles.html",
       "from": "/en/oracels-developments/what-is-a-data-oracle.html"
