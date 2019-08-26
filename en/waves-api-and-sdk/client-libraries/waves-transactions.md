@@ -17,9 +17,7 @@ This library is a set of transaction constructing functions:
 * [Mass transfer](https://wavesplatform.github.io/waves-transactions/globals.html#masstransfer)
 * [Set script](https://wavesplatform.github.io/waves-transactions/globals.html#setscript)
 * [Data](https://wavesplatform.github.io/waves-transactions/globals.html#data)
-* [Sponsorship](https://wavesplatform.github.io/waves-transactions/globals.html#sponsorship)
 * [Set asset script](https://wavesplatform.github.io/waves-transactions/globals.html#setassetscript)
-* [InvokeScript](https://wavesplatform.github.io/waves-transactions/globals.html#invokescript)
 * [Order](https://wavesplatform.github.io/waves-transactions/globals.html#order)
 
 Check full documentation on [GitHub Pages](https://wavesplatform.github.io/waves-transactions/index.html).
