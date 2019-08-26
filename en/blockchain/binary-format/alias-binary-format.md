@@ -2,8 +2,8 @@
 
 > Learn more about [alias](/blockchain/alias.md)
 
-| # | Field | Field type | Field size in Bytes | Comments |
-| --- | --- | --- | --- | --- |
+| Field order number | Field | Field type | Field size in bytes | Comments |
+| :--- | :--- | :--- | :--- | :--- |
 | 1 | Entity type | Byte | 1 | Value must be 2 |
 | 2 | Chain ID | Byte | 1 | Value equals:<br> 54 — for [test network](/blockchain/blockchain-network/test-network.md)<br> 57 — for [main network](/blockchain/blockchain-network/main-network.md) |
 | 3 | Number of characters in the alias | Short | 2 | |
