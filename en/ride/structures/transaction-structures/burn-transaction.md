@@ -13,7 +13,7 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | quantity | [Int](/ride/data-types/int.md) | Amount of the [token](/blockchain/token.md) to burn |
-| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [ID of the token](/blockchain/token.md#token-id) to burn |
+| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [ID of the token](/blockchain/token/token-id.md) to burn |
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 5 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |

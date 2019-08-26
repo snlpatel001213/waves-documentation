@@ -13,7 +13,7 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | # | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
 | 1 | quantity | [Int](/ride/data-types/int.md) | Количество сжигаемого [токена](/blockchain/token.md) |
-| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [ID сжигаемого токена](/blockchain/token.md#token-id) |
+| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [ID сжигаемого токена](/blockchain/token/token-id.md) |
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) |
 | 5 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |
