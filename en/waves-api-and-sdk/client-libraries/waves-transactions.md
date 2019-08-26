@@ -25,7 +25,7 @@ Check full documentation on [GitHub Pages](https://wavesplatform.github.io/waves
 ### Transactions
 
 The idea is really simple - you create transaction and sign it from a minimal set of required params.  
-If you want to create [Transfer transaction](https://wavesplatform.github.io/waves-transactions/interfaces/itransfertransaction.html) the minimum you need to provide is **amount** and **recipient** as defined in [Transfer params](https://wavesplatform.github.io/waves-transactions/interfaces/itransferparams.html):
+If you want to create Transfer transaction the minimum you need to provide is **amount** and **recipient** as defined in Transfer params:
 
 ```js
 const { transfer } = require('@waves/waves-transactions')
