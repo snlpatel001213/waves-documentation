@@ -2,7 +2,7 @@
 
 > Learn more about [address](/blockchain/address.md)
 
-| Field order number | Field name | Field type | Field size in bytes | Comments |
+| Field order number | Field | Field type | Field size in bytes | Comments |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | Entity type | Byte | 1 | Value must be 1 |
 | 2 | Chain ID | Byte | 1 | Value equals:<br> 54 — for [test network](/blockchain/blockchain-network/test-network.md)<br> 57 — for [main network](/blockchain/blockchain-network/main-network.md) |
