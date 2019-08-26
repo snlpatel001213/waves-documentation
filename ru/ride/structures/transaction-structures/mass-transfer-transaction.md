@@ -12,7 +12,7 @@ MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, t
 
 | № | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | Токен [комиссии за транзакцию](/blockchain/transaction/transaction-fee.md). В настоящее разрешен только [WAVES](/blockchain/token/waves.md) |
+| 1 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | Токен [комиссии за транзакцию](/blockchain/transaction/transaction-fee.md).<br>В настоящее разрешен только [WAVES](/blockchain/token/waves.md) |
 | 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [ID токена](/blockchain/token/token-id.md) |
 | 3 | totalAmount | [Int](/ride/data-types/int.md) | Количество переводимого токена |
 | 4 | transfers | [List](/ride/data-types/list.md)[[Transfer](/ride/structures/common-structures/transfer.md)] | Переводы |
