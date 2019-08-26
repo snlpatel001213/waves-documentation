@@ -20,7 +20,7 @@ InvokeScriptTransaction(dApp: Address|Alias, payment: AttachedPayment|Unit, feeA
 | 6 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 7 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) |
 | 8 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |
-| 9 | version | [Int](/ride/data-types/int.md) | Версия [бинарного формата транзакции](/blockchain/binary-format/transaction-binary-format.md) |
+| 9 | version | [Int](/ride/data-types/int.md) | [Версия транзакции](/blockchain/transaction/transaction-version.md) |
 | 10 | sender | [Address](/ride/structures/common-structures/address.md) | [Адрес](/blockchain/address.md) отправителя транзакции |
 | 11 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Открытый ключ отправителя транзакции |
 | 12 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | Байты тела транзакции |
