@@ -73,6 +73,7 @@
 * [Order](blockchain/order.md)
 * [Token](blockchain/token.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
+  * [Token ID](blockchain/token/token-id.md)
   * [Smart asset](blockchain/token/smart-asset.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
