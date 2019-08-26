@@ -2,6 +2,4 @@
 
 **Бинарный формат транзакции** — набор полей [транзакции](/blockchain/transaction.md).
 
-Транзакции разных [типов](/blockchain/transaction-type.md) имеют разные бинарные форматы.
-
-Транзакции одного типа, но разных [версий](/blockchain/transaction/transaction-version.md), также имеют разные бинарные форматы.
+Транзакции разных [типов](/blockchain/transaction-type.md) имеют разные бинарные форматы. Транзакции одного типа, но разных [версий](/blockchain/transaction/transaction-version.md), также имеют разные бинарные форматы.
