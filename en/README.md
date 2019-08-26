@@ -16,6 +16,8 @@
 * Node
   * [Validating node](blockchain/node/validating-node.md)
 * [Oracle](blockchain/oracle.md)
+* Token
+  * [Token ID](blockchain/token/token-id.md)
 * Transaction
   * [Transaction ID](blockchain/transaction/transaction-id.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
