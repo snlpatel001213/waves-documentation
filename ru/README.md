@@ -47,6 +47,8 @@
   * [Бинарный формат псевдонима](blockchain/binary-format/alias-binary-format.md)
 * Блок
   * [Временная метка блока](blockchain/block/block-timestamp.md)
+* Блокчейн
+  * [Типы данных блокчейна](blockchain/blockchain/blockchain-data-types.md)
 * Сеть блокчейна
   * [Байт сети](blockchain/blockchain-network/chain-id.md)
 * [Оракул](blockchain/oracle.md)

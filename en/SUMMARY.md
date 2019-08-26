@@ -56,6 +56,7 @@
   * [Block timestamp](blockchain/block/block-timestamp.md)
   * [Genesis block](blockchain/block/genesis-block.md)
 * [Blockchain](blockchain/blockchain.md)
+  * [Blockchain data types](blockchain/blockchain/blockchain-data-types.md)
   * [Blockchain height](blockchain/blockchain/blockchain-height.md)
 * [Blockchain network](blockchain/blockchain-network.md)
   * [Chain ID](blockchain/blockchain-network/chain-id.md)
