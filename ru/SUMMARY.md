@@ -16,6 +16,7 @@
 * [Ассет](blockchain/asset.md)
 * [Бинарный формат](blockchain/binary-format.md)
   * [Бинарный формат адреса](blockchain/binary-format/address-binary-format.md)
+  * [Бинарный формат псевдонима](blockchain/binary-format/alias-binary-format.md)
   * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
     * [Бинарный формат транзакции генезиса](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
     * [Бинарный формат транзакции данных](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
