@@ -12,14 +12,14 @@ ReissueTransaction(quantity: Int, assetId: ByteVector, reissuable: Boolean, id: 
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | quantity | [Int](/ride/data-types/int.md) | Amount of [tokens](/blockchain/token.md) |
-| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | ID of a token |
-| 3 | reissuable | [Boolean](/ride/data-types/boolean.md) | Reissue ability flag |
+| 1 | quantity | [Int](/ride/data-types/int.md) | Amount of the [token](/blockchain/token.md) |
+| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [Token ID](/blockchain/token/token-id.md) |
+| 3 | reissuable | [Boolean](/ride/data-types/boolean.md) | Reissue flag |
 | 4 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 5 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 6 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
 | 7 | version | [Int](/ride/data-types/int.md) | [Transaction version](/blockchain/transaction/transaction-version.md) |
-| 8 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of a transaction sender |
-| 9 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
+| 8 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the transaction sender |
+| 9 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Public key of the transaction sender |
 | 10 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
-| 11 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction/transaction-proof.md) |
+| 11 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | [Proofs](/blockchain/transaction/transaction-proof.md) |
