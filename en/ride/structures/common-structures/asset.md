@@ -12,7 +12,7 @@ Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPubli
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Token](/blockchain/token.md) ID |
+| 1 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Token ID](/blockchain/token/token-id.md) |
 | 2 | quantity | [Int](/ride/data-types/int.md) | Amount of issued token |
 | 3 | decimals | [Int](/ride/data-types/int.md) | Number of decimal places |
 | 4 | issuer | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the [account](/blockchain/account.md) that issued a token |
