@@ -17,7 +17,7 @@ MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, t
 | 3 | totalAmount | [Int](/ride/data-types/int.md) | Количество переводимого токена |
 | 4 | transfers | [List](/ride/data-types/list.md)[[Transfer](/ride/structures/common-structures/transfer.md)] | Переводы |
 | 5 | transferCount | [Int](/ride/data-types/int.md) | Число переводов |
-| 6 | attachment | [ByteVector](/ride/data-types/byte-vector.md) | Произвольные данные, прикреплённые к транзакции. Часто поле используется для прикрепления комментария к транзакции.<br>Максимальный размер данных — 140 байт включительно |
+| 6 | attachment | [ByteVector](/ride/data-types/byte-vector.md) | Произвольные данные, прикреплённые к транзакции. Часто поле используется для прикрепления комментария к транзакции.<br>Максимальный размер данных — 140 байт |
 | 7 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
 | 8 | fee | [Int](/ride/data-types/int.md) | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) |
 | 9 | timestamp | [Int](/ride/data-types/int.md) | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |
