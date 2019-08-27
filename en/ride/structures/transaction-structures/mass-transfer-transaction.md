@@ -17,7 +17,7 @@ MassTransferTransaction(feeAssetId: ByteVector|Unit, assetId: ByteVector|Unit, t
 | 3 | totalAmount | [Int](/ride/data-types/int.md) | Amount of the token to be transferred |
 | 4 | transfers | [List](/ride/data-types/list.md)[[Transfer](/ride/structures/common-structures/transfer.md)] | Transfers |
 | 5 | transferCount | [Int](/ride/data-types/int.md) | Number of transfers |
-| 6 | attachment | [ByteVector](/ride/data-types/byte-vector.md) | Optional data attached to the transaction. This field is often used to attach a comment to the transaction.<br>The maximum data size is 140 bytes inclusive |
+| 6 | attachment | [ByteVector](/ride/data-types/byte-vector.md) | Optional data attached to the transaction. This field is often used to attach a comment to the transaction.<br>The maximum data size is 140 bytes |
 | 7 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 8 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 9 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
