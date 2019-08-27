@@ -4,14 +4,14 @@
 
 | Field order number | Field name | JSON field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag| | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/binary-format/transaction-binary-format.md) of version 2 or above.<br> The value must be 0 |
-| 2 | Transaction type | type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br> The value must be 10 |
-| 3 | Version number| version | Byte | 1 | Version number of the data structure of the transaction.<br> The value must be  2 |
-| 4 | Public key of sender |senderPublicKey| Array of bytes | 32 | Account public key of the sender |
-| 5.1 | Alias length| | Short | 2 | Length of the alias \(number of characters in the alias name\) |
-| 5.2 | Alias |alias| Array of bytes | from 4 to 30 | Array of bytes of alias |
-| 6 | Fee| fee | Long | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
-| 7 | Timestamp | timestamp | Long | 8 | Unix time of sending a transaction to the blockchain |
+| 1 | Version flag| | [Byte](/blockchain/blockchain/blockchain-data-types.md)  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/binary-format/transaction-binary-format.md) of version 2 or above.<br> The value must be 0 |
+| 2 | Transaction type | type | [Byte](/blockchain/blockchain/blockchain-data-types.md)  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br> The value must be 10 |
+| 3 | Version number| version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Version number of the data structure of the transaction.<br> The value must be  2 |
+| 4 | Public key of sender |senderPublicKey| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | Account public key of the sender |
+| 5.1 | Alias length| | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | Length of the alias \(number of characters in the alias name\) |
+| 5.2 | Alias |alias| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | from 4 to 30 | Array of bytes of alias |
+| 6 | Fee| fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
+| 7 | Timestamp | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Unix time of sending a transaction to the blockchain |
 | 8 | Proofs | proofs | Array of [proofs](/blockchain/transaction/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>), where `N` is the number of proofs in the array,`P`<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of a transaction with binary format version 2
@@ -37,10 +37,10 @@
 
 | Field order number | Field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Transaction type | Byte  | 1 | ID of the transaction type.The value must be 10 |
-| 2 | Public key of sender | Array of bytes | 32 | Account public key of the sender |
+| 1 | Transaction type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | ID of the transaction type.The value must be 10 |
+| 2 | Public key of sender | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | Account public key of the sender |
 | 3.1 | Alias length | Short | 2 | Length of the alias \(number of characters in the alias name\) |
-| 3.2 | Alias | Array of bytes | from 4 to 30 | Array of bytes of alias |
-| 4 | Fee | Long | 8 | Transaction fee in WAVELETs |
-| 5 | Timestamp | Long | 8 | Unix time of sending a transaction to the blockchain |
-| 6 | Signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction/transaction-signature) |
+| 3.2 | Alias | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | from 4 to 30 | Array of bytes of alias |
+| 4 | Fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Transaction fee in WAVELETs |
+| 5 | Timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Unix time of sending a transaction to the blockchain |
+| 6 | Signature | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | [Transaction signature](/blockchain/transaction/transaction-signature) |
