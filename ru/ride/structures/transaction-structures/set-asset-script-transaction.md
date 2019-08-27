@@ -8,7 +8,7 @@
 SetAssetScriptTransaction(script: ByteVector|Unit, assetId: ByteVector, id: ByteVector, fee: Int, timestamp: Int, version: Int, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
-## Поля структуры
+## Поля
 
 | № | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
