@@ -12,6 +12,7 @@ Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
+| 1 | id | [ByteVector](/ride/data-types/byte-vector.md) | ID [токена](/blockchain/token.md)
 | 1 | quantity | [Int](/ride/data-types/int.md) | Количество выпущенных [токенов](/blockchain/token.md) |
 | 2 | decimals | [Int](/ride/data-types/int.md) | Число знаков после запятой у токена |
 | 3 | issuer | [Address](/ride/structures/common-structures/address.md) | Адрес аккаунта, который выпустил токен |
