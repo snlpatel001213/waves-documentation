@@ -12,13 +12,13 @@ SetAssetScriptTransaction(script: ByteVector|Unit, assetId: ByteVector, id: Byte
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | script | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | Script that must be set for the [token](/blockchain/token.md) |
-| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | ID of a token |
+| 1 | script | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Asset script](/ride/script/script-types/asset-script.md) |
+| 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [Token ID](/blockchain/token/token-id.md) |
 | 3 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 4 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |
 | 5 | timestamp | [Int](/ride/data-types/int.md) | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
 | 6 | version | [Int](/ride/data-types/int.md) | [Transaction version](/blockchain/transaction/transaction-version.md) |
-| 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of a transaction sender |
-| 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
+| 7 | sender | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the transaction sender |
+| 8 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Public key of the transaction sender |
 | 9 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
-| 10 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction/transaction-proof.md) |
+| 10 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | [Proofs](/blockchain/transaction/transaction-proof.md) |

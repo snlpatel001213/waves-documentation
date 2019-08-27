@@ -10,7 +10,7 @@ SetScriptTransaction(script: ByteVector|Unit, id: ByteVector, fee: Int, timestam
 
 ## Поля структуры
 
-| # | Название | Тип данных | Описание |
+| № | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
 | 1 | script | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | Байты [скрипта аккаунта](/ride/script/script-types/account-script.md) или [dApp-скрипта](/ride/script/script-types/dapp-script.md) |
 | 2 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID транзакции](/blockchain/transaction/transaction-id.md) |
