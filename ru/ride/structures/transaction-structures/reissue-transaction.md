@@ -10,7 +10,7 @@ ReissueTransaction(quantity: Int, assetId: ByteVector, reissuable: Boolean, id: 
 
 ## Поля структуры
 
-| # | Название | Тип данных | Описание |
+| № | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
 | 1 | quantity | [Int](/ride/data-types/int.md) | Количество [токена](/blockchain/token.md) |
 | 2 | assetId | [ByteVector](/ride/data-types/byte-vector.md) | [ID токена](/blockchain/token/token-id.md) |
