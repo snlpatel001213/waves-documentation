@@ -7,6 +7,6 @@
 | 1 | Boolean | 0 to 1 | 1 |
 | 2 | Byte | From -128 to 127 | 1 |
 | 3 | Int | From -2,147,483,648 to 2,147,483,647 | 4 |
-| 4 | Short | From -32,768 to 32,767 | 2 |
-| 5 | String | From 0 to 2,147,483,647 characters inclusive | From 1 to 4 bytes per character |
-| 6 | Long | From -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 8 |
+| 4 | Long | From -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 8 |
+| 5 | Short | From -32,768 to 32,767 | 2 |
+| 6 | String | From 0 to 2,147,483,647 characters inclusive | From 1 to 4 bytes per character |
