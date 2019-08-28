@@ -27,7 +27,7 @@
 | 1 | [ID типа транзакции](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md)  | 1 | Значение должно быть равно 6 |
 | 2 | Открытый ключ аккаунта отправителя транзакции | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
 | 3 | Длина [псевдонима](/blockchain/alias.md) | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | Количество символов в имени псевдонима |
-| 4 | Псевдоним | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | от 4 до 30 |  |
+| 4 | Псевдоним | [String](/blockchain/blockchain/blockchain-data-types.md) | от 4 до 30 |  |
 | 5 | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) в [WAVELET](/blockchain/token/wavelet.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 6 | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 7 | [Подпись транзакции](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 |  |
