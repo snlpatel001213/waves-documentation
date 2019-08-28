@@ -45,4 +45,4 @@ See the [example](https://testnodes.wavesnodes.com/transactions/info/8jfD2JBLe23
 | 7 | Reissue flag | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
 | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in W[AVELETs](/blockchain/token/wavelet.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 9 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 10 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | |
+| 10 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | | |
