@@ -13,6 +13,7 @@
 | 5 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 6 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | signature | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 |  |
 
+
 ## JSON representation of the transaction
 
 See the [example](https://nodes.wavesplatform.com/transactions/info/2DVtfgXjpMeFf2PQCqvwxAiaGbiDsxDjSdNQkc5JQ74eWxjWFYgwvqzC4dn7iB1AhuM32WxEiVi1SGijsBtYQwn8) in Node API.
