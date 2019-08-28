@@ -19,7 +19,7 @@
 | 8 | Number of [Token](/blockchain/token.md) that will be issued | quantity | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 9 | Number of decimal places of [token](/blockchain/token.md) | decimals | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
 | 10 | Reissue flag | reissuable | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | If the value is 0, then token reissue is not possible.<br>If the value is 1, then token reissue is possible |
-| 11 | [Transaction fee](/blockchain/transaction/transaction-fee.md)in [WAVELETs](/blockchain/blockchain/blockchain-data-types.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
+| 11 | [Transaction fee](/blockchain/transaction/transaction-fee.md) in [WAVELETs](/blockchain/blockchain/blockchain-data-types.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 12 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 13.1 | Script existence flag | | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | If the value is 0, then the token does not have a script.<br>If the value is 1, then the token has a script |
 | 13.2 | Script length | | [Short](/blockchain/blockchain/blockchain-data-types.md) | S | `S = 0 ` if the value of the "Script existence flag" field is 0.<br>`S = 2 `if the value of the "Script existence flag" field is 1 |
