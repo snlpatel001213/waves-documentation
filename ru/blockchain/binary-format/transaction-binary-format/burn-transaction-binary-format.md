@@ -1,49 +1,34 @@
 # Бинарный формат транзакции сжигания токена
 
-## Бинарный формат версии 2
+> Узнать больше о [транзакции сжигания токена](/blockchain/transaction-type/burn-transaction.md)
 
-| Порядковый номер поля | Название поля | Название JSON-поля |Тип поля | Размер поля в байтах | Описание поля |
+## Транзакция версии 2
+
+| Порядковый номер поля | Поле | Название JSON-поля |Тип поля | Размер поля в байтах | Комментарий |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Флаг версии | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Указывает что [структура данных](/blockchain/binary-format/transaction-binary-format.md) транзакции имеет версию 2 или выше. <br>Значение должно быть равно 0 |
-| 2 | Тип транзакции |type| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | ID [типа транзакции](/blockchain/transaction-type.md). <br>Значение должно быть равно 6 |
-| 3 | Номер версии |version| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Номер версии структуры данных транзакции. <br>Значение должно быть равно 2 |
-| 4 | ID сети |chainId| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Задает сеть, в которой транзакция будет опубликована. <br>84 для тестовой сети, 87 для основной сети |
-| 5 | Публичный ключ отправителя |senderPublicKey| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | Публичный ключ аккаунта отправителя |
-| 6 | ID токена |assetId| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | ID сжигаемого токена |
-| 7 | Количество токенов |amount| [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Количество сжигаемых токенов |
-| 8 | Комиссия|fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Комиссия за транзакцию в [WAVELET](/blockchain/token/wavelet.md) |
-| 9 | Временная метка|timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Unix-время отправки транзакции в блокчейн |
-| 10 | Подтверждения |proofs| Массив [подтверждений](/blockchain/transaction/transaction-proof.md) | `S` | Если массив пустой, то `S`= 3. <br>Если массив не пустой, то `S`= 3 + 2 × `N` + \(`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>\), <br>где <br>`N` — количество подтверждений в массиве, <br>`P`<sub>n</sub> — размер `N`-го подтверждения в байтах.<br> Максимальное количество подтверждений в массиве — 8. Максимальный размер каждого подтверждения — 64 байта |
+| 1 | Флаг версии | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Указывает что [структура данных](/blockchain/binary-format/transaction-binary-format.md) транзакции имеет версию 2 или выше.<br>Значение должно быть равно 0 |
+| 2 | [ID типа транзакции](/blockchain/transaction-type.md) |type| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Значение должно быть равно 6 |
+| 3 | [Версия транзакции](/blockchain/transaction/transaction-version.md) |version| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Значение должно быть равно 2 |
+| 4 | [Байт сети](/blockchain/blockchain-network/chain-id.md) |chainId| [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | 84 для [тестовой сети](/blockchain/blockchain-network/test-network.md), 87 для [основной сети](/blockchain/blockchain-network/main-network.md) |
+| 5 | Открытый ключ аккаунта отправителя транзакции |senderPublicKey| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
+| 6 | [ID](/blockchain/token/token-id.md) сжигаемого токена |assetId| Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
+| 7 | Количество сжигаемых токенов |amount| [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 8 | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) в [WAVELET](/blockchain/token/wavelet.md) |fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 9 | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) |timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 10 | [Подтверждения транзакции](/blockchain/transaction/transaction-proof.md) |proofs| [Подтверждения](/blockchain/transaction/transaction-proof.md) | `S` | Если массив пустой, то `S`= 3. <br>Если массив не пустой, то `S`= 3 + 2 × `N` + \(`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>\), <br>где <br>`N` — количество подтверждений в массиве, <br>`P`<sub>n</sub> — размер `N`-го подтверждения в байтах.<br> Максимальное количество подтверждений в массиве — 8. Максимальный размер каждого подтверждения — 64 байта |
 
-## JSON-представление транзакции бинарного формата версии 2
+## JSON-представление транзакции
 
-```json
-{  
-   "type":6,
-   "version":2,
-   "chainId":87,
-   "senderPublicKey":"9GaQj7gktEiiS1TTTjGbVjU9bva3AbCiawZ11qFZenBX",
-   "assetId":"FVxhjrxZYTFCa9Bd4JYhRqXTjwKuhYbSAbD2DWhsGidQ",
-   "amount":9999,
-   "fee":100000,
-   "timestamp":1548660675277,
-   "proofs":[  
-      "61jCivdv3KTuTY6QHgxt4jaGrXcszWg3vb9TmUR26xv7mjWWwjyqs7X5VDUs9c2ksndaPogmdunHDdjWCuG1GGhh"
-   ],
-   "id":"csr25XQHT1c965Fg7cY2vJ7XHYVsudPYrUbdaFqgaqL",
-   "sender":"3P9QZNrHbyxXj8P9VrJZmVu2euodNtA11UW",
-   "height":1370971
-}
-```
+Смотрите [пример](https://nodes.wavesplatform.com/transactions/info/csr25XQHT1c965Fg7cY2vJ7XHYVsudPYrUbdaFqgaqL) в Node API.
 
 ## Бинарный формат версии 1
 
-| Порядковый номер поля | Название поля | Тип поля | Размер поля в байтах | Описание поля |
+| Порядковый номер поля | Поле | Тип поля | Размер поля в байтах | Комментарий |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Тип транзакции | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | ID типа транзакции. <br>Значение должно быть равно 6 |
-| 2 | Публичный ключ отправителя | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | Публичный ключ аккаунта отправителя |
-| 3 | ID токена  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | ID сжигаемого токена |
-| 4 | Количество токенов | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Количество сжигаемых токенов  |
-| 5 | Комиссия | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Комиссия за транзакцию в WAVELET |
-| 6 | Временная метка | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Unix-время публикации транзакции в сеть |
-| 7 | Подпись | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | [Подпись транзакции](/blockchain/transaction/transaction-signature.md) |
+| 1 | [ID типа транзакции](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Значение должно быть равно 6 |
+| 2 | Открытый ключ аккаунта отправителя транзакции | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
+| 3 | [ID](/blockchain/token/token-id.md) сжигаемого токена  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
+| 4 | Количество сжигаемых токенов | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 5 | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) в [WAVELET](/blockchain/token/wavelet.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 6 | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 7 | [Подпись транзакции](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 |  |
