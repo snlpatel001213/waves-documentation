@@ -6,7 +6,7 @@
 
 | Порядковый номер поля | Поле | Название JSON-поля | Тип поля | Размер поля в байтах | Комментарий |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Флаг версии | | [Byte](/blockchain/blockchain/blockchain-data-types.md)  | 1 | Указывает что [структура данных](/blockchain/binary-format/transaction-binary-format.md) транзакции имеет версию 2 или выше. Значение должно быть равно 0 |
+| 1 | Флаг версии | | [Byte](/blockchain/blockchain/blockchain-data-types.md)  | 1 | Указывает, что [версия транзакции](/blockchain/transaction/transaction-version.md) является второй или выше.<br>Значение должно быть равно 0 |
 | 2 | [ID типа транзакции](/blockchain/transaction-type.md) | type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Значение должно быть равно 12 |
 | 3 | [Версия транзакции](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Значение должно быть равно 1 |
 | 4 | Открытый ключ аккаунта отправителя транзакции | senderPublicKey | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 |  |
