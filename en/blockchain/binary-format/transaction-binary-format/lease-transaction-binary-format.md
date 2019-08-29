@@ -28,7 +28,7 @@ See the [example](https://nodes.wavesnodes.com/transactions/info/J6jZCzLpWJX8EDV
 | 1 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 8 |
 | 2 | Public key of the transaction sender  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
 | 3 | [Address](/blockchain/address.md) of the recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 2 | |
-| 4 | Amount of [WAVES](/blockchain/token/waves.md) that will be leased to the [account](/blockchain/account.md) | [Long](/blockchain/blockchain/blockchain-data-types.md | 8 | |
+| 4 | Amount of [WAVES](/blockchain/token/waves.md) that will be leased to the [account](/blockchain/account.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 5 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 6 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 7 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | | |
