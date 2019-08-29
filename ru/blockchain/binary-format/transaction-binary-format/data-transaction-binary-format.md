@@ -2,7 +2,7 @@
 
 > Узнать больше о [транзакции данных](/blockchain/transaction-type/data-transaction.md)
 
-## Бинарный формат версии 1
+## Транзакция версии 1
 
 | Порядковый номер поля | Поле | Название JSON-поля | Тип поля | Размер поля в байтах | Комментарий |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@
 | 6.[4 × N - 1] | Длина данных N-го элемента |  | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | Текущее поле присутствует только если значением поля данных является массив байтов или строка.<br>Текущее поле отсутствует, если значением поля данных является целое число или логический тип |
 | 6.[4 × N] | Данные N-го элемента | value | Один из следующих: <ul><li> [Int](/blockchain/blockchain/blockchain-data-types.md)</li><li> [Boolean](/blockchain/blockchain/blockchain-data-types.md)</li> <li>Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)]</li> <li>[String](/blockchain/blockchain/blockchain-data-types.md) </li></ul> | Зависит от размера данных | |
 | 7 | [Временная метка транзакции](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
-| 8 | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) в [WAVELET](/blockchain/token/wavelet.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 8 | [Комиссия за транзакцию](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 9 | [Подтверждения транзакции](/blockchain/transaction/transaction-proof.md) | proofs | [Подтверждения](/blockchain/transaction/transaction-proof.md) | `S` | Если массив пустой, то `S`= 3. <br>Если массив не пустой, то `S`= 3 + 2 × `N` + \(`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>\), <br>где <br>`N` — количество подтверждений в массиве, <br>`P`<sub>n</sub> — размер `N`-го подтверждения в байтах.<br> Максимальное количество подтверждений в массиве — 8. Максимальный размер каждого подтверждения — 64 байта |
 
 ## JSON-представление транзакции <a id="json-representation"></a>
