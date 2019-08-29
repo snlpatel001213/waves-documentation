@@ -13,6 +13,7 @@
 * [Dash переводы](transfers-and-gateways/dash-transfers.md)
 * [Monero переводы](transfers-and-gateways/monero-transfers.md)
 * [Bitcoin SV переводы](transfers-and-gateways/bitcoin-sv-transfers.md)
+* [Ergo переводы](transfers-and-gateways/ergo-transfers.md)
 * [Bancor переводы](transfers-and-gateways/bancor-transfers.md)
 * [Перевод EUR и USD](transfers-and-gateways/eur-usd-transfers.md)
 
