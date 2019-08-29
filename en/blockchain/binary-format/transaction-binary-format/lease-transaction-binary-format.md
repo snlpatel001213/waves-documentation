@@ -6,7 +6,7 @@
 
 | Field order number | Field | Field type | Field size in bytes | Comment |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the [transaction version](/blockchain/transaction/transaction-version.md) is version 2 or higher.Value must be 0 |
+| 1 | Version flag | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the [transaction version](/blockchain/transaction/transaction-version.md) is version 2 or higher.<br>Value must be 0 |
 | 2 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 8 |
 | 3 | [Transaction version](/blockchain/transaction/transaction-version.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 2 |
 | 4 | Reserved field | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be equal to 0 |
