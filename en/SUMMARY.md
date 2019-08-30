@@ -368,6 +368,7 @@
   * [Blocks](waves-node/node-api/blocks.md)
   * [Utils](waves-node/node-api/utils.md)
   * [Examples of transactions](waves-node/node-api/example-transactions.md)
+* [Running Waves Node in Yandex.Cloud](waves-node/running-waves-node-in-yandex-cloud.md)
 * [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 
 ## API and SDK
