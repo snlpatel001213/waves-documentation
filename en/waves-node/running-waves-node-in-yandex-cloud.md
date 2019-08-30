@@ -20,11 +20,11 @@
 
 <img src="img/virtual-machine-parameters.png" width="500"/> <br>
 
-6.&nbsp;[Generate](htt cghfxgjcgfhkjps://cloud.yandex.com/docs/compute/operations/vm-connect/ssh#creating-an-ssh-key-pair) a pair of SSH keys. Enter the public key of the pair in the SSH key field. Complete creation of the virtual machine by clicking **Create VM**.
+6.&nbsp;[Generate](https://cloud.yandex.com/docs/compute/operations/vm-connect/ssh#creating-an-ssh-key-pair) a pair of SSH keys. Enter the public key of the pair in the **SSH key** field. Complete creation of the virtual machine by clicking **Create VM**.
 
 <img src="img/create-vm.png" width="500"/> <br>
 
-7.&nbsp;Make sure that the virtual machine is running by [connecting](https://cloud.yandex.ru/docs/compute/operations/vm-connect/ssh#vm-connect) to it via SSH. Copy the IP address of the machine from the control panel of Yandex.Cloud.
+7.&nbsp;Make sure that the virtual machine is running by [connecting](https://cloud.yandex.com/docs/compute/operations/vm-connect/ssh#vm-connect) to it via SSH. Copy the IP address of the machine from the control panel of Yandex.Cloud.
 
 ``` console
 ssh <username>@<virtual_machine_ip_address>
