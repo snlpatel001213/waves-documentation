@@ -15,7 +15,7 @@ There're different options when you want to deal with Waves full node and you wi
 
 ### Installing a node
 
-* The easiest way to run a Waves Node is by using the new [Waves Docker container](/waves-node/waves-node-in-docker.md). It requires just **one command** to enable everything or to change the settings of the node.
+* The easiest way to run a Waves Node is by using the new [Waves Docker container](/waves-node/waves-node-in-docker.md). It requires just one command to enable everything or to change the settings of the node.
 * The another way is to [download the latest version](https://github.com/wavesplatform/Waves/releases) of `waves.jar` and the required `.conf` configuration file \(for mainnet or testnet\) to any folder, for example `~/waves`. You can [follow these steps](/waves-node/how-to-install-a-node/how-to-install-a-node.md) of installing a node depending on your operating system.
 
 {% prettyhint type="info" %} Please check <a href="/waves-node/how-to-install-a-node/how-to-install-a-node.md"> &nbsp;The Activation Process of New features. </a> {% endprettyhint %}
