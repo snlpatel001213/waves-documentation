@@ -165,7 +165,7 @@ func verify() = {
 | Имя параметра | Тип параметра | Описание  |
 |---|---|---|
 |  type  |Int   |  тип транзакции (16 для InvokeScript) |
-| dappAddress   | Address  | адрес, по которому вызывается функция  |
+| dApp   | Address  | адрес, по которому вызывается функция  |
 |  payment  | OPTION[AttachedPayment]  | отправляемый платеж (размер, ассет) |
 |  fee  |  Int | размер вознаграждения |
 | feeAssetId | OPTION[ByteVector] | идентификатор ассета вознаграждения (null для WAVES)|
@@ -185,7 +185,7 @@ func verify() = {
   "type": 16,
   "version": 1,
   "senderPublicKey": "2GEvUnpNpve2rSAs51c2HMTkaCYW9QRgwR16Z2HGJZgC",
-  "dappAddress": "3FYR1f5YydHXF8dtfRJRyX3PoDCoT7a36Kq",
+  "dApp": "3FYR1f5YydHXF8dtfRJRyX3PoDCoT7a36Kq",
   "call": {
     "function": "deposit",
     "args": [{type:"integer", value: 600000000}]
