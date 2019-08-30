@@ -780,7 +780,7 @@ In case of a success, the asset's script will be reset.
 
 #### [Тype 16 SCRIPT INVOCATION - call account script function \*\(testnet only\)](/blockchain/binary-format/transaction-binary-format/invoke-script-transaction-binary-format.md)
 
-* `dappAddress` string – address script account
+* `dApp` string – address script account
 * `fee` MoneyLike – fee
 * `call` object –
   * `function` string function name
@@ -801,7 +801,7 @@ Example:
                  "tokens": "0.05",
                  "assetId": "WAVES"
              },
-             dappAddress: '3N27HUMt4ddx2X7foQwZRmpFzg5PSzLrUgU',
+             dApp: '3N27HUMt4ddx2X7foQwZRmpFzg5PSzLrUgU',
              call: {
                      function: 'tellme',
                      args: [
