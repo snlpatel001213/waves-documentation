@@ -6,7 +6,7 @@
 
 | Field order number | Field | JSON field name | Field type | Field size in bytes | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Transaction type ID](/blockchain/transaction-type.md) | type | Byte | 1 | Value must be 1 |
+| 1 | [Transaction type ID](/blockchain/transaction-type.md) | type | Byte | 1 | Value must be 11 |
 | 2 | [Transaction version](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 1 |
 | 3 | Public key of the transaction sender  | senderPublicKey | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
 | 4.1 | Flag [WAVES](/blockchain/token/waves.md)/[token](/blockchain/token.md) | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value is 0 for transferring [WAVES](/blockchain/token/waves.md).<br>Value is 1 for transferring other [tokens](/blockchain/token.md) |
@@ -15,7 +15,7 @@
 | 5.2 | Sum of all transfers | totalAmount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 5.3 | [Address](/blockchain/address.md) or [alias ](/blockchain/alias.md)of the recipient of the transfer 1 | recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
 | 5.4 | Amount of [tokens](/blockchain/token.md) in the transfer 1 | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 5.5 | [Address](/blockchain/address.md) or [alias ](/blockchain/alias.md)of the recipient of the transfer 2 | recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
+| 5.5 | [Address](/blockchain/address.md) or [alias ](/blockchain/alias.md) of the recipient of the transfer 2 | recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
 | 5.6 | Amount of [tokens](/blockchain/token.md) in the transfer 2 | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
