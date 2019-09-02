@@ -79,6 +79,6 @@
 * [Предварительные требования](waves-node/prerequisites.md)
     * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 
-> Посмотреть старые новости в [Aрхиве новостей](/miscellaneous/news-archive.md)
+> Посмотреть старые новости в [Aрхиве новостей](miscellaneous/news-archive.md)
 
 > Посмотреть репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)
