@@ -115,7 +115,7 @@ func verify() = {
 | Parameter name |Parameter type |Description  |
 |---|---|---|
 |  type  |Int   |  transaction type (16 for the InvokeScript) |
-| dappAddress   | Address  | address of the account to which dApp is attached  |
+| dApp   | Address  | address of the account to which dApp is attached  |
 |  payment  | OPTION[AttachedPayment]  | payment (amount, asset type) |
 |  fee  |  Int | fee amount  |
 | feeAssetId | OPTION[ByteVector] | fee asset identifier (null for WAVES)|
@@ -135,7 +135,7 @@ func verify() = {
   "type": 16,
   "version": 1,
   "senderPublicKey": "2GEvUnpNpve2rSAs51c2HMTkaCYW9QRgwR16Z2HGJZgC",
-  "dappAddress": "3FYR1f5YydHXF8dtfRJRyX3PoDCoT7a36Kq",
+  "dApp": "3FYR1f5YydHXF8dtfRJRyX3PoDCoT7a36Kq",
   "call": {
     "function": "deposit",
     "args": []
