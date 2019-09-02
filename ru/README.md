@@ -144,6 +144,6 @@
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
   
-> Посмотреть старые новости в [Aрхиве новостей](/miscellaneous/news-archive.md)
+> Посмотреть старые новости в [Aрхиве новостей](miscellaneous/news-archive.md)
 
 > Посмотреть репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)
