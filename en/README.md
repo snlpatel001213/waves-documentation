@@ -135,4 +135,6 @@
 * [Node API](waves-node/node-api.md)
 * [Node configuration file](waves-node/node-configuration-file.md)
 
+> See older news in the [News archive](https://docs.wavesplatform.com/en/miscellaneous/news-archive.html)
+
 > Check out documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
