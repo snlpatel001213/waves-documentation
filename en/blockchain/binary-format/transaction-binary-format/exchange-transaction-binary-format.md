@@ -17,7 +17,7 @@ Transaction version 2 can accept orders of version [1](/blockchain/binary-format
 | 5.1 | Sell order size  |  | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
 | 5.2 | Sell [order version](/blockchain/binary-format/order-binary-format.md) flag | order2.version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | `S` | `S` = 1 if the order version is 1.<br>`S` = 0 if the order version is 2 |
 | 5.3 | Order for selling a token | order2 | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [order binary format](/blockchain/binary-format/order-binary-format.md) |  |
-| 6 | Price of the token to sell or buy | price | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token B which order sender offers for one token A |
+| 6 | Price of the token to sell or buy | price | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of [token](/blockchain/token.md) B which order sender offers for one token A |
 | 7 | Amount of tokens  | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token A which order sender wants to buy |
 | 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | buyMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | sellMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
@@ -40,7 +40,7 @@ Transaction version 1 can accept orders of version [1](/blockchain/binary-format
 | 3 | Sell order size | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
 | 4 | Order for buying a token | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [order binary format](/blockchain/binary-format/order-binary-format.md) |  |
 | 5 | Order for selling a token | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [order binary format](/blockchain/binary-format/order-binary-format.md) |  |
-| 6 | Price of the token to sell or buy | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token B which order sender offers for one token A |
+| 6 | Price of the token to sell or buy | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of [token](/blockchain/token.md) B which order sender offers for one token A |
 | 7 | Amount of tokens | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token A which order sender wants to buy |
 | 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
