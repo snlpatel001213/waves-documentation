@@ -19,7 +19,7 @@
 | 5.6 | Amount of [tokens](/blockchain/token.md) in the transfer 2 | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
-| 5.[2× `N + 1`] | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md)o f the transfer recipient`N` | recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
+| 5.[2× `N + 1`] | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the transfer recipient`N` | recipient | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
 | 5.[2× `N + 2`] | Amount of [tokens](/blockchain/token.md) in the transfer`N` | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 6 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 7 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
