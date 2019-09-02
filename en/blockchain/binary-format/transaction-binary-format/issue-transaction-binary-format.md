@@ -3,7 +3,7 @@
 > Learn more about [issue transaction](/blockchain/transaction-type/issue-transaction.md)
 
 
-## Transaction version2
+## Transaction version 2
 
 | Field order number | Field | JSON field name | Field type | Field size in bytes | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- |
