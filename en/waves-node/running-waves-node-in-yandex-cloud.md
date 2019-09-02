@@ -30,7 +30,7 @@
 ssh <username>@<virtual_machine_ip_address>
 ```
 
-8.&nbsp;In a browser navigate to the page http:&#47;&#47;&lt;ip&#95;virtual&#95;machine&#95;ip&#95;address>&gt;:8080 to start docker container with [Waves Node](https://github.com/wavesplatform/Waves).
+8.&nbsp;In a browser navigate to the page http:&#47;&#47;&lt;virtual&#95;machine&#95;ip&#95;address&gt;:8080 to start docker container with [Waves Node](https://github.com/wavesplatform/Waves).
 
 <img src="img/docker-container.png" width="500"/> <br>
 
