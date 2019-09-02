@@ -1,55 +1,49 @@
 # Exchange transaction binary format
 
-## Binary format version 1
+> Learn more about [exchange transaction](/blockchain/transaction-type/exchange-transaction.md)
 
-| # | Field name | Type | Length in Bytes |
-| --- | --- | --- | --- |
-| 1 | Transaction type | Byte (constant, value = 7) | 1
-| 2 | Buy order object length (BN) | Int | 4
-| 3 | Sell order object length (SN) | Int | 4
-| 4 | Buy order object | OrderV1 | BN, see OrderV1 structure
-| 5 | Sell order object | OrderV1 | SN, see OrderV1 structure
-| 6 | Price | Long | 8
-| 7 | Amount | Long | 8
-| 8 | Buy matcher fee | Long | 8
-| 9 | Sell matcher fee | Long | 8
-| 10 | Fee | Long | 8
-| 11 | Timestamp | Long | 8
-| 12 | Signature | ByteStr (Array[Byte]) | 64
+[Exchange transaction version 2](#transaction2) can use 3, [2](/blockchain/binary-format/order-binary-format.md#order2) and [1](/blockchain/binary-format/order-binary-format.md#order1) orders versions.
 
-The transaction's signature is calculated from the following bytes:
+[Exchange transaction version 1](#transaction1) can use order version [1](/blockchain/binary-format/order-binary-format.md#order1) only.
 
-| # | Field name | Type | Length in Bytes |
-| --- | --- | --- | --- |
-| 1 | Transaction type | Byte (constant, value = 7) | 1
-| 2 | Buy order object length (BN) | Int | 4
-| 3 | Sell order object length (SN) | Int | 4
-| 4 | Buy order object | OrderV1 | BN, see OrderV1 structure
-| 5 | Sell order object | OrderV1 | SN, see OrderV1 structure
-| 6 | Price | Long | 8 |
-| 7 | Amount | Long | 8 |
-| 8 | Buy matcher fee | Long | 8 |
-| 9 | Sell matcher fee | Long | 8 |
-| 10 | Fee | Long | 8 |
-| 11 | Timestamp | Long | 8 |
+## Transaction version 2 <a id="transaction2"></a>
 
-## Binary format version 2
+| Field order number | Field | JSON field name | Field type | Field size in bytes | Comment |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Version flag | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the [transaction version](/blockchain/transaction/transaction-version.md) is version 2 or higher.<br>Value must be 0 |
+| 2 | [Transaction type ID](/blockchain/transaction-type.md) | type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 6 |
+| 3 | [Transaction version](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 2 |
+| 4.1 | Buy order size |  | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
+| 4.2 | Buy [order version](/blockchain/binary-format/order-binary-format.md) flag | order1.version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 byte for version 10 bytes for version 2 |  |
+| 4.3 | Order for buying an asset | order1 | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
+| 5.1 | Sell order size  |  | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
+| 5.2 | Sell [order version](/blockchain/binary-format/order-binary-format.md) flag | order2.version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 for order version 10 for order version 2 |  |
+| 5.3 | Order for selling an asset | order2 | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
+| 6 | Price of the asset to sell or buy | price | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 7 | Amount of tokens  | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | buyMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | sellMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 10 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 11 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 12 | [Transaction proofs](/blockchain/transaction/transaction-proof.md) | proofs | [Proofs](/blockchain/transaction/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>), where `N` is the number of proofs in the array, `P`<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
-| # | Field name | Type | Length in Bytes |
-| --- | --- | --- | --- |
-| 1 | Transaction multiple version mark | Byte (constant, value = 0) | 1
-| 2 | Transaction type | Byte (constant, value = 7\) | 1
-| 3 | Version | Byte | 1
-| 4.1 | Buy order size (BN) |  | 4
-| 4.2 | Buy order version mark |  | 1 (version 1) / 0 (version 2)
-| 4.3 | Buy order | Order | BN, see the appropriate Order version structure
-| 5.1 | Sell order size (SN) |  | 4
-| 5.2 | Sell order version mark |  | 1 (version 1) / 0 (version 2)
-| 5.3 | Sell order | Order | SN, see the appropriate Order version structure
-| 6 | Price | Long | 8
-| 7 | Amount | Long | 8
-| 8 | Buy matcher fee | Long | 8
-| 9 | Sell matcher fee | Long | 8
-| 10 | Fee | Long | 8
-| 11 | Timestamp | Long | 8
-| 12 | Proofs | Proofs | See Proofs structure
+## JSON representation of the transaction
+
+See the [example](https://nodes.wavesplatform.com/transactions/info/csr25XQHT1c965Fg7cY2vJ7XHYVsudPYrUbdaFqgaqL) in Node API.
+
+## Transaction version 1 <a id="transaction1"></a>
+
+| Field order number | Field | Field type | Field size in bytes | Comment |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 6 |
+| 2 | Buy order size  | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
+| 3 | Sell order size | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
+| 4 | Order for buying an asset | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
+| 5 | Order for selling an asset | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
+| 6 | Price of the asset to sell or buy | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 7 | Amount of tokens | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 10 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 11 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 12 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 |  |
