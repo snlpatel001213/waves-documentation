@@ -19,8 +19,8 @@
 | 5.1 | Sell order size  |  | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
 | 5.2 | Sell [order version](/blockchain/binary-format/order-binary-format.md) flag | order2.version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 for order version 10 for order version 2 |  |
 | 5.3 | Order for selling an asset | order2 | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
-| 6 | Price of the asset to sell or buy | price | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
-| 7 | Amount of tokens  | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 6 | Price of the asset to sell or buy | price | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token B which order sender offers for one token A |
+| 7 | Amount of tokens  | amount | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token A which order sender wants to buy |
 | 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | buyMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | sellMatcherFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 10 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
@@ -40,8 +40,8 @@ See the [example](https://nodes.wavesplatform.com/transactions/info/csr25XQHT1c9
 | 3 | Sell order size | [Integer](/blockchain/blockchain/blockchain-data-types.md) | 4 |  |
 | 4 | Order for buying an asset | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
 | 5 | Order for selling an asset | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | See [exchange transaction orders page](/blockchain/binary-format/order-binary-format.md) |  |
-| 6 | Price of the asset to sell or buy | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
-| 7 | Amount of tokens | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
+| 6 | Price of the asset to sell or buy | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token B which order sender offers for one token A |
+| 7 | Amount of tokens | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | Amount of token A which order sender wants to buy |
 | 8 | Buy [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 9 | Sell [matcher fee](/blockchain/matcher-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
 | 10 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
