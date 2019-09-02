@@ -1,6 +1,6 @@
 # Order binary format
 
-## Binary format version 1
+## Binary format version 1 <a id="order1"></a>
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ The signature is calculated from the following bytes:
 | 9 | Expiration | Long | 8 |
 | 10 | Matcher fee | Long | 8 |
 
-## Binary format version 2
+## Binary format version 2 <a id="order2"></a>
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
