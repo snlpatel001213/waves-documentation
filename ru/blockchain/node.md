@@ -1,6 +1,6 @@
-# Узел
+# Нода
 
-**Узел** или **нода** — [хост](https://ru.wikipedia.org/wiki/Хост), который подключен к [сети блокчейна](/blockchain/blockchain-network.md) с помощью приложения [Waves Node](https://github.com/wavesplatform/Waves).
+**Нода** — [хост](https://ru.wikipedia.org/wiki/Хост), который подключен к [сети блокчейна](/blockchain/blockchain-network.md) с помощью приложения [Waves Node](https://github.com/wavesplatform/Waves).
 
 Функциями ноды являются:
 
