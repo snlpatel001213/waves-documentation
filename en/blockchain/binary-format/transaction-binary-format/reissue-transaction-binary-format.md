@@ -33,4 +33,4 @@ See the [example](https://nodes.wavesnodes.com/transactions/info/27ETigYaHym2Zbd
 | 5 | Reissue flag | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | If the value is 0, then token reissue is not possible.<br>If the value is 1, then token reissue is possible |
 | 6 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 7 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 8 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | |
+| 8 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | | |
