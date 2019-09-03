@@ -1,6 +1,6 @@
 # Reissue transaction binary format
 
-> Learn more about [reissue transfer transaction](/blockchain/transaction-type/reissue-transaction.md)
+> Learn more about [reissue transaction](/blockchain/transaction-type/reissue-transaction.md)
 
 ## Transaction version 2
 
