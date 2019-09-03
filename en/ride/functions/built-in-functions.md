@@ -1,8 +1,8 @@
 # Built-in functions
 
-## List of the built-in functions
-
 A **built-in function** is a [function](/ride/functions.md) of the [script context](/ride/script/script-context.md).
+
+## List of the built-in functions
 
 ### [Account data storage functions](/ride/functions/built-in-functions/account-data-storage-functions.md)
 
