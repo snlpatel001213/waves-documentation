@@ -215,6 +215,7 @@
   * [Директивы](ride/script/directives.md)
   * [Контекст скрипта](ride/script/script-context.md)
   * [Стандартная библиотека](ride/script/standard-library.md)
+  * [Тело скрипта](ride/script/script-body.md)
   * [Типы скриптов](ride/script/script-types.md)
     * [dApp-скрипт](ride/script/script-types/dapp-script.md)
     * [Скрипт аккаунта](ride/script/script-types/account-script.md)

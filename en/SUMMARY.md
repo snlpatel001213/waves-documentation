@@ -265,6 +265,7 @@
 * [Operators](ride/operators.md)
 * [Script](ride/script.md)
   * [Directives](ride/script/directives.md)
+  * [Script body](ride/script/script-body.md)
   * [Script context](ride/script/script-context.md)
   * [Script types](ride/script/script-types.md)
     * [Account script](ride/script/script-types/account-script.md)

@@ -3,6 +3,7 @@
 ## September articles
 
 * Script
+  * [Script body](ride/script/script-body.md)
   * [Script context](ride/script/script-context.md)
   * [Standard Library](ride/script/standard-library.md)
 * Functions
