@@ -1,6 +1,10 @@
 # Built-in functions
 
-## [Account data storage functions](/ride/functions/built-in-functions/account-data-storage-functions.md)
+## List of the built-in functions
+
+A **built-in function** is a [function](/ride/functions.md) of the [script context](/ride/script/script-context.md).
+
+### [Account data storage functions](/ride/functions/built-in-functions/account-data-storage-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -15,7 +19,7 @@
 | 9 | getStringValue(Address&#124;Alias, String): String | Gets a string by key. Throws an exception if there is no data | 100 |
 | 10 | wavesBalance(Address&#124;Alias): Int | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
 
-## [Blockchain functions](/ride/functions/built-in-functions/blockchain-functions.md)
+### [Blockchain functions](/ride/functions/built-in-functions/blockchain-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -24,7 +28,7 @@
 | 3 | transactionHeightById(ByteVector):  Int&#124;Unit | Gets the [block height](/blockchain/block/block-height.md) of a transaction | 100 |
 | 4 | transferTransactionById(ByteVector): TransferTransaction&#124;Unit | Gets the data of a [transfer transaction](/blockchain/transaction-type/transfer-transaction.md) | 100 |
 
-## [Byte array functions](/ride/functions/built-in-functions/byte-array-functions.md)
+### [Byte array functions](/ride/functions/built-in-functions/byte-array-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -34,7 +38,7 @@
 | 4 | take(ByteVector, Int): ByteVector | Takes the first `n` bytes from an array of bytes | 1 |
 | 5 | takeRight(ByteVector, Int): ByteVector | Takes the last `n` bytes from an array of bytes | 19 |
 
-## [Converting functions](/ride/functions/built-in-functions/converting-functions.md)
+### [Converting functions](/ride/functions/built-in-functions/converting-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -52,7 +56,7 @@
 | 12 | toString(Int): String | Converts an integer to a string | 1 |
 | 13 | toUtf8String(ByteVector): String | Converts an array of bytes to a UTF-8 string | 20 |
 
-## [Data transaction functions](/ride/functions/built-in-functions/data-transaction-functions.md)
+### [Data transaction functions](/ride/functions/built-in-functions/data-transaction-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -73,7 +77,7 @@
 | 15 | getStringValue(List[DataEntry], String): String | Gets a string value from a list of data entires by key. Throws an exception if there is no data | 10 |
 | 16 | getStringValue(List[DataEntry], Int): String | Gets a string value from a list of data entires by index. Throws an exception if there is no data | 30 |
 
-## [Decoding functions](/ride/functions/built-in-functions/decoding-functions.md)
+### [Decoding functions](/ride/functions/built-in-functions/decoding-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -83,7 +87,7 @@
 | 4 | fromBase58String(String): ByteVector | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
 | 5 | fromBase64String(String): ByteVector | Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
-## [Encoding functions](/ride/functions/built-in-functions/encoding-functions.md)
+### [Encoding functions](/ride/functions/built-in-functions/encoding-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -91,14 +95,14 @@
 | 2 | toBase58String(ByteVector): String | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
 | 3 | toBase64String(ByteVector): String | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
-## [Exception functions](/ride/functions/built-in-functions/exception-functions.md)
+### [Exception functions](/ride/functions/built-in-functions/exception-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
 | 1 | throw() | Raises an exception | 1 |
 | 2 | throw(String) | Raises an exception with a message | 1 |
 
-## [Hashing functions](/ride/functions/built-in-functions/hashing-functions.md)
+### [Hashing functions](/ride/functions/built-in-functions/hashing-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -106,7 +110,7 @@
 | 2 | keccak256(ByteVector): ByteVector | Hashes an array of bytes using [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) | 10 |
 | 3 | sha256(ByteVector): ByteVector | Hashes an array of bytes using [SHA-256](https://en.wikipedia.org/wiki/SHA-2) | 10 |
 
-## [List functions](/ride/functions/built-in-functions/list-functions.md)
+### [List functions](/ride/functions/built-in-functions/list-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -114,7 +118,7 @@
 | 2 | cons(T, List[T]): List[T] | Inserts the element at the beginning of the list | 2 |
 | 3 | size(List[T]): Int | Returns the size of the list | 2 |
 
-## [Math functions](/ride/functions/built-in-functions/math-functions.md)
+### [Math functions](/ride/functions/built-in-functions/math-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -122,7 +126,7 @@
 | 2 | log(Int, Int, Int, Int, Int, Union): Int | Calculates logarithm of the number | 100 |
 | 3 | pow(Int, Int, Int, Int, Int, Union): Int | Raises the number to a power | 100 |
 
-## [String functions](/ride/functions/built-in-functions/string-functions.md)
+### [String functions](/ride/functions/built-in-functions/string-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -135,7 +139,7 @@
 | 7 | take(String, Int): String | Takes the first `n` characters from a string | 1 |
 | 8 | takeRight(String, Int): String | Takes the last `n` characters from a string | 19 |
 
-## [Union functions](/ride/functions/built-in-functions/union-functions.md)
+### [Union functions](/ride/functions/built-in-functions/union-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
@@ -144,7 +148,7 @@
 | 3 | value(T&#124;Unit): T | Gets a data type from an union | 13 |
 | 4 | valueOrErrorMessage(T&#124;Unit, String): T | Gets a data type from an union. Throws an exception if there is no data | 13 |
 
-## [Verification functions](/ride/functions/built-in-functions/verification-functions.md)
+### [Verification functions](/ride/functions/built-in-functions/verification-functions.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
