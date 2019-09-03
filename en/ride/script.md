@@ -1,6 +1,6 @@
 # Script
 
-A **script** is a source code written in [RIDE](/ride/about-ride.md) language.
+A **script** is a source code in [RIDE](/ride/about-ride.md) language.
 
 ## Script types
 
