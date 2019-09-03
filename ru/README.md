@@ -10,7 +10,7 @@
   * [Тело скрипта](ride/script/script-body.md)
 
 * Функции
-  * [Встроенные функции](/ride/functions/built-in-functions.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/commit/b9c34cc7a7c0f540a2e41be8592233e1903da0d2#diff-b3344cfde38b2228710ac8c6a652a56d)
+  * [Встроенные функции](/ride/functions/built-in-functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/commit/b9c34cc7a7c0f540a2e41be8592233e1903da0d2#diff-b3344cfde38b2228710ac8c6a652a56d)
 
 ## Августовские статьи
 
