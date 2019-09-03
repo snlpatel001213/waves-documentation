@@ -6,6 +6,7 @@
 
 * Скрипт
   * [Контекст скрипта](ride/script/script-context.md)
+  * [Стандартная библиотека](ride/script/standard-library.md)
 
 ## Августовские статьи
 

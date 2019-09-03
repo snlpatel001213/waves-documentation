@@ -270,6 +270,7 @@
     * [Account script](ride/script/script-types/account-script.md)
     * [Asset script](ride/script/script-types/asset-script.md)
     * [dApp script](ride/script/script-types/dapp-script.md)
+  * [Standard Library](ride/script/standard-library.md)
 * [Structures](ride/structures.md)
   * [Common structures](ride/structures/common-structures.md)
     * [Address](ride/structures/common-structures/address.md)

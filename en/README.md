@@ -4,6 +4,7 @@
 
 * Script
   * [Script context](ride/script/script-context.md)
+  * [Standard Library](ride/script/standard-library.md)
 
 ## August articles
 
