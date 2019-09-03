@@ -1,5 +1,5 @@
-# Майнящий узел
+# Майнящая нода
 
-**Майнящий узел** — [узел](/blockchain/node.md), который осуществляет [майнинг](/blockchain/mining.md).
+**Майнящая нода** — [нода](/blockchain/node.md), который осуществляет [майнинг](/blockchain/mining.md).
 
-Каждый майнящий узел является [валидирующим узлом](/blockchain/node/validating-node.md).
+Каждая майнящая нода является [валидирующей нодой](/blockchain/node/validating-node.md).

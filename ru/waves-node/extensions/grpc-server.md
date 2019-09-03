@@ -1,6 +1,6 @@
 # gRPC Server
 
-**gRPC Server** — [расширение узла](/waves-node/extensions.md), которое позволяет запускать [gRPC](https://en.wikipedia.org/wiki/GRPC)-сервисы на [узле](/blockchain/node.md).
+**gRPC Server** — [расширение ноды](/waves-node/extensions.md), которое позволяет запускать [gRPC](https://en.wikipedia.org/wiki/GRPC)-сервисы на [ноде](/blockchain/node.md).
 
 gRPC-сервисы предоставляют информацию об:
 
@@ -10,7 +10,7 @@ gRPC-сервисы предоставляют информацию об:
 * [токенах](/blockchain/token.md)
 * [транзакциях](/blockchain/transaction.md)
 
-## Установка расширения на узел
+## Установка расширения на ноду
 
 Смотрите страницу [Установка gRPC Server](/waves-node/extensions/grpc-server/grpc-server-installation.md).
 

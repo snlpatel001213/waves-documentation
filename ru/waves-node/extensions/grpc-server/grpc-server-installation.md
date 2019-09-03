@@ -1,6 +1,6 @@
 # Установка gRPC Server
 
-Расширение [gRPC Server](/waves-node/extensions/grpc-server.md) можно установить на [узел](/blockchain/node.md) двумя способами: с помощью [deb-пакета](https://ru.wikipedia.org/wiki/Deb_%28формат_файлов%29) и с помощью ZIP-файла.
+Расширение [gRPC Server](/waves-node/extensions/grpc-server.md) можно установить на [ноду](/blockchain/node.md) двумя способами: с помощью [deb-пакета](https://ru.wikipedia.org/wiki/Deb_%28формат_файлов%29) и с помощью ZIP-файла.
 
 ## Установка с помощью deb-пакета
 
@@ -20,15 +20,15 @@ waves.extensions += com.wavesplatform.api.grpc.GRPCServerExtension
 
 Для основной сети файл конфигурации находится по адресу /etc/waves/waves.conf, для тестовой — /etc/waves-testnet/waves.conf.
 
-4.&nbsp;Перезапустите узел.
+4.&nbsp;Перезапустите ноду.
 
-Если узел запущен в основной сети, выполните команду:
+Если нода запущена в основной сети, выполните команду:
 
 ``` console
 sudo systemctl restart waves
 ```
 
-Если узел запущен в тестовой сети, выполните команду:
+Если нода запущена в тестовой сети, выполните команду:
 
 ``` console
 sudo systemctl restart waves-testnet
@@ -38,7 +38,7 @@ sudo systemctl restart waves-testnet
 
 1.&nbsp;Скачайте ZIP-файл grpc-server-{номер версии}.zip со страницы Releases (секция Assets) [на Github](https://github.com/wavesplatform/Waves/releases).
 
-2.&nbsp;Распакуйте архив в директорию с JAR-файлом узла.
+2.&nbsp;Распакуйте архив в директорию с JAR-файлом ноды.
 
 3.&nbsp;Создайте новый файл конфигурации или откройте существующий и добавьте в него строчку:
 

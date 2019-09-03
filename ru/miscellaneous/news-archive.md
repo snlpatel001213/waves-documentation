@@ -30,7 +30,7 @@
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 * Узел
-  * [Майнящий узел](blockchain/node/mining-node.md)
+  * [Майнящая нода](blockchain/node/mining-node.md)
 
 ### Waves Node
 

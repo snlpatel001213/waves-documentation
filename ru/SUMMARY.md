@@ -37,6 +37,9 @@
 * [Майнинг](blockchain/mining.md)
   * [Майнер](blockchain/mining/miner.md)
   * [Майнящий аккаунт](blockchain/mining/mining-account.md)
+* [Нода](blockchain/node.md)
+  * [Валидирующая нода](blockchain/node/validating-node.md)
+  * [Майнящая нода](blockchain/node/mining-node.md)
 * [Оракул](blockchain/oracle.md)
 * [Ордер](blockchain/order.md)
 * [Псевдоним](blockchain/alias.md)
@@ -75,9 +78,6 @@
   * [Комиссия за транзакцию](blockchain/transaction/transaction-fee.md)
   * [Подпись транзакции](blockchain/transaction/transaction-signature.md)
   * [Подтверждение транзакции](blockchain/transaction/transaction-proof.md)
-* [Узел](blockchain/node.md)
-  * [Валидирующий узел](blockchain/node/validating-node.md)
-  * [Майнящий узел](blockchain/node/mining-node.md)
 
 ## Client
 
