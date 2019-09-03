@@ -57,6 +57,8 @@
   * [Временная метка блока](blockchain/block/block-timestamp.md)
 * Блокчейн
   * [Типы данных блокчейна](blockchain/blockchain/blockchain-data-types.md)
+* Нода
+  * [Валидирующая нода](blockchain/node/validating-node.md)
 * Сеть блокчейна
   * [Байт сети](blockchain/blockchain-network/chain-id.md)
 * [Оракул](blockchain/oracle.md)
@@ -68,8 +70,6 @@
   * [ID транзакции](blockchain/transaction/transaction-id.md)
   * [Версия транзакции](blockchain/transaction/transaction-version.md)
   * [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md)
-* Узел
-  * [Валидирующий узел](blockchain/node/validating-node.md)
 
 ### Oracles
 

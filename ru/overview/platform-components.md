@@ -73,7 +73,7 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 Вы также можете запустить публичный майнящий пул, чтобы другие пользователи могли сдать вам свои средства в лизинг, тем самым вы увеличите свою прибыль и поделитесь ей с комьюнити.
 
-Вы можете найти полный список узлов Waves для лизинга и соответствующие им адреса здесь:[http://dev.pywaves.org/generators-weekly/](http://dev.pywaves.org/generators-weekly/) :
+Вы можете найти полный список нод Waves для лизинга и соответствующие им адреса здесь:[http://dev.pywaves.org/generators-weekly/](http://dev.pywaves.org/generators-weekly/) :
 
 * [**wavesgo.com**](http://wavesgo.com/)
 * [**wavesfullnode.com**](http://wavesfullnode.com/)
