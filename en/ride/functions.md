@@ -1,6 +1,6 @@
 # Functions
 
-A function must return a value. The return type is not specified in the signature of a function.
+A function must return a value. The return type is not specified in the signature of the function.
 
 A function must be declared above the place of its usage.
 
