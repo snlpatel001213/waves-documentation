@@ -1,36 +1,19 @@
-# Sponsorship transaction binary format
+# Sponsor fee transaction binary format
 
-| \# | Field name | Type | Length in Bytes |
-| --- | --- | --- | --- |
-| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
-| 2 | Transaction type | Byte \(constant, value = 14\) | 1
-| 3 | Version | Byte | 1
-| 4 | Transaction type | Byte | 1
-| 5 | Version | Byte | 1
-| 6 | Sender's public key | PublicKey \(Array[Byte]\) | 32
-| 7 | Asset ID | ByteStr \(Array[Byte]\) | 32
-| 8 | Minimal fee in assets\* | Long | 8
-| 9 | Fee | Long | 8
-| 10 | Timestamp | Long | 8
-| 11 | Proofs | Proofs | See Proofs structure
+## Transaction version 1
 
-\* Zero value assume canceling sponsorship.
+| Field order number | Field | JSON field name  | Field type | Field size in bytes | Comment |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Version flag | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the [transaction version](/blockchain/transaction/transaction-version.md) is version 2 or higher.<br>Value must be 0 |
+| 2 | [Transaction type ID](/blockchain/transaction-type.md) | type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 14 |
+| 3 | [Transaction version](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 1 |
+| 4 | Public key of the transaction sender  | senderPublicKey | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
+| 5 | [Token ID](/blockchain/token/token-id.md) | assetId | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
+| 6 | Minimal sponsor token fee | minSponsoredAssetFee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
+| 7 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
+| 8 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
+| 9 | [Transaction proofs](/blockchain/transaction/transaction-proof.md) | proofs | [Proofs](/blockchain/transaction/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>), where `N` is the number of proofs in the array, `P`<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
-**Note.** [**Here**](/waves-environment/waves-protocol/sponsored-fee.md) you can find more details about Sponsored Transaction.
+## JSON representation of the transaction
 
-Below is a sample **Sponsored transaction** encoded as **JSON**:
-
-```cpp
-{
-  "type" : 14,
-  "id" : "CwHecsEjYemKR7wqRkgkZxGrb5UEfD8yvZpFF5wXm2Su",
-  "sender" : "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ",
-  "senderPublicKey" : "5AzfA9UfpWVYiwFwvdr77k6LWupSTGLb14b24oVdEpMM",
-  "minSponsoredAssetFee": 100000,
-  "fee" : 100000000,
-  "timestamp" : 1520945679531,
-  "proofs" : [ "4huvVwtbALH9W2RQSF5h1XG6PFYLA6nvcAEgv79nVLW7myCysWST6t4wsCqhLCSGoc5zeLxG6MEHpcnB6DPy3XWr" ],
-  "version" : 1,
-  "height" : 303
-}
-```
+See the [example](https://nodes.wavesnodes.com/transactions/info/7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR) in Node API.
