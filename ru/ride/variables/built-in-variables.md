@@ -81,7 +81,6 @@
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
 
-
 @Callable(inv)
 func deposit() = {
   TransferSet([
