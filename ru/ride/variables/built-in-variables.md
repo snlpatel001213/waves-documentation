@@ -81,7 +81,6 @@
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
 
-
 @Callable(inv)
 func deposit() = {
   TransferSet([
@@ -90,7 +89,6 @@ func deposit() = {
 }
 
 </code>
-
 </pre>
 
 У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
@@ -101,7 +99,6 @@ func deposit() = {
 {-# SCRIPT_TYPE ACCOUNT #-}
 
 let asset = assetInfo(base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS')
-
 token.isDefined()
 </code>
 </pre>
