@@ -17,7 +17,7 @@
   <tr>
     <td>2</td>
     <td>lastBlock</td>
-    <td><a href="https://docs.wavesplatform.com/ru/blockchain/blockchain/blockchain-height.html">Высота блокчейна</a> в момент выполненияскрипта</td>
+    <td><a href="https://docs.wavesplatform.com/ru/blockchain/blockchain/blockchain-height.html">Высота блокчейна</a> в момент выполнения скрипта</td>
   </tr>
   <tr>
     <td>3</td>
@@ -67,7 +67,7 @@
   <tr>
     <td>8</td>
     <td>tx</td>
-    <td><a href="https://docs.wavesplatform.com/ru/blockchain/transaction.html">Транзакция</a> или <a href="https://docs.wavesplatform.com/ru/blockchain/order.html">ордера</a></td>
+    <td><a href="https://docs.wavesplatform.com/ru/blockchain/transaction.html">Транзакция</a> или <a href="https://docs.wavesplatform.com/ru/blockchain/order.html">ордер</a></td>
   </tr>
   <tr>
     <td>9</td>
@@ -109,7 +109,7 @@ token.isDefined()
 <pre>
 <code class=“lang-ride”>
 asset != unit
-# Выражение asset != unit эквивалентно выражению token.isDefined(
+# Выражение asset != unit эквивалентно выражению token.isDefined()
 </code>
 </pre>
   </td>
