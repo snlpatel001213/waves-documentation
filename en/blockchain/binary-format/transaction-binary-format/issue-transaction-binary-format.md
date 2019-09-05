@@ -35,7 +35,7 @@ See the [example](https://testnodes.wavesnodes.com/transactions/info/8jfD2JBLe23
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 3 |
 | 2 | Public key of the transaction sender  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
-| 3.1 | Token name length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
+| 3.1 | [Token](/blockchain/token.md) name length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
 | 3.2 | Token name | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 4 to 16 | |
 | 4.1 | Token description length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
 | 4.2 | Token description | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 0 to 1000 | |
