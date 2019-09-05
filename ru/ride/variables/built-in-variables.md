@@ -75,6 +75,7 @@
     <td>Переменная, которая содержит объект типа <a href="https://docs.wavesplatform.com/ru/ride/data-types/unit.html">Unit</a>. Переменная используется программистом для получения объекта типа Unit. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="https://docs.wavesplatform.com/ru/blockchain/token/wavelet.html">WAVELET</a> на аккаунт, который <a href="https://docs.wavesplatform.com/ru/ride/functions/callable-function.html">вызвал</a> эту функцию.
 <pre>
 <code class=“lang-ride”>
+
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
