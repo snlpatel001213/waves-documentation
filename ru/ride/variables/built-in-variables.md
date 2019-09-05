@@ -12,7 +12,7 @@
   <tr>
     <td>1</td>
     <td>Buy</td>
-    <td>Тип [ордера](/blockchain/order.md)</td>
+    <td>Тип <a href="/blockchain/order.md">ордера</a></td>
   </tr>
   <tr>
     <td>2</td>
