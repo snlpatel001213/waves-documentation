@@ -12,22 +12,22 @@
   <tr>
     <td>1</td>
     <td>Buy</td>
-    <td>Тип <a href="https://docs.wavesplatform.com/ru/blockchain/order.html">ордера</a></td>
+    <td>Тип <a href="/blockchain/order.md">ордера</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>lastBlock</td>
-    <td><a href="https://docs.wavesplatform.com/ru/blockchain/blockchain/blockchain-height.html">Высота блокчейна</a> в момент выполнения скрипта</td>
+    <td><a href="/blockchain/blockchain/blockchain-height.md">Высота блокчейна</a> в момент выполнения скрипта</td>
   </tr>
   <tr>
     <td>3</td>
     <td>height</td>
-    <td>Информация о последнем <a href="https://docs.wavesplatform.com/ru/blockchain/block.html">блоке</a> блокчейна в момент выполнения скрипта</td>
+    <td>Информация о последнем <a href="/blockchain/block.md">блоке</a> блокчейна в момент выполнения скрипта</td>
   </tr>
   <tr>
     <td>4</td>
     <td>nil</td>
-    <td>Переменная, которая содержит пустой <a href="https://docs.wavesplatform.com/ru/ride/data-types/list.html">список.</a><br>Используется для создания списков. Например, вместо:<br>
+    <td>Переменная, которая содержит пустой <a href="/ride/data-types/list.md">список.</a><br>Используется для создания списков. Например, вместо:<br>
 <pre>
 <code class=“lang-ride”>
     let b = [5,6]
@@ -52,27 +52,27 @@
         <li>SHA3256</li><li>SHA3384</li>
         <li>SHA3512</li></ol>
     </td>
-    <td>Переменные, которые передаются в качестве первого параметра в  функцию <a href="https://docs.wavesplatform.com/ru/ride/functions/built-in-functions/verification-functions.html">rsaVerify</a>.<br> Все переменные, кроме NOALG, обозначают алгоритмы хеширования, которые применяются к данным. Если передать NOALG, то данные хешироваться не будут</td>
+    <td>Переменные, которые передаются в качестве первого параметра в  функцию <a href="/ride/functions/built-in-functions/verification-functions.md">rsaVerify</a>.<br> Все переменные, кроме `NOALG`, обозначают алгоритмы хеширования, которые применяются к данным. Если передать `NOALG`, то данные хешироваться не будут</td>
   </tr>
   <tr>
     <td>6</td>
     <td>Sell</td>
-    <td>Тип <a href="https://docs.wavesplatform.com/ru/blockchain/order.html">ордера</a></td>
+    <td>Тип <a href="blockchain/order.md">ордера</a></td>
   </tr>
   <tr>
     <td>7</td>
     <td>this</td>
-    <td><a href="https://docs.wavesplatform.com/ru/blockchain/address.html">Адрес</a> отправителя транзакции или информация о <a href="https://docs.wavesplatform.com/ru/blockchain/token.html">токене</a></td>
+    <td><a href="/blockchain/address.md">Адрес</a> отправителя транзакции или информация о <a href="/blockchain/token.md">токене</a></td>
   </tr>
   <tr>
     <td>8</td>
     <td>tx</td>
-    <td><a href="https://docs.wavesplatform.com/ru/blockchain/transaction.html">Транзакция</a> или <a href="https://docs.wavesplatform.com/ru/blockchain/order.html">ордер</a></td>
+    <td><a href="/blockchain/transaction.md">Транзакция</a> или <a href="/blockchain/order.md">ордер</a></td>
   </tr>
   <tr>
     <td>9</td>
     <td>unit</td>
-    <td>Переменная, которая содержит объект типа <a href="https://docs.wavesplatform.com/ru/ride/data-types/unit.html">Unit</a>. Переменная используется программистом для получения объекта типа Unit. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="https://docs.wavesplatform.com/ru/blockchain/token/wavelet.html">WAVELET</a> на аккаунт, который <a href="https://docs.wavesplatform.com/ru/ride/functions/callable-function.html">вызвал</a> эту функцию.
+    <td>Переменная, которая содержит объект типа <a href="/ride/data-types/unit.md">Unit</a>. Переменная используется программистом для получения объекта типа `Unit`. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="/blockchain/token/wavelet.md">WAVELET</a> на аккаунт, который <a href="/ride/functions/callable-function.md">вызвал</a> эту функцию.
 
 <pre>
 <code class=“lang-ride”>
@@ -91,7 +91,7 @@ func deposit() = {
 </code>
 </pre>
 
-У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
+У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается `unit`.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция `isDefined` проверяет, что токен с таким ID существует на блокчейне.
 <pre>
 <code class=“lang-ride”>
 {-# STDLIB_VERSION 3 #-}
@@ -102,7 +102,7 @@ let asset = assetInfo(base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS')
 token.isDefined()
 </code>
 </pre>
-Вместо вызова функции isDefined можно использовать равенство с unit.
+Вместо вызова функции `isDefined` можно использовать равенство с `unit`.
 <pre>
 <code class=“lang-ride”>
 asset != unit
