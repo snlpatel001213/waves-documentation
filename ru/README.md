@@ -35,6 +35,7 @@
 * [Операторы](ride/operators.md)
 * [Определение](ride/base-concepts/definition.md)
 * [Переменные](ride/variables.md)
+  * [Встроенные переменные](ride/variables/built-in-variables.md)
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 * Структуры
   * Общие структуры
