@@ -211,6 +211,7 @@
 * [Константы](ride/constants.md)
 * [Операторы](ride/operators.md)
 * [Переменные](ride/variables.md)
+  * [Встроенные переменные](ride/variables/built-in-variables.md)
 * [Скрипт](ride/script.md)
   * [Директивы](ride/script/directives.md)
   * [Контекст скрипта](ride/script/script-context.md)
