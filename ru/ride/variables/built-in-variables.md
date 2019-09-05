@@ -28,17 +28,17 @@
     <td>4</td>
     <td>nil</td>
     <td>Переменная, которая содержит пустой <a href="/ride/data-types/list.md">список</a><br>Используется для создания списков. Например, вместо:<br>
-    <pre>
-    <code class=“lang-ride”>
+<pre>
+<code class=“lang-ride”>
     let b = [5,6]
-    </code>
-    </pre>
+</code>
+</pre>
     можно написать:
-    <pre>
-    <code class=“lang-ride”>
+<pre>
+<code class=“lang-ride”>
     let a = 5::6::nil
-    </code>
-    </pre>
+</code>
+</pre>
     </td>
   </tr>
   <tr>
@@ -72,40 +72,41 @@
   <tr>
     <td>9</td>
     <td>unit</td>
-    <td>Переменная, которая содержит объект типа <a href="/ride/data-types/unit.md">Unit</a>. Переменная используется программистом для получения объекта типа Unit. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="/blockchain/token/wavelet.md">WAVELET</a> на аккаунт, который <a href="/ride/functions/callable-function.md">вызвал</a> эту функцию.<br>
-    <pre>
-    <code class=“lang-ride”>
-    {-# STDLIB_VERSION 3 #-}
-    {-# CONTENT_TYPE DAPP #-}
-    {-# SCRIPT_TYPE ACCOUNT #-}
+    <td>Переменная, которая содержит объект типа <a href="/ride/data-types/unit.md">Unit</a>. Переменная используется программистом для получения объекта типа Unit. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="/blockchain/token/wavelet.md">WAVELET</a> на аккаунт, который <a href="/ride/functions/callable-function.md">вызвал</a> эту функцию.
+<pre>
+<code class=“lang-ride”>
+{-# STDLIB_VERSION 3 #-}
+{-# CONTENT_TYPE DAPP #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
 
-    @Callable(inv)
-    func deposit() = {
-      TransferSet([
-        ScriptTransfer(inv.caller, 5, unit) # Перевести 5 WAVELET на аккаунт inv.caller. Вместо ID токена указан unit
-        ])
+@Callable(inv)
+  func deposit() = {
+    TransferSet([
+      ScriptTransfer(inv.caller, 5, unit) # Перевести 5 WAVELET на аккаунт inv.caller. Вместо ID токена указан unit
+      ])
     }
-    </code>
-    </pre>
+</code>
+</pre>
     У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
-    <pre>
-    <code class=“lang-ride”>
-    {-# STDLIB_VERSION 3 #-}
+<pre>
+<code class=“lang-ride”>
+{-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE EXPRESSION #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
 
 let asset = assetInfo(base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS')
 
 token.isDefined()
-    </code>
-    </pre>
+</code>
+</pre>
     Вместо вызова функции isDefined можно использовать равенство с unit.
-    <pre>
-    <code class=“lang-ride”>
+<pre>
+<code class=“lang-ride”>
     asset != unit
+
     # Выражение asset != unit эквивалентно выражению token.isDefined(
-    </code>
-    </pre>
+</code>
+</pre>
   </td>
   </tr>
 </table>
