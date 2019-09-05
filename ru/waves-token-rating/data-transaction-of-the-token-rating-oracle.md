@@ -4,41 +4,65 @@
 
 Транзакция данных содержит информацию о токенах, которые за прошедшие 24 часа были оценены.
 
-Одна транзакция содержит информацию не более чем о 50 токенах — если оцененных токенов будет больше, то будет отправлено несколько транзакций.
+Одна транзакция содержит информацию не более чем о 25 токенах — если оцененных токенов будет больше, то будет отправлено несколько транзакций.
 
 Пример [массива данных](/blockchain/transaction-type/data-transaction.md) такой транзакции:
 
 ``` js
 "data": [
   {
-    "key": "assetRating_23g8VstaVP9bWcoYJtMUJ1HJk8FZkwcVaQ7d9trhfssY"
-    "type": "string",
-    "value": "4.3",
+    "key": "assetRating_BsL9uRX4bucKcSY7rfUPhqKjXiWomUQTGFGhodNySACb_1"
+    "type": "integer",
+    "value": 43,
   },
   {
-    "key": "scoreBoard_23g8VstaVP9bWcoYJtMUJ1HJk8FZkwcVaQ7d9trhfssY"
+    "type": "integer",
+    "value": 28343,
+    "key": "assetWeight_BsL9uRX4bucKcSY7rfUPhqKjXiWomUQTGFGhodNySACb"
+  },
+  {
+    "type": "integer",
+    "value": 12,
+    "key": "assetVotes_BsL9uRX4bucKcSY7rfUPhqKjXiWomUQTGFGhodNySACb"
+  },
+  {
+    "key": "scoreBoard_BsL9uRX4bucKcSY7rfUPhqKjXiWomUQTGFGhodNySACb"
     "type": "string",
     "value": "{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":1,\"tokens\":322},\"3\":{\"votes\":0,\"tokens\":0},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":1,\"tokens\":1120}}",
   },
+  ...
   {
-    "key": "assetRating_E8gDQh5aDz6VQMwmFhUrpMERorwje6AqNe4FcjGSCNo6"
-    "type": "string",
-    "value": "5",
+      "type": "integer",
+      "value": 45,
+      "key": "tickerRating_1"
   },
   {
-    "key": "scoreBoard_E8gDQh5aDz6VQMwmFhUrpMERorwje6AqNe4FcjGSCNo6"
-    "type": "string",
-    "value": "{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":0,\"tokens\":0},\"3\":{\"votes\":0,\"tokens\":0},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":1,\"tokens\":2827}}",
+      "type": "integer",
+      "value": 10000,
+      "key": "tickerWeight"
+  },
+  {
+      "type": "integer",
+      "value": 11,
+      "key": "tickerVotes"
   }
-  ...
 ]
 ```
 
-Поле `key` формируется с помощью [конкатенации](https://ru.wikipedia.org/wiki/Конкатенация) строки "assetRating\_" или "scoreBoard\_" и строки с ID токена.
+Поле `key` формируется с помощью [конкатенации](https://ru.wikipedia.org/wiki/Конкатенация) строки, характеризующей параметр, и строки с ID токена.
 
-Поле `value` содержит [экранированную строку](https://ru.wikipedia.org/wiki/Экранирование_символов) с оценками.
+| Ключ | Тип | Описание |
+| :--- | :--- | :--- |
+| assetRating_assetId_1 | Целое число | Рейтинг токена (значение умножено на 10) |
+| assetWeight_assetId | Целое число | Вес WCT токена |
+| assetVotes_assetId | Целое число | Количество оценок токена |
+| scoreBoard_assetId | Строка | Поле value содержит [экранированную](https://ru.wikipedia.org/wiki/Экранирование_символов) строку с оценками |
+| tickerRating_1 | Целое число | Сервисный параметр, который отражает значение рейтинга (умноженное на 10), которое должно быть у токена, чтобы его владелец самостоятельно задать ему тикер |
+| tickerWeight | Целое число | Сервисный параметр, который отражает значение веса WCT, которое должно быть у токена, чтобы его владелец самостоятельно задать ему тикер |
+| tickerVotes | Целое число | Сервисный параметр, который отражает значение количества оценок, которое должно быть у токена, чтобы его владелец самостоятельно задать ему тикер |
 
-## Пример
+
+## Пример экранированной строки с оценками
 
 Предположим, имеется экранированная строка с оценками:
 
