@@ -39,7 +39,7 @@ See the [example](https://testnodes.wavesnodes.com/transactions/info/8jfD2JBLe23
 | 3.2 | Token name | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 4 to 16 | |
 | 4.1 | Token description length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
 | 4.2 | Token description | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 0 to 1000 | |
-| 5 | Amount of the [tokens](/blockchain/token.md) that will be issued | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
+| 5 | Amount of the [token](/blockchain/token.md) that will be issued | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 6 | Number of decimal places of the [token](/blockchain/token.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
 | 7 | Reissue flag | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
 | 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
