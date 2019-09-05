@@ -45,9 +45,9 @@
 | 14.[4 × N + 4] | Flag of payment N token |  | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | 0 — WAVES.<br>1 — other token |
 | 14.[4 × N + 5] | ID of payment N token |  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | Field is applicable if the token is not WAVES |
 | 15 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
-| 16 | Fee asset ID | feeAssetId | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | S | S = 0, if token is WAVES.<br>S = 32, if it is other token |
+| 16 | Fee asset ID | feeAssetId | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | `S` | `S` = 0, if token is WAVES.<br>`S` = 32, if it is other token |
 | 17 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 |  |
-| 18 | [Transaction proofs](/blockchain/transaction/transaction-proof.md) | proofs | [Proofs](/blockchain/transaction/transaction-proof.md) | S |  |
+| 18 | [Transaction proofs](/blockchain/transaction/transaction-proof.md) | proofs | [Proofs](/blockchain/transaction/transaction-proof.md) | `S` | If the array is empty, then `S` = 3.<br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>),<br>where<br>`N` is the number of proofs in the array,<br>`P`<sub>n</sub> is the size on N-th proof in bytes.<br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of the transaction
 
