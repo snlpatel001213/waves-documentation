@@ -17,7 +17,7 @@
   <tr>
     <td>2</td>
     <td>lastBlock</td>
-    <td>Высота <a href="https://docs.wavesplatform.com/ru/blockchain/blockchain/blockchain-height.html">блокчейна</a> в момент выполненияскрипта</td>
+    <td><a href="https://docs.wavesplatform.com/ru/blockchain/blockchain/blockchain-height.html">Высота блокчейна</a> в момент выполненияскрипта</td>
   </tr>
   <tr>
     <td>3</td>
@@ -27,7 +27,7 @@
   <tr>
     <td>4</td>
     <td>nil</td>
-    <td>Переменная, которая содержит пустой <a href="https://docs.wavesplatform.com/ru/ride/data-types/list.html">список</a><br>Используется для создания списков. Например, вместо:<br>
+    <td>Переменная, которая содержит пустой <a href="https://docs.wavesplatform.com/ru/ride/data-types/list.html">список.</a><br>Используется для создания списков. Например, вместо:<br>
 <pre>
 <code class=“lang-ride”>
     let b = [5,6]
@@ -73,11 +73,14 @@
     <td>9</td>
     <td>unit</td>
     <td>Переменная, которая содержит объект типа <a href="https://docs.wavesplatform.com/ru/ride/data-types/unit.html">Unit</a>. Переменная используется программистом для получения объекта типа Unit. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="https://docs.wavesplatform.com/ru/blockchain/token/wavelet.html">WAVELET</a> на аккаунт, который <a href="https://docs.wavesplatform.com/ru/ride/functions/callable-function.html">вызвал</a> эту функцию.
+
 <pre>
 <code class=“lang-ride”>
+
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
+
 
 @Callable(inv)
 func deposit() = {
@@ -85,7 +88,9 @@ func deposit() = {
     ScriptTransfer(inv.caller, 5, unit) # Перевести 5 WAVELET на аккаунт inv.caller. Вместо ID токена указан unit
   ])
 }
+
 </code>
+
 </pre>
 
 У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
