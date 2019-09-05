@@ -87,11 +87,8 @@ func deposit() = {
 }
 </code>
 </pre>
-<<<<<<< HEAD
-    У WAVES нет <a href="https://docs.wavesplatform.com/ru/blockchain/token/token-id.html">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="https://docs.wavesplatform.com/ru/ride/functions/built-in-functions/blockchain-functions.html">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
-=======
+
 У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается unit.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md">assetInfo</a> запрашивает информацию о токене по его ID. Далее функция isDefined проверяет, что токен с таким ID существует на блокчейне.
->>>>>>> 1f6f402b14a03b901265d881986a0df9dbfe2926
 <pre>
 <code class=“lang-ride”>
 {-# STDLIB_VERSION 3 #-}
