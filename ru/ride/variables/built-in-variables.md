@@ -8,7 +8,7 @@
 | 2 | height | [Высота блокчейна](/blockchain/blockchain/blockchain-height.md) в момент выполненияскрипта |
 | 3 | lastBlock | Информация о последнем [блоке](/blockchain/block.md) блокчейна в момент выполнения скрипта |
 | 4 | nil | Переменная, которая содержит пустой [список](/ride/data-types/list.md). Используется для создания списков. Например, вместо:<br>```let b = [5,6]```<br> можно написать:<br>```let a = 5::6::nil``` |
-| 5 | 1.NOALG<br> 2.MD5<br>3.SHA1 <br> 4.SHA224 <br> 5.SHA256 <br> 6.SHA384 <br> 7.SHA512 <br> 8.SHA3224 <br> 9.SHA3256<br> 10. SHA3384<br>11. SHA3512<br> | Переменные, которые передаются в качестве первого параметра в  функцию[rsaVerify](/ride/functions/built-in-functions/verification-functions.md).<br> Все переменные, кроме NOALG, обозначают алгоритмы хеширования, которые применяются к данным. Если передать NOALG, то данные хешироваться не будут |
+| 5 | <ol><li>NOALG</li><li>MD5</li><li>SHA1</li><li>SHA224</li><li>SHA256</li><li>SHA384</li><li>SHA512</li><li>SHA3224</li> <li>SHA3256</li><li>SHA3384</li><li>SHA3512</li></ol> | Переменные, которые передаются в качестве первого параметра в  функцию[rsaVerify](/ride/functions/built-in-functions/verification-functions.md).<br> Все переменные, кроме NOALG, обозначают алгоритмы хеширования, которые применяются к данным. Если передать NOALG, то данные хешироваться не будут |
 | 6 | Sell | Тип [ордера](/blockchain/order.md) |
 | 7 | this | [Адрес](/blockchain/address.md) отправителя транзакции или информация о [токене](/blockchain/token.md) |
 | 8 | tx | [Транзакция](/blockchain/transaction.md) или [ордер](/blockchain/order.md) |
