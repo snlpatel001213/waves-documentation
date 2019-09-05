@@ -22,6 +22,7 @@
 ### RIDE
 
 * Встроенные функции
+  * [Функции верификации](ride/functions/built-in-functions/verification-functions.md)
   * [Функции декодирования](ride/functions/built-in-functions/decoding-functions.md)
   * [Функции исключения](ride/functions/built-in-functions/exception-functions.md)
   * [Функции кодирования](ride/functions/built-in-functions/encoding-functions.md)
