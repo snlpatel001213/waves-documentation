@@ -6,7 +6,7 @@
 
 | Field order number | Field | JSON field name | Field type | Field size in bytes | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag |  | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the transaction version is version 2 or higher.Value must be 0 |
+| 1 | Version flag |  | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the transaction version is version 2 or higher.<br>Value must be 0 |
 | 2 | [Transaction type ID](/blockchain/transaction-type.md) | type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 16 |
 | 3 | [Transaction version](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 1 |
 | 4 | [Chain ID](/blockchain/blockchain-network/chain-id.md) |  | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | 84 for test network, 87 for main network |
