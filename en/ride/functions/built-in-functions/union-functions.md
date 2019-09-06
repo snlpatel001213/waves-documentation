@@ -3,7 +3,7 @@
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
 | 1 | [extract(T&#124;Unit): T](#extract) | Gets a data type from a [union](/ride/data-types/union.md) | 13 |
-| 2 | [isDefined(List[T]&#124;Unit): Boolean](#is-defined) | Checks if a value is not `Unit` | 1 |
+| 2 | [isDefined(List[T]&#124;Unit): Boolean](#is-defined) | Checks if a value is not [unit](/ride/data-types/unit.md) | 1 |
 | 3 | [value(T&#124;Unit): T](#value) | Gets a data type from a [union](/ride/data-types/union.md) | 13 |
 | 4 | [valueOrErrorMessage(T&#124;Unit, String): T](#value-error) | Gets a data type from a [union](/ride/data-types/union.md). Throws an exception if there is no data | 13 |
 
