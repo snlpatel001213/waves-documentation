@@ -323,7 +323,6 @@
 
 ## Разное
 
-* [Архив новостей](miscellaneous/news-archive.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Протокол активации](platform-features/activation-protocol.md)
 * [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
@@ -331,3 +330,5 @@
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
+* [Архив новостей](miscellaneous/news-archive.md)
+
