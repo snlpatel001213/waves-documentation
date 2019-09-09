@@ -1,6 +1,6 @@
 # Account script
 
-An **account script** is a [RIDE script](/ride/script.md) that has the following directives:
+An **account script** is a [script](/ride/script.md) that has the following directives:
 
 ``` ride
 {-# CONTENT_TYPE EXPRESSION #-}
