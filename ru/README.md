@@ -8,6 +8,8 @@
   * [Контекст скрипта](ride/script/script-context.md)
   * [Стандартная библиотека](ride/script/standard-library.md)
   * [Тело скрипта](ride/script/script-body.md)
+  * Типы скриптов
+    * [Скрипт аккаунта](/ride/script/script-types/account-script.md) — <span style="color:green">updated</span>
 
 * Функции
   * [Встроенные функции](/ride/functions/built-in-functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/commit/b9c34cc7a7c0f540a2e41be8592233e1903da0d2#diff-b3344cfde38b2228710ac8c6a652a56d)
