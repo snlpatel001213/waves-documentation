@@ -79,7 +79,6 @@
 
 <pre>
 <code class=“lang-ride”>
-
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
@@ -90,7 +89,6 @@ func deposit() = {
     ScriptTransfer(inv.caller, 5, unit) # Перевести 5 WAVELET на аккаунт inv.caller. Вместо ID токена указан unit
   ])
 }
-
 </code>
 </pre>
 
@@ -105,7 +103,7 @@ let asset = assetInfo(base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS')
 token.isDefined()
 </code>
 </pre>
-Вместо вызова функции `isDefined` можно использовать равенство с `unit`.
+Вместо вызова функции <code>isDefined</code> можно использовать равенство с <code>unit</code>.
 <pre>
 <code class=“lang-ride”>
 asset != unit
