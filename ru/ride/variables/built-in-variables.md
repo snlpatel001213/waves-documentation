@@ -75,7 +75,7 @@
   <tr>
     <td>9</td>
     <td>unit</td>
-    <td>Переменная, которая содержит объект типа <a href="/ride/data-types/unit.md">Unit</a>. Переменная используется программистом для получения объекта типа <tt>Unit</tt>. <br><b>Пример 1</b><br> Функция deposit переводит 5 <a href="/blockchain/token/wavelet.md">WAVELET</a> на аккаунт, который <a href="/ride/functions/callable-function.md">вызвал</a> эту функцию.
+    <td>Переменная, которая содержит объект типа <a href="/ride/data-types/unit.md">Unit</a>. Переменная используется программистом для получения объекта типа <code>Unit</code>. <br><b>Пример 1</b><br> Функция <code>deposit</code> переводит 5 <a href="/blockchain/token/wavelet.md">WAVELET</a> на аккаунт, который <a href="/ride/functions/callable-function.md">вызвал</a> эту функцию.
 
 <pre>
 <code class=“lang-ride”>
@@ -94,7 +94,7 @@ func deposit() = {
 </code>
 </pre>
 
-У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается `unit`.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md"><tt>assetInfo</tt></a> запрашивает информацию о токене по его ID. Далее функция `isDefined` проверяет, что токен с таким ID существует на блокчейне.
+У WAVES нет <a href="/blockchain/token/token-id.md">ID токена</a>; вместо ID передается <code>unit</code>.<br><b>Пример 2</b><br>Функция <a href="/ride/functions/built-in-functions/blockchain-functions.md"><tt>assetInfo</tt></a> запрашивает информацию о токене по его ID. Далее функция <code>isDefined</code> проверяет, что токен с таким ID существует на блокчейне.
 <pre>
 <code class=“lang-ride”>
 {-# STDLIB_VERSION 3 #-}
