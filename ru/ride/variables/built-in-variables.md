@@ -60,7 +60,7 @@
   <tr>
     <td>6</td>
     <td>Sell</td>
-    <td>Тип <a href="blockchain/order.md">ордера</a></td>
+    <td>Тип <a href="/blockchain/order.md">ордера</a></td>
   </tr>
   <tr>
     <td>7</td>
